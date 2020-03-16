@@ -1,7 +1,13 @@
 # COVID-19-DATA
+
 Repository that stores the datasets used in different projects 
 
+# Contact
+
+John Drake (jdrake@uga.edu)
+
 ### Folder Code
+
 stores .R and .Rmd files that generate some of the data files
 
 ### Data Files
