@@ -5,7 +5,15 @@ date: "3/16/2020"
 output: html_document
 ---
 
-RUN THIS SCRIPT AT 10 PM each day (or pull from archived site)
+RUN THIS SCRIPT AT 10 PM each day (or pull from archived site later)
+
+xpath for the table on the wiki page is highly likely to change from day to day. In order to fix it you just:
+
+1) Make sure the url is correct
+
+2) Inspect the element in your browser and recopy the xpath
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -125,34 +133,6 @@ dfNew <- bind_rows(df, World.wikipedia) %>% select(Date, Country, Cases)
 
 
 write.csv(dfNew, "worldCases.csv")
-
-
-```
-
-
-
-```{r, eval =F}
-
-
-url <- "https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory"
-World.wikipedia <- url %>%
-  html() %>%
-  html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[6]/div[2]/table') %>%
-  html_table(fill = TRUE)
-World.wikipedia <- World.wikipedia[[1]]
-names(World.wikipedia) <- World.wikipedia[1,]
-World.wikipedia <- World.wikipedia[3:(nrow(World.wikipedia)-2),2:3]
-names(World.wikipedia)<- c("Country", "Cases")
-for(i in 1: nrow(World.wikipedia)){
-  if(str_sub(World.wikipedia$Country[i], start= -1, end = -1)=="]"){
-    World.wikipedia$Country[i] <- str_sub(World.wikipedia$Country[i], start = 1, end = -4)
-  }
-}
-
-World.wikipedia$Date <- format(Sys.time(), '%Y-%m-%d')
-# Then strip out the extraneous columns)
-
-bind_rows(df, World.wikipedia)
 
 
 ```
