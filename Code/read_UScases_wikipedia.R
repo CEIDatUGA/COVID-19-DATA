@@ -69,7 +69,8 @@ us_cases <- us_cases[[1]]
 # table cleanup & column names reformat 
 # NOTE: if table format in wikipedia changes, this function will need to be updated
 us_cases_clean <- table_cleanup(us_cases)
-us_cases_clean$last_upadte[dim(us_cases_clean)[1]] <- Sys.time()
+us_cases_clean$time_last_update[dim(us_cases_clean)[1]] <- as.character(Sys.time())
+us_cases_clean$time_last_update[dim(us_cases_clean)[1]-1] <- as.character(Sys.time())
 
 write.csv(us_cases_clean, "../UScases_by_state_wikipedia.csv", row.names = FALSE)
 
