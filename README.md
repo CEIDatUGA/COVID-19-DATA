@@ -1,20 +1,17 @@
 # COVID-19-DATA
-<<<<<<< HEAD
+
 Repository that stores datasets used in different projects 
 =======
-
-Repository that stores the datasets used in different projects 
->>>>>>> refs/remotes/origin/master
 
 # Contact
 
 John Drake (jdrake@uga.edu)
 
 ### Folder Code
+Stores .R and .Rmd files that generate some of the data files.
 
-stores .R and .Rmd files that generate some of the data files
-
-#### - read_UScases_wikipedia.R: extracts data from 2020 coronavirus pandemic in United States wiki page and outputs file UScases_by_state_wikipedia.csv.
+#### - read_UScases_wikipedia.R
+Extracts data from 2020 coronavirus pandemic in United States wiki page and outputs file UScases_by_state_wikipedia.csv.
 
 
 ### Data Files
