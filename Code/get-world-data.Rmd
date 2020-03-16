@@ -1,0 +1,158 @@
+---
+title: "get-world-data"
+author: "Robbie Richards"
+date: "3/16/2020"
+output: html_document
+---
+
+RUN THIS SCRIPT AT 10 PM each day (or pull from archived site)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+## Get Daily Country Data from Wikipedia
+library(tidyverse)
+library(googledrive)
+library(googlesheets4)
+library(cowplot)
+library(emdbook)
+library(plotly)
+library(htmlwidgets)
+library(crosstalk)
+library(animation)
+library(lubridate)
+library(ggthemes)
+library(crosstalk)
+library(DT)
+library(padr)
+library(rvest)
+library(tibbletime)
+library(padr)
+library(rvest)
+library(tibbletime)
+library(dplyr)
+library(tidyr)
+library(stringr)
+```
+
+
+```{r get hand scraped data, eval =F}
+options(gargle_oauth_email = "robbielrichards@gmail.com")
+df <- read_sheet("https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit?usp=sharing", range = "Cumulative case reports by country - confirmed")
+
+# Then strip out the extraneous columns)
+dfStripped <- df[,-c(which(names(df) %in% c("Sources", "Contributor", "Notes")))]%>%
+  drop_na()
+
+
+
+dfLong <- pivot_longer(dfStripped, -Date, names_to = "Country", values_to = "Cases") %>%
+  mutate(Date = as.character(Date)) %>% mutate(Country = replace(Country, which(dfLong$Country=="The Netherlands"), "Netherlands")) %>% mutate(Country = replace(Country, which(dfLong$Country=="USA"), "United States"))
+  
+
+
+write.csv(dfLong, "worldCases.csv")
+
+```
+
+```{r Extract archived day, eval =F}
+df <- read.csv("worldCases.csv")
+
+
+# Need to get link and div without wayback machine header using ctrl click on ubuntu
+
+url <- "https://web.archive.org/web/20200315235036/https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic"
+ World.wikipedia <- url %>%
+   html() %>%
+   html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[6]/table') %>%
+   html_table(fill = TRUE)
+ World.wikipedia <- World.wikipedia[[1]]
+ names(World.wikipedia) <- World.wikipedia[1,]
+ World.wikipedia <- World.wikipedia[3:(nrow(World.wikipedia)-2),2:3]
+ names(World.wikipedia)<- c("Country", "Cases")
+ for(i in 1: nrow(World.wikipedia)){
+   if(str_sub(World.wikipedia$Country[i], start= -1, end = -1)=="]"){
+     World.wikipedia$Country[i] <- str_sub(World.wikipedia$Country[i], start = 1, end = -4)
+   }
+ }
+
+ for(i in 1:nrow(World.wikipedia)){
+   if(str_sub(World.wikipedia$Country[i], start = -1)=="]"){
+     World.wikipedia$Country[i] <- str_sub(World.wikipedia$Country[i], end = -4)
+   }
+ }
+ 
+ World.wikipedia$Date <- "2020-03-15"
+
+ World.wikipedia$Cases <- as.numeric(as.character(gsub(",","" , World.wikipedia$Cases)))
+
+
+
+dfNew <- bind_rows(df, World.wikipedia) %>% select(Date, Country, Cases)
+
+
+write.csv(dfNew, "worldCases.csv")
+```
+
+```{r}
+df <- read.csv("worldCases.csv")
+
+url <- "https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory"
+World.wikipedia <- url %>%
+  html() %>%
+  html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[6]/div[2]/table') %>%
+  html_table(fill = TRUE)
+World.wikipedia <- World.wikipedia[[1]]
+names(World.wikipedia) <- World.wikipedia[1,]
+World.wikipedia <- World.wikipedia[3:(nrow(World.wikipedia)-2),2:3]
+names(World.wikipedia)<- c("Country", "Cases")
+for(i in 1: nrow(World.wikipedia)){
+  if(str_sub(World.wikipedia$Country[i], start= -1, end = -1)=="]"){
+    World.wikipedia$Country[i] <- str_sub(World.wikipedia$Country[i], start = 1, end = -4)
+  }
+}
+
+World.wikipedia$Date <- format(Sys.time(), '%Y-%m-%d')
+# Then strip out the extraneous columns)
+
+
+World.wikipedia$Cases <- as.numeric(as.character(gsub(",","" , World.wikipedia$Cases)))
+
+
+dfNew <- bind_rows(df, World.wikipedia) %>% select(Date, Country, Cases)
+
+
+write.csv(dfNew, "worldCases.csv")
+
+
+```
+
+
+
+```{r, eval =F}
+
+
+url <- "https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory"
+World.wikipedia <- url %>%
+  html() %>%
+  html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[6]/div[2]/table') %>%
+  html_table(fill = TRUE)
+World.wikipedia <- World.wikipedia[[1]]
+names(World.wikipedia) <- World.wikipedia[1,]
+World.wikipedia <- World.wikipedia[3:(nrow(World.wikipedia)-2),2:3]
+names(World.wikipedia)<- c("Country", "Cases")
+for(i in 1: nrow(World.wikipedia)){
+  if(str_sub(World.wikipedia$Country[i], start= -1, end = -1)=="]"){
+    World.wikipedia$Country[i] <- str_sub(World.wikipedia$Country[i], start = 1, end = -4)
+  }
+}
+
+World.wikipedia$Date <- format(Sys.time(), '%Y-%m-%d')
+# Then strip out the extraneous columns)
+
+bind_rows(df, World.wikipedia)
+
+
+```
