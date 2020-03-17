@@ -19,8 +19,8 @@
 #---------#
 # Packages
 #---------#
-install.packages("rvest")
-install.packages("xml2")
+#install.packages("rvest")
+#install.packages("xml2")
 library(rvest)
 library(xml2)
 
@@ -53,8 +53,7 @@ table_cleanup <- function(cases) {
 #-----------#
 
 # Update xpath here
-xpath <- '//*[@id="mw-content-text"]/div/div[26]/table/tbody/tr[2]/td/table[1]'
-
+xpath <- '//*[@id="mw-content-text"]/div/div[29]/table/tbody/tr[2]/td/table[1]'
 
 # Read webpage
 url <- "https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States"
