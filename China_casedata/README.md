@@ -21,5 +21,5 @@ These data are currently being used the following projects:
 |	   ├── prefecture_adm.csv                       | ADM2 GADM names          
 |	   └── province_adm.csv                         | ADM1 GADM names          
 
-├─ dxy-html-archive/                              | folder with archived html files since January 23, 2020
-└─ CODE/extract-dxy-case-counts.R                 | R script to process raw html files 
+├─ dxy-html-archive/                               | folder with archived html files since January 23, 2020
+└─ extract-dxy-case-counts.R                       | R script to process raw html files 
