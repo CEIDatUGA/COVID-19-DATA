@@ -1,0 +1,784 @@
+"","ADM0_EN","ADM1_EN","DATE","confirmedCount","currentConfirmedCount","suspectedCount","deadCount","curedCount"
+"1","China","Anhui Province","2019-12-31",0,0,0,0,0
+"2","China","Anhui Province","2020-01-01",0,0,0,0,0
+"3","China","Anhui Province","2020-01-02",0,0,0,0,0
+"4","China","Anhui Province","2020-01-03",0,0,0,0,0
+"5","China","Anhui Province","2020-01-04",0,0,0,0,0
+"6","China","Anhui Province","2020-01-05",0,0,0,0,0
+"7","China","Anhui Province","2020-01-06",0,0,0,0,0
+"8","China","Anhui Province","2020-01-07",0,0,0,0,0
+"9","China","Anhui Province","2020-01-08",0,0,0,0,0
+"10","China","Anhui Province","2020-01-09",0,0,0,0,0
+"11","China","Anhui Province","2020-01-10",0,0,0,0,0
+"12","China","Anhui Province","2020-01-11",0,0,0,0,0
+"13","China","Anhui Province","2020-01-12",0,0,0,0,0
+"14","China","Anhui Province","2020-01-13",0,0,0,0,0
+"15","China","Anhui Province","2020-01-14",0,0,0,0,0
+"16","China","Anhui Province","2020-01-15",0,0,0,0,0
+"17","China","Anhui Province","2020-01-16",0,0,0,0,0
+"18","China","Anhui Province","2020-01-17",0,0,0,0,0
+"19","China","Anhui Province","2020-01-18",0,0,0,0,0
+"20","China","Anhui Province","2020-01-19",0,0,0,0,0
+"21","China","Anhui Province","2020-01-20",0,0,0,0,0
+"22","China","Anhui Province","2020-01-21",0,0,1,0,0
+"23","China","Anhui Province","2020-01-22",1,0,4,0,0
+"24","China","Beijing Municipality","2019-12-31",0,0,0,0,0
+"25","China","Beijing Municipality","2020-01-01",0,0,0,0,0
+"26","China","Beijing Municipality","2020-01-02",0,0,0,0,0
+"27","China","Beijing Municipality","2020-01-03",0,0,0,0,0
+"28","China","Beijing Municipality","2020-01-04",0,0,0,0,0
+"29","China","Beijing Municipality","2020-01-05",0,0,0,0,0
+"30","China","Beijing Municipality","2020-01-06",0,0,0,0,0
+"31","China","Beijing Municipality","2020-01-07",0,0,0,0,0
+"32","China","Beijing Municipality","2020-01-08",0,0,0,0,0
+"33","China","Beijing Municipality","2020-01-09",0,0,0,0,0
+"34","China","Beijing Municipality","2020-01-10",0,0,0,0,0
+"35","China","Beijing Municipality","2020-01-11",0,0,0,0,0
+"36","China","Beijing Municipality","2020-01-12",0,0,0,0,0
+"37","China","Beijing Municipality","2020-01-13",0,0,0,0,0
+"38","China","Beijing Municipality","2020-01-14",0,0,0,0,0
+"39","China","Beijing Municipality","2020-01-15",0,0,0,0,0
+"40","China","Beijing Municipality","2020-01-16",0,0,0,0,0
+"41","China","Beijing Municipality","2020-01-17",0,0,0,0,0
+"42","China","Beijing Municipality","2020-01-18",0,0,0,0,0
+"43","China","Beijing Municipality","2020-01-19",2,0,0,0,0
+"44","China","Beijing Municipality","2020-01-20",5,0,0,0,0
+"45","China","Beijing Municipality","2020-01-21",10,0,0,0,0
+"46","China","Beijing Municipality","2020-01-22",10,0,0,0,0
+"47","China","Chongqing Municipality","2019-12-31",0,0,0,0,0
+"48","China","Chongqing Municipality","2020-01-01",0,0,0,0,0
+"49","China","Chongqing Municipality","2020-01-02",0,0,0,0,0
+"50","China","Chongqing Municipality","2020-01-03",0,0,0,0,0
+"51","China","Chongqing Municipality","2020-01-04",0,0,0,0,0
+"52","China","Chongqing Municipality","2020-01-05",0,0,0,0,0
+"53","China","Chongqing Municipality","2020-01-06",0,0,0,0,0
+"54","China","Chongqing Municipality","2020-01-07",0,0,0,0,0
+"55","China","Chongqing Municipality","2020-01-08",0,0,0,0,0
+"56","China","Chongqing Municipality","2020-01-09",0,0,0,0,0
+"57","China","Chongqing Municipality","2020-01-10",0,0,0,0,0
+"58","China","Chongqing Municipality","2020-01-11",0,0,0,0,0
+"59","China","Chongqing Municipality","2020-01-12",0,0,0,0,0
+"60","China","Chongqing Municipality","2020-01-13",0,0,0,0,0
+"61","China","Chongqing Municipality","2020-01-14",0,0,0,0,0
+"62","China","Chongqing Municipality","2020-01-15",0,0,0,0,0
+"63","China","Chongqing Municipality","2020-01-16",0,0,0,0,0
+"64","China","Chongqing Municipality","2020-01-17",0,0,0,0,0
+"65","China","Chongqing Municipality","2020-01-18",0,0,0,0,0
+"66","China","Chongqing Municipality","2020-01-19",0,0,0,0,0
+"67","China","Chongqing Municipality","2020-01-20",0,0,0,0,0
+"68","China","Chongqing Municipality","2020-01-21",5,0,0,0,0
+"69","China","Chongqing Municipality","2020-01-22",5,0,0,0,0
+"70","China","Fujian Province","2019-12-31",0,0,0,0,0
+"71","China","Fujian Province","2020-01-01",0,0,0,0,0
+"72","China","Fujian Province","2020-01-02",0,0,0,0,0
+"73","China","Fujian Province","2020-01-03",0,0,0,0,0
+"74","China","Fujian Province","2020-01-04",0,0,0,0,0
+"75","China","Fujian Province","2020-01-05",0,0,0,0,0
+"76","China","Fujian Province","2020-01-06",0,0,0,0,0
+"77","China","Fujian Province","2020-01-07",0,0,0,0,0
+"78","China","Fujian Province","2020-01-08",0,0,0,0,0
+"79","China","Fujian Province","2020-01-09",0,0,0,0,0
+"80","China","Fujian Province","2020-01-10",0,0,0,0,0
+"81","China","Fujian Province","2020-01-11",0,0,0,0,0
+"82","China","Fujian Province","2020-01-12",0,0,0,0,0
+"83","China","Fujian Province","2020-01-13",0,0,0,0,0
+"84","China","Fujian Province","2020-01-14",0,0,0,0,0
+"85","China","Fujian Province","2020-01-15",0,0,0,0,0
+"86","China","Fujian Province","2020-01-16",0,0,0,0,0
+"87","China","Fujian Province","2020-01-17",0,0,0,0,0
+"88","China","Fujian Province","2020-01-18",0,0,0,0,0
+"89","China","Fujian Province","2020-01-19",0,0,0,0,0
+"90","China","Fujian Province","2020-01-20",0,0,0,0,0
+"91","China","Fujian Province","2020-01-21",0,0,0,0,0
+"92","China","Fujian Province","2020-01-22",0,0,0,0,0
+"93","China","Gansu province","2019-12-31",0,0,0,0,0
+"94","China","Gansu province","2020-01-01",0,0,0,0,0
+"95","China","Gansu province","2020-01-02",0,0,0,0,0
+"96","China","Gansu province","2020-01-03",0,0,0,0,0
+"97","China","Gansu province","2020-01-04",0,0,0,0,0
+"98","China","Gansu province","2020-01-05",0,0,0,0,0
+"99","China","Gansu province","2020-01-06",0,0,0,0,0
+"100","China","Gansu province","2020-01-07",0,0,0,0,0
+"101","China","Gansu province","2020-01-08",0,0,0,0,0
+"102","China","Gansu province","2020-01-09",0,0,0,0,0
+"103","China","Gansu province","2020-01-10",0,0,0,0,0
+"104","China","Gansu province","2020-01-11",0,0,0,0,0
+"105","China","Gansu province","2020-01-12",0,0,0,0,0
+"106","China","Gansu province","2020-01-13",0,0,0,0,0
+"107","China","Gansu province","2020-01-14",0,0,0,0,0
+"108","China","Gansu province","2020-01-15",0,0,0,0,0
+"109","China","Gansu province","2020-01-16",0,0,0,0,0
+"110","China","Gansu province","2020-01-17",0,0,0,0,0
+"111","China","Gansu province","2020-01-18",0,0,0,0,0
+"112","China","Gansu province","2020-01-19",0,0,0,0,0
+"113","China","Gansu province","2020-01-20",0,0,0,0,0
+"114","China","Gansu province","2020-01-21",0,0,0,0,0
+"115","China","Gansu province","2020-01-22",0,0,0,0,0
+"116","China","Guangdong Province","2019-12-31",0,0,0,0,0
+"117","China","Guangdong Province","2020-01-01",0,0,0,0,0
+"118","China","Guangdong Province","2020-01-02",0,0,0,0,0
+"119","China","Guangdong Province","2020-01-03",0,0,0,0,0
+"120","China","Guangdong Province","2020-01-04",0,0,0,0,0
+"121","China","Guangdong Province","2020-01-05",0,0,0,0,0
+"122","China","Guangdong Province","2020-01-06",0,0,0,0,0
+"123","China","Guangdong Province","2020-01-07",0,0,0,0,0
+"124","China","Guangdong Province","2020-01-08",0,0,0,0,0
+"125","China","Guangdong Province","2020-01-09",0,0,0,0,0
+"126","China","Guangdong Province","2020-01-10",0,0,0,0,0
+"127","China","Guangdong Province","2020-01-11",0,0,0,0,0
+"128","China","Guangdong Province","2020-01-12",0,0,0,0,0
+"129","China","Guangdong Province","2020-01-13",0,0,0,0,0
+"130","China","Guangdong Province","2020-01-14",0,0,0,0,0
+"131","China","Guangdong Province","2020-01-15",0,0,0,0,0
+"132","China","Guangdong Province","2020-01-16",0,0,0,0,0
+"133","China","Guangdong Province","2020-01-17",0,0,0,0,0
+"134","China","Guangdong Province","2020-01-18",0,0,0,0,0
+"135","China","Guangdong Province","2020-01-19",1,0,0,0,0
+"136","China","Guangdong Province","2020-01-20",13,0,0,0,0
+"137","China","Guangdong Province","2020-01-21",26,0,0,0,0
+"138","China","Guangdong Province","2020-01-22",26,0,0,0,0
+"139","China","Guangxi Zhuang Autonomous Region","2019-12-31",0,0,0,0,0
+"140","China","Guangxi Zhuang Autonomous Region","2020-01-01",0,0,0,0,0
+"141","China","Guangxi Zhuang Autonomous Region","2020-01-02",0,0,0,0,0
+"142","China","Guangxi Zhuang Autonomous Region","2020-01-03",0,0,0,0,0
+"143","China","Guangxi Zhuang Autonomous Region","2020-01-04",0,0,0,0,0
+"144","China","Guangxi Zhuang Autonomous Region","2020-01-05",0,0,0,0,0
+"145","China","Guangxi Zhuang Autonomous Region","2020-01-06",0,0,0,0,0
+"146","China","Guangxi Zhuang Autonomous Region","2020-01-07",0,0,0,0,0
+"147","China","Guangxi Zhuang Autonomous Region","2020-01-08",0,0,0,0,0
+"148","China","Guangxi Zhuang Autonomous Region","2020-01-09",0,0,0,0,0
+"149","China","Guangxi Zhuang Autonomous Region","2020-01-10",0,0,0,0,0
+"150","China","Guangxi Zhuang Autonomous Region","2020-01-11",0,0,0,0,0
+"151","China","Guangxi Zhuang Autonomous Region","2020-01-12",0,0,0,0,0
+"152","China","Guangxi Zhuang Autonomous Region","2020-01-13",0,0,0,0,0
+"153","China","Guangxi Zhuang Autonomous Region","2020-01-14",0,0,0,0,0
+"154","China","Guangxi Zhuang Autonomous Region","2020-01-15",0,0,0,0,0
+"155","China","Guangxi Zhuang Autonomous Region","2020-01-16",0,0,0,0,0
+"156","China","Guangxi Zhuang Autonomous Region","2020-01-17",0,0,0,0,0
+"157","China","Guangxi Zhuang Autonomous Region","2020-01-18",0,0,0,0,0
+"158","China","Guangxi Zhuang Autonomous Region","2020-01-19",0,0,0,0,0
+"159","China","Guangxi Zhuang Autonomous Region","2020-01-20",0,0,0,0,0
+"160","China","Guangxi Zhuang Autonomous Region","2020-01-21",0,0,0,0,0
+"161","China","Guangxi Zhuang Autonomous Region","2020-01-22",2,0,0,0,0
+"162","China","Guizhou Province","2019-12-31",0,0,0,0,0
+"163","China","Guizhou Province","2020-01-01",0,0,0,0,0
+"164","China","Guizhou Province","2020-01-02",0,0,0,0,0
+"165","China","Guizhou Province","2020-01-03",0,0,0,0,0
+"166","China","Guizhou Province","2020-01-04",0,0,0,0,0
+"167","China","Guizhou Province","2020-01-05",0,0,0,0,0
+"168","China","Guizhou Province","2020-01-06",0,0,0,0,0
+"169","China","Guizhou Province","2020-01-07",0,0,0,0,0
+"170","China","Guizhou Province","2020-01-08",0,0,0,0,0
+"171","China","Guizhou Province","2020-01-09",0,0,0,0,0
+"172","China","Guizhou Province","2020-01-10",0,0,0,0,0
+"173","China","Guizhou Province","2020-01-11",0,0,0,0,0
+"174","China","Guizhou Province","2020-01-12",0,0,0,0,0
+"175","China","Guizhou Province","2020-01-13",0,0,0,0,0
+"176","China","Guizhou Province","2020-01-14",0,0,0,0,0
+"177","China","Guizhou Province","2020-01-15",0,0,0,0,0
+"178","China","Guizhou Province","2020-01-16",0,0,0,0,0
+"179","China","Guizhou Province","2020-01-17",0,0,0,0,0
+"180","China","Guizhou Province","2020-01-18",0,0,0,0,0
+"181","China","Guizhou Province","2020-01-19",0,0,0,0,0
+"182","China","Guizhou Province","2020-01-20",0,0,0,0,0
+"183","China","Guizhou Province","2020-01-21",0,0,0,0,0
+"184","China","Guizhou Province","2020-01-22",1,0,0,0,0
+"185","China","Hainan Province","2019-12-31",0,0,0,0,0
+"186","China","Hainan Province","2020-01-01",0,0,0,0,0
+"187","China","Hainan Province","2020-01-02",0,0,0,0,0
+"188","China","Hainan Province","2020-01-03",0,0,0,0,0
+"189","China","Hainan Province","2020-01-04",0,0,0,0,0
+"190","China","Hainan Province","2020-01-05",0,0,0,0,0
+"191","China","Hainan Province","2020-01-06",0,0,0,0,0
+"192","China","Hainan Province","2020-01-07",0,0,0,0,0
+"193","China","Hainan Province","2020-01-08",0,0,0,0,0
+"194","China","Hainan Province","2020-01-09",0,0,0,0,0
+"195","China","Hainan Province","2020-01-10",0,0,0,0,0
+"196","China","Hainan Province","2020-01-11",0,0,0,0,0
+"197","China","Hainan Province","2020-01-12",0,0,0,0,0
+"198","China","Hainan Province","2020-01-13",0,0,0,0,0
+"199","China","Hainan Province","2020-01-14",0,0,0,0,0
+"200","China","Hainan Province","2020-01-15",0,0,0,0,0
+"201","China","Hainan Province","2020-01-16",0,0,0,0,0
+"202","China","Hainan Province","2020-01-17",0,0,0,0,0
+"203","China","Hainan Province","2020-01-18",0,0,0,0,0
+"204","China","Hainan Province","2020-01-19",0,0,0,0,0
+"205","China","Hainan Province","2020-01-20",0,0,0,0,0
+"206","China","Hainan Province","2020-01-21",0,0,0,0,0
+"207","China","Hainan Province","2020-01-22",0,0,0,0,0
+"208","China","Hebei Province","2019-12-31",0,0,0,0,0
+"209","China","Hebei Province","2020-01-01",0,0,0,0,0
+"210","China","Hebei Province","2020-01-02",0,0,0,0,0
+"211","China","Hebei Province","2020-01-03",0,0,0,0,0
+"212","China","Hebei Province","2020-01-04",0,0,0,0,0
+"213","China","Hebei Province","2020-01-05",0,0,0,0,0
+"214","China","Hebei Province","2020-01-06",0,0,0,0,0
+"215","China","Hebei Province","2020-01-07",0,0,0,0,0
+"216","China","Hebei Province","2020-01-08",0,0,0,0,0
+"217","China","Hebei Province","2020-01-09",0,0,0,0,0
+"218","China","Hebei Province","2020-01-10",0,0,0,0,0
+"219","China","Hebei Province","2020-01-11",0,0,0,0,0
+"220","China","Hebei Province","2020-01-12",0,0,0,0,0
+"221","China","Hebei Province","2020-01-13",0,0,0,0,0
+"222","China","Hebei Province","2020-01-14",0,0,0,0,0
+"223","China","Hebei Province","2020-01-15",0,0,0,0,0
+"224","China","Hebei Province","2020-01-16",0,0,0,0,0
+"225","China","Hebei Province","2020-01-17",0,0,0,0,0
+"226","China","Hebei Province","2020-01-18",0,0,0,0,0
+"227","China","Hebei Province","2020-01-19",0,0,0,0,0
+"228","China","Hebei Province","2020-01-20",0,0,0,0,0
+"229","China","Hebei Province","2020-01-21",0,0,0,0,0
+"230","China","Hebei Province","2020-01-22",0,0,0,0,0
+"231","China","Heilongjiang Province","2019-12-31",0,0,0,0,0
+"232","China","Heilongjiang Province","2020-01-01",0,0,0,0,0
+"233","China","Heilongjiang Province","2020-01-02",0,0,0,0,0
+"234","China","Heilongjiang Province","2020-01-03",0,0,0,0,0
+"235","China","Heilongjiang Province","2020-01-04",0,0,0,0,0
+"236","China","Heilongjiang Province","2020-01-05",0,0,0,0,0
+"237","China","Heilongjiang Province","2020-01-06",0,0,0,0,0
+"238","China","Heilongjiang Province","2020-01-07",0,0,0,0,0
+"239","China","Heilongjiang Province","2020-01-08",0,0,0,0,0
+"240","China","Heilongjiang Province","2020-01-09",0,0,0,0,0
+"241","China","Heilongjiang Province","2020-01-10",0,0,0,0,0
+"242","China","Heilongjiang Province","2020-01-11",0,0,0,0,0
+"243","China","Heilongjiang Province","2020-01-12",0,0,0,0,0
+"244","China","Heilongjiang Province","2020-01-13",0,0,0,0,0
+"245","China","Heilongjiang Province","2020-01-14",0,0,0,0,0
+"246","China","Heilongjiang Province","2020-01-15",0,0,0,0,0
+"247","China","Heilongjiang Province","2020-01-16",0,0,0,0,0
+"248","China","Heilongjiang Province","2020-01-17",0,0,0,0,0
+"249","China","Heilongjiang Province","2020-01-18",0,0,0,0,0
+"250","China","Heilongjiang Province","2020-01-19",0,0,0,0,0
+"251","China","Heilongjiang Province","2020-01-20",0,0,0,0,0
+"252","China","Heilongjiang Province","2020-01-21",0,0,0,0,0
+"253","China","Heilongjiang Province","2020-01-22",0,0,0,0,0
+"254","China","Henan Province","2019-12-31",0,0,0,0,0
+"255","China","Henan Province","2020-01-01",0,0,0,0,0
+"256","China","Henan Province","2020-01-02",0,0,0,0,0
+"257","China","Henan Province","2020-01-03",0,0,0,0,0
+"258","China","Henan Province","2020-01-04",0,0,0,0,0
+"259","China","Henan Province","2020-01-05",0,0,0,0,0
+"260","China","Henan Province","2020-01-06",0,0,0,0,0
+"261","China","Henan Province","2020-01-07",0,0,0,0,0
+"262","China","Henan Province","2020-01-08",0,0,0,0,0
+"263","China","Henan Province","2020-01-09",0,0,0,0,0
+"264","China","Henan Province","2020-01-10",0,0,0,0,0
+"265","China","Henan Province","2020-01-11",0,0,0,0,0
+"266","China","Henan Province","2020-01-12",0,0,0,0,0
+"267","China","Henan Province","2020-01-13",0,0,0,0,0
+"268","China","Henan Province","2020-01-14",0,0,0,0,0
+"269","China","Henan Province","2020-01-15",0,0,0,0,0
+"270","China","Henan Province","2020-01-16",0,0,0,0,0
+"271","China","Henan Province","2020-01-17",0,0,0,0,0
+"272","China","Henan Province","2020-01-18",0,0,0,0,0
+"273","China","Henan Province","2020-01-19",0,0,0,0,0
+"274","China","Henan Province","2020-01-20",0,0,0,0,0
+"275","China","Henan Province","2020-01-21",0,0,0,0,0
+"276","China","Henan Province","2020-01-22",5,0,0,0,0
+"277","China","Hong Kong Special Administrative Region","2019-12-31",0,0,0,0,0
+"278","China","Hong Kong Special Administrative Region","2020-01-01",0,0,0,0,0
+"279","China","Hong Kong Special Administrative Region","2020-01-02",0,0,0,0,0
+"280","China","Hong Kong Special Administrative Region","2020-01-03",0,0,0,0,0
+"281","China","Hong Kong Special Administrative Region","2020-01-04",0,0,0,0,0
+"282","China","Hong Kong Special Administrative Region","2020-01-05",0,0,0,0,0
+"283","China","Hong Kong Special Administrative Region","2020-01-06",0,0,0,0,0
+"284","China","Hong Kong Special Administrative Region","2020-01-07",0,0,0,0,0
+"285","China","Hong Kong Special Administrative Region","2020-01-08",0,0,0,0,0
+"286","China","Hong Kong Special Administrative Region","2020-01-09",0,0,0,0,0
+"287","China","Hong Kong Special Administrative Region","2020-01-10",0,0,0,0,0
+"288","China","Hong Kong Special Administrative Region","2020-01-11",0,0,0,0,0
+"289","China","Hong Kong Special Administrative Region","2020-01-12",0,0,0,0,0
+"290","China","Hong Kong Special Administrative Region","2020-01-13",0,0,0,0,0
+"291","China","Hong Kong Special Administrative Region","2020-01-14",0,0,0,0,0
+"292","China","Hong Kong Special Administrative Region","2020-01-15",0,0,0,0,0
+"293","China","Hong Kong Special Administrative Region","2020-01-16",0,0,0,0,0
+"294","China","Hong Kong Special Administrative Region","2020-01-17",0,0,0,0,0
+"295","China","Hong Kong Special Administrative Region","2020-01-18",0,0,0,0,0
+"296","China","Hong Kong Special Administrative Region","2020-01-19",0,0,0,0,0
+"297","China","Hong Kong Special Administrative Region","2020-01-20",0,0,0,0,0
+"298","China","Hong Kong Special Administrative Region","2020-01-21",0,0,0,0,0
+"299","China","Hong Kong Special Administrative Region","2020-01-22",1,0,0,0,0
+"300","China","Hubei Province","2019-12-31",15,0,0,0,0
+"301","China","Hubei Province","2020-01-01",15,0,0,0,0
+"302","China","Hubei Province","2020-01-02",15,0,0,0,0
+"303","China","Hubei Province","2020-01-03",41,0,0,0,0
+"304","China","Hubei Province","2020-01-04",41,0,0,0,0
+"305","China","Hubei Province","2020-01-05",41,0,0,0,0
+"306","China","Hubei Province","2020-01-06",41,0,0,0,0
+"307","China","Hubei Province","2020-01-07",41,0,0,0,0
+"308","China","Hubei Province","2020-01-08",41,0,0,0,0
+"309","China","Hubei Province","2020-01-09",41,0,0,0,0
+"310","China","Hubei Province","2020-01-10",41,0,0,0,0
+"311","China","Hubei Province","2020-01-11",41,0,0,1,0
+"312","China","Hubei Province","2020-01-12",41,0,0,1,0
+"313","China","Hubei Province","2020-01-13",41,0,0,1,0
+"314","China","Hubei Province","2020-01-14",41,0,0,1,0
+"315","China","Hubei Province","2020-01-15",41,0,0,2,0
+"316","China","Hubei Province","2020-01-16",41,0,0,2,0
+"317","China","Hubei Province","2020-01-17",62,0,0,2,0
+"318","China","Hubei Province","2020-01-18",198,0,0,3,0
+"319","China","Hubei Province","2020-01-19",198,0,0,4,0
+"320","China","Hubei Province","2020-01-20",258,0,249,6,0
+"321","China","Hubei Province","2020-01-21",270,0,249,6,0
+"322","China","Hubei Province","2020-01-22",339,0,16,17,0
+"323","China","Hubei Province","2020-01-23",444,0,0,24,0
+"324","China","Hunan Province","2019-12-31",0,0,0,0,0
+"325","China","Hunan Province","2020-01-01",0,0,0,0,0
+"326","China","Hunan Province","2020-01-02",0,0,0,0,0
+"327","China","Hunan Province","2020-01-03",0,0,0,0,0
+"328","China","Hunan Province","2020-01-04",0,0,0,0,0
+"329","China","Hunan Province","2020-01-05",0,0,0,0,0
+"330","China","Hunan Province","2020-01-06",0,0,0,0,0
+"331","China","Hunan Province","2020-01-07",0,0,0,0,0
+"332","China","Hunan Province","2020-01-08",0,0,0,0,0
+"333","China","Hunan Province","2020-01-09",0,0,0,0,0
+"334","China","Hunan Province","2020-01-10",0,0,0,0,0
+"335","China","Hunan Province","2020-01-11",0,0,0,0,0
+"336","China","Hunan Province","2020-01-12",0,0,0,0,0
+"337","China","Hunan Province","2020-01-13",0,0,0,0,0
+"338","China","Hunan Province","2020-01-14",0,0,0,0,0
+"339","China","Hunan Province","2020-01-15",0,0,0,0,0
+"340","China","Hunan Province","2020-01-16",0,0,0,0,0
+"341","China","Hunan Province","2020-01-17",0,0,0,0,0
+"342","China","Hunan Province","2020-01-18",0,0,0,0,0
+"343","China","Hunan Province","2020-01-19",0,0,0,0,0
+"344","China","Hunan Province","2020-01-20",0,0,0,0,0
+"345","China","Hunan Province","2020-01-21",1,0,0,0,0
+"346","China","Hunan Province","2020-01-22",1,0,0,0,0
+"347","China","Inner Mongolia Autonomous Region","2019-12-31",0,0,0,0,0
+"348","China","Inner Mongolia Autonomous Region","2020-01-01",0,0,0,0,0
+"349","China","Inner Mongolia Autonomous Region","2020-01-02",0,0,0,0,0
+"350","China","Inner Mongolia Autonomous Region","2020-01-03",0,0,0,0,0
+"351","China","Inner Mongolia Autonomous Region","2020-01-04",0,0,0,0,0
+"352","China","Inner Mongolia Autonomous Region","2020-01-05",0,0,0,0,0
+"353","China","Inner Mongolia Autonomous Region","2020-01-06",0,0,0,0,0
+"354","China","Inner Mongolia Autonomous Region","2020-01-07",0,0,0,0,0
+"355","China","Inner Mongolia Autonomous Region","2020-01-08",0,0,0,0,0
+"356","China","Inner Mongolia Autonomous Region","2020-01-09",0,0,0,0,0
+"357","China","Inner Mongolia Autonomous Region","2020-01-10",0,0,0,0,0
+"358","China","Inner Mongolia Autonomous Region","2020-01-11",0,0,0,0,0
+"359","China","Inner Mongolia Autonomous Region","2020-01-12",0,0,0,0,0
+"360","China","Inner Mongolia Autonomous Region","2020-01-13",0,0,0,0,0
+"361","China","Inner Mongolia Autonomous Region","2020-01-14",0,0,0,0,0
+"362","China","Inner Mongolia Autonomous Region","2020-01-15",0,0,0,0,0
+"363","China","Inner Mongolia Autonomous Region","2020-01-16",0,0,0,0,0
+"364","China","Inner Mongolia Autonomous Region","2020-01-17",0,0,0,0,0
+"365","China","Inner Mongolia Autonomous Region","2020-01-18",0,0,0,0,0
+"366","China","Inner Mongolia Autonomous Region","2020-01-19",0,0,0,0,0
+"367","China","Inner Mongolia Autonomous Region","2020-01-20",0,0,0,0,0
+"368","China","Inner Mongolia Autonomous Region","2020-01-21",0,0,0,0,0
+"369","China","Inner Mongolia Autonomous Region","2020-01-22",0,0,0,0,0
+"370","China","Jiangsu Province","2019-12-31",0,0,0,0,0
+"371","China","Jiangsu Province","2020-01-01",0,0,0,0,0
+"372","China","Jiangsu Province","2020-01-02",0,0,0,0,0
+"373","China","Jiangsu Province","2020-01-03",0,0,0,0,0
+"374","China","Jiangsu Province","2020-01-04",0,0,0,0,0
+"375","China","Jiangsu Province","2020-01-05",0,0,0,0,0
+"376","China","Jiangsu Province","2020-01-06",0,0,0,0,0
+"377","China","Jiangsu Province","2020-01-07",0,0,0,0,0
+"378","China","Jiangsu Province","2020-01-08",0,0,0,0,0
+"379","China","Jiangsu Province","2020-01-09",0,0,0,0,0
+"380","China","Jiangsu Province","2020-01-10",0,0,0,0,0
+"381","China","Jiangsu Province","2020-01-11",0,0,0,0,0
+"382","China","Jiangsu Province","2020-01-12",0,0,0,0,0
+"383","China","Jiangsu Province","2020-01-13",0,0,0,0,0
+"384","China","Jiangsu Province","2020-01-14",0,0,0,0,0
+"385","China","Jiangsu Province","2020-01-15",0,0,0,0,0
+"386","China","Jiangsu Province","2020-01-16",0,0,0,0,0
+"387","China","Jiangsu Province","2020-01-17",0,0,0,0,0
+"388","China","Jiangsu Province","2020-01-18",0,0,0,0,0
+"389","China","Jiangsu Province","2020-01-19",0,0,0,0,0
+"390","China","Jiangsu Province","2020-01-20",0,0,0,0,0
+"391","China","Jiangsu Province","2020-01-21",0,0,0,0,0
+"392","China","Jiangsu Province","2020-01-22",1,0,0,0,0
+"393","China","Jiangxi Province","2019-12-31",0,0,0,0,0
+"394","China","Jiangxi Province","2020-01-01",0,0,0,0,0
+"395","China","Jiangxi Province","2020-01-02",0,0,0,0,0
+"396","China","Jiangxi Province","2020-01-03",0,0,0,0,0
+"397","China","Jiangxi Province","2020-01-04",0,0,0,0,0
+"398","China","Jiangxi Province","2020-01-05",0,0,0,0,0
+"399","China","Jiangxi Province","2020-01-06",0,0,0,0,0
+"400","China","Jiangxi Province","2020-01-07",0,0,0,0,0
+"401","China","Jiangxi Province","2020-01-08",0,0,0,0,0
+"402","China","Jiangxi Province","2020-01-09",0,0,0,0,0
+"403","China","Jiangxi Province","2020-01-10",0,0,0,0,0
+"404","China","Jiangxi Province","2020-01-11",0,0,0,0,0
+"405","China","Jiangxi Province","2020-01-12",0,0,0,0,0
+"406","China","Jiangxi Province","2020-01-13",0,0,0,0,0
+"407","China","Jiangxi Province","2020-01-14",0,0,0,0,0
+"408","China","Jiangxi Province","2020-01-15",0,0,0,0,0
+"409","China","Jiangxi Province","2020-01-16",0,0,0,0,0
+"410","China","Jiangxi Province","2020-01-17",0,0,0,0,0
+"411","China","Jiangxi Province","2020-01-18",0,0,0,0,0
+"412","China","Jiangxi Province","2020-01-19",0,0,0,0,0
+"413","China","Jiangxi Province","2020-01-20",0,0,0,0,0
+"414","China","Jiangxi Province","2020-01-21",2,0,0,0,0
+"415","China","Jiangxi Province","2020-01-22",3,0,0,0,0
+"416","China","Jilin Province","2019-12-31",0,0,0,0,0
+"417","China","Jilin Province","2020-01-01",0,0,0,0,0
+"418","China","Jilin Province","2020-01-02",0,0,0,0,0
+"419","China","Jilin Province","2020-01-03",0,0,0,0,0
+"420","China","Jilin Province","2020-01-04",0,0,0,0,0
+"421","China","Jilin Province","2020-01-05",0,0,0,0,0
+"422","China","Jilin Province","2020-01-06",0,0,0,0,0
+"423","China","Jilin Province","2020-01-07",0,0,0,0,0
+"424","China","Jilin Province","2020-01-08",0,0,0,0,0
+"425","China","Jilin Province","2020-01-09",0,0,0,0,0
+"426","China","Jilin Province","2020-01-10",0,0,0,0,0
+"427","China","Jilin Province","2020-01-11",0,0,0,0,0
+"428","China","Jilin Province","2020-01-12",0,0,0,0,0
+"429","China","Jilin Province","2020-01-13",0,0,0,0,0
+"430","China","Jilin Province","2020-01-14",0,0,0,0,0
+"431","China","Jilin Province","2020-01-15",0,0,0,0,0
+"432","China","Jilin Province","2020-01-16",0,0,0,0,0
+"433","China","Jilin Province","2020-01-17",0,0,0,0,0
+"434","China","Jilin Province","2020-01-18",0,0,0,0,0
+"435","China","Jilin Province","2020-01-19",0,0,0,0,0
+"436","China","Jilin Province","2020-01-20",0,0,0,0,0
+"437","China","Jilin Province","2020-01-21",0,0,0,0,0
+"438","China","Jilin Province","2020-01-22",0,0,0,0,0
+"439","China","Liaoning Province","2019-12-31",0,0,0,0,0
+"440","China","Liaoning Province","2020-01-01",0,0,0,0,0
+"441","China","Liaoning Province","2020-01-02",0,0,0,0,0
+"442","China","Liaoning Province","2020-01-03",0,0,0,0,0
+"443","China","Liaoning Province","2020-01-04",0,0,0,0,0
+"444","China","Liaoning Province","2020-01-05",0,0,0,0,0
+"445","China","Liaoning Province","2020-01-06",0,0,0,0,0
+"446","China","Liaoning Province","2020-01-07",0,0,0,0,0
+"447","China","Liaoning Province","2020-01-08",0,0,0,0,0
+"448","China","Liaoning Province","2020-01-09",0,0,0,0,0
+"449","China","Liaoning Province","2020-01-10",0,0,0,0,0
+"450","China","Liaoning Province","2020-01-11",0,0,0,0,0
+"451","China","Liaoning Province","2020-01-12",0,0,0,0,0
+"452","China","Liaoning Province","2020-01-13",0,0,0,0,0
+"453","China","Liaoning Province","2020-01-14",0,0,0,0,0
+"454","China","Liaoning Province","2020-01-15",0,0,0,0,0
+"455","China","Liaoning Province","2020-01-16",0,0,0,0,0
+"456","China","Liaoning Province","2020-01-17",0,0,0,0,0
+"457","China","Liaoning Province","2020-01-18",0,0,0,0,0
+"458","China","Liaoning Province","2020-01-19",0,0,0,0,0
+"459","China","Liaoning Province","2020-01-20",0,0,0,0,0
+"460","China","Liaoning Province","2020-01-21",0,0,0,0,0
+"461","China","Liaoning Province","2020-01-22",2,0,0,0,0
+"462","China","Macao Special Administrative Region","2019-12-31",0,0,0,0,0
+"463","China","Macao Special Administrative Region","2020-01-01",0,0,0,0,0
+"464","China","Macao Special Administrative Region","2020-01-02",0,0,0,0,0
+"465","China","Macao Special Administrative Region","2020-01-03",0,0,0,0,0
+"466","China","Macao Special Administrative Region","2020-01-04",0,0,0,0,0
+"467","China","Macao Special Administrative Region","2020-01-05",0,0,0,0,0
+"468","China","Macao Special Administrative Region","2020-01-06",0,0,0,0,0
+"469","China","Macao Special Administrative Region","2020-01-07",0,0,0,0,0
+"470","China","Macao Special Administrative Region","2020-01-08",0,0,0,0,0
+"471","China","Macao Special Administrative Region","2020-01-09",0,0,0,0,0
+"472","China","Macao Special Administrative Region","2020-01-10",0,0,0,0,0
+"473","China","Macao Special Administrative Region","2020-01-11",0,0,0,0,0
+"474","China","Macao Special Administrative Region","2020-01-12",0,0,0,0,0
+"475","China","Macao Special Administrative Region","2020-01-13",0,0,0,0,0
+"476","China","Macao Special Administrative Region","2020-01-14",0,0,0,0,0
+"477","China","Macao Special Administrative Region","2020-01-15",0,0,0,0,0
+"478","China","Macao Special Administrative Region","2020-01-16",0,0,0,0,0
+"479","China","Macao Special Administrative Region","2020-01-17",0,0,0,0,0
+"480","China","Macao Special Administrative Region","2020-01-18",0,0,0,0,0
+"481","China","Macao Special Administrative Region","2020-01-19",0,0,0,0,0
+"482","China","Macao Special Administrative Region","2020-01-20",0,0,0,0,0
+"483","China","Macao Special Administrative Region","2020-01-21",1,0,0,0,0
+"484","China","Macao Special Administrative Region","2020-01-22",2,0,0,0,0
+"485","China","Ningxia Hui Autonomous Region","2019-12-31",0,0,0,0,0
+"486","China","Ningxia Hui Autonomous Region","2020-01-01",0,0,0,0,0
+"487","China","Ningxia Hui Autonomous Region","2020-01-02",0,0,0,0,0
+"488","China","Ningxia Hui Autonomous Region","2020-01-03",0,0,0,0,0
+"489","China","Ningxia Hui Autonomous Region","2020-01-04",0,0,0,0,0
+"490","China","Ningxia Hui Autonomous Region","2020-01-05",0,0,0,0,0
+"491","China","Ningxia Hui Autonomous Region","2020-01-06",0,0,0,0,0
+"492","China","Ningxia Hui Autonomous Region","2020-01-07",0,0,0,0,0
+"493","China","Ningxia Hui Autonomous Region","2020-01-08",0,0,0,0,0
+"494","China","Ningxia Hui Autonomous Region","2020-01-09",0,0,0,0,0
+"495","China","Ningxia Hui Autonomous Region","2020-01-10",0,0,0,0,0
+"496","China","Ningxia Hui Autonomous Region","2020-01-11",0,0,0,0,0
+"497","China","Ningxia Hui Autonomous Region","2020-01-12",0,0,0,0,0
+"498","China","Ningxia Hui Autonomous Region","2020-01-13",0,0,0,0,0
+"499","China","Ningxia Hui Autonomous Region","2020-01-14",0,0,0,0,0
+"500","China","Ningxia Hui Autonomous Region","2020-01-15",0,0,0,0,0
+"501","China","Ningxia Hui Autonomous Region","2020-01-16",0,0,0,0,0
+"502","China","Ningxia Hui Autonomous Region","2020-01-17",0,0,0,0,0
+"503","China","Ningxia Hui Autonomous Region","2020-01-18",0,0,0,0,0
+"504","China","Ningxia Hui Autonomous Region","2020-01-19",0,0,0,0,0
+"505","China","Ningxia Hui Autonomous Region","2020-01-20",0,0,0,0,0
+"506","China","Ningxia Hui Autonomous Region","2020-01-21",0,0,0,0,0
+"507","China","Ningxia Hui Autonomous Region","2020-01-22",1,0,0,0,0
+"508","China","Qinghai Province","2019-12-31",0,0,0,0,0
+"509","China","Qinghai Province","2020-01-01",0,0,0,0,0
+"510","China","Qinghai Province","2020-01-02",0,0,0,0,0
+"511","China","Qinghai Province","2020-01-03",0,0,0,0,0
+"512","China","Qinghai Province","2020-01-04",0,0,0,0,0
+"513","China","Qinghai Province","2020-01-05",0,0,0,0,0
+"514","China","Qinghai Province","2020-01-06",0,0,0,0,0
+"515","China","Qinghai Province","2020-01-07",0,0,0,0,0
+"516","China","Qinghai Province","2020-01-08",0,0,0,0,0
+"517","China","Qinghai Province","2020-01-09",0,0,0,0,0
+"518","China","Qinghai Province","2020-01-10",0,0,0,0,0
+"519","China","Qinghai Province","2020-01-11",0,0,0,0,0
+"520","China","Qinghai Province","2020-01-12",0,0,0,0,0
+"521","China","Qinghai Province","2020-01-13",0,0,0,0,0
+"522","China","Qinghai Province","2020-01-14",0,0,0,0,0
+"523","China","Qinghai Province","2020-01-15",0,0,0,0,0
+"524","China","Qinghai Province","2020-01-16",0,0,0,0,0
+"525","China","Qinghai Province","2020-01-17",0,0,0,0,0
+"526","China","Qinghai Province","2020-01-18",0,0,0,0,0
+"527","China","Qinghai Province","2020-01-19",0,0,0,0,0
+"528","China","Qinghai Province","2020-01-20",0,0,0,0,0
+"529","China","Qinghai Province","2020-01-21",0,0,0,0,0
+"530","China","Qinghai Province","2020-01-22",0,0,0,0,0
+"531","China","Shaanxi Province","2019-12-31",0,0,0,0,0
+"532","China","Shaanxi Province","2020-01-01",0,0,0,0,0
+"533","China","Shaanxi Province","2020-01-02",0,0,0,0,0
+"534","China","Shaanxi Province","2020-01-03",0,0,0,0,0
+"535","China","Shaanxi Province","2020-01-04",0,0,0,0,0
+"536","China","Shaanxi Province","2020-01-05",0,0,0,0,0
+"537","China","Shaanxi Province","2020-01-06",0,0,0,0,0
+"538","China","Shaanxi Province","2020-01-07",0,0,0,0,0
+"539","China","Shaanxi Province","2020-01-08",0,0,0,0,0
+"540","China","Shaanxi Province","2020-01-09",0,0,0,0,0
+"541","China","Shaanxi Province","2020-01-10",0,0,0,0,0
+"542","China","Shaanxi Province","2020-01-11",0,0,0,0,0
+"543","China","Shaanxi Province","2020-01-12",0,0,0,0,0
+"544","China","Shaanxi Province","2020-01-13",0,0,0,0,0
+"545","China","Shaanxi Province","2020-01-14",0,0,0,0,0
+"546","China","Shaanxi Province","2020-01-15",0,0,0,0,0
+"547","China","Shaanxi Province","2020-01-16",0,0,0,0,0
+"548","China","Shaanxi Province","2020-01-17",0,0,0,0,0
+"549","China","Shaanxi Province","2020-01-18",0,0,0,0,0
+"550","China","Shaanxi Province","2020-01-19",0,0,0,0,0
+"551","China","Shaanxi Province","2020-01-20",0,0,0,0,0
+"552","China","Shaanxi Province","2020-01-21",0,0,0,0,0
+"553","China","Shaanxi Province","2020-01-22",0,0,0,0,0
+"554","China","Shandong Province","2019-12-31",0,0,0,0,0
+"555","China","Shandong Province","2020-01-01",0,0,0,0,0
+"556","China","Shandong Province","2020-01-02",0,0,0,0,0
+"557","China","Shandong Province","2020-01-03",0,0,0,0,0
+"558","China","Shandong Province","2020-01-04",0,0,0,0,0
+"559","China","Shandong Province","2020-01-05",0,0,0,0,0
+"560","China","Shandong Province","2020-01-06",0,0,0,0,0
+"561","China","Shandong Province","2020-01-07",0,0,0,0,0
+"562","China","Shandong Province","2020-01-08",0,0,0,0,0
+"563","China","Shandong Province","2020-01-09",0,0,0,0,0
+"564","China","Shandong Province","2020-01-10",0,0,0,0,0
+"565","China","Shandong Province","2020-01-11",0,0,0,0,0
+"566","China","Shandong Province","2020-01-12",0,0,0,0,0
+"567","China","Shandong Province","2020-01-13",0,0,0,0,0
+"568","China","Shandong Province","2020-01-14",0,0,0,0,0
+"569","China","Shandong Province","2020-01-15",0,0,0,0,0
+"570","China","Shandong Province","2020-01-16",0,0,0,0,0
+"571","China","Shandong Province","2020-01-17",0,0,0,0,0
+"572","China","Shandong Province","2020-01-18",0,0,0,0,0
+"573","China","Shandong Province","2020-01-19",0,0,0,0,0
+"574","China","Shandong Province","2020-01-20",0,0,0,0,0
+"575","China","Shandong Province","2020-01-21",1,0,0,0,0
+"576","China","Shandong Province","2020-01-22",2,0,0,0,0
+"577","China","Shanghai Municipality","2019-12-31",0,0,0,0,0
+"578","China","Shanghai Municipality","2020-01-01",0,0,0,0,0
+"579","China","Shanghai Municipality","2020-01-02",0,0,0,0,0
+"580","China","Shanghai Municipality","2020-01-03",0,0,0,0,0
+"581","China","Shanghai Municipality","2020-01-04",0,0,0,0,0
+"582","China","Shanghai Municipality","2020-01-05",0,0,0,0,0
+"583","China","Shanghai Municipality","2020-01-06",0,0,0,0,0
+"584","China","Shanghai Municipality","2020-01-07",0,0,0,0,0
+"585","China","Shanghai Municipality","2020-01-08",0,0,0,0,0
+"586","China","Shanghai Municipality","2020-01-09",0,0,0,0,0
+"587","China","Shanghai Municipality","2020-01-10",0,0,0,0,0
+"588","China","Shanghai Municipality","2020-01-11",0,0,0,0,0
+"589","China","Shanghai Municipality","2020-01-12",0,0,0,0,0
+"590","China","Shanghai Municipality","2020-01-13",0,0,0,0,0
+"591","China","Shanghai Municipality","2020-01-14",0,0,0,0,0
+"592","China","Shanghai Municipality","2020-01-15",0,0,0,0,0
+"593","China","Shanghai Municipality","2020-01-16",0,0,0,0,0
+"594","China","Shanghai Municipality","2020-01-17",0,0,0,0,0
+"595","China","Shanghai Municipality","2020-01-18",0,0,0,0,0
+"596","China","Shanghai Municipality","2020-01-19",1,0,0,0,0
+"597","China","Shanghai Municipality","2020-01-20",1,0,0,0,0
+"598","China","Shanghai Municipality","2020-01-21",7,0,0,0,0
+"599","China","Shanghai Municipality","2020-01-22",9,0,0,0,0
+"600","China","Shanxi Province","2019-12-31",0,0,0,0,0
+"601","China","Shanxi Province","2020-01-01",0,0,0,0,0
+"602","China","Shanxi Province","2020-01-02",0,0,0,0,0
+"603","China","Shanxi Province","2020-01-03",0,0,0,0,0
+"604","China","Shanxi Province","2020-01-04",0,0,0,0,0
+"605","China","Shanxi Province","2020-01-05",0,0,0,0,0
+"606","China","Shanxi Province","2020-01-06",0,0,0,0,0
+"607","China","Shanxi Province","2020-01-07",0,0,0,0,0
+"608","China","Shanxi Province","2020-01-08",0,0,0,0,0
+"609","China","Shanxi Province","2020-01-09",0,0,0,0,0
+"610","China","Shanxi Province","2020-01-10",0,0,0,0,0
+"611","China","Shanxi Province","2020-01-11",0,0,0,0,0
+"612","China","Shanxi Province","2020-01-12",0,0,0,0,0
+"613","China","Shanxi Province","2020-01-13",0,0,0,0,0
+"614","China","Shanxi Province","2020-01-14",0,0,0,0,0
+"615","China","Shanxi Province","2020-01-15",0,0,0,0,0
+"616","China","Shanxi Province","2020-01-16",0,0,0,0,0
+"617","China","Shanxi Province","2020-01-17",0,0,0,0,0
+"618","China","Shanxi Province","2020-01-18",0,0,0,0,0
+"619","China","Shanxi Province","2020-01-19",0,0,0,0,0
+"620","China","Shanxi Province","2020-01-20",0,0,0,0,0
+"621","China","Shanxi Province","2020-01-21",0,0,0,0,0
+"622","China","Shanxi Province","2020-01-22",1,0,0,0,0
+"623","China","Sichuan Province","2019-12-31",0,0,0,0,0
+"624","China","Sichuan Province","2020-01-01",0,0,0,0,0
+"625","China","Sichuan Province","2020-01-02",0,0,0,0,0
+"626","China","Sichuan Province","2020-01-03",0,0,0,0,0
+"627","China","Sichuan Province","2020-01-04",0,0,0,0,0
+"628","China","Sichuan Province","2020-01-05",0,0,0,0,0
+"629","China","Sichuan Province","2020-01-06",0,0,0,0,0
+"630","China","Sichuan Province","2020-01-07",0,0,0,0,0
+"631","China","Sichuan Province","2020-01-08",0,0,0,0,0
+"632","China","Sichuan Province","2020-01-09",0,0,0,0,0
+"633","China","Sichuan Province","2020-01-10",0,0,0,0,0
+"634","China","Sichuan Province","2020-01-11",0,0,0,0,0
+"635","China","Sichuan Province","2020-01-12",0,0,0,0,0
+"636","China","Sichuan Province","2020-01-13",0,0,0,0,0
+"637","China","Sichuan Province","2020-01-14",0,0,0,0,0
+"638","China","Sichuan Province","2020-01-15",0,0,0,0,0
+"639","China","Sichuan Province","2020-01-16",0,0,0,0,0
+"640","China","Sichuan Province","2020-01-17",0,0,0,0,0
+"641","China","Sichuan Province","2020-01-18",0,0,0,0,0
+"642","China","Sichuan Province","2020-01-19",0,0,0,0,0
+"643","China","Sichuan Province","2020-01-20",0,0,0,0,0
+"644","China","Sichuan Province","2020-01-21",1,0,0,0,0
+"645","China","Sichuan Province","2020-01-22",5,0,0,0,0
+"646","China","Taiwan Province","2019-12-31",0,0,0,0,0
+"647","China","Taiwan Province","2020-01-01",0,0,0,0,0
+"648","China","Taiwan Province","2020-01-02",0,0,0,0,0
+"649","China","Taiwan Province","2020-01-03",0,0,0,0,0
+"650","China","Taiwan Province","2020-01-04",0,0,0,0,0
+"651","China","Taiwan Province","2020-01-05",0,0,0,0,0
+"652","China","Taiwan Province","2020-01-06",0,0,0,0,0
+"653","China","Taiwan Province","2020-01-07",0,0,0,0,0
+"654","China","Taiwan Province","2020-01-08",0,0,0,0,0
+"655","China","Taiwan Province","2020-01-09",0,0,0,0,0
+"656","China","Taiwan Province","2020-01-10",0,0,0,0,0
+"657","China","Taiwan Province","2020-01-11",0,0,0,0,0
+"658","China","Taiwan Province","2020-01-12",0,0,0,0,0
+"659","China","Taiwan Province","2020-01-13",0,0,0,0,0
+"660","China","Taiwan Province","2020-01-14",0,0,0,0,0
+"661","China","Taiwan Province","2020-01-15",0,0,0,0,0
+"662","China","Taiwan Province","2020-01-16",0,0,0,0,0
+"663","China","Taiwan Province","2020-01-17",0,0,0,0,0
+"664","China","Taiwan Province","2020-01-18",0,0,0,0,0
+"665","China","Taiwan Province","2020-01-19",0,0,0,0,0
+"666","China","Taiwan Province","2020-01-20",0,0,0,0,0
+"667","China","Taiwan Province","2020-01-21",1,0,0,0,0
+"668","China","Taiwan Province","2020-01-22",1,0,0,0,0
+"669","China","Tianjin Municipality","2019-12-31",0,0,0,0,0
+"670","China","Tianjin Municipality","2020-01-01",0,0,0,0,0
+"671","China","Tianjin Municipality","2020-01-02",0,0,0,0,0
+"672","China","Tianjin Municipality","2020-01-03",0,0,0,0,0
+"673","China","Tianjin Municipality","2020-01-04",0,0,0,0,0
+"674","China","Tianjin Municipality","2020-01-05",0,0,0,0,0
+"675","China","Tianjin Municipality","2020-01-06",0,0,0,0,0
+"676","China","Tianjin Municipality","2020-01-07",0,0,0,0,0
+"677","China","Tianjin Municipality","2020-01-08",0,0,0,0,0
+"678","China","Tianjin Municipality","2020-01-09",0,0,0,0,0
+"679","China","Tianjin Municipality","2020-01-10",0,0,0,0,0
+"680","China","Tianjin Municipality","2020-01-11",0,0,0,0,0
+"681","China","Tianjin Municipality","2020-01-12",0,0,0,0,0
+"682","China","Tianjin Municipality","2020-01-13",0,0,0,0,0
+"683","China","Tianjin Municipality","2020-01-14",0,0,0,0,0
+"684","China","Tianjin Municipality","2020-01-15",0,0,0,0,0
+"685","China","Tianjin Municipality","2020-01-16",0,0,0,0,0
+"686","China","Tianjin Municipality","2020-01-17",0,0,0,0,0
+"687","China","Tianjin Municipality","2020-01-18",0,0,0,0,0
+"688","China","Tianjin Municipality","2020-01-19",0,0,0,0,0
+"689","China","Tianjin Municipality","2020-01-20",0,0,0,0,0
+"690","China","Tianjin Municipality","2020-01-21",2,0,0,0,0
+"691","China","Tianjin Municipality","2020-01-22",2,0,0,0,0
+"692","China","Tibet Autonomous Region","2019-12-31",0,0,0,0,0
+"693","China","Tibet Autonomous Region","2020-01-01",0,0,0,0,0
+"694","China","Tibet Autonomous Region","2020-01-02",0,0,0,0,0
+"695","China","Tibet Autonomous Region","2020-01-03",0,0,0,0,0
+"696","China","Tibet Autonomous Region","2020-01-04",0,0,0,0,0
+"697","China","Tibet Autonomous Region","2020-01-05",0,0,0,0,0
+"698","China","Tibet Autonomous Region","2020-01-06",0,0,0,0,0
+"699","China","Tibet Autonomous Region","2020-01-07",0,0,0,0,0
+"700","China","Tibet Autonomous Region","2020-01-08",0,0,0,0,0
+"701","China","Tibet Autonomous Region","2020-01-09",0,0,0,0,0
+"702","China","Tibet Autonomous Region","2020-01-10",0,0,0,0,0
+"703","China","Tibet Autonomous Region","2020-01-11",0,0,0,0,0
+"704","China","Tibet Autonomous Region","2020-01-12",0,0,0,0,0
+"705","China","Tibet Autonomous Region","2020-01-13",0,0,0,0,0
+"706","China","Tibet Autonomous Region","2020-01-14",0,0,0,0,0
+"707","China","Tibet Autonomous Region","2020-01-15",0,0,0,0,0
+"708","China","Tibet Autonomous Region","2020-01-16",0,0,0,0,0
+"709","China","Tibet Autonomous Region","2020-01-17",0,0,0,0,0
+"710","China","Tibet Autonomous Region","2020-01-18",0,0,0,0,0
+"711","China","Tibet Autonomous Region","2020-01-19",0,0,0,0,0
+"712","China","Tibet Autonomous Region","2020-01-20",0,0,0,0,0
+"713","China","Tibet Autonomous Region","2020-01-21",0,0,0,0,0
+"714","China","Tibet Autonomous Region","2020-01-22",0,0,0,0,0
+"715","China","Xinjiang Uygur Autonomous Region","2019-12-31",0,0,0,0,0
+"716","China","Xinjiang Uygur Autonomous Region","2020-01-01",0,0,0,0,0
+"717","China","Xinjiang Uygur Autonomous Region","2020-01-02",0,0,0,0,0
+"718","China","Xinjiang Uygur Autonomous Region","2020-01-03",0,0,0,0,0
+"719","China","Xinjiang Uygur Autonomous Region","2020-01-04",0,0,0,0,0
+"720","China","Xinjiang Uygur Autonomous Region","2020-01-05",0,0,0,0,0
+"721","China","Xinjiang Uygur Autonomous Region","2020-01-06",0,0,0,0,0
+"722","China","Xinjiang Uygur Autonomous Region","2020-01-07",0,0,0,0,0
+"723","China","Xinjiang Uygur Autonomous Region","2020-01-08",0,0,0,0,0
+"724","China","Xinjiang Uygur Autonomous Region","2020-01-09",0,0,0,0,0
+"725","China","Xinjiang Uygur Autonomous Region","2020-01-10",0,0,0,0,0
+"726","China","Xinjiang Uygur Autonomous Region","2020-01-11",0,0,0,0,0
+"727","China","Xinjiang Uygur Autonomous Region","2020-01-12",0,0,0,0,0
+"728","China","Xinjiang Uygur Autonomous Region","2020-01-13",0,0,0,0,0
+"729","China","Xinjiang Uygur Autonomous Region","2020-01-14",0,0,0,0,0
+"730","China","Xinjiang Uygur Autonomous Region","2020-01-15",0,0,0,0,0
+"731","China","Xinjiang Uygur Autonomous Region","2020-01-16",0,0,0,0,0
+"732","China","Xinjiang Uygur Autonomous Region","2020-01-17",0,0,0,0,0
+"733","China","Xinjiang Uygur Autonomous Region","2020-01-18",0,0,0,0,0
+"734","China","Xinjiang Uygur Autonomous Region","2020-01-19",0,0,0,0,0
+"735","China","Xinjiang Uygur Autonomous Region","2020-01-20",0,0,0,0,0
+"736","China","Xinjiang Uygur Autonomous Region","2020-01-21",0,0,0,0,0
+"737","China","Xinjiang Uygur Autonomous Region","2020-01-22",0,0,0,0,0
+"738","China","Yunnan Province","2019-12-31",0,0,0,0,0
+"739","China","Yunnan Province","2020-01-01",0,0,0,0,0
+"740","China","Yunnan Province","2020-01-02",0,0,0,0,0
+"741","China","Yunnan Province","2020-01-03",0,0,0,0,0
+"742","China","Yunnan Province","2020-01-04",0,0,0,0,0
+"743","China","Yunnan Province","2020-01-05",0,0,0,0,0
+"744","China","Yunnan Province","2020-01-06",0,0,0,0,0
+"745","China","Yunnan Province","2020-01-07",0,0,0,0,0
+"746","China","Yunnan Province","2020-01-08",0,0,0,0,0
+"747","China","Yunnan Province","2020-01-09",0,0,0,0,0
+"748","China","Yunnan Province","2020-01-10",0,0,0,0,0
+"749","China","Yunnan Province","2020-01-11",0,0,0,0,0
+"750","China","Yunnan Province","2020-01-12",0,0,0,0,0
+"751","China","Yunnan Province","2020-01-13",0,0,0,0,0
+"752","China","Yunnan Province","2020-01-14",0,0,0,0,0
+"753","China","Yunnan Province","2020-01-15",0,0,0,0,0
+"754","China","Yunnan Province","2020-01-16",0,0,0,0,0
+"755","China","Yunnan Province","2020-01-17",0,0,0,0,0
+"756","China","Yunnan Province","2020-01-18",0,0,0,0,0
+"757","China","Yunnan Province","2020-01-19",0,0,0,0,0
+"758","China","Yunnan Province","2020-01-20",0,0,0,0,0
+"759","China","Yunnan Province","2020-01-21",1,0,0,0,0
+"760","China","Yunnan Province","2020-01-22",1,0,0,0,0
+"761","China","Zhejiang Province","2019-12-31",0,0,0,0,0
+"762","China","Zhejiang Province","2020-01-01",0,0,0,0,0
+"763","China","Zhejiang Province","2020-01-02",0,0,0,0,0
+"764","China","Zhejiang Province","2020-01-03",0,0,0,0,0
+"765","China","Zhejiang Province","2020-01-04",0,0,0,0,0
+"766","China","Zhejiang Province","2020-01-05",0,0,0,0,0
+"767","China","Zhejiang Province","2020-01-06",0,0,0,0,0
+"768","China","Zhejiang Province","2020-01-07",0,0,0,0,0
+"769","China","Zhejiang Province","2020-01-08",0,0,0,0,0
+"770","China","Zhejiang Province","2020-01-09",0,0,0,0,0
+"771","China","Zhejiang Province","2020-01-10",0,0,0,0,0
+"772","China","Zhejiang Province","2020-01-11",0,0,0,0,0
+"773","China","Zhejiang Province","2020-01-12",0,0,0,0,0
+"774","China","Zhejiang Province","2020-01-13",0,0,0,0,0
+"775","China","Zhejiang Province","2020-01-14",0,0,0,0,0
+"776","China","Zhejiang Province","2020-01-15",0,0,0,0,0
+"777","China","Zhejiang Province","2020-01-16",0,0,0,0,0
+"778","China","Zhejiang Province","2020-01-17",0,0,0,0,0
+"779","China","Zhejiang Province","2020-01-18",0,0,0,0,0
+"780","China","Zhejiang Province","2020-01-19",0,0,0,0,0
+"781","China","Zhejiang Province","2020-01-20",0,0,0,0,0
+"782","China","Zhejiang Province","2020-01-21",5,0,0,0,0
+"783","China","Zhejiang Province","2020-01-22",10,0,0,0,0

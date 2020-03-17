@@ -17,7 +17,7 @@ fileNames <- c("23JAN2020","24JAN2020","25JAN2016","26JAN2034","27JAN2021","28JA
                "20FEB2359","21FEB2128","22FEB2026","23FEB1936","24FEB2028", "25FEB1830","26FEB2121",
                "27FEB2003","28FEB1954","29FEB2041","01MAR2052","02MAR2019","03MAR2050","04MAR1931",
                "05MAR1957","06MAR1804","07MAR1753","08MAR2347","09MAR2106","10MAR1946","11MAR1939",
-               "12MAR2339","13MAR2113","14MAR2336")#,"15MAR1449")
+               "12MAR2339","13MAR2113","14MAR2336")#,"15MAR1449","16MAR2031")
 
 # loop through for all files 
 for(fileName in fileNames){ 
@@ -66,6 +66,8 @@ test <- separate(test, v1, sep = ":",
                  into = c("area_type", "area_name"),
                  extra = "merge")
 test <- dplyr::filter(test, area_type != "id") # remove other html tables
+test <- dplyr::filter(test, area_type != "countryType") # remove other html tables
+
 # later dates have certain columns, make sure to add to early html versions 
 new_cols <- data.frame("currentConfirmedCount" = rep(NA, nrow(test)))
 test <- bind_cols(test, new_cols) # adds new column. if this already exists, as as "currentConfirmedCount1"
@@ -103,7 +105,7 @@ cleanTables <- c("23JAN","24JAN","25JAN","26JAN","27JAN","28JAN","29JAN",
                  "20FEB","21FEB","22FEB","23FEB","24FEB","25FEB","26FEB",
                  "27FEB","28FEB","29FEB","01MAR","02MAR","03MAR","04MAR",
                  "05MAR","06MAR","07MAR","08MAR","09MAR","10MAR","11MAR",
-                 "12MAR","13MAR","14MAR")#,"15MAR") 
+                 "12MAR","13MAR","14MAR")#,"15MAR","16MAR") 
 for(cleanTable in cleanTables){
 test <- read.csv(file = paste("dxy_data/clean-daily-tables/dxy_", cleanTable, "2020.csv", sep= "")) 
 # merge in adm info 
@@ -224,6 +226,7 @@ MAR12 <- read.csv(file = "dxy_data/clean-daily-tables/adm-verified/province_12MA
 MAR13 <- read.csv(file = "dxy_data/clean-daily-tables/adm-verified/province_13MAR2020.csv")
 MAR14 <- read.csv(file = "dxy_data/clean-daily-tables/adm-verified/province_14MAR2020.csv")
 #MAR15 <- read.csv(file = "dxy_data/clean-daily-tables/adm-verified/province_15MAR2020.csv")
+#MAR16 <- read.csv(file = "dxy_data/clean-daily-tables/adm-verified/province_16MAR2020.csv")
 
 master_province <- rbind(JAN23,JAN24,JAN25,JAN26,JAN27,JAN28,JAN29,JAN30, 
                          JAN31,FEB01,FEB02,FEB03,FEB04,FEB05,FEB06,FEB07,
@@ -231,7 +234,7 @@ master_province <- rbind(JAN23,JAN24,JAN25,JAN26,JAN27,JAN28,JAN29,JAN30,
                          FEB16,FEB17,FEB18,FEB19,FEB20,FEB21,FEB22,FEB23,
                          FEB24,FEB25,FEB26,FEB27,FEB28,FEB29,MAR01,MAR02,
                          MAR03,MAR04,MAR05,MAR06,MAR07,MAR08,MAR09,MAR10,
-                         MAR11,MAR12,MAR13,MAR14)#,MAR15)
+                         MAR11,MAR12,MAR13,MAR14)#,MAR15,MAR16)
 master_province$X <- NULL
 master_province$X.1 <- NULL
 master_province <- unique(master_province)
@@ -242,6 +245,13 @@ master_province$DATE <- ifelse(str_sub(master_province$DATE,8,10)  =="JAN",
                                    paste(str_sub(master_province$DATE, 1, 7), "-03",sep="")))
 master_province$DATE <- paste(str_sub(master_province$DATE, 1, 5), str_sub(master_province$DATE, 9,10), str_sub(master_province$DATE, 5,7), sep = "") 
 master_province <- master_province %>% unique()
+# Remove 23rd of January for Hubei Province prefectures, DXY not collecting data properly for this day, instead it is included in the pre23 dataset for these prefectures only
+master_province <- master_province %>% filter(!(ADM1_EN == "Hubei Province" & DATE == "2020-01-23"))
+# merge in pre-23rd dates 
+pre23_province_cases <- read.csv(file = "dxy_data/province_casecounts_preJan23.csv")
+pre23_province_cases <- pre23_province_cases %>% select(-X)
+pre23_province_cases <- pre23_province_cases[,c(1,2,4,5,6,7,8,3)] 
+master_province <- rbind(master_province, pre23_province_cases)
 write.csv(master_province, file = "dxy_data/province_master.csv")
 
 # merge all prefecture data
@@ -298,6 +308,7 @@ MAR12 <- read.csv(file = "dxy_data/clean-daily-tables/adm-verified/prefecture_12
 MAR13 <- read.csv(file = "dxy_data/clean-daily-tables/adm-verified/prefecture_13MAR2020.csv")
 MAR14 <- read.csv(file = "dxy_data/clean-daily-tables/adm-verified/prefecture_14MAR2020.csv")
 #MAR15 <- read.csv(file = "dxy_data/clean-daily-tables/adm-verified/prefecture_15MAR2020.csv")
+#MAR16 <- read.csv(file = "dxy_data/clean-daily-tables/adm-verified/prefecture_16MAR2020.csv")
 
 master_prefecture <- rbind(JAN23,JAN24,JAN25,JAN26,JAN27,JAN28,JAN29,
                            JAN30,JAN31,FEB01,FEB02,FEB03,FEB04,FEB05,
@@ -306,7 +317,7 @@ master_prefecture <- rbind(JAN23,JAN24,JAN25,JAN26,JAN27,JAN28,JAN29,
                            FEB20,FEB21,FEB22,FEB23,FEB24,FEB25,FEB26,
                            FEB27,FEB28,FEB29,MAR01,MAR02,MAR03,MAR04,
                            MAR05,MAR06,MAR07,MAR08,MAR09,MAR10,MAR11,
-                           MAR12,MAR13,MAR14)#,MAR15)
+                           MAR12,MAR13,MAR14)#,MAR15,MAR16)
 master_prefecture$X <- NULL
 master_prefecture$X.1 <- NULL
 master_prefecture$DATE <- ifelse(str_sub(master_prefecture$DATE,8,10)  =="JAN", 
