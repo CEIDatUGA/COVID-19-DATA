@@ -1,6 +1,6 @@
 # COVID-19-DATA
 
-Repository that stores datasets used in different projects 
+Repository that stores datasets used in different COVID CEID projects. Repository will be made public in near future.  
 =======
 
 # Contact
