@@ -62,14 +62,14 @@ These data are currently being used the following projects:
 ├─ dxy_data/
 |	├── clean-daily-tables                          | daily extracted tables from html in csv format
 |	├── prefecture_casecounts_preJan23.csv          | prefecture case occurence by date manually curated from start of outbreak through January 23rd from news articles and government reports
+|	├── province_casecounts_preJan23.csv            | province case occurence for before January 23rd summarised from prefecture file above
 |	├── prefecture_master_binary.csv                | binary prefecture case occurence by date
 |	├── prefecture_master.csv                       | master file of case counts by prefecture
 |	├── province_master.csv                         | master file of case counts by province
 |	└── spatial/
-|	   ├── shapefile_adm2_modified.csv              | ADM2 spatial taxonomy with synonymized chinese characters 
+|	   ├── shapefile_adm2_modified.csv              | ADM2 spatial taxonomy with synonymized chinese characters
 |	   ├── prefecture_adm.csv                       | ADM2 GADM names          
 |	   └── province_adm.csv                         | ADM1 GADM names          
-
 ├─ dxy-html-archive/                              | folder with archived html files since January 23, 2020
 └─ CODE/extract-dxy-case-counts.R                 | R script to process raw html files 
 ```
