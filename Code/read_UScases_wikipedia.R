@@ -1,5 +1,5 @@
-# Reads US COVID-19 cases and fatalities from wikipedia page "2020_coronavirus_pandemic_in_the_United_States" 
-# Currently, fatalities are extracted from an older version of the same page: 2020-03-16 12:39:08 
+# Reads US COVID-19 cases and deaths from wikipedia page "2020_coronavirus_pandemic_in_the_United_States" 
+# Currently, deaths are extracted from an older version of the same page: 2020-03-16 12:39:08 
 
 #-------------------------------------------------------------------------------------------#
 # README BEFORE RUNNING: the wiki table's 'xpath' might need to be updated due to changes in the 
@@ -9,10 +9,10 @@
 # Instructions to copy most current table XPath:
 # 1. Go to url below
 # 2. Scroll down to table 'Non-repatriated COVID-19 cases in the US by state"
-# 3. With cursor on table, press the mouse secondary button
+# 3. With cursor on table, pres the mouse secondary button
 # 4. Click 'Inspect', a window will open on the right side of the screen
 # 5. On the html code, scroll up and click on the row with "<table class="wikitable....>"
-# 6. Press the mouse secondary button
+# 6. Pres the mouse secondary button
 # 7. Select 'Copy'
 # 8. Select 'Copy XPath'
 # 9. Paste it as argument on function "read_table_from_web"
@@ -43,11 +43,11 @@ table_cleanup <- function(cases, var) {
   col_names <- cases[1,]
 
   if (var == "cases") {
-    col_names[c((ncols-5):ncols)] <- c("Conf_New", "Conf_Cml", "Death_New", "Death_Cml", "Rec_New", "Rec_Cml")
+    col_names[c((ncols-5):ncols)] <- c("Conf_New", "Conf_Cml", "deaths_New", "deaths_Cml", "Rec_New", "Rec_Cml")
     names(cases) <- col_names 
   }
   else if (var == "deaths") {
-    col_names[c((ncols-1):ncols)] <- c("Death_New", "Death_Cml")
+    col_names[c((ncols-1):ncols)] <- c("deaths_New", "deaths_Cml")
     names(cases) <- col_names 
   }
   else {
@@ -63,6 +63,7 @@ table_cleanup <- function(cases, var) {
 
 
 time_last_update <- function(cases, var) {
+  var
   if (var == "cases"){
   cases$time_last_update[dim(cases)[1]] <- as.character(Sys.time())
   cases$time_last_update[dim(cases)[1]-1] <- as.character(Sys.time())
@@ -81,7 +82,7 @@ time_last_update <- function(cases, var) {
 
 # Update xpath here
 xpath_cases <- '//*[@id="mw-content-text"]/div/div[21]/table/tbody/tr[2]/td/table'
-#xpath_deaths <- '//*[@id="mw-content-text"]/div/div[28]/table/tbody/tr[2]/td/table[2]'
+xpath_deaths <- '//*[@id="mw-content-text"]/div/div[28]/table/tbody/tr[2]/td/table[2]'
 
 # Read webpage
 url <- "https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States#covid19-container"
@@ -103,5 +104,5 @@ us_cases_clean <- time_last_update(us_cases_clean, "cases")
 #us_deaths_clean <- time_last_update(us_deaths_clean, "deaths")
 
 write.csv(us_cases_clean, "../UScases_by_state_wikipedia.csv", row.names = FALSE)
-#write.csv(us_deaths_clean, "../USdeaths_by_state_wikipedia.csv", row.names = FALSE)
+#write.csv(us_deaths_clean, "../USfatalities_by_state_wikipedia.csv", row.names = FALSE)
 

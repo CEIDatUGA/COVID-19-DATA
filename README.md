@@ -6,6 +6,7 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 # Compiled data sets
 
 [UScases_by_state_wikipedia.csv](#uscases_by_state_wikipedia) </br>
+[USdeaths_by_state_wikipedia.csv](#usdeaths_by_state_wikipedia) </br>
 [worldCases.csv](#worldcases) </br>
 [China_casedata](#china_casedata) </br>
 [Epidemiological characteristics of COVID-19 and other zoonotics](#epi_characteristics)</br>
