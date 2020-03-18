@@ -5,6 +5,7 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 
 # Automated data sets
   These data sets were created using web scraping, or other automated methods to retrieve, aggregate, and organize public data.
+  
 [UScases_by_state_wikipedia.csv](#uscases_by_state_wikipedia) </br>
 [USfatalities_by_state_wikipedia.csv](#usfatalities_by_state_wikipedia) </br>
 [worldCases.csv](#worldcases) </br>
@@ -99,6 +100,11 @@ Here is some discription
  - [Spatial spread in China](https://github.com/CEIDatUGA/CoronavirusSpatial)
 
 ## Epi_characteristics
+
+Table of epidemological characteristics of COVID-19 and other zoonotic outbreaks. Data was manually entered from research articles with a PubMed publication identification number. The data set was built to capture the most about of data, so many of the cases are incomplete. The same research article could be used for multiple lines if different outbreaks or statistics were reported. 
+
+This is a static data set.
+
 <b>Metadata:</b> 
  Column name: Description, [Allowed Values] 
  - pathogenName:	Name of pathogen	[2019-nCoV, SARS-CoV, MERS-CoV, H1N1 virus, H5N1 virus, Ebola virus]
@@ -128,10 +134,180 @@ Here is some discription
 - notes:	any comments worth being aware of	[text]
 
 <b>Parameter Explanations</b>
-
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Technical definition</th>
+    <th>Explanation</th>
+    <th>allowed values</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>R0</td>
+    <td>basic reproductive number</td>
+    <td>the average number of new infections that are caused by one infectious person, assuming the whole population is susceptible. This value can differ based on setting, e.g. it is likely higher in more crowded places, or can vary between children and adults.</td>
+    <td>numeric</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>R0-pre</td>
+    <td>R0 before symptoms occur</td>
+    <td></td>
+    <td>numeric</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>R0-asym</td>
+    <td>R0 of asymptomatic infected</td>
+    <td></td>
+    <td>numeric</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>days_presymptomatic</td>
+    <td>time from exposure to onset of illness (incubation period)</td>
+    <td>the number of days between pathogen exposure and the onset of symptoms.</td>
+    <td>numeric</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>days_symptomatic</td>
+    <td>duration of symptomatic period in days</td>
+    <td></td>
+    <td>numeric</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>days_infectious</td>
+    <td>duration of infectious period. This might or might not be the same as the symptomatic period.</td>
+    <td>the number of days over which an infected individual is able to transmit the virus. This might or might not be the same as the symptomatic period.</td>
+    <td>numeric</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>generation_time</td>
+    <td>average time from start of infection of 1st case to infection of subsequent case</td>
+    <td></td>
+    <td>numeric</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>serial_interval_sym</td>
+    <td>average time from start of symptoms of 1st case to symptoms of subsequent case</td>
+    <td>the number of days between the onset of symptoms in one case and the onset of symptoms in a subsequent case.</td>
+    <td>numeric</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_asymptomatic</td>
+    <td>proportion of individuals who are asymptomatic</td>
+    <td>the percent of individuals who are asymptomatic.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_symptomatic</td>
+    <td>proportion of individuals who are symptomatic</td>
+    <td>the percent of individuals who are symptomatic.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_inf_fever</td>
+    <td>proportion infected individuals who had fever</td>
+    <td>the percent of infected patients that present with a fever.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_inf_cough</td>
+    <td>proportion infected individuals who had cough</td>
+    <td>the percent of infected patients that present with a cough.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_sym_fever</td>
+    <td>proportion symptomatic individuals who had fever</td>
+    <td>the percent of symptomatic patients that present with a fever.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_sym_cough</td>
+    <td>proportion symptomatic individuals who had cough</td>
+    <td>the percent of symptomatic patients that present with a cough.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_inf_hospitalized</td>
+    <td>proportion infected individuals who have a severe infection and require hospitalization</td>
+    <td>the percent of infected patients that are hospitalized.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_inf_death</td>
+    <td>proportion of infected individuals who die</td>
+    <td>the percent of infected patients that die from their illness.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_hospitalized_death</td>
+    <td>proportion of hospitalized cases that result in death</td>
+    <td>the percent of individuals who are in severe/critical condition that die from their illness.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_sym_hospitalized</td>
+    <td>proportion symptomatic individuals who have a severe infection and require hospitalization</td>
+    <td>the percent of symptomatic patients that are hospitalized.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_sym_death</td>
+    <td>proportion of symptomatic individuals who die</td>
+    <td>the percent of symptomatic patients that die from their illness.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_infection_reduction_masks</td>
+    <td>proportion by which risk of infection is reduced in susceptible individuals wearing masks</td>
+    <td></td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_critical_death</td>
+    <td>proportion of critical cases that result in death</td>
+    <td>the percent of patients in critical condition that die from their illness.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_inf_critical</td>
+    <td>proportion of infected individuals in critical condition</td>
+    <td>the percent of infected patients that are in critical condition.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>prop_sym_critical</td>
+    <td>proportion of symptomatic individuals in critical condition</td>
+    <td>the percent of symptomatic patients that are in critical condition.</td>
+    <td>0-1</td>
+    <td></td>
+  </tr>
+</table>
 <b>Related subdirectory and/or files</b>
 
 <b>Projects</b>
+
 List/Link related projects
 
 
