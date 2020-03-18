@@ -63,12 +63,14 @@ table_cleanup <- function(cases, var) {
 
 
 time_last_update <- function(cases, var) {
-  if (var == 0){
+  if (var == "cases"){
   cases$time_last_update[dim(cases)[1]] <- as.character(Sys.time())
   cases$time_last_update[dim(cases)[1]-1] <- as.character(Sys.time())
-  } else {
+  } else if (var == "deaths"){
     cases$time_last_update[dim(cases)[1]] <- as.character("2020-03-16 12:39:08")
     cases$time_last_update[dim(cases)[1]-1] <- as.character("2020-03-16 12:39:08")
+  } else {
+    abort("table format not given")
   }
   return(cases) 
 }
@@ -78,26 +80,28 @@ time_last_update <- function(cases, var) {
 #-----------#
 
 # Update xpath here
-xpath_cases <- '//*[@id="mw-content-text"]/div/div[20]/table/tbody/tr[2]/td/table'
-xpath_deaths <- '//*[@id="mw-content-text"]/div/div[28]/table/tbody/tr[2]/td/table[2]'
+xpath_cases <- '//*[@id="mw-content-text"]/div/div[21]/table/tbody/tr[2]/td/table'
+#xpath_deaths <- '//*[@id="mw-content-text"]/div/div[28]/table/tbody/tr[2]/td/table[2]'
 
 # Read webpage
 url <- "https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States#covid19-container"
-url_past <- "https://web.archive.org/web/20200316123908/https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States"
+#url_past <- "https://web.archive.org/web/20200316123908/https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States"
 
 wiki_pop <- read_html(url)
-wiki_past <- read_html(url_past)
+#wiki_past <- read_html(url_past)
 
 # extract tables from webpage 
 us_cases <- read_table_from_web(wiki_pop, xpath_cases)
-us_deaths <- read_table_from_web(wiki_past, xpath_deaths)
+#us_deaths <- read_table_from_web(wiki_past, xpath_deaths)
 
 # table cleanup & column names reformat 
 # NOTE: if table format in wikipedia changes, this function will need to be updated
 us_cases_clean <- table_cleanup(us_cases, "cases")
-us_deaths_clean <- table_cleanup(us_deaths, "deaths")
+#us_deaths_clean <- table_cleanup(us_deaths, "deaths")
 
+us_cases_clean <- time_last_update(us_cases_clean, "cases")
+#us_deaths_clean <- time_last_update(us_deaths_clean, "deaths")
 
 write.csv(us_cases_clean, "../UScases_by_state_wikipedia.csv", row.names = FALSE)
-write.csv(us_cases_clean, "../USdeaths_by_state_wikipedia.csv", row.names = FALSE)
+#write.csv(us_deaths_clean, "../USdeaths_by_state_wikipedia.csv", row.names = FALSE)
 
