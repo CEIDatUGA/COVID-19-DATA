@@ -71,4 +71,4 @@ us_cases_data_weekly <- us_cases_data %>%
   group_by(location, WeekStart) %>% 
   distinct()
 
-write.csv(us_cases_data_weekly, "~/COVID19-ILI-forecasting/us_cases_data_weekly.csv")
+write.csv(us_cases_data_weekly, "~/COVID19-ILI-forecasting/data/us_cases_data_weekly.csv")
