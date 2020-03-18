@@ -53,7 +53,7 @@ table_cleanup <- function(cases) {
 #-----------#
 
 # Update xpath here
-xpath <- '//*[@id="mw-content-text"]/div/div[30]/table/tbody/tr[2]/td/table[1]'
+xpath <- '//*[@id="mw-content-text"]/div/div[20]/table/tbody/tr[2]/td/table'
 
 # Read webpage
 url <- "https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States"
