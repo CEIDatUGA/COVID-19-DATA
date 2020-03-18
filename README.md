@@ -6,7 +6,9 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 # Automated data sets
   These data sets were created using web scraping, or other automated methods to retrieve, aggregate, and organize public data. These data sets tend to be updated nightly. 
 ## China data
-[China_casedata](#china_casedata) </br>
+[China_casedata/prefecture_master_binary](#prefecture_master_binary): Date of first case reported by prefecture. </br>
+[China_casedata/prefecture_master](#prefecture_master): Number of new cases in a prefecture by day (as reported by prefecture).  </br>
+[China_casedata/province_master](#province_master): Number of new cases in a province by day (as reported by province). </br>
 
 ## US data  
 [UScases_by_state_wikipedia.csv](#uscases_by_state_wikipedia): Number of new cases in a state by day. </br>
@@ -18,6 +20,7 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 # Manual data sets
   These data sets were created by manually entering each line from various sources. 
   
+[China_casedata/shapefile_adm2_modified](#chinese_english_lookup): Chinese to English look up table. </br>
 [Epidemiological characteristics of COVID-19 and other zoonotics](#epi_characteristics)</br>
 
 ---
@@ -90,8 +93,14 @@ extract data from [2020 coronavirus pandemic wiki page](https://en.wikipedia.org
 <b>Projects</b>
 - TBD
 
-## China_casedata
+## China_casedata/
 Here is some discription
+### prefecture_master_binary: Date of first case reported by prefecture. </br>
+### prefecture_master: Number of new cases in a prefecture by day (as reported by prefecture).  </br>
+### province_master: Number of new cases in a province by day (as reported by province). </br>
+
+### chinese_english_lookup): Chinese to English look up table. </br>
+
 
 <b>Metadata:</b> 
 
