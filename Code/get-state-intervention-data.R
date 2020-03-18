@@ -24,7 +24,7 @@ dfTS <- data.frame(matrix(NA, nrow= length(levels(factor(df$NAME)))*length(dates
 
 names(dfTS) <- c("NAME", "DATE", "prohibit_restaurants", "school_closure", "state_of_emergency", "prohibit_gatherings", "gathering_size")
 
-dates <- seq.Date(from = ymd("2020-02-01"), to = ymd(format(Sys.time(), '%Y-%m-%d'))+1, by =1/50) 
+dates <- seq.Date(from = ymd("2020-02-01"), to = ymd(format(Sys.time(), '%Y-%m-%d'))+1, by =1/length(levels(factor(df$NAME)))) 
 
 for(i in 1:nrow(df)){
   if(is.na(df$start_date[i])){
