@@ -5,13 +5,12 @@ library(MMWRweek)
 # reading in csv for now, but the OAUTH code at the end will need to manually updated, roughly weekly
 # might be better to just access the data set by automatically pulling from the COVID-19-DATA github repo to local folder and then uploading from there
 us_cases <- read.csv("https://raw.githubusercontent.com/CEIDatUGA/COVID-19-DATA/master/UScases_by_state_wikipedia.csv?token=AMRZYPMEVQVPCB3C2CR5XKC6PEZFC")
-state_template <- read.csv("~/Documents/UGA/COVID-19-ILI-forecasting-master/templates-and-data/covid19-ili-forecast-state-template.csv")
 
 us_state_code <- read.csv("https://raw.githubusercontent.com/jasonong/List-of-US-States/master/states.csv", stringsAsFactors = F)
 us_state_code <- rbind(us_state_code, c("Puerto Rico", "PR"),  c("Virgin Islands", "VI"), c("Guam", "GU"))
 
 
-format_cases <- function(us_cases, us_state_code, state_template){
+format_cases <- function(us_cases, us_state_code){
   
   # getting rid of row of country-level counts
   us_cases2 <- us_cases %>% filter(Date != "Total") %>% 
