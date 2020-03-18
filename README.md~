@@ -71,7 +71,7 @@ Reads from wikipedia the number of fatalities from non-repatriated COVID-19 case
 
 <b>Related subdirectory and/or files </b>
 - `read_UScases_wikipedia.R`
-- USfatalities_by_state_wikipedia.csv
+- UScases_by_state_wikipedia.csv
 
 <b>Projects</b>
 - TBD
