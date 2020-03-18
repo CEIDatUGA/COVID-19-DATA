@@ -6,9 +6,7 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 # Automated data sets
   These data sets were created using web scraping, or other automated methods to retrieve, aggregate, and organize public data. These data sets tend to be updated nightly. 
 ## China data
-[China_casedata/prefecture_master_binary](#prefecture_master_binary): Date of first case reported by prefecture. </br>
-[China_casedata/prefecture_master](#prefecture_master): Number of new cases in a prefecture by day (as reported by prefecture).  </br>
-[China_casedata/province_master](#province_master): Number of new cases in a province by day (as reported by province). </br>
+[China_casedata](#china_casedata) </br>
 
 ## US data  
 [UScases_by_state_wikipedia.csv](#uscases_by_state_wikipedia): Number of new cases in a state by day. </br>
@@ -20,8 +18,11 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 # Manual data sets
   These data sets were created by manually entering each line from various sources. 
   
-[China_casedata/shapefile_adm2_modified](#chinese_english_lookup): Chinese to English look up table. </br>
 [Epidemiological characteristics of COVID-19 and other zoonotics](#epi_characteristics)</br>
+
+longFormStateInterventions.csv : Running summary of interventions at the state level taken from reports and wikipedia
+
+interventionTimeSeries.csv : Reshaped version of longFormStateInterventions.csv that includes the intervention status of all states on each date since the beginning of the outbreak.
 
 ---
 ## UScases_by_state_wikipedia
@@ -71,7 +72,7 @@ Reads from wikipedia the number of fatalities from non-repatriated COVID-19 case
 
 <b>Related subdirectory and/or files </b>
 - `read_UScases_wikipedia.R`
-- USfatalities_by_state_wikipedia.csv
+- UScases_by_state_wikipedia.csv
 
 <b>Projects</b>
 - TBD
@@ -93,14 +94,8 @@ extract data from [2020 coronavirus pandemic wiki page](https://en.wikipedia.org
 <b>Projects</b>
 - TBD
 
-## China_casedata/
+## China_casedata
 Here is some discription
-### prefecture_master_binary: Date of first case reported by prefecture. </br>
-### prefecture_master: Number of new cases in a prefecture by day (as reported by prefecture).  </br>
-### province_master: Number of new cases in a province by day (as reported by province). </br>
-
-### chinese_english_lookup): Chinese to English look up table. </br>
-
 
 <b>Metadata:</b> 
 
@@ -111,6 +106,30 @@ Here is some discription
 <b>Projects</b>
  - [Early Intervention](https://github.com/CEIDatUGA/ncov-early-intervention)
  - [Spatial spread in China](https://github.com/CEIDatUGA/CoronavirusSpatial)
+ 
+ ## interventionTimeSeries
+These data are scraped manually from [wikipedia entries](https://en.wikipedia.org/wiki/U.S._state_and_local_government_response_to_the_2020_coronavirus_pandemic) (housed on [this google sheet](https://docs.google.com/spreadsheets/d/1_mk1J3ElMH5EmPILcrx8s1KqHqdQYXCWroJeKTR3pV4/edit#gid=221668309)).
+
+Google sheet is downloaded here to longFormStateInterventions.csv daily and converted into a time series of intervention intensity interventionTimeSeries.csv.
+
+<b>Metadata:</b> 
+
+`NAME`: Name of state
+`DATE`: Date
+`prohibit_restaurants`: Is the state government prohibiting restaurants from opening? (0/1)
+`school_closure`: Has the government mandated that schools close or go online? (0/1)
+`state_of_emergency`: Has a state of emergency been declared? (0/1)
+`prohibit_gatherings`: Has the state government prohibited gatherings over a certain size? (0/1)
+`gathering_size`: Maximum legal gathering size in state (NA if no gathering size instituted)
+`Intervention Score`: Sum of first four metrics of intervention (0-4) 
+ 
+ 
+<b>Related subdirectory and/or files</b>
+
+<b>Projects</b>
+List/Link related projects
+# License 
+TBD
 
 ## Epi_characteristics
 
