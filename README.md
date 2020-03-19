@@ -118,10 +118,10 @@ This subfolder contains information on non-pharmaceutical interventions implemen
 These data are scraped manually from [wikipedia entries](https://en.wikipedia.org/wiki/U.S._state_and_local_government_response_to_the_2020_coronavirus_pandemic) (housed on [this google sheet](https://docs.google.com/spreadsheets/d/1_mk1J3ElMH5EmPILcrx8s1KqHqdQYXCWroJeKTR3pV4/edit#gid=221668309)).
 
 
-<b>Related subdirectory and/or files</b>
-us-state-intervention-data
-<b>Projects</b>
-List/Link related projects
+<b>Related subdirectory and/or files</b>  
+us-state-intervention-data  
+<b>Projects</b>  
+List/Link related projects  
 
 ## Epi_characteristics
 
