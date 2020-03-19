@@ -79,10 +79,12 @@ time_last_update <- function(cases, var) {
 #-----------#
 # Main code
 #-----------#
+# lines correspondent to fatalities table are temporarly commented since table in wiki page is not 
+# currently being updated
 
 # Update xpath here
-xpath_cases <- '//*[@id="mw-content-text"]/div/div[21]/table/tbody/tr[2]/td/table'
-xpath_deaths <- '//*[@id="mw-content-text"]/div/div[28]/table/tbody/tr[2]/td/table[2]'
+xpath_cases <- '//*[@id="mw-content-text"]/div/div[22]/table/tbody/tr[2]/td/table'
+#xpath_deaths <- '//*[@id="mw-content-text"]/div/div[28]/table/tbody/tr[2]/td/table[2]'
 
 # Read webpage
 url <- "https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States#covid19-container"
