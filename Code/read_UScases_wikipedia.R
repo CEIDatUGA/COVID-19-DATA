@@ -83,7 +83,7 @@ time_last_update <- function(cases, var) {
 # currently being updated
 
 # Update xpath here
-xpath_cases <- '//*[@id="mw-content-text"]/div/div[22]/table/tbody/tr[2]/td/table'
+xpath_cases <- '//*[@id="mw-content-text"]/div/div[25]/table/tbody/tr[2]/td/table'
 #xpath_deaths <- '//*[@id="mw-content-text"]/div/div[28]/table/tbody/tr[2]/td/table[2]'
 
 # Read webpage
