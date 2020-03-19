@@ -22,7 +22,7 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 
 longFormStateInterventions.csv : Running summary of interventions at the state level taken from reports and wikipedia
 
-interventionTimeSeries.csv : Reshaped version of longFormStateInterventions.csv that includes the intervention status of all states on each date since the beginning of the outbreak.
+[interventionTimeSeries.csv](#us_state_intervention) : Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak.
 
 ---
 ## UScases_by_state_wikipedia
@@ -342,7 +342,16 @@ This is a static data set.
 
 List/Link related projects
 
+## US state intervention
+Here is some discription of how the data is collected, when it is normally updated, etc. 
 
+<b>Metadata:</b> 
+ 
+ 
+<b>Related subdirectory and/or files</b>
+
+<b>Projects</b>
+List/Link related projects
 
 ## Data_name
 Here is some discription of how the data is collected, when it is normally updated, etc. 
@@ -354,8 +363,9 @@ Here is some discription of how the data is collected, when it is normally updat
 
 <b>Projects</b>
 List/Link related projects
+
 # License 
-TBD
+See License.txt
 
 Contact John Drake (jdrake@uga.edu) for questions. 
 
