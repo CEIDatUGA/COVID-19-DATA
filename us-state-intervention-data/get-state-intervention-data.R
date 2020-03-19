@@ -12,11 +12,15 @@ library(lubridate)
 options(gargle_oauth_email = "robbielrichards@gmail.com")
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1_mk1J3ElMH5EmPILcrx8s1KqHqdQYXCWroJeKTR3pV4/edit#gid=221668309", range = "state-covid-announcements")
   
+
+
 df <- df %>%  
   mutate(start_date = ymd(as.character(start_date)))
 
 
-write.csv(df, "../longFormStateInterventions.csv")
+
+
+write.csv(df, "../us-state-intervention-data/longFormStateInterventions.csv")
 
 dates <- seq.Date(from = ymd("2020-02-01"), to = ymd(format(Sys.time(), '%Y-%m-%d')), by =1) 
 
@@ -78,4 +82,4 @@ dfTS <- dfTS %>%
   mutate(Intervention_Score = prohibit_restaurants+ school_closure+ state_of_emergency + prohibit_gatherings)
 
 
-write.csv(dfTS, "../interventionTimeSeries.csv")
+write.csv(dfTS, "../us-state-intervention-data/interventionTimeSeries.csv")
