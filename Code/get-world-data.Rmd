@@ -135,7 +135,7 @@ World.wikipedia$Date <- format(Sys.time(), '%Y-%m-%d')
 
 World.wikipedia$Cases <- as.numeric(as.character(gsub(",","" , World.wikipedia$Cases)))
 
-World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="Netherlands[i]"), "Netherlands")
+World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="Netherlands[j]"), "Netherlands")
 
 
 dfNew <- bind_rows(df, World.wikipedia) %>% dplyr::select(Date, Country, Cases)
