@@ -62,7 +62,7 @@ Reads from wikipedia the number of fatalities from non-repatriated COVID-19 case
 
 <b>Metadata: </b> </br>
  Column name description of data file:
-- `Date` - Date correspondent to the number of cases
+- `Date` - Date correspondent to the number of fatalities
 - Columns 2-14: Western US states
 - Columns 15-27: Midwestern US states
 - Columns 28-39: Southern US states
@@ -70,8 +70,8 @@ Reads from wikipedia the number of fatalities from non-repatriated COVID-19 case
 - Column 52: GU: Guam, U.S territory
 - Column 53: PR: Puerto Rico, U.S territory
 - Column 54: VI: United States Virgin Islands, U.S territory
-- `Death_New`: Number of new death cases 
-- `Death_Cml`: Cumulative number of death cases
+- `Death_New`: Number of new fatalities
+- `Death_Cml`: Cumulative number of fatalities
 - `time_last_update`: day and time of last table update
 
 <b>Related subdirectory and/or files </b>
