@@ -21,7 +21,7 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 ## China 
 
 [China_TA](#china_ta): Travel advisories or restrictions within China. </br>
-
+[Hubei_Evacuation_Repatriation](#hubei_evacuation_repatriation): Reports of evacuations from Hubei province. </br>
 
 ## US data
 
@@ -32,7 +32,7 @@ us-state-intervention-data/longFormStateInterventions.csv: Running summary of in
 
 ## Global
 
-[China_TA](#international_ta): Travel advisories announced by county. </br>
+[Internation_TA](#international_ta): Travel advisories announced by county. </br>
 
 
 [Epidemiological characteristics of COVID-19 and other zoonotics](#epi_characteristics)</br>
@@ -136,6 +136,49 @@ us-state-intervention-data
 <b>Projects</b>  
 List/Link related projects  
 
+
+--- 
+ 
+
+
+## China_TA
+
+Travel advisories and restrictions implemented by the Chinese government. 
+
+*Metadata:* 
+- city:	see spatial taxonomy
+- prefecture:	see spatial taxonomy
+- province:	see spatial taxonomy
+- travel_advisor:	Government Branch/Level/Company
+- travel_restriction_date:	MM/DD/YY
+- strict_restriction:	interprefecture travel is blocked
+- notes:	details on type of travel restrition: full quarantine, transit regulations (spatial scale:interprefecture, interprovincial), or implementation of monitoring at entry/exit points
+- tr_source:	url link to reported travel restriction
+- Accessed_date:	Last date URL was accessed 
+- who_by:	initials of contributor
+
+
+
+## Hubei_Evacuation_Repatriation
+Reports of evacuations from Hubei province.
+
+<b>Metadata:</b> 
+ Column name description of data file:
+
+- country:	resident country
+- date_of_evac:	date evacuated
+- evacuees:	number of evacuees
+- screened:	observed for symptoms
+- tested:	tested for virus
+- positive:	number of positive cases confirmed
+- quarantine:	length of quarantine in days
+- location:	location of quarantine
+- comments:	
+- source:	source url
+- announcement_date:	date of announcement from source
+- contributor	
+- date_of_entry	
+
 ## International_TA
 
 This dataset contains travel restrictions enacted between China and various entities (countries, airlines, etc.) as well as other quarantines and travel restrictions enacted outside of China
@@ -163,23 +206,6 @@ This dataset contains travel restrictions enacted between China and various enti
 - tr_source2: url of additional source
 - accessed_date2: same as above
 - who_by2: same as above
-
-## China_TA
-
-Travel advisories and restrictions implemented by the Chinese government. 
-
-*Metadata:* 
-- city:	see spatial taxonomy
-- prefecture:	see spatial taxonomy
-- province:	see spatial taxonomy
-- travel_advisor:	Government Branch/Level/Company
-- travel_restriction_date:	MM/DD/YY
-- strict_restriction:	interprefecture travel is blocked
-- notes:	details on type of travel restrition: full quarantine, transit regulations (spatial scale:interprefecture, interprovincial), or implementation of monitoring at entry/exit points
-- tr_source:	url link to reported travel restriction
-- Accessed_date:	Last date URL was accessed 
-- who_by:	initials of contributor
-
 
 ## Epi_characteristics
 
@@ -391,6 +417,7 @@ This is a static data set.
 <b>Projects</b>
 
 List/Link related projects
+
 
 ## Data_name
 Here is some discription of how the data is collected, when it is normally updated, etc. 
