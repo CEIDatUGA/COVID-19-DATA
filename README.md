@@ -15,6 +15,8 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 ## Global
 [worldCases.csv](#worldcases): Number of new cases in a country by day. </br>
 
+---
+
 # Manual data sets
   These data sets were created by manually entering each line from various sources. 
 
