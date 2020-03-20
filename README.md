@@ -111,28 +111,17 @@ Here is some discription
  - [Early Intervention](https://github.com/CEIDatUGA/ncov-early-intervention)
  - [Spatial spread in China](https://github.com/CEIDatUGA/CoronavirusSpatial)
  
-## interventionTimeSeries
+## us-state-intervention-data
+
+This subfolder contains information on non-pharmaceutical interventions implemented at the state level, including school closures, state of emergency declarations, etc. 
 
 These data are scraped manually from [wikipedia entries](https://en.wikipedia.org/wiki/U.S._state_and_local_government_response_to_the_2020_coronavirus_pandemic) (housed on [this google sheet](https://docs.google.com/spreadsheets/d/1_mk1J3ElMH5EmPILcrx8s1KqHqdQYXCWroJeKTR3pV4/edit#gid=221668309)).
 
-Google sheet is downloaded here to longFormStateInterventions.csv daily and converted into a time series of intervention intensity interventionTimeSeries.csv.
 
-<b>Metadata:</b> 
-
-- `NAME`: Name of state
-- `DATE`: Date
-- `prohibit_restaurants`: Is the state government prohibiting restaurants from opening? (0/1)
-- `school_closure`: Has the government mandated that schools close or go online? (0/1)
-- `state_of_emergency`: Has a state of emergency been declared? (0/1)
-- `prohibit_gatherings`: Has the state government prohibited gatherings over a certain size? (0/1)
-- `gathering_size`: Maximum legal gathering size in state (NA if no gathering size instituted)
-- `Intervention Score`: Sum of first four metrics of intervention (0-4) 
- 
- 
-<b>Related subdirectory and/or files</b>
-
-<b>Projects</b>
-List/Link related projects
+<b>Related subdirectory and/or files</b>  
+us-state-intervention-data  
+<b>Projects</b>  
+List/Link related projects  
 
 ## Epi_characteristics
 
