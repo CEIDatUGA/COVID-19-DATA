@@ -27,15 +27,19 @@ table_cases <- read_table_from_web(webtext, xpath_cases)
 table_tests <- read_table_from_web(webtext, xpath_tests)
 date_reported <- str_extract(as.character(webtext), "[0-9]+\\/[0-9]+\\/[0-9]+")
 time_reported <- gsub("[\\(|\\)]", "",str_extract(as.character(webtext), "\\([0-9]+\\:[0-9]+ [a|p]m\\)"))
-df <- data.frame(date = as.Date(date_reported),
-                 time_reported = time_reported,
+df <- data.frame(date = as.factor(as.Date(parse_date_time(date_reported,"mdy"))),
+#df  <- data.frame(date = as.factor(date_reported),
+                time_reported = as.factor(time_reported),
                  cases_cumulative = as.numeric(str_extract(table_cases[1,2], "[0-9]+")), 
                  fatalities_cumulative = as.numeric(str_extract(table_cases[2,2], "[0-9]+")), 
-                 tests = sum(table_tests$'Total Tests'),
-                 source_cases = as.factor("https://dph.georgia.gov/covid-19-daily-status-report"))
+                 tests_cumulative = sum(table_tests$'Total Tests'),
+                 source_cases = url,
+                 source_fatalities = url,
+                 source_tests = url
+                 )
                 
 # Read existent status report table
-table <- read.csv("../GDPH_daily_status_report.csv", header = TRUE, stringsAsFactors = FALSE, na.strings = "")
+table <- read.csv("../GA_daily_status_report_GDPH.csv", header = TRUE, stringsAsFactors = FALSE, na.strings = "")
 table <- table[,-1]
 nrows <- dim(table)[1]
 
@@ -46,7 +50,7 @@ ifelse(identical(day, today()),
        table <- rbind(table, df) # if not, it will add the report for that day
        )
 
-write.csv(table, "../GDPH_daily_status_report.csv")
+write.csv(table, "../GA_daily_status_report_GDPH.csv")
 
 
 
