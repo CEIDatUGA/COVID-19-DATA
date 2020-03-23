@@ -117,7 +117,7 @@ df <- read.csv("../worldCases.csv")%>%
 url <- "https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory"
 World.wikipedia <- url %>%
   html() %>%
-  html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[6]/div[2]/table') %>%
+  html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[7]/div[2]/table') %>%
   html_table(fill = TRUE)
 World.wikipedia <- World.wikipedia[[1]]
 names(World.wikipedia) <- World.wikipedia[1,]
@@ -135,7 +135,13 @@ World.wikipedia$Date <- format(Sys.time(), '%Y-%m-%d')
 
 World.wikipedia$Cases <- as.numeric(as.character(gsub(",","" , World.wikipedia$Cases)))
 
-World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="Netherlands[k]"), "Netherlands")
+World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="Netherlands[l]"), "Netherlands")
+
+World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="United States[f]"), "United States")
+
+World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="Denmark[p][q]"), "Denmark")
+
+
 
 
 dfNew <- bind_rows(df, World.wikipedia) %>% dplyr::select(Date, Country, Cases)
