@@ -41,6 +41,7 @@ df  <- data.frame(date = as.character(date_reported),
 # Read existent status report table
 table <- read.csv("../GA_daily_status_report_GDPH.csv", header = TRUE, stringsAsFactors = FALSE, na.strings = "")
 table <- table[,-1]
+table$date <- unlist(lapply(table$date, function(x) format(as.Date(parse_date_time(x,"mdy")), format = "%m/%d/%y")))
 nrows <- dim(table)[1]              
 
 # if there is already an entry for that day, it will replace that row by the latest page update
