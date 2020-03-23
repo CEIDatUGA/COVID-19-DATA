@@ -18,7 +18,7 @@ fileNames <- c("23JAN2020","24JAN2020","25JAN2016","26JAN2034","27JAN2021","28JA
                "27FEB2003","28FEB1954","29FEB2041","01MAR2052","02MAR2019","03MAR2050","04MAR1931",
                "05MAR1957","06MAR1804","07MAR1753","08MAR2347","09MAR2106","10MAR1946","11MAR1939",
                "12MAR2339","13MAR2113","14MAR2336","15MAR1449","16MAR2031","17MAR2024","18MAR2037",
-               "19MAR2054","20MAR2210","21MAR1106")
+               "19MAR2054","20MAR2210","21MAR1106","22MAR2115")
 
 # loop through for all files 
 for(fileName in fileNames){ 
@@ -107,7 +107,7 @@ cleanTables <- c("23JAN","24JAN","25JAN","26JAN","27JAN","28JAN","29JAN",
                  "27FEB","28FEB","29FEB","01MAR","02MAR","03MAR","04MAR",
                  "05MAR","06MAR","07MAR","08MAR","09MAR","10MAR","11MAR",
                  "12MAR","13MAR","14MAR","15MAR","16MAR","17MAR","18MAR",
-                 "19MAR","20MAR","21MAR") 
+                 "19MAR","20MAR","21MAR","22MAR") 
 for(cleanTable in cleanTables){
 test <- read.csv(file = paste("China_casedata/dxy_data/clean-daily-tables/dxy_", cleanTable, "2020.csv", sep= "")) 
 # merge in adm info 
@@ -234,6 +234,7 @@ MAR18 <- read.csv(file = "China_casedata/dxy_data/clean-daily-tables/adm-verifie
 MAR19 <- read.csv(file = "China_casedata/dxy_data/clean-daily-tables/adm-verified/province_19MAR2020.csv")
 MAR20 <- read.csv(file = "China_casedata/dxy_data/clean-daily-tables/adm-verified/province_20MAR2020.csv")
 MAR21 <- read.csv(file = "China_casedata/dxy_data/clean-daily-tables/adm-verified/province_21MAR2020.csv")
+MAR22 <- read.csv(file = "China_casedata/dxy_data/clean-daily-tables/adm-verified/province_22MAR2020.csv")
 
 master_province <- rbind(JAN23,JAN24,JAN25,JAN26,JAN27,JAN28,JAN29,JAN30, 
                          JAN31,FEB01,FEB02,FEB03,FEB04,FEB05,FEB06,FEB07,
@@ -242,7 +243,7 @@ master_province <- rbind(JAN23,JAN24,JAN25,JAN26,JAN27,JAN28,JAN29,JAN30,
                          FEB24,FEB25,FEB26,FEB27,FEB28,FEB29,MAR01,MAR02,
                          MAR03,MAR04,MAR05,MAR06,MAR07,MAR08,MAR09,MAR10,
                          MAR11,MAR12,MAR13,MAR14,MAR15,MAR16,MAR17,MAR18,
-                         MAR19,MAR20,MAR21)
+                         MAR19,MAR20,MAR21,MAR22)
 master_province$X <- NULL
 master_province$X.1 <- NULL
 master_province <- unique(master_province)
@@ -322,6 +323,7 @@ MAR18 <- read.csv(file = "China_casedata/dxy_data/clean-daily-tables/adm-verifie
 MAR19 <- read.csv(file = "China_casedata/dxy_data/clean-daily-tables/adm-verified/prefecture_19MAR2020.csv")
 MAR20 <- read.csv(file = "China_casedata/dxy_data/clean-daily-tables/adm-verified/prefecture_20MAR2020.csv")
 MAR21 <- read.csv(file = "China_casedata/dxy_data/clean-daily-tables/adm-verified/prefecture_21MAR2020.csv")
+MAR22 <- read.csv(file = "China_casedata/dxy_data/clean-daily-tables/adm-verified/prefecture_22MAR2020.csv")
 
 master_prefecture <- rbind(JAN23,JAN24,JAN25,JAN26,JAN27,JAN28,JAN29,
                            JAN30,JAN31,FEB01,FEB02,FEB03,FEB04,FEB05,
@@ -331,7 +333,7 @@ master_prefecture <- rbind(JAN23,JAN24,JAN25,JAN26,JAN27,JAN28,JAN29,
                            FEB27,FEB28,FEB29,MAR01,MAR02,MAR03,MAR04,
                            MAR05,MAR06,MAR07,MAR08,MAR09,MAR10,MAR11,
                            MAR12,MAR13,MAR14,MAR15,MAR16,MAR17,MAR18,
-                           MAR19,MAR20,MAR21)
+                           MAR19,MAR20,MAR21,MAR22)
 master_prefecture$X <- NULL
 master_prefecture$X.1 <- NULL
 master_prefecture$DATE <- ifelse(str_sub(master_prefecture$DATE,8,10)  =="JAN", 
