@@ -39,6 +39,8 @@ us-state-intervention-data/longFormStateInterventions.csv: Running summary of in
 
 [Epidemiological characteristics of COVID-19 and other zoonotics](#epi_characteristics)</br>
 
+[Global Health Security Index](#GHSI_2019) </br>
+
 
 ----
 
