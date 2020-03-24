@@ -447,7 +447,8 @@ List/Link related projects
 
 
 ## GHSI_2019
-These data are taken from the global health security index website: https://www.ghsindex.org/. The GHSI is an expert derived metric of epidemic preparedness by country based on ~140 variables condensed into 8 categories and 1 overall score. These two sheets include all of those data
+These data are taken from the global health security index website: https://www.ghsindex.org/. The GHSI is an expert derived metric of epidemic preparedness by country based on ~140 variables condensed into 8 categories and 1 overall score. These two sheets include all of those data.
+
 <b>Metadata:</b> 
 
 These files have a nested naming structure of their columns:
