@@ -156,194 +156,195 @@
 "155","Mississippi","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,NA,NA,"https://www.wlbt.com/2020/03/16/were-this-together-governor-meets-with-coronavirus-task-force/",NA,NA,NA,2020-03-18,"ARW",2020-03-18
 "156","Mississippi","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
 "157","Mississippi","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-17,2020-03-17,2020-05-17,"https://www.msema.org/news/mississippi-supreme-court-signs-emergency-order-in-response-to-covid-19/",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"158","Mississippi","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"159","Missouri","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"160","Missouri","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://governor.mo.gov/press-releases/archive/governor-parson-signs-executive-order-20-02-declaring-state-emergency",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"161","Missouri","government","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"162","Missouri","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"163","Missouri","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-15,NA,NA,"https://governor.mo.gov/press-releases/archive/governor-parsons-statement-regarding-cdc-recommendations-mass-gatherings-and",50,NA,NA,2020-03-18,"ARW",2020-03-18
-"164","Missouri","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"165","Montana","government","ADM1",NA,NA,"government","state of emergency",2020-03-12,NA,NA,"https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"166","Montana","government","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-16,2020-03-27,"https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"167","Montana","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"168","Montana","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"169","Montana","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"170","Nebraska","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://governor.nebraska.gov/press/gov-ricketts-issues-emergency-declaration-covid-19",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"171","Nebraska","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,NA,NA,"https://www.dropbox.com/s/q3c2qjc1d0gpe4d/COVID-19%20Events%2C%20Public%20Gatherings%2C%20and%20Schools%20Guidance.pdf?dl=0",NA,NA,"dynamic approch based on district community transmission, no start or end date",2020-03-18,"ARW",2020-03-18
-"172","Nebraska","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-13,NA,NA,"https://www.dropbox.com/s/q3c2qjc1d0gpe4d/COVID-19%20Events%2C%20Public%20Gatherings%2C%20and%20Schools%20Guidance.pdf?dl=0",250,NA,NA,2020-03-18,"ARW",2020-03-18
-"173","Nebraska","government","ADM1",NA,NA,"government","prohibit_business",2020-03-16,NA,NA,"https://governor.nebraska.gov/press/gov-ricketts-further-limits-events-gatherings-prevent-covid-19-spread",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"174","Nebraska","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-16,NA,NA,"https://governor.nebraska.gov/press/gov-ricketts-further-limits-events-gatherings-prevent-covid-19-spread",50,NA,NA,2020-03-18,"ARW",2020-03-18
-"175","Nebraska","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"176","Nevada","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"177","Nevada","government","ADM1",NA,NA,"government","state of emergency",2020-03-12,NA,NA,"https://nvhealthresponse.nv.gov/wp-content/uploads/2020/03/NV-Health-Response-COVID19.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"178","Nevada","government","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-16,2020-04-06,"https://www.facebook.com/KTNVLasVegas/videos/2517303431871832/",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"179","Nevada","government","ADM1",NA,NA,"government","prohibit_business",2020-03-17,NA,2020-04-16,"https://nvhealthresponse.nv.gov/wp-content/uploads/2020/03/NV-Health-Response-COVID19.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"180","Nevada","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-17,NA,NA,"https://nvhealthresponse.nv.gov/wp-content/uploads/2020/03/NV-Health-Response-COVID19.pdf",2,NA,"all gatherings with non-household individuals prohibited",2020-03-18,"ARW",2020-03-18
-"181","Nevada","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"182","New Hampshire","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"183","New Hampshire","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.governor.nh.gov/news-media/press-2020/2020313-eo-2020-04.htm",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"184","New Hampshire","government","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-16,2020-04-03,"https://www.governor.nh.gov/news-media/press-2020/20200315-emergency-order-1.html",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"185","New Hampshire","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"186","New Hampshire","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-16,2020-03-16,2020-04-07,"https://www.governor.nh.gov/news-media/press-2020/20200316-covid-10-businesses.htm",50,NA,NA,2020-03-18,"ARW",2020-03-18
-"187","New Hampshire","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"188","New Jersey","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"189","New Jersey","government","ADM1",NA,NA,"government","state of emergency",2020-03-09,NA,NA,"https://nj.gov/infobank/eo/056murphy/pdf/EO-103.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"190","New Jersey","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,2020-03-16,NA,"https://www.nj.gov/governor/news/news/562020/approved/20200316c.shtml",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"191","New Jersey","government","ADM1",NA,NA,"government","prohibit_business",2020-03-16,NA,NA,"https://www.nj.gov/governor/news/news/562020/approved/20200316c.shtml",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"192","New Jersey","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-16,2020-03-16,NA,"https://www.nj.gov/governor/news/news/562020/approved/20200316c.shtml",50,NA,NA,2020-03-18,"ARW",2020-03-18
-"193","New Jersey","government","ADM1",NA,NA,"government","shelter_in_place",2020-03-20,2020-03-21,NA,"https://nj.gov/infobank/eo/056murphy/pdf/EO-107.pdf",NA,NA,NA,NA,"ARW",2020-03-18
-"194","New Mexico","government","ADM1",NA,NA,"government","state of emergency",2020-03-11,NA,NA,"https://www.newmexico.gov/2020/03/17/open-government-division-advisory-during-covid-19-state-of-public-health-emergency/",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"195","New Mexico","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-16,2020-04-06,"https://www.governor.state.nm.us/wp-content/uploads/2020/03/Executive-Order-2020-005.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-21
-"196","New Mexico","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"197","New Mexico","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"198","New Mexico","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"199","New York","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"200","New York","government","ADM1",NA,NA,"government","state of emergency",2020-03-07,NA,NA,"https://www.nytimes.com/2020/03/07/nyregion/coronavirus-new-york-queens.html",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"201","New York","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,2020-03-18,2020-04-01,"https://www.governor.ny.gov/news/governor-cuomo-signs-executive-order-closing-schools-statewide-two-weeks",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"202","New York","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"203","New York","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-12,2020-03-13,NA,"https://www.governor.ny.gov/news/during-novel-coronavirus-briefing-governor-cuomo-announces-new-mass-gatherings-regulations",500,NA,NA,2020-03-18,"TCO",2020-03-18
-"204","New York","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
-"205","North Carolina","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"206","North Carolina","government","ADM1",NA,NA,"government","state of emergency",2020-03-10,NA,NA,"https://wlos.com/news/local/gov-cooper-members-of-coronavirus-task-force-to-hold-a-media-briefing-on-covid-19",NA,NA,"public health emergency",2020-03-18,"TCO",2020-03-18
-"207","North Carolina","government","ADM1",NA,NA,"government","non-contact school",2020-03-14,NA,NA,"https://files.nc.gov/governor/documents/files/EO117-COVID-19-Prohibiting-Mass-Gathering-and-K12-School-Closure.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"208","North Carolina","government","ADM1",NA,NA,"government","prohibit_restaurants",2020-03-17,2020-03-17,2020-03-31,"https://files.nc.gov/governor/documents/files/EO118.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"209","North Carolina","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-14,2020-03-16,2020-03-30,"https://files.nc.gov/governor/documents/files/EO117-COVID-19-Prohibiting-Mass-Gathering-and-K12-School-Closure.pdf",100,NA,NA,2020-03-18,"ARW",2020-03-18
-"210","North Carolina","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"211","North Dakota","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"212","North Dakota","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.kxnet.com/news/top-stories/governor-burgum-declares-state-of-emergency-for-north-dakota/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"213","North Dakota","government","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-16,2020-03-20,"https://www.health.nd.gov/news/burgum-orders-k-12-schools-close-one-week-effort-slow-spread-covid-19",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"214","North Dakota","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"215","North Dakota","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"216","North Dakota","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"217","Ohio","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"218","Ohio","government","ADM1",NA,NA,"government","state of emergency",2020-03-03,NA,NA,"https://www.10tv.com/article/3-confirmed-cases-coronavirus-ohio-dewine-declares-state-emergency-2020-mar",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"219","Ohio","government","ADM1",NA,NA,"government","non-contact school",2020-03-12,2020-03-16,2020-04-03,"https://ohio.gov/wps/portal/gov/site/media-center/news-and-events/announces-school-closures",NA,NA,NA,2020-03-18,"ARW",2020-03-18
-"220","Ohio","government","ADM1",NA,NA,"government","prohibit_business",2020-03-15,2020-03-15,NA,"https://thehill.com/policy/healthcare/487684-illinois-ohio-closing-all-bars-restaurants-in-response-to-coronavirus",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"221","Ohio","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-12,2020-03-12,NA,"https://ohio.gov/wps/portal/gov/site/media-center/news-and-events/bans-mass-gatherings-of-100-or-more",100,NA,NA,2020-03-18,"ARW",2020-03-18
-"222","Ohio","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"223","Oklahoma","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"224","Oklahoma","government","ADM1",NA,NA,"government","state of emergency",2020-03-15,NA,NA,"http://www.sos.ok.gov/documents/executive/1913.pdf",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"225","Oklahoma","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,2020-03-17,2020-04-06,"https://oklahoman.com/article/5657756/all-oklahoma-public-schools-expected-to-close",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"226","Oklahoma","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"227","Oklahoma","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"228","Oklahoma","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"229","Oregon","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"230","Oregon","government","ADM1",NA,"Office of the Governor of the State of Oregon","government","state of emergency",2020-03-08,NA,NA,"https://www.oregon.gov/gov/Documents/executive_orders/eo_20-03.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
-"231","Oregon","government","ADM1",NA,"Office of the Governor of the State of Oregon","government","non-contact school",2020-03-12,2020-03-16,2020-03-31,"https://www.oregon.gov/gov/Documents/executive_orders/eo_20-08.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
-"232","Oregon","government","ADM1",NA,"Office of the Governor of the State of Oregon","government","prohibit_business",2020-03-16,2020-03-17,NA,"https://www.oregon.gov/gov/Documents/executive_orders/eo_20-07.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
-"233","Oregon","government","ADM1",NA,"Office of the Governor of the State of Oregon","government","gathering_size_limited",2020-03-12,2020-03-16,NA,"https://www.oregon.gov/gov/Documents/executive_orders/eo_20-05.pdf",250,NA,NA,2020-03-21,"ARW",2020-03-21
-"234","Oregon","government","ADM1",NA,"Office of the Governor of the State of Oregon","government","gathering_size_limited",2020-03-16,2020-03-17,NA,"https://www.oregon.gov/gov/Documents/executive_orders/eo_20-07.pdf",25,NA,NA,2020-03-21,"ARW",2020-03-21
-"235","Oregon","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"236","Pennsylvania","government","ADM1",NA,NA,"government","first",2020-02-28,NA,NA,"https://www.education.pa.gov/Schools/safeschools/emergencyplanning/COVID-19/messages/Pages/February28.aspx",NA,NA,NA,2020-03-21,"ARW",2020-03-21
-"237","Pennsylvania","government","ADM1",NA,NA,"government","state of emergency",2020-03-06,NA,NA,"https://www.governor.pa.gov/newsroom/gov-wolf-signs-covid-19-disaster-declaration-to-provide-increased-support-for-state-response/",NA,NA,NA,2020-03-21,"ARW",2020-03-21
-"238","Pennsylvania","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-16,2020-03-27,"https://www.education.pa.gov/Schools/safeschools/emergencyplanning/COVID-19/messages/Pages/March-14,-2020.aspx",NA,NA,NA,2020-03-21,"ARW",2020-03-18
-"239","Pennsylvania","government","ADM1",NA,NA,"government","prohibit_business",2020-03-19,2020-03-19,NA,"https://www.governor.pa.gov/wp-content/uploads/2020/03/20200319-TWW-COVID-19-business-closure-order.pdf",NA,NA,"close all nonessential commercial businesses",2020-03-21,"ARW",2020-03-21
-"240","Pennsylvania","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"241","Pennsylvania","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"242","Rhode Island","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"243","Rhode Island","government","ADM1",NA,NA,"government","state of emergency",2020-03-09,NA,NA,"https://www.providencejournal.com/news/20200309/raimondo-declares-state-of-emergency-in-ri-over-coronavirus",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"244","Rhode Island","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,NA,NA,"https://www.wpri.com/health/coronavirus/friday-afternoon-coronavirus-update-rhode-island/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"245","Rhode Island","government","ADM1",NA,NA,"government","prohibit_business",2020-03-17,NA,NA,"https://www.providencejournal.com/news/20200316/raimondo-shutting-dine-in-restaurants-bars-for-2-weeks-rsquocommunity-spreadrsquo-of-virus-now-seen-in-ri",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"246","Rhode Island","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-17,NA,NA,"https://www.providencejournal.com/news/20200316/raimondo-shutting-dine-in-restaurants-bars-for-2-weeks-rsquocommunity-spreadrsquo-of-virus-now-seen-in-ri",25,NA,NA,2020-03-18,"TCO",2020-03-18
-"247","Rhode Island","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"248","South Carolina","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"249","South Carolina","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.thestate.com/news/local/article241171426.html",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"250","South Carolina","government","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-16,NA,"https://www.wistv.com/2020/03/15/sc-governor-closes-all-schools-recommends-all-large-gatherings-canceled-number-coronavirus-cases-rises/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"251","South Carolina","government","ADM1",NA,NA,"government","prohibit_business",2020-03-17,2020-03-18,NA,"https://www.wfae.org/post/sc-governor-places-restrictions-bars-and-restaurants-slow-coronavirus-spread",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"252","South Carolina","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-17,NA,NA,"https://www.wfae.org/post/sc-governor-places-restrictions-bars-and-restaurants-slow-coronavirus-spread",25,NA,NA,2020-03-18,"TCO",2020-03-18
-"253","South Carolina","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"254","South Dakota","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"255","South Dakota","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.keloland.com/news/healthbeat/coronavirus/friday-covid-19-south-dakota-update-1-more-positive-case/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"256","South Dakota","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-16,2020-03-20,"https://doe.sd.gov/coronavirus/",NA,NA,NA,2020-03-21,"ARW",2020-03-21
-"257","South Dakota","government","ADM1",NA,NA,"government","non-contact school",2020-03-17,2020-03-16,2020-03-27,NA,NA,NA,NA,NA,NA,NA
-"258","South Dakota","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"259","South Dakota","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"260","South Dakota","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"261","Tennessee","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"262","Tennessee","government","ADM1",NA,NA,"government","state of emergency",2020-03-12,NA,NA,"https://www.tn.gov/governor/news/2020/3/12/gov--bill-lee-issues-executive-order-declaring-state-of-emergency-in-response-to-covid-19.html",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"263","Tennessee","government","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"264","Tennessee","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"265","Tennessee","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"266","Tennessee","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"267","Texas","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"268","Texas","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.texastribune.org/2020/03/13/texas-coronavirus-cases-state-emergency-greg-abbott/",NA,NA,"state of disaster",2020-03-18,"TCO",2020-03-18
-"269","Texas","government","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"270","Texas","government","ADM1",NA,"Governor of the State of Texas","government","prohibit_business",2020-03-19,2020-03-20,2020-04-03,"https://gov.texas.gov/uploads/files/press/EO-GA_08_COVID-19_preparedness_and_mitigation_FINAL_03-19-2020_1.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
-"271","Texas","government","ADM1",NA,"Governor of the State of Texas","government","gathering_size_limited",2020-03-19,2020-03-20,2020-04-03,"https://gov.texas.gov/uploads/files/press/EO-GA_08_COVID-19_preparedness_and_mitigation_FINAL_03-19-2020_1.pdf",10,NA,NA,2020-03-21,"ARW",2020-03-21
-"272","Texas","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,2020-03-21,"ARW",2020-03-21
-"273","Utah","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"274","Utah","government","ADM1",NA,NA,"government","state of emergency",NA,NA,NA,"https://coronavirus.utah.gov/",NA,NA,NA,NA,"TCO",2020-03-18
-"275","Utah","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-13,NA,"https://www.ksl.com/article/46729951/utah-public-schools-enact-soft-closure-for-2-weeks-amid-covid-19-outbreak",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"276","Utah","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"277","Utah","news","ADM1",NA,NA,"government","gathering_size_limited",2020-03-12,NA,NA,"https://www.deseret.com/utah/2020/3/12/21176793/coronavirus-covid-19-lds-mormon-church-utah-gatherings-schools-closed-online-herbert",100,NA,NA,2020-03-18,"TCO",2020-03-18
-"278","Utah","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"279","Vermont","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"280","Vermont","news","ADM1",NA,NA,"government","state of emergency",2020-03-15,NA,NA,"https://www.sevendaysvt.com/OffMessage/archives/2020/03/13/governor-scott-declares-state-of-emergency-in-vermont",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"281","Vermont","news","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-18,2020-04-06,"https://vtdigger.org/2020/03/15/scott-orders-schools-to-close/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"282","Vermont","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"283","Vermont","news","ADM1",NA,NA,"government","gathering_size_limited",2020-03-15,NA,NA,"https://www.sevendaysvt.com/OffMessage/archives/2020/03/13/governor-scott-declares-state-of-emergency-in-vermont",250,NA,NA,2020-03-18,"TCO",2020-03-18
-"284","Vermont","news","ADM1",NA,NA,"government","gathering_size_limited",2020-03-16,NA,NA,"https://vtdigger.org/2020/03/16/vermont-now-up-to-12-coronavirus-cases-scott-administration-says/",50,NA,NA,2020-03-18,"TCO",2020-03-18
-"285","Vermont","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"286","Virginia","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"287","Virginia","news","ADM1",NA,NA,"government","state of emergency",2020-03-12,NA,NA,"https://wtop.com/coronavirus/2020/03/maryland-virginia-sees-jump-in-coronavirus-cases/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"288","Virginia","news","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"289","Virginia","news","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,2020-03-18,"TCO",2020-03-18
-"290","Virginia","news","ADM1",NA,NA,"government","gathering_size_limited",2020-03-17,NA,NA,"https://wtop.com/coronavirus/2020/03/maryland-virginia-sees-jump-in-coronavirus-cases/",10,NA,NA,2020-03-18,"TCO",NA
-"291","Virginia","news","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"292","Washington","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"293","Washington","news","ADM1",NA,NA,"government","state of emergency",2020-02-29,NA,NA,"https://www.forbes.com/sites/rachelsandler/2020/02/29/washington-state-reports-1st-us-coronavirus-death-declares-statewide-emergency/#84207b118f0a",NA,NA,NA,2020-03-18,"TCO",NA
-"294","Washington","news","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-17,2020-04-24,"https://www.seattletimes.com/education-lab/inslee-announces-all-washington-k-12-schools-to-close-in-an-effort-to-slow-the-spread-of-coronavirus/",NA,NA,NA,2020-03-18,"TCO",NA
-"295","Washington","news","ADM1",NA,NA,"government","prohibit_business",2020-03-15,NA,NA,"https://www.usatoday.com/story/news/nation/2020/03/15/coronavirus-bars-restaurants-closed-states/5055634002/",NA,NA,NA,2020-03-18,"TCO",NA
-"296","Washington","news","ADM1",NA,NA,"government","gathering_size_limited",2020-03-13,NA,NA,"https://www.seattletimes.com/education-lab/inslee-announces-all-washington-k-12-schools-to-close-in-an-effort-to-slow-the-spread-of-coronavirus/",250,NA,NA,2020-03-18,"TCO",NA
-"297","Washington","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"298","West Virginia","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"299","West Virginia","government","ADM1",NA,NA,"government","state of emergency",2020-03-16,NA,NA,"https://www.axios.com/coronavirus-west-virginia-only-state-no-case-ac32ce6d-5523-4310-a219-7d1d1dcb6b44.html",NA,NA,NA,2020-03-18,"TCO",NA
-"300","West Virginia","government","ADM1",NA,NA,"government","non-contact school",2020-03-14,NA,NA,"https://www.nytimes.com/2020/03/14/us/weve-got-a-monster-thats-looming-west-virginia-is-the-last-state-without-a-coronavirus-case.html",NA,NA,NA,2020-03-18,"TCO",NA
-"301","West Virginia","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"302","West Virginia","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"303","West Virginia","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"304","Wisconsin","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"305","Wisconsin","news","ADM1",NA,NA,"government","state of emergency",2020-03-12,NA,NA,"https://www.jsonline.com/story/news/politics/2020/03/12/coronavirus-wisconsin-gov-tony-evers-declares-health-emerency/5030830002/",NA,NA,NA,2020-03-18,"TCO",NA
-"306","Wisconsin","news","ADM1",NA,NA,"government","non-contact school",2020-03-13,NA,2020-04-05,"https://www.jsonline.com/story/news/education/2020/03/13/wisconsin-closes-schools-under-state-order-during-coronavirus-spread-covid-19-closing/5041184002/",NA,NA,NA,2020-03-18,"TCO",NA
-"307","Wisconsin","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"308","Wisconsin","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"309","Wisconsin","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"310","Wyoming","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"311","Wyoming","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://trib.com/news/state-and-regional/health/governor-declares-state-of-emergency-in-wyoming/article_e1f8e089-0b84-574f-b1af-114f78d734c7.html",NA,NA,NA,2020-03-18,"TCO",NA
-"312","Wyoming","news","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"313","Wyoming","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"314","Wyoming","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
-"315","Wyoming","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"316","American Samoa","government","ADM1",NA,NA,"government","first",2020-03-13,NA,NA,"https://6fe16cc8-c42f-411f-9950-4abb1763c703.filesusr.com/ugd/4bfff9_8201b0412f8d4e9ea6f32116ee883b29.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
-"317","American Samoa","government","ADM1",NA,NA,"government","state of emergency",2020-03-18,NA,NA,"https://6fe16cc8-c42f-411f-9950-4abb1763c703.filesusr.com/ugd/4bfff9_cb729fc321ce409cbb5b8557ab7281a0.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
-"318","American Samoa","government","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"319","American Samoa","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"320","American Samoa","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"321","American Samoa","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"322","Puerto Rico","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"323","Puerto Rico","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://caribbeanbusiness.com/puerto-rico-governor-declares-state-of-emergency-to-fight-covid-19-spread/",NA,NA,NA,2020-03-18,"ARW",NA
-"324","Puerto Rico","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-16,2020-03-31,"https://caribbeanbusiness.com/puerto-rico-governor-declares-state-of-emergency-to-fight-covid-19-spread/",NA,NA,NA,2020-03-18,"ARW",NA
-"325","Puerto Rico","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"326","Puerto Rico","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"327","Puerto Rico","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"328","Guam","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"329","Guam","government","ADM1",NA,NA,"government","state of emergency",2020-03-14,NA,NA,"http://dphss.guam.gov/wp-content/uploads/2020/03/COVID19-EO.pdf.pdf",NA,NA,NA,2020-03-19,"ARW",NA
-"330","Guam","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,2020-03-16,2020-03-30,"http://dphss.guam.gov/wp-content/uploads/2020/03/EO-2020-05-Relative-to-Mandating-Social-Isolation-Lifting-Restrictions-on-Health-Care-Licensure-and-Clarifying-Status-of-Non-Essential-Government-of-Guam-Operations.pdf.pdf.pdf.pdf",NA,NA,NA,2020-03-19,"ARW",NA
-"331","Guam","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,50,NA,NA,NA,NA,NA
-"332","Guam","government","ADM1",NA,NA,"government","mandatory_traveler_quarantine",2020-03-18,NA,NA,"http://dphss.guam.gov/wp-content/uploads/2020/03/JIC-Release-No.-11-Travel-Guidance-and-Quarantine-Protocol-in-Accordance-with-Governor%E2%80%99s-Executive-Order.docx.pdf.pdf",NA,NA,NA,2020-03-19,"ARW",NA
-"333","Guam","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-16,2020-03-16,2020-03-30,"http://dphss.guam.gov/wp-content/uploads/2020/03/EO-2020-05-Relative-to-Mandating-Social-Isolation-Lifting-Restrictions-on-Health-Care-Licensure-and-Clarifying-Status-of-Non-Essential-Government-of-Guam-Operations.pdf.pdf.pdf.pdf",NA,NA,NA,2020-03-19,"ARW",NA
-"334","Guam","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
-"335","Northern Mariana Islands","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"336","Northern Mariana Islands","government","ADM1",NA,NA,"government","state of emergency",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"337","Northern Mariana Islands","government","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"338","Northern Mariana Islands","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"339","Northern Mariana Islands","government","ADM1",NA,NA,"government","mandatory_traveler_quarantine",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"340","Northern Mariana Islands","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"341","Northern Mariana Islands","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"342","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"343","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.vi.gov/u-s-virgin-islands-closes-schools-to-avert-spread-of-covid-19/",NA,NA,NA,2020-03-19,"ARW",NA
-"344","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,2020-03-16,NA,"https://www.vi.gov/u-s-virgin-islands-closes-schools-to-avert-spread-of-covid-19/",NA,NA,NA,2020-03-19,"ARW",NA
-"345","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"346","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","mandatory_traveler_quarantine",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"347","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"348","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"158","Mississippi","government","ADM1",NA,NA,"government",NA,2020-03-23,NA,NA,"https://www.msema.org/news/covid-19-preventive-recommendations/",NA,"testing_advances",NA,NA,NA,NA
+"159","Mississippi","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"160","Missouri","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"161","Missouri","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://governor.mo.gov/press-releases/archive/governor-parson-signs-executive-order-20-02-declaring-state-emergency",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"162","Missouri","government","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"163","Missouri","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"164","Missouri","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-15,NA,NA,"https://governor.mo.gov/press-releases/archive/governor-parsons-statement-regarding-cdc-recommendations-mass-gatherings-and",50,NA,NA,2020-03-18,"ARW",2020-03-18
+"165","Missouri","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"166","Montana","government","ADM1",NA,NA,"government","state of emergency",2020-03-12,NA,NA,"https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"167","Montana","government","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-16,2020-03-27,"https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"168","Montana","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"169","Montana","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"170","Montana","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"171","Nebraska","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://governor.nebraska.gov/press/gov-ricketts-issues-emergency-declaration-covid-19",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"172","Nebraska","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,NA,NA,"https://www.dropbox.com/s/q3c2qjc1d0gpe4d/COVID-19%20Events%2C%20Public%20Gatherings%2C%20and%20Schools%20Guidance.pdf?dl=0",NA,NA,"dynamic approch based on district community transmission, no start or end date",2020-03-18,"ARW",2020-03-18
+"173","Nebraska","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-13,NA,NA,"https://www.dropbox.com/s/q3c2qjc1d0gpe4d/COVID-19%20Events%2C%20Public%20Gatherings%2C%20and%20Schools%20Guidance.pdf?dl=0",250,NA,NA,2020-03-18,"ARW",2020-03-18
+"174","Nebraska","government","ADM1",NA,NA,"government","prohibit_business",2020-03-16,NA,NA,"https://governor.nebraska.gov/press/gov-ricketts-further-limits-events-gatherings-prevent-covid-19-spread",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"175","Nebraska","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-16,NA,NA,"https://governor.nebraska.gov/press/gov-ricketts-further-limits-events-gatherings-prevent-covid-19-spread",50,NA,NA,2020-03-18,"ARW",2020-03-18
+"176","Nebraska","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"177","Nevada","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"178","Nevada","government","ADM1",NA,NA,"government","state of emergency",2020-03-12,NA,NA,"https://nvhealthresponse.nv.gov/wp-content/uploads/2020/03/NV-Health-Response-COVID19.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"179","Nevada","government","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-16,2020-04-06,"https://www.facebook.com/KTNVLasVegas/videos/2517303431871832/",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"180","Nevada","government","ADM1",NA,NA,"government","prohibit_business",2020-03-17,NA,2020-04-16,"https://nvhealthresponse.nv.gov/wp-content/uploads/2020/03/NV-Health-Response-COVID19.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"181","Nevada","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-17,NA,NA,"https://nvhealthresponse.nv.gov/wp-content/uploads/2020/03/NV-Health-Response-COVID19.pdf",2,NA,"all gatherings with non-household individuals prohibited",2020-03-18,"ARW",2020-03-18
+"182","Nevada","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"183","New Hampshire","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"184","New Hampshire","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.governor.nh.gov/news-media/press-2020/2020313-eo-2020-04.htm",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"185","New Hampshire","government","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-16,2020-04-03,"https://www.governor.nh.gov/news-media/press-2020/20200315-emergency-order-1.html",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"186","New Hampshire","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"187","New Hampshire","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-16,2020-03-16,2020-04-07,"https://www.governor.nh.gov/news-media/press-2020/20200316-covid-10-businesses.htm",50,NA,NA,2020-03-18,"ARW",2020-03-18
+"188","New Hampshire","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"189","New Jersey","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"190","New Jersey","government","ADM1",NA,NA,"government","state of emergency",2020-03-09,NA,NA,"https://nj.gov/infobank/eo/056murphy/pdf/EO-103.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"191","New Jersey","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,2020-03-16,NA,"https://www.nj.gov/governor/news/news/562020/approved/20200316c.shtml",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"192","New Jersey","government","ADM1",NA,NA,"government","prohibit_business",2020-03-16,NA,NA,"https://www.nj.gov/governor/news/news/562020/approved/20200316c.shtml",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"193","New Jersey","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-16,2020-03-16,NA,"https://www.nj.gov/governor/news/news/562020/approved/20200316c.shtml",50,NA,NA,2020-03-18,"ARW",2020-03-18
+"194","New Jersey","government","ADM1",NA,NA,"government","shelter_in_place",2020-03-20,2020-03-21,NA,"https://nj.gov/infobank/eo/056murphy/pdf/EO-107.pdf",NA,NA,NA,NA,"ARW",2020-03-18
+"195","New Mexico","government","ADM1",NA,NA,"government","state of emergency",2020-03-11,NA,NA,"https://www.newmexico.gov/2020/03/17/open-government-division-advisory-during-covid-19-state-of-public-health-emergency/",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"196","New Mexico","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-16,2020-04-06,"https://www.governor.state.nm.us/wp-content/uploads/2020/03/Executive-Order-2020-005.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-21
+"197","New Mexico","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"198","New Mexico","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"199","New Mexico","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"200","New York","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"201","New York","government","ADM1",NA,NA,"government","state of emergency",2020-03-07,NA,NA,"https://www.nytimes.com/2020/03/07/nyregion/coronavirus-new-york-queens.html",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"202","New York","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,2020-03-18,2020-04-01,"https://www.governor.ny.gov/news/governor-cuomo-signs-executive-order-closing-schools-statewide-two-weeks",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"203","New York","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"204","New York","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-12,2020-03-13,NA,"https://www.governor.ny.gov/news/during-novel-coronavirus-briefing-governor-cuomo-announces-new-mass-gatherings-regulations",500,NA,NA,2020-03-18,"TCO",2020-03-18
+"205","New York","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-18
+"206","North Carolina","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"207","North Carolina","government","ADM1",NA,NA,"government","state of emergency",2020-03-10,NA,NA,"https://wlos.com/news/local/gov-cooper-members-of-coronavirus-task-force-to-hold-a-media-briefing-on-covid-19",NA,NA,"public health emergency",2020-03-18,"TCO",2020-03-18
+"208","North Carolina","government","ADM1",NA,NA,"government","non-contact school",2020-03-14,NA,NA,"https://files.nc.gov/governor/documents/files/EO117-COVID-19-Prohibiting-Mass-Gathering-and-K12-School-Closure.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"209","North Carolina","government","ADM1",NA,NA,"government","prohibit_restaurants",2020-03-17,2020-03-17,2020-03-31,"https://files.nc.gov/governor/documents/files/EO118.pdf",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"210","North Carolina","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-14,2020-03-16,2020-03-30,"https://files.nc.gov/governor/documents/files/EO117-COVID-19-Prohibiting-Mass-Gathering-and-K12-School-Closure.pdf",100,NA,NA,2020-03-18,"ARW",2020-03-18
+"211","North Carolina","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"212","North Dakota","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"213","North Dakota","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.kxnet.com/news/top-stories/governor-burgum-declares-state-of-emergency-for-north-dakota/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"214","North Dakota","government","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-16,2020-03-20,"https://www.health.nd.gov/news/burgum-orders-k-12-schools-close-one-week-effort-slow-spread-covid-19",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"215","North Dakota","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"216","North Dakota","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"217","North Dakota","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"218","Ohio","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"219","Ohio","government","ADM1",NA,NA,"government","state of emergency",2020-03-03,NA,NA,"https://www.10tv.com/article/3-confirmed-cases-coronavirus-ohio-dewine-declares-state-emergency-2020-mar",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"220","Ohio","government","ADM1",NA,NA,"government","non-contact school",2020-03-12,2020-03-16,2020-04-03,"https://ohio.gov/wps/portal/gov/site/media-center/news-and-events/announces-school-closures",NA,NA,NA,2020-03-18,"ARW",2020-03-18
+"221","Ohio","government","ADM1",NA,NA,"government","prohibit_business",2020-03-15,2020-03-15,NA,"https://thehill.com/policy/healthcare/487684-illinois-ohio-closing-all-bars-restaurants-in-response-to-coronavirus",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"222","Ohio","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-12,2020-03-12,NA,"https://ohio.gov/wps/portal/gov/site/media-center/news-and-events/bans-mass-gatherings-of-100-or-more",100,NA,NA,2020-03-18,"ARW",2020-03-18
+"223","Ohio","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"224","Oklahoma","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"225","Oklahoma","government","ADM1",NA,NA,"government","state of emergency",2020-03-15,NA,NA,"http://www.sos.ok.gov/documents/executive/1913.pdf",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"226","Oklahoma","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,2020-03-17,2020-04-06,"https://oklahoman.com/article/5657756/all-oklahoma-public-schools-expected-to-close",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"227","Oklahoma","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"228","Oklahoma","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"229","Oklahoma","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"230","Oregon","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"231","Oregon","government","ADM1",NA,"Office of the Governor of the State of Oregon","government","state of emergency",2020-03-08,NA,NA,"https://www.oregon.gov/gov/Documents/executive_orders/eo_20-03.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
+"232","Oregon","government","ADM1",NA,"Office of the Governor of the State of Oregon","government","non-contact school",2020-03-12,2020-03-16,2020-03-31,"https://www.oregon.gov/gov/Documents/executive_orders/eo_20-08.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
+"233","Oregon","government","ADM1",NA,"Office of the Governor of the State of Oregon","government","prohibit_business",2020-03-16,2020-03-17,NA,"https://www.oregon.gov/gov/Documents/executive_orders/eo_20-07.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
+"234","Oregon","government","ADM1",NA,"Office of the Governor of the State of Oregon","government","gathering_size_limited",2020-03-12,2020-03-16,NA,"https://www.oregon.gov/gov/Documents/executive_orders/eo_20-05.pdf",250,NA,NA,2020-03-21,"ARW",2020-03-21
+"235","Oregon","government","ADM1",NA,"Office of the Governor of the State of Oregon","government","gathering_size_limited",2020-03-16,2020-03-17,NA,"https://www.oregon.gov/gov/Documents/executive_orders/eo_20-07.pdf",25,NA,NA,2020-03-21,"ARW",2020-03-21
+"236","Oregon","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"237","Pennsylvania","government","ADM1",NA,NA,"government","first",2020-02-28,NA,NA,"https://www.education.pa.gov/Schools/safeschools/emergencyplanning/COVID-19/messages/Pages/February28.aspx",NA,NA,NA,2020-03-21,"ARW",2020-03-21
+"238","Pennsylvania","government","ADM1",NA,NA,"government","state of emergency",2020-03-06,NA,NA,"https://www.governor.pa.gov/newsroom/gov-wolf-signs-covid-19-disaster-declaration-to-provide-increased-support-for-state-response/",NA,NA,NA,2020-03-21,"ARW",2020-03-21
+"239","Pennsylvania","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-16,2020-03-27,"https://www.education.pa.gov/Schools/safeschools/emergencyplanning/COVID-19/messages/Pages/March-14,-2020.aspx",NA,NA,NA,2020-03-21,"ARW",2020-03-18
+"240","Pennsylvania","government","ADM1",NA,NA,"government","prohibit_business",2020-03-19,2020-03-19,NA,"https://www.governor.pa.gov/wp-content/uploads/2020/03/20200319-TWW-COVID-19-business-closure-order.pdf",NA,NA,"close all nonessential commercial businesses",2020-03-21,"ARW",2020-03-21
+"241","Pennsylvania","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"242","Pennsylvania","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"243","Rhode Island","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"244","Rhode Island","government","ADM1",NA,NA,"government","state of emergency",2020-03-09,NA,NA,"https://www.providencejournal.com/news/20200309/raimondo-declares-state-of-emergency-in-ri-over-coronavirus",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"245","Rhode Island","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,NA,NA,"https://www.wpri.com/health/coronavirus/friday-afternoon-coronavirus-update-rhode-island/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"246","Rhode Island","government","ADM1",NA,NA,"government","prohibit_business",2020-03-17,NA,NA,"https://www.providencejournal.com/news/20200316/raimondo-shutting-dine-in-restaurants-bars-for-2-weeks-rsquocommunity-spreadrsquo-of-virus-now-seen-in-ri",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"247","Rhode Island","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-17,NA,NA,"https://www.providencejournal.com/news/20200316/raimondo-shutting-dine-in-restaurants-bars-for-2-weeks-rsquocommunity-spreadrsquo-of-virus-now-seen-in-ri",25,NA,NA,2020-03-18,"TCO",2020-03-18
+"248","Rhode Island","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"249","South Carolina","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"250","South Carolina","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.thestate.com/news/local/article241171426.html",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"251","South Carolina","government","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-16,NA,"https://www.wistv.com/2020/03/15/sc-governor-closes-all-schools-recommends-all-large-gatherings-canceled-number-coronavirus-cases-rises/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"252","South Carolina","government","ADM1",NA,NA,"government","prohibit_business",2020-03-17,2020-03-18,NA,"https://www.wfae.org/post/sc-governor-places-restrictions-bars-and-restaurants-slow-coronavirus-spread",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"253","South Carolina","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-17,NA,NA,"https://www.wfae.org/post/sc-governor-places-restrictions-bars-and-restaurants-slow-coronavirus-spread",25,NA,NA,2020-03-18,"TCO",2020-03-18
+"254","South Carolina","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"255","South Dakota","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"256","South Dakota","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.keloland.com/news/healthbeat/coronavirus/friday-covid-19-south-dakota-update-1-more-positive-case/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"257","South Dakota","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-16,2020-03-20,"https://doe.sd.gov/coronavirus/",NA,NA,NA,2020-03-21,"ARW",2020-03-21
+"258","South Dakota","government","ADM1",NA,NA,"government","non-contact school",2020-03-17,2020-03-16,2020-03-27,NA,NA,NA,NA,NA,NA,NA
+"259","South Dakota","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"260","South Dakota","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"261","South Dakota","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"262","Tennessee","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"263","Tennessee","government","ADM1",NA,NA,"government","state of emergency",2020-03-12,NA,NA,"https://www.tn.gov/governor/news/2020/3/12/gov--bill-lee-issues-executive-order-declaring-state-of-emergency-in-response-to-covid-19.html",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"264","Tennessee","government","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"265","Tennessee","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"266","Tennessee","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"267","Tennessee","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"268","Texas","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"269","Texas","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.texastribune.org/2020/03/13/texas-coronavirus-cases-state-emergency-greg-abbott/",NA,NA,"state of disaster",2020-03-18,"TCO",2020-03-18
+"270","Texas","government","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"271","Texas","government","ADM1",NA,"Governor of the State of Texas","government","prohibit_business",2020-03-19,2020-03-20,2020-04-03,"https://gov.texas.gov/uploads/files/press/EO-GA_08_COVID-19_preparedness_and_mitigation_FINAL_03-19-2020_1.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
+"272","Texas","government","ADM1",NA,"Governor of the State of Texas","government","gathering_size_limited",2020-03-19,2020-03-20,2020-04-03,"https://gov.texas.gov/uploads/files/press/EO-GA_08_COVID-19_preparedness_and_mitigation_FINAL_03-19-2020_1.pdf",10,NA,NA,2020-03-21,"ARW",2020-03-21
+"273","Texas","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,2020-03-21,"ARW",2020-03-21
+"274","Utah","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"275","Utah","government","ADM1",NA,NA,"government","state of emergency",NA,NA,NA,"https://coronavirus.utah.gov/",NA,NA,NA,NA,"TCO",2020-03-18
+"276","Utah","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-13,NA,"https://www.ksl.com/article/46729951/utah-public-schools-enact-soft-closure-for-2-weeks-amid-covid-19-outbreak",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"277","Utah","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"278","Utah","news","ADM1",NA,NA,"government","gathering_size_limited",2020-03-12,NA,NA,"https://www.deseret.com/utah/2020/3/12/21176793/coronavirus-covid-19-lds-mormon-church-utah-gatherings-schools-closed-online-herbert",100,NA,NA,2020-03-18,"TCO",2020-03-18
+"279","Utah","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"280","Vermont","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"281","Vermont","news","ADM1",NA,NA,"government","state of emergency",2020-03-15,NA,NA,"https://www.sevendaysvt.com/OffMessage/archives/2020/03/13/governor-scott-declares-state-of-emergency-in-vermont",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"282","Vermont","news","ADM1",NA,NA,"government","non-contact school",2020-03-15,2020-03-18,2020-04-06,"https://vtdigger.org/2020/03/15/scott-orders-schools-to-close/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"283","Vermont","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"284","Vermont","news","ADM1",NA,NA,"government","gathering_size_limited",2020-03-15,NA,NA,"https://www.sevendaysvt.com/OffMessage/archives/2020/03/13/governor-scott-declares-state-of-emergency-in-vermont",250,NA,NA,2020-03-18,"TCO",2020-03-18
+"285","Vermont","news","ADM1",NA,NA,"government","gathering_size_limited",2020-03-16,NA,NA,"https://vtdigger.org/2020/03/16/vermont-now-up-to-12-coronavirus-cases-scott-administration-says/",50,NA,NA,2020-03-18,"TCO",2020-03-18
+"286","Vermont","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"287","Virginia","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"288","Virginia","news","ADM1",NA,NA,"government","state of emergency",2020-03-12,NA,NA,"https://wtop.com/coronavirus/2020/03/maryland-virginia-sees-jump-in-coronavirus-cases/",NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"289","Virginia","news","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"290","Virginia","news","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,2020-03-18,"TCO",2020-03-18
+"291","Virginia","news","ADM1",NA,NA,"government","gathering_size_limited",2020-03-17,NA,NA,"https://wtop.com/coronavirus/2020/03/maryland-virginia-sees-jump-in-coronavirus-cases/",10,NA,NA,2020-03-18,"TCO",NA
+"292","Virginia","news","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"293","Washington","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"294","Washington","news","ADM1",NA,NA,"government","state of emergency",2020-02-29,NA,NA,"https://www.forbes.com/sites/rachelsandler/2020/02/29/washington-state-reports-1st-us-coronavirus-death-declares-statewide-emergency/#84207b118f0a",NA,NA,NA,2020-03-18,"TCO",NA
+"295","Washington","news","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-17,2020-04-24,"https://www.seattletimes.com/education-lab/inslee-announces-all-washington-k-12-schools-to-close-in-an-effort-to-slow-the-spread-of-coronavirus/",NA,NA,NA,2020-03-18,"TCO",NA
+"296","Washington","news","ADM1",NA,NA,"government","prohibit_business",2020-03-15,NA,NA,"https://www.usatoday.com/story/news/nation/2020/03/15/coronavirus-bars-restaurants-closed-states/5055634002/",NA,NA,NA,2020-03-18,"TCO",NA
+"297","Washington","news","ADM1",NA,NA,"government","gathering_size_limited",2020-03-13,NA,NA,"https://www.seattletimes.com/education-lab/inslee-announces-all-washington-k-12-schools-to-close-in-an-effort-to-slow-the-spread-of-coronavirus/",250,NA,NA,2020-03-18,"TCO",NA
+"298","Washington","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"299","West Virginia","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"300","West Virginia","government","ADM1",NA,NA,"government","state of emergency",2020-03-16,NA,NA,"https://www.axios.com/coronavirus-west-virginia-only-state-no-case-ac32ce6d-5523-4310-a219-7d1d1dcb6b44.html",NA,NA,NA,2020-03-18,"TCO",NA
+"301","West Virginia","government","ADM1",NA,NA,"government","non-contact school",2020-03-14,NA,NA,"https://www.nytimes.com/2020/03/14/us/weve-got-a-monster-thats-looming-west-virginia-is-the-last-state-without-a-coronavirus-case.html",NA,NA,NA,2020-03-18,"TCO",NA
+"302","West Virginia","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"303","West Virginia","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"304","West Virginia","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"305","Wisconsin","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"306","Wisconsin","news","ADM1",NA,NA,"government","state of emergency",2020-03-12,NA,NA,"https://www.jsonline.com/story/news/politics/2020/03/12/coronavirus-wisconsin-gov-tony-evers-declares-health-emerency/5030830002/",NA,NA,NA,2020-03-18,"TCO",NA
+"307","Wisconsin","news","ADM1",NA,NA,"government","non-contact school",2020-03-13,NA,2020-04-05,"https://www.jsonline.com/story/news/education/2020/03/13/wisconsin-closes-schools-under-state-order-during-coronavirus-spread-covid-19-closing/5041184002/",NA,NA,NA,2020-03-18,"TCO",NA
+"308","Wisconsin","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"309","Wisconsin","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"310","Wisconsin","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"311","Wyoming","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"312","Wyoming","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://trib.com/news/state-and-regional/health/governor-declares-state-of-emergency-in-wyoming/article_e1f8e089-0b84-574f-b1af-114f78d734c7.html",NA,NA,NA,2020-03-18,"TCO",NA
+"313","Wyoming","news","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"314","Wyoming","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"315","Wyoming","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,"TCO",2020-03-18
+"316","Wyoming","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"317","American Samoa","government","ADM1",NA,NA,"government","first",2020-03-13,NA,NA,"https://6fe16cc8-c42f-411f-9950-4abb1763c703.filesusr.com/ugd/4bfff9_8201b0412f8d4e9ea6f32116ee883b29.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
+"318","American Samoa","government","ADM1",NA,NA,"government","state of emergency",2020-03-18,NA,NA,"https://6fe16cc8-c42f-411f-9950-4abb1763c703.filesusr.com/ugd/4bfff9_cb729fc321ce409cbb5b8557ab7281a0.pdf",NA,NA,NA,2020-03-21,"ARW",2020-03-21
+"319","American Samoa","government","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"320","American Samoa","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"321","American Samoa","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"322","American Samoa","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"323","Puerto Rico","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"324","Puerto Rico","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://caribbeanbusiness.com/puerto-rico-governor-declares-state-of-emergency-to-fight-covid-19-spread/",NA,NA,NA,2020-03-18,"ARW",NA
+"325","Puerto Rico","government","ADM1",NA,NA,"government","non-contact school",2020-03-13,2020-03-16,2020-03-31,"https://caribbeanbusiness.com/puerto-rico-governor-declares-state-of-emergency-to-fight-covid-19-spread/",NA,NA,NA,2020-03-18,"ARW",NA
+"326","Puerto Rico","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"327","Puerto Rico","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"328","Puerto Rico","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"329","Guam","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"330","Guam","government","ADM1",NA,NA,"government","state of emergency",2020-03-14,NA,NA,"http://dphss.guam.gov/wp-content/uploads/2020/03/COVID19-EO.pdf.pdf",NA,NA,NA,2020-03-19,"ARW",NA
+"331","Guam","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,2020-03-16,2020-03-30,"http://dphss.guam.gov/wp-content/uploads/2020/03/EO-2020-05-Relative-to-Mandating-Social-Isolation-Lifting-Restrictions-on-Health-Care-Licensure-and-Clarifying-Status-of-Non-Essential-Government-of-Guam-Operations.pdf.pdf.pdf.pdf",NA,NA,NA,2020-03-19,"ARW",NA
+"332","Guam","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,50,NA,NA,NA,NA,NA
+"333","Guam","government","ADM1",NA,NA,"government","mandatory_traveler_quarantine",2020-03-18,NA,NA,"http://dphss.guam.gov/wp-content/uploads/2020/03/JIC-Release-No.-11-Travel-Guidance-and-Quarantine-Protocol-in-Accordance-with-Governor%E2%80%99s-Executive-Order.docx.pdf.pdf",NA,NA,NA,2020-03-19,"ARW",NA
+"334","Guam","government","ADM1",NA,NA,"government","gathering_size_limited",2020-03-16,2020-03-16,2020-03-30,"http://dphss.guam.gov/wp-content/uploads/2020/03/EO-2020-05-Relative-to-Mandating-Social-Isolation-Lifting-Restrictions-on-Health-Care-Licensure-and-Clarifying-Status-of-Non-Essential-Government-of-Guam-Operations.pdf.pdf.pdf.pdf",NA,NA,NA,2020-03-19,"ARW",NA
+"335","Guam","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,"ARW",2020-03-19
+"336","Northern Mariana Islands","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"337","Northern Mariana Islands","government","ADM1",NA,NA,"government","state of emergency",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"338","Northern Mariana Islands","government","ADM1",NA,NA,"government","non-contact school",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"339","Northern Mariana Islands","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"340","Northern Mariana Islands","government","ADM1",NA,NA,"government","mandatory_traveler_quarantine",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"341","Northern Mariana Islands","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"342","Northern Mariana Islands","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"343","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","first",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"344","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","state of emergency",2020-03-13,NA,NA,"https://www.vi.gov/u-s-virgin-islands-closes-schools-to-avert-spread-of-covid-19/",NA,NA,NA,2020-03-19,"ARW",NA
+"345","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","non-contact school",2020-03-16,2020-03-16,NA,"https://www.vi.gov/u-s-virgin-islands-closes-schools-to-avert-spread-of-covid-19/",NA,NA,NA,2020-03-19,"ARW",NA
+"346","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","prohibit_business",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"347","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","mandatory_traveler_quarantine",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"348","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","gathering_size_limited",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"349","Virgin Islands (U.S)","government","ADM1",NA,NA,"government","shelter_in_place",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
