@@ -12,9 +12,15 @@ Google sheet is downloaded here to longFormStateInterventions.csv daily and conv
 - `NAME`: Name of state
 - `DATE`: Date
 - `prohibit_restaurants`: Is the state government prohibiting restaurants from opening? (0/1)
-- `school_closure`: Has the government mandated that schools close or go online? (0/1)
+- `non-contact_school`: Has the government mandated that schools close or go online? (0/1)
 - `state_of_emergency`: Has a state of emergency been declared? (0/1)
-- `prohibit_gatherings`: Has the state government prohibited gatherings over a certain size? (0/1)
+- `gathering_size_limited`: Has the state government prohibited gatherings over a certain size? (0/1)
+- `travel_screening`: Can include temperature checks at railways, airports, ports, and other travel epicenters (0/1)
+- `prohibit_business`: Policies that limit gatherings inside restaurants and other public-use spaces (eg. movie theaters, gyms, bars). This can still include roadside or take-out only service
+- `close_public_spaces`: residents requested to stay home except for essential services/business
+- `public_health_emergency`: 
+- `mandatory_traveler_quarantine`: all travelers that arrive in adm are quarantined for 14 days
+- `shelter_in_place`: 
 - `gathering_size`: Maximum legal gathering size in state (NA if no gathering size instituted)
 - `Intervention Score`: Sum of first four metrics of intervention (0-4) 
  
