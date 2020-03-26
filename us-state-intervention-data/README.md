@@ -1,6 +1,6 @@
 This folder contains data on non-pharmaceutical interventions implemented at the state-wide level in the United States during the COVID-19 pandemic.
 
-These data are scraped manually from [wikipedia entries](https://en.wikipedia.org/wiki/U.S._state_and_local_government_response_to_the_2020_coronavirus_pandemic) (housed on [this google sheet](https://docs.google.com/spreadsheets/d/1_mk1J3ElMH5EmPILcrx8s1KqHqdQYXCWroJeKTR3pV4/edit#gid=221668309)).
+These data are scraped manually from State Executive Orders, Departments of Education, and other news sources (housed on [this google sheet](https://docs.google.com/spreadsheets/d/1_mk1J3ElMH5EmPILcrx8s1KqHqdQYXCWroJeKTR3pV4/edit#gid=221668309)).
 
 
 
