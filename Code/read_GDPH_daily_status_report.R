@@ -31,7 +31,7 @@ time_reported <- gsub("[\\(|\\)]", "",str_extract(as.character(webtext), "\\([0-
 df  <- data.frame(date = as.character(date_reported),
                 time_reported = as.character(time_reported),
                  cases_cumulative = as.numeric(str_extract(table_cases[1,2], "[0-9]+")), 
-                 fatalities_cumulative = as.numeric(str_extract(table_cases[2,2], "[0-9]+")), 
+                 fatalities_cumulative = as.numeric(str_extract(table_cases[3,2], "[0-9]+")), 
                  tests_cumulative = sum(table_tests$'Total Tests'),
                  source_cases = as.character(url),
                  source_fatalities = as.character(url),
