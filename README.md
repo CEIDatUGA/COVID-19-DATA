@@ -27,9 +27,14 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 
 ## US data
 
-us-state-intervention-data/interventionTimeSeries.csv: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
+[us-state-intervention-data/stateInterventionTimeSeries.csv](https://github.com/CEIDatUGA/COVID-19-DATA/tree/master/us-state-intervention-data): Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
 
-us-state-intervention-data/longFormStateInterventions.csv: Running summary of interventions at the state level taken from reports and wikipedia
+[us-state-intervention-data/longFormStateInterventions.csv](https://github.com/CEIDatUGA/COVID-19-DATA/tree/master/us-state-intervention-data): Running summary of interventions at the state level taken from reports and wikipedia
+
+[ga-county-intervention-data/countyInterventionTimeSeries.csv](https://github.com/CEIDatUGA/COVID-19-DATA/tree/master/ga-county-intervention-data): Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
+
+[ga-county-intervention-data/longFormCountyInterventions.csv](https://github.com/CEIDatUGA/COVID-19-DATA/tree/master/ga-county-intervention-data): Running summary of interventions at the state level taken from reports and wikipedia
+
 
 
 ## Global
@@ -150,92 +155,7 @@ Here is some discription
 <b>Projects</b>
  - [Early Intervention](https://github.com/CEIDatUGA/ncov-early-intervention)
  - [Spatial spread in China](https://github.com/CEIDatUGA/CoronavirusSpatial)
- 
-## us-state-intervention-data
 
-This subfolder contains information on non-pharmaceutical interventions implemented at the state level, including school closures, state of emergency declarations, etc. 
-
-These data are scraped manually from [wikipedia entries](https://en.wikipedia.org/wiki/U.S._state_and_local_government_response_to_the_2020_coronavirus_pandemic) (housed on [this google sheet](https://docs.google.com/spreadsheets/d/1_mk1J3ElMH5EmPILcrx8s1KqHqdQYXCWroJeKTR3pV4/edit#gid=221668309)).
-
-<b> Metadata: </b>
-
-stateInterventionTimeSeries.csv
-
-`NAME`: State name
-`DATE`: Date
- - `social_distancing`:	recommendations to distance from other individuals outside your household (0/1)
-- `close_public_spaces`:	such as parks, plazas, and public use area (0/1)
-- `personal_hygiene`:	use of face masks, washing hands(0/1)
-- `environmental_hygiene`:	maintence of indoor air circulation; disinfection of surfaces (0/1)
-- `monitoring`:	encouragement to monitor health of those/family around you (0/1)
-- `well_being`:	maintain healthy diet (0/1)
-- `animal_distancing`:	avoid animals, ban consumption of animals (wild); avoiding animal markets (0/1)
-- `non_contact_infrastructure`:	deployment on non-contact machines, infrastructure to curb contact (0/1)
-- `state_of_emergency`:	declaration of state of emergency. Will only list if occurs before State policies (0/1)
-- `no_contact_school`:	policies that close school, often include recommendations on online/residential schools (0/1)
-- `prohibit_business`:	policies that limit gatherings inside restaurants and other public-use spaces (eg. movie theaters, gyms, bars).. This can still include roadside or take-out only service (0/1)
-- `travel_screening`:	can include temperature checks at railways, airports, and other travel epicenters (0/1)
-- `prohibit_travel`:	car, bus, or air travel limited in some capactiy (0/1)
-- `international_travel_quarantine`:	international travelers must implement 14 day travel score (0/1)
-- `gathering_size_limited`:	public gatherings are limited to a maximum number of individuals (0/1)
-- `mandatory_traveler_quarantine`:	all travelers that arrive in adm are quarantined for 14 days (0/1)
-- `protect_high_risk_populations`:	mandates in place to prohibit travel or contact with high risk populations (such as older or imunocompromised individuals) (0/1)
-- `shelter_in_place`:	residents requested to stay home except for essential services/business (0/1)
-- `gathering_size`: Maximum gathering size allowed (continuous) 
-
-longFormStateInterventions.csv
-
-NEEDS PORTING OF METADATA
-
-
-<b>Related subdirectory and/or files</b>  
-us-state-intervention-data  
-<b>Projects</b>  
-List/Link related projects  
-
-
-## ga-scounty-intervention-data
-
-This subfolder contains information on non-pharmaceutical interventions implemented at the state level, including school closures, state of emergency declarations, etc. 
-
-These data are scraped manually from [wikipedia entries](https://en.wikipedia.org/wiki/U.S._state_and_local_government_response_to_the_2020_coronavirus_pandemic) (housed on [this google sheet](https://docs.google.com/spreadsheets/d/1UZMWpbebhI3HS2BwzK0PCUxAbypYnM9oA9t9jP6zNXE/edit#gid=1772124213)).
-
-
-<b> Metadata: </b>
-
-countyInterventionTimeSeries.csv
-
-- `NAME`: County name
-- `DATE`: Date
-- `social_distancing`:	recommendations to distance from other individuals outside your household (0/1)
-- `close_public_spaces`:	such as parks, plazas, and public use area (0/1)
-- `personal_hygiene`:	use of face masks, washing hands(0/1)
-- `environmental_hygiene`:	maintence of indoor air circulation; disinfection of surfaces (0/1)
-- `monitoring`:	encouragement to monitor health of those/family around you (0/1)
-- `well_being`:	maintain healthy diet (0/1)
-- `animal_distancing`:	avoid animals, ban consumption of animals (wild); avoiding animal markets (0/1)
-- `non_contact_infrastructure`:	deployment on non-contact machines, infrastructure to curb contact (0/1)
-- `state_of_emergency`:	declaration of state of emergency. Will only list if occurs before State policies (0/1)
-- `no_contact_school`:	policies that close school, often include recommendations on online/residential schools (0/1)
-- `prohibit_business`:	policies that limit gatherings inside restaurants and other public-use spaces (eg. movie theaters, gyms, bars).. This can still include roadside or take-out only service (0/1)
-- `travel_screening`:	can include temperature checks at railways, airports, and other travel epicenters (0/1)
-- `prohibit_travel`:	car, bus, or air travel limited in some capactiy (0/1)
-- `international_travel_quarantine`:	international travelers must implement 14 day travel score (0/1)
-- `gathering_size_limited`:	public gatherings are limited to a maximum number of individuals (0/1)
-- `mandatory_traveler_quarantine`:	all travelers that arrive in adm are quarantined for 14 days (0/1)
-- `protect_high_risk_populations`:	mandates in place to prohibit travel or contact with high risk populations (such as older or imunocompromised individuals) (0/1)
-- `shelter_in_place`:	residents requested to stay home except for essential services/business (0/1)
-- `gathering_size`: Maximum gathering size allowed (continuous) 
-
-longFormCountyInterventions.csv
-
-NEEDS PORTING OF METADATA
-
-
-<b>Related subdirectory and/or files</b>  
-ga-county-intervention-data  
-<b>Projects</b>  
-List/Link related projects  
 
 
 --- 
