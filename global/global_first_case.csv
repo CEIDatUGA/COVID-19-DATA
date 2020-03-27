@@ -1,0 +1,558 @@
+"Country","ADM1_type","ADM1_name","Location","importation_date","symptoms_date","confirmation_date","treatment_date","source_type","source1","accessed_by1","accessed_date1","notes","source2","accessed_by2","accessed_date2","last_date_checked"
+"Australia","Territory","Ashmore and Cartier Islands",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Australia","Territory","Australian Capital Territory",NA,NA,NA,NA,NA,"government","https://health.act.gov.au/public-health-alert/updated-information-about-covid-19","JW","2020-03-04","No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Australia","Territory","Coral Sea Islands Territory",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Australia","Territory","Jervis Bay Territory",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Australia","State","New South Wales","Sydney","2020-01-06","2020-01-15","2020-01-25",NA,"news","https://www.theguardian.com/science/2020/jan/25/coronavirus-five-people-in-nsw-being-tested-for-deadly-disease","AMS","2020-02-24","Another man, who is in his 30s, arrived in Sydney from China on 6 January. He did not develop symptoms until 15 January and saw his GP. He did not visit Wuhan but had contact with a person from the city diagnosed with coronavirus.",NA,NA,NA,2020-03-02
+"Australia","Territory","Northern Territory","Darwin",NA,NA,"2020-03-04","2020-03-03","news","https://www.9news.com.au/national/coronavirus-australia-northern-territory-confirms-first-case/53a53e13-f66f-4f23-a188-a0a65cac93e5","JW","2020-03-04","52 year old tourist, arrived to Darwin from Sydney recently. Press conference from Department of Health expected to confirm on 03-05.",NA,NA,NA,2020-03-04
+"Australia","State","Queensland",NA,"2020-01-27",NA,NA,NA,"news","https://www.news.com.au/lifestyle/health/health-problems/melbourne-diners-may-have-been-exposed-to-coronavirus/news-story/cdb74c00e305a881ff6938334dbb3ac1","AMS","2020-02-24","The 44-year-old man (resident of Wuhan) confirmed to have the virus in Queensland travelled from Melbourne to the Gold Coast on January 27",NA,NA,NA,2020-03-02
+"Australia","State","South Australia","Adelaide","2020-01-21",NA,"2020-02-02","2020-02-02","government","https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/about+us/news+and+media/all+media+releases/coronavirus+update+02+february+2020","JW","2020-03-02","Two individuals traveled from Wuhan, on flight from Guangzhou to Adelaide. Flight CZ663 through China Southern Airlines. 60 year old male and 60 year old female.","https://www.smh.com.au/national/two-new-cases-of-coronavirus-in-australia-20200202-p53www.html","JW",2020-03-02,2020-03-02
+"Australia","State","Tasmania","Launceston","2020-02-29",NA,"2020-03-02","2020-03-01","news","https://www.abc.net.au/news/2020-03-02/coronavirus-postive-test-in-tasmania/12017662","JW","2020-03-02","40 year old man travelling from Iran to Tasmania. Stops in Malaysia and Melbourne before arriving in Launceston on 02-29 (Virgin flight VA-1368). Man claimed he had a fever ""a couple weeks ago"" in Iran. Patient is currently doing ""quite well.""",NA,NA,NA,2020-03-02
+"Australia","State","Victoria","Melbourne","2020-01-19",NA,"2020-01-25",NA,"government","https://www.health.gov.au/news/chief-medical-officers-update-on-novel-coronavirus-2","TCO","2020-02-20","from Wuhan travelled to Melbourne last Sunday on a flight on the 19th. On flight CZ321from Guangzhou and he was well when he arrived but developed an illness during last week and is currently in stable condition under isolation in a hospital in Melbourne.",NA,NA,NA,2020-03-02
+"Australia","State","Western Australia","Nedlands","2020-02-21",NA,"2020-02-21","2020-02-21","government","https://ww2.health.wa.gov.au/Media-releases/2020/Chief-Health-Officer-statement-COVID19-update-6","JW","2020-03-02","Male in 70s from Western Australia. Airlifted from Northern Territory. Passenger on Diamond Princess cruise. Died on 03-01. Wife tested positive on 02-28.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Aichi",NA,"2020-01-22","2020-01-23","2020-01-26","2020-01-24","government","https://www.pref.aichi.jp/uploaded/attachment/321138.pdf","JW","2020-02-26","Male in 40s from Wuhan; claimed he had not visited the seafood market in Wuhan and wore a mask while traveling. In stable condition as of 2020-01-26.",NA,NA,NA,2020-02-26
+"Japan","Prefecture","Akita",NA,NA,NA,"2020-03-06",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-16",NA,"https://www.mhlw.go.jp/stf/newpage_09889.html",NA,NA,2020-03-02
+"Japan","Prefecture","Aomori",NA,NA,NA,"2020-03-23",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-24",NA,NA,NA,NA,2020-03-02
+"Japan","Prefecture","Chiba",NA,NA,"2020-01-20","2020-01-31","2020-01-30","government","http://www.pref.chiba.lg.jp/shippei/press/2019/ncov20200131.html","JW","2020-02-26","Female in 20s from Chiba. Traveled on bus with Chinese tourists between 01-17 and 01-22. Wore mask at the end of the tour and did not have overseas travel within 2 weeks prior to onset. Two asymptomatic but positive pathogen carriers were identified on 01-30 in Chiba.",NA,NA,NA,2020-02-26
+"Japan","Prefecture","Ehime","Ainancho",NA,NA,"2020-03-02","2020-03-01","government","https://www.pref.ehime.jp/h25500/documents/release20200302.pdf","JW","2020-03-04","Female in 40s from Ainancho. No symptoms but tested positive. Traveled to concert in Osaka on 02-15, traveled to Kanto using Matsuyama Airport between 02-21 and 02-23.","https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00086.html","JW",2020-03-02,2020-03-04
+"Japan","Prefecture","Fukui","Fukui",NA,NA,"2020-03-18",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-24",NA,"https://www.mhlw.go.jp/stf/newpage_09889.html","JW",2020-03-02,2020-03-02
+"Japan","Prefecture","Fukuoka","Fukuoka City",NA,"2020-02-13","2020-02-20","2020-02-19","government","http://www.pref.fukuoka.lg.jp/contents/bukan.html#A2-1","JW","2020-03-02","Male in 60s, from Fukuoka. Fever, no cough. Sought treatment on 02-13 but was sent home. No recent overseas travel history. Wife also tested positive on 02-20.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Fukushima","Fukushima",NA,NA,"2020-03-07",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-24",NA,"http://www.pref.fukushima.lg.jp/",NA,NA,2020-03-02
+"Japan","Prefecture","Gifu","Gifu",NA,"2020-02-14","2020-02-26","2020-02-25","government","https://www.mhlw.go.jp/content/10906000/000601142.pdf","JW","2020-03-02","Male in 50s from Gifu. Symptoms included fever, malaise, headache, and toothache. No travel history and no clear history of being in contact with ill individuals.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Gunma","Gunma",NA,NA,"2020-03-07",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-16",NA,"https://www.pref.gunma.jp/contents/100143350.pdf",NA,NA,2020-03-02
+"Japan","Prefecture","Hiroshima","Hiroshima",NA,NA,"2020-03-07",NA,"government","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-16",NA,"https://www.pref.hiroshima.lg.jp/site/2019-ncov/#c1",NA,NA,2020-03-02
+"Japan","Prefecture","Hokkaido","Hokkaido","2020-01-21","2020-01-26","2020-01-28","2020-01-27","government","https://www.mhlw.go.jp/stf/newpage_09158.html","JW","2020-02-26","Female in 40s, resident of Wuhan. Originally traveled to Tokyo on 01-21, then moved to Hokkaido on 01-22. Claims no visit to Wuhan's seafood market, and wore a mask while in Japan. Traveled with 2 other people.",NA,NA,NA,2020-02-26
+"Japan","Prefecture","Hyōgo",NA,NA,"2020-02-25","2020-03-01","2020-03-01","government","https://web.pref.hyogo.lg.jp/kk03/documents/corona-2003012230_4.pdf","JW","2020-03-02","Male in 40s from Nishinomiya City. Worked in Osaka City until 02-24. Fever appeared on 02-25 and cough appeared on 02-28. Tested negative for influenza twice before testing positive for coronavirus.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Ibaraki",NA,NA,NA,"2020-03-17",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-24",NA,"https://www.pref.ibaraki.jp/hokenfukushi/yobo/kiki/yobo/kansen/idwr/information/other/documents/20200130-corona.html",NA,NA,2020-03-02
+"Japan","Prefecture","Ishikawa","Ishikawa",NA,"2020-02-16","2020-02-21","2020-02-20","government","https://www.pref.ishikawa.lg.jp/kansen/documents/0221-kisyahappuo.pdf","JW","2020-02-26","Male in 50s from Ishikawa. Claimed to not have traveled to China in the last 14 days.",NA,NA,NA,2020-02-26
+"Japan","Prefecture","Iwate",NA,NA,NA,NA,NA,NA,"https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml","AMS","2020-03-24","No cases as of 2020-03-21",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Kagawa",NA,NA,NA,"2020-03-17",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-24",NA,"https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml","AMS",2020-03-24,2020-03-02
+"Japan","Prefecture","Kagoshima",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"https://www.pref.kagoshima.jp/ae06/kenko-fukushi/kenko-iryo/kansen/kansensho/coronavirus.html",NA,NA,2020-03-02
+"Japan","Prefecture","Kanagawa",NA,"2020-01-06",NA,"2020-01-15","2020-01-10","government","https://www.pref.kanagawa.jp/docs/ga4/bukanshi/occurrence.html","TCO","2020-2-24","30 yo Chinese national developed fever 2020-1-3 then traveled to Japan on 2020-1-6. Test during hospital stay 2020-1-10 thru 2020-1-15; did not visit market in Wuhan but had close contact with affected person in Wuhan",NA,NA,NA,NA
+"Japan","Prefecture","Kochi","Kochi City",NA,"2020-02-13","2020-02-28","2020-02-28","government","https://www.pref.kochi.lg.jp/soshiki/130401/files/2020022900049/case1.pdf","JW","2020-03-02","Female nurse in 30s from Kochi City. Sore throat on 02-13, recovered then had sore throat and cough on 02-18. Other symptoms included slight fever, nasal discharge, and fatigue. Traveled to Osaka between 02-15 and 02-16. No overseas travel history.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Kumamoto","Kumamoto",NA,"2020-02-15","2020-02-22","2020-02-21","government","https://www.pref.kumamoto.jp/common/UploadFileOutput.ashx?c_id=3&id=30386&sub_id=43&flid=222592","JW","2020-03-02","Male in 60s near Mifune Health Center Jurisdiction. Symptoms included fatigue, vomiting, fever, and cold symptoms. Tested negative for influneza on 02-19. Visited Hokkaido between 02-02 and 02-10 with wife. No overseas travel history.","https://www.mhlw.go.jp/content/10906000/000599322.pdf","JW",2020-03-02,2020-03-02
+"Japan","Prefecture","Kyoto","Kyoto","2020-01-22","2020-01-23","2020-01-30","2020-01-28","government","https://www.mhlw.go.jp/stf/newpage_09239.html","JW","2020-03-02","Female in 20s from Kyoto. Stayed in Wuhan City from 01-16 to 01-22. No symptoms when returning on 01-22. Cough on 01-23 and fever on 01-28. Had contact with someone with a cough in Wuhan on 01-17 or 01-18.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Mie","Mie","2020-01-13","2020-01-25","2020-01-30","2020-01-29","government","http://www.pref.mie.lg.jp/YAKUMUS/HP/m0068000071_00004.htm","JW","2020-02-26","Male in 50s from Mie. Stayed in Wuhan between 12-24 and 01-13. Tested negative for flu and pneumonia on 01-27, returned to hospital on 01-29. No contact with Wuhan seafood market or ill Wuhan residents.",NA,NA,NA,NA
+"Japan","Prefecture","Miyagi","Sendai City",NA,"2020-02-28","2020-02-29","2020-02-28","government","https://www.pref.miyagi.jp/uploaded/attachment/778157.pdf","JW","2020-03-02","Male in 70s from Sendai City. Passenger on Diamond Princess cruise. Disembarked on 02-20. Symptoms were fever and sore throat.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Miyazaki",NA,NA,NA,"2020-03-04",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-16",NA,"http://www.pref.miyazaki.lg.jp/kenko/hoken/kansensho/covid19/index.html",NA,NA,2020-03-02
+"Japan","Prefecture","Nagano","Matsumoto",NA,"2020-02-20","2020-02-25","2020-02-24","government","https://www.mhlw.go.jp/content/10906000/000599974.pdf","JW","2020-02-26","Male in 60s, resident of Nagano. In Hokkaido 02-14 to 02-17, in Tokyo 02-17 to 02-19. Claimed no travel history within 2 weeks before onset.",NA,NA,NA,2020-02-26
+"Japan","Prefecture","Naoasaki",NA,NA,NA,NA,NA,"government","https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/shakaihukushi/oshirase-shakaihukushi/426237.html","JW","2020-03-02","No confirmed cases as of 03-02.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Nara",NA,NA,"2020-01-14","2020-01-28","2020-01-25","government","https://www.mhlw.go.jp/stf/newpage_09153.html","JW","2020-02-26","Male in 60s, resident of Nara with no history of visiting Wuhan. Visited hospital on 2020-01-17 but had no abnormalities. Admitted to hospital again on 2020-01-25 after symptoms got worse. Had been in contact with tourists from Wuhan on a bus between 01-08 and 01-16.",NA,NA,NA,2020-02-26
+"Japan","Prefecture","Niigata","Niigata City",NA,"2020-02-25","2020-02-29","2020-02-28","government","https://www.city.niigata.lg.jp/iryo/kenko/yobou_kansen/kansen/2020coronavirus.files/yousei1-1.pdf","JW","2020-03-02","Male in 60s from Tokyo. Symptoms include fever, cough, malaise, loss of appetite. No overseas travel history.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Oita",NA,NA,NA,"2020-03-03",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-16",NA,"http://www.pref.oita.jp/site/bosaianzen/shingatacorona.html",NA,NA,2020-03-02
+"Japan","Prefecture","Okayama",NA,NA,NA,"2020-03-22",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-34",NA,"https://www.pref.okayama.jp/page/645925.html",NA,NA,2020-03-02
+"Japan","Prefecture","Okinawa","Okinawa",NA,"2020-02-05","2020-02-14","2020-02-13","government","https://www.pref.okinawa.jp/site/hoken/chiikihoken/kekkaku/documents/20200214_covid19.pdf","JW","2020-03-02","Female taxi driver in 60s from Okinawa. Symptoms included cough and joint pain. Possibly a passenger on Diamond Princess cruise until 02-01? Report said ""Four people on board the Diamond Princess.""",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Osaka","Osaka",NA,"2020-01-20","2020-01-29","2020-01-23","government","http://www.pref.osaka.lg.jp/hodo/index.php?site=fumin&pageId=37147","JW","2020-02-26","Female in 40s from Osaka. First visited hospital on 01-20 for a fever, hospitalized on 01-23 when symptoms did not improve. Between 01-12 and 01-17, was on a bus with Wuhan tourists.","https://www.mhlw.go.jp/stf/newpage_09201.html","JW",2020-02-26,2020-02-26
+"Japan","Prefecture","Saga",NA,NA,NA,"2020-03-13",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-16",NA,"https://www.pref.saga.lg.jp/kiji00373220/index.html",NA,NA,2020-03-02
+"Japan","Prefecture","Saitama","Saitama","2020-01-30","2020-02-08","2020-02-11","2020-02-10","government","http://www.pref.saitama.lg.jp/a0701/documents/020211siryou.pdf","JW","2020-02-26","Male in 40s from Saitama. Flew from China to Japan on 01-30 and tested negative on PCR for pathogen. PCR was positive on 02-10. Claimed he did not visit the Wuhan seafood market. Family member confirmed infected on 02-21.",NA,NA,NA,2020-02-26
+"Japan","Prefecture","Shiga",NA,NA,NA,"2020-03-05",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-16",NA,"https://www.pref.shiga.lg.jp/ippan/kenkouiryouhukushi/yakuzi/310107.html",NA,NA,2020-03-02
+"Japan","Prefecture","Shimane",NA,NA,NA,NA,NA,"government","https://www.pref.shimane.lg.jp/bousai_info/bousai/kikikanri/kikikanri_jian/newcoronavirus.html","JW","2020-03-02","No confirmed cases as of 03-02. Four residents of Shimane disembarked Diamond Princess and have not tested positive so far.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Shizuoka","Shizuoka City","2020-02-20","2020-02-27","2020-02-28","2020-02-27","government","https://www.mhlw.go.jp/content/10906000/000601661.pdf","JW","2020-03-02","Male in 60s from Shizuoka City. Disembarked Diamond Princess cruise on 02-20 with no symptoms.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Tochigi","Tochigi","2020-02-19","2020-02-21","2020-02-22","2020-02-22","government","https://www.mhlw.go.jp/content/10906000/000599335.pdf","JW","2020-02-26","Female in 60s from Tochigi. Disembarked ""Diamond Princess"" cruise ship on 02-19. Claimed to have worn a mask after disembarking cruise ship.",NA,NA,NA,2020-02-26
+"Japan","Prefecture","Tokushima","Tokushima","2020-02-20",NA,"2020-02-25","2020-02-25","government","https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5034012","JW","2020-03-02","Female in 60s from Tokushima. Disembarked Diamond Princess cruise on 02-20. No symptoms as of 02-25 but tested positive through PCR test on 02-25.","https://www.mhlw.go.jp/content/10906000/000599926.pdf","JW",2020-03-02,2020-03-02
+"Japan","Prefecture","Tokyo","Tokyo","2020-01-20","2020-01-24","2020-01-30","2020-01-30","government","https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/1007264.html","JW","2020-02-26","Female in 30s from Hunan Province, China. Reported to have stayed in Wuhan. First visited hopsital on 01-24 and tested negative for flu on 01-27. Claimed to have not been in contact with ill people or to have visited the seafood market in Wuhan.",NA,NA,NA,2020-02-26
+"Japan","Prefecture","Tottori",NA,NA,NA,NA,NA,"government","https://www.pref.tottori.lg.jp/corona-virus/","JW","2020-03-02","No confirmed cases as of 03-02.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Toyama",NA,NA,NA,NA,NA,"government","http://www.pref.toyama.jp/cms_sec/1205/kj00021363.html","JW","2020-03-02","No confirmed cases as of 03-02.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Wakayama","Wakayama",NA,"2020-01-31","2020-02-13","2020-02-10","government","https://www.pref.wakayama.lg.jp/prefg/041200/d00203387.html","JW","2020-03-02","Male in 50s, occupational physician. Symptoms included fever and malaise. No overseas travel history.","https://www.mhlw.go.jp/stf/newpage_09505.html","JW",2020-03-02,2020-03-02
+"Japan","Prefecture","Yamagata",NA,NA,NA,NA,NA,"government","https://www.pref.yamagata.jp/ou/kenkofukushi/090001/20130425/shingata_corona.html","JW","2020-03-02","No confirmed cases as of 03-02.",NA,NA,NA,2020-03-02
+"Japan","Prefecture","Yamaguchi",NA,NA,NA,"2020-03-04",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-16",NA,"https://www.pref.yamaguchi.lg.jp/cms/a15200/kansensyou/ncorona.html",NA,NA,2020-03-02
+"Japan","Prefecture","Yamanashi",NA,NA,NA,"2020-03-06",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Japan","AMS","2020-03-16",NA,"https://www.pref.yamanashi.jp/koucho/coronavirus/info_coronavirus.html",NA,NA,2020-03-02
+"India",NA,"Andaman and Nicobar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Andhra Pradesh","Nellore","2020-03-06",NA,"2020-03-12",NA,"news","https://www.indiatoday.in/amp/india/story/first-coronavirus-case-in-andhra-pradesh-as-man-who-returned-from-italy-tests-positive-1654837-2020-03-12","AMS","2020-03-16","returned from Italy",NA,NA,NA,2020-03-03
+"India",NA,"Arunachal Pradesh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Assam",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Bihar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Chandigarh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Chhattisgarh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Dadra and Nagar Haveli",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Daman and Diu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Goa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Gujarat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Haryana","Medanta Medial Institute",NA,NA,"2020-03-04",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_India","AMS","2020-03-16","quarantined Italian tourists","https://www.indiatoday.in/india/story/coronavirus-15-italian-tourists-test-positive-confirmed-cases-rise-to-21-in-india-1652237-2020-03-04","AMS",2020-03-16,2020-03-03
+"India",NA,"Himachal Pradesh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Jammu and Kashmir",NA,NA,NA,"2020-03-07",NA,"news","https://www.newindianexpress.com/nation/2020/mar/07/first-case-of-coronavirus-reported-in-jammu-and-kashmir-32-infected-in-india-2113665.html","AMS","2020-03-11",NA,NA,NA,NA,2020-03-10
+"India",NA,"Jharkhand",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Karnataka","Bangalore","2020-03-01",NA,"2020-03-09",NA,"news","https://www.livemint.com/news/india/fresh-coronavirus-cases-emerge-from-punjab-bengaluru-takes-total-to-45-11583764470103.html","AMS","2020-03-11","returned to India from Austin, TX",NA,NA,NA,2020-03-03
+"India",NA,"Kerala","Thissur district",NA,NA,"2020-1-30","2020-1-30","Wikipedia","https://www.indiatoday.in/india/story/kerala-reports-first-confirmed-novel-coronavirus-case-in-india-1641593-2020-01-30","DMO","2020-2-23",NA,NA,NA,NA,2020-03-03
+"India",NA,"Lakshadweep",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Madhya Pradesh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Maharashtra","Pune",NA,NA,"2020-03-09",NA,"news","https://www.indiatvnews.com/news/india/breaking-coronavirus-pune-two-test-positive-for-covid-19-confirmed-cases-india-596748","AMS","2020-03-11","history of travel to Dubai",NA,NA,NA,2020-03-11
+"India",NA,"Manipur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Meghalaya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Mizoram",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Nagaland",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"NCT of Delhi","Delhi",NA,NA,"2020-03-02",NA,"government","https://pib.gov.in/PressReleseDetail.aspx?PRID=1604813","AMS","2020-03-03","travel history to Italy","https://www.nytimes.com/reuters/2020/03/02/world/asia/02reuters-health-coronavirus-india.html","AMS",2020-03-03,2020-03-03
+"India",NA,"Odisha","Bhubaneswar","2020-03-12","2020-03-13","2020-03-16","2020-03-14","news","https://www.indiatoday.in/india/story/odisha-coronavirus-positive-case-1655901-2020-03-16","AMS","2020-03-16","travel history to Italy",NA,NA,NA,2020-03-03
+"India",NA,"Puducherry",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Punjab","International Airport in Amritsar","2020-03-04","2020-03-04","2020-03-07",NA,"news","https://www.hindustantimes.com/india-news/coronavirus-2-test-positive-in-preliminary-test-for-coronavirus-in-punjab-s-amritsar/story-B5GuqF83eZntplipK5GhSP.html","AMS","2020-03-11","returned from Italy; fever detected at second airport",NA,NA,NA,2020-03-11
+"India",NA,"Rajasthan","Jaipur",NA,NA,"2020-03-02",NA,"news","https://www.nytimes.com/reuters/2020/03/02/world/asia/02reuters-health-coronavirus-india.html","AMS","2020-03-03","Italian tourist, initially tested negative, then postitve",NA,NA,NA,2020-03-03
+"India",NA,"Sikkim",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Tamil Nadu",NA,NA,NA,NA,NA,NA,NA,NA,NA,"one positive later tested negative",NA,NA,NA,2020-03-03
+"India",NA,"Telangana","Hyderabad",NA,NA,"2020-03-02",NA,"government","https://pib.gov.in/PressReleseDetail.aspx?PRID=1604813","AMS","2020-03-03","travel history to UAE","https://www.nytimes.com/reuters/2020/03/02/world/asia/02reuters-health-coronavirus-india.html","AMS",2020-03-03,2020-03-03
+"India",NA,"Tripura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"India",NA,"Uttar Pradesh","Gahziabad",NA,NA,"2020-03-05",NA,"news","https://www.livemint.com/news/india/coronavirus-update-new-case-reported-from-ghaziabad-india-now-has-30-patients-11583401881606.html","AMS","2020-03-05","history of travel to Iran",NA,NA,NA,2020-03-03
+"India",NA,"Uttarakhand",NA,NA,NA,"2020-03-15",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_India","AMS","2020-03-16","returned from travel to Spain, Finland and russia",NA,NA,NA,2020-03-03
+"India",NA,"West Bengal",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Singapore",NA,"Central","Singapore General Hospital","2020-01-20","2020-01-20","2020-01-23","2020-01-23","government","moh.gov.sg","DMO",NA,"Hospital at Outram Rd (south central); arrived with his family (no note about their heatth; screened at Changi airport upon arrival and put into isolation",NA,NA,NA,NA
+"Singapore",NA,"East",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Singapore",NA,"North",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Singapore",NA,"North-East",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Singapore",NA,"West",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cambodia",NA,"Bântéay Méanchey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Batdâmbâng",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Kâmpóng Cham","Kampong Cham City",NA,NA,"2020-03-10",NA,"news","https://cambodianess.com/article/cambodia-confirms-third-covid-19-case","AMS","2020-03-12","disembarked from cruise ship",NA,NA,NA,2020-03-03
+"Cambodia",NA,"Kâmpóng Chhnang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Kâmpóng Spœ",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Kâmpóng Thum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Kâmpôt",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Kândal",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Kaôh Kong",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Kep",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Krâchéh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Krong Pailin",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Krong Preah Sihanouk","Sihanoukville city","2020-01-23",NA,"2020-01-28","2020-01-25","news","https://www.khmertimeskh.com/50684199/coronavirus-confirmed-in-cambodia","AS",NA,"Chinese tourist from Wuhan; arrived in Cambodia on Jan 23, fever and runny nose on 1/25, tested on 1/26",NA,NA,NA,2020-03-03
+"Cambodia",NA,"Krong Preah Sihanouk","Sihanoukville city","2020-01-23",NA,"2020-01-27","2020-01-25","Flutracker","https://flutrackers.com/forum/forum/-2019-ncov-new-coronavirus/cambodia-2019-ncov/825172-cambodia-case-of-2019-ncov","DMO",NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Môndól Kiri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Otdar Mean Chey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Phnom Penh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Pouthisat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Preah Vihéar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Prey Vêng",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Rôtânôkiri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Siemréab","Siem Reap",NA,NA,"2020-03-07",NA,"news","https://www.voanews.com/science-health/coronavirus-outbreak/first-case-virus-found-cambodian","AMS","2020-03-12","had contact with Japanese man that left Cambodia on 3/2 (or 2/3?)then tested positive",NA,NA,NA,2020-03-03
+"Cambodia",NA,"Stœng Trêng",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Svay Rieng",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Takêv",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"Cambodia",NA,"Tbong Khmum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-03
+"South Korea",NA,"Busan",NA,NA,NA,"2020-02-22",NA,NA,"https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS","2020-03-03",NA,NA,NA,NA,2020-03-03
+"South Korea",NA,"Chungcheongbuk-do",NA,NA,NA,"2020-02-21",NA,NA,"https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS","2020-03-03",NA,NA,NA,NA,2020-03-03
+"South Korea",NA,"Chungcheongnam-do",NA,NA,NA,"2020-02-21",NA,NA,"https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS","2020-03-03",NA,NA,NA,NA,2020-03-03
+"South Korea",NA,"Daegu",NA,NA,"2020-02-07","2020-02-18",NA,"government","https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015&act=view&list_no=366228","AMS","2020-03-03",NA,NA,NA,NA,2020-03-03
+"South Korea",NA,"Daejeon",NA,NA,NA,"2020-02-22",NA,NA,"https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS","2020-03-03",NA,NA,NA,NA,2020-03-03
+"South Korea",NA,"Gangwon-do",NA,NA,NA,"2020-02-22",NA,NA,"https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS","2020-03-03",NA,NA,NA,NA,NA
+"South Korea",NA,"Gwangju","Gwangju","2020-01-19",NA,"2020-02-04",NA,NA,"https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS","2020-03-03",NA,NA,NA,NA,2020-03-03
+"South Korea",NA,"Gyeonggi-do","Goyang","2020-01-20","2020-01-22","2020-01-26",NA,"government","https://www.cdc.go.kr/board/board.es?mid=a30402000000&bid=0030","AMS","2020-03-03","54-year-old Korean male living in Wuhan","https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS",2020-03-03,2020-03-03
+"South Korea",NA,"Gyeongsangbuk-do",NA,NA,NA,"2020-02-19",NA,NA,"https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS","2020-03-03","3 patients related to Daegu church patient","https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015&act=view&list_no=366240","AMS",2020-03-03,2020-03-03
+"South Korea",NA,"Gyeongsangnam-do",NA,NA,NA,"2020-02-21",NA,NA,"https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS","2020-03-03",NA,NA,NA,NA,2020-03-03
+"South Korea",NA,"Incheon","Incheon International Airport","2020-01-19","2020-01-18","2020-01-20",NA,"government","https://www.cdc.go.kr/board/board.es?mid=a30402000000&bid=0030","AMS","2020-03-03","Chinese woman in her 30’s residing in Wuhan, China. developed fever and headache on 18 January 2020.visited a local hospital in Wuhan and was diagnosed with cold. denied visiting the traditional markets including Huanan Seafood Wholesale Market, nor contacting 2019-nCoV confirmed cases or any live animals in Wuhan.",NA,NA,NA,2020-03-03
+"South Korea",NA,"Jeju",NA,NA,NA,"2020-02-21",NA,NA,"https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS","2020-03-03",NA,NA,NA,NA,2020-03-03
+"South Korea",NA,"Jeollabuk-do","Gunsan","2020-01-23",NA,"2020-01-31",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"South Korea",NA,"Jeollanam-do","Naju",NA,NA,"2020-02-06",NA,NA,"https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS","2020-03-03","domestic infection - brother of first case in Gwangju",NA,NA,NA,NA
+"South Korea",NA,"Sejong",NA,NA,NA,"2020-02-22",NA,"news media","https://www.edaily.co.kr/news/read?newsId=01931926625673144&mediaCodeNo=257","AMS","2020-03-03",NA,NA,NA,NA,NA
+"South Korea",NA,"Seoul","Gimpo International Airport","2020-01-22","2020-01-10","2020-01-24","2020-01-19","government","https://www.cdc.go.kr/board/board.es?mid=a30402000000&bid=0030","TCO","2020-02-20","Korean man arrived at Gimpo airport and tested positive, had already sought treatment in Wuhan","https://www.cdc.go.kr/board/board.es?mid=a30402000000&bid=0030","AMS",2020-03-03,2020-03-03
+"South Korea",NA,"Ulsan",NA,NA,NA,"2020-02-22",NA,"news media","http://www.hani.co.kr/arti/area/yeongnam/929280.html","AMS","2020-03-03","Woman travelling from Daegu","https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_South_Korea","AMS",2020-03-03,2020-03-03
+"Sri Lanka",NA,"Ampara",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Anuradhapura",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Badulla",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Batticaloa",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Colombo",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Galle",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Gampaha",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Hambantota",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Jaffna",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Kalutara",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Kandy","Angoda (National Institute of Inf Dis)",NA,NA,"2020-01-25","2020-01-25","Flutracker","http://www.colombopage.com/archive_20A/Jan25_1579963201CH.php","DMO","2020-2-23","2 women - suspected of contracting CV in Sri Lanka;  1 chinese  one Sri Lankan",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Kegalle",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Kilinochchi",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Kurunegala",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Mannar",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Matale",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Matara",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Moneragala",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Mullaitivu",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Nuwara Eliya",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Polonnaruwa",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Puttalam",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Ratnapura",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Trincomalee",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Sri Lanka",NA,"Vavuniya",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No confirmed cases as of 03-04.",NA,NA,NA,2020-03-04
+"Malaysia",NA,"Johor","Johor Baru",NA,NA,"2020-01-25",NA,"news","https://www.nst.com.my/news/nation/2020/01/559563/breaking-3-coronavirus-cases-confirmed-johor-baru","AS",NA,"Quarantined 1/24, tested positive 1/25","https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_Malaysia","AMS",2020-03-04,2020-03-04
+"Malaysia",NA,"Kedah",NA,NA,NA,"2020-01-28",NA,NA,"https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_Malaysia","AS","2020-03-04","Chinese national from Guanzhou",NA,NA,NA,NA
+"Malaysia",NA,"Kelantan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Kuala Lumpur","Kuala Lumpur Airport","2020-01-18","2020-01-23","2020-02-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Labuan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Melaka",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Negeri Sembilan",NA,"2020-02-04",NA,"2020-02-05",NA,NA,"https://www.nst.com.my/news/nation/2020/02/562769/2-new-2019-ncov-cases-2-malaysians-who-returned-wuhan","AMS","2020-03-04","Person evacuated from Wuhan.","https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_Malaysia","AMS",2020-03-04,2020-03-04
+"Malaysia",NA,"Pahang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Perak",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Perlis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Pulau Pinang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Putrajaya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Sabah",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Sarawak",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Selangor",NA,NA,NA,"2020-01-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malaysia",NA,"Trengganu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Nepal",NA,"Central","Kathmandu",NA,NA,"2020-01-24",NA,"news","https://thehimalayantimes.com/kathmandu/corona-virus-infection-suspected-in-capital/","AS",NA,"Nepali student returned to Kathmandu on 1/9/20 (or 1/5?); entered hospital on 1/13/20; positive test confirmed on 1/24","http://www.xinhuanet.com/english/2020-01/25/c_138732435.htm","AS",NA,2020-03-16
+"Nepal",NA,"East",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-16
+"Nepal",NA,"Far-Western",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-16
+"Nepal",NA,"Mid-Western",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-16
+"Nepal",NA,"West",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-16
+"Philippines",NA,"Abra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Agusan del Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Agusan del Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Aklan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Albay",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Antique",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Apayao",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Aurora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Basilan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Bataan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Batanes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Batangas",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Benguet",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Biliran",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Bohol",NA,"2020-01-20","2020-01-22","2020-01-23",NA,"government","https://www.doh.gov.ph/doh-press-release/doh-confirms-3rd-2019-nCoV-ARD-case-in-PH","AMS","2020-03-04","Samples taken on 01/24 tested negative on 1/29 and 1/30, but a sample taken on 1/23 tested positive on 2/3.",NA,NA,NA,2020-03-04
+"Philippines",NA,"Bukidnon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Bulacan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Cagayan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Camarines Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Camarines Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Camiguin",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Capiz",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Catanduanes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Cavite",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Cebu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Compostela Valley",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Davao del Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Davao del Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Davao Oriental",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Dinagat Islands",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Eastern Samar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Guimaras",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Ifugao",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Ilocos Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Ilocos Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Iloilo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Isabela",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Kalinga",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"La Union",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Laguna",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Lanao del Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Lanao del Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Leyte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Maguindanao",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Marinduque",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Masbate",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Metropolitan Manila","Manila","2020-01-21",NA,"2020-01-30","2020-01-25","news","https://news.abs-cbn.com/news/01/30/20/philippines-confirms-first-case-of-new-coronavirus","AS",NA,"Chinese woman from Wuhan arrived in Manila 1/21; admitted to hospital 1/25;",NA,NA,NA,2020-03-04
+"Philippines",NA,"Misamis Occidental",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Misamis Oriental",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Mountain Province",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Negros Occidental",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Negros Oriental",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"North Cotabato",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Northern Samar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Nueva Ecija",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Nueva Vizcaya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Occidental Mindoro",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Oriental Mindoro",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Palawan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Pampanga",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Pangasinan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Quezon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Quirino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Rizal",NA,"2020-01-21",NA,"2020-01-30","2020-01-25","news","https://news.abs-cbn.com/news/01/30/20/philippines-confirms-first-case-of-new-coronavirus","DMO","2020-2-23","Tested 2020-1-25 and sample had to be sent to Australia. Confirmed 2020-1-30; they now have capability to test in country eff 2020-1-30; she flew from Wuhan to Hong Kong to Cebu to Dumaguete to Manilla arriving 2020-1-21",NA,NA,NA,2020-03-04
+"Philippines",NA,"Romblon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Samar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Sarangani",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Siquijor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Sorsogon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"South Cotabato",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Southern Leyte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Sultan Kudarat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Sulu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Surigao del Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Surigao del Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Tarlac",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Tawi-Tawi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Zambales",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Zamboanga del Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Zamboanga del Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Zamboanga Sibugay",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Abra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Agusan del Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Agusan del Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Aklan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Albay",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Antique",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Apayao",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Aurora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Basilan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Bataan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Batanes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Batangas",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Benguet",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Biliran",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Bohol",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Bukidnon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Bulacan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Cagayan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Camarines Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Camarines Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Camiguin",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Capiz",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Catanduanes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Cavite",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Cebu",NA,"2020-01-20",NA,"2020-05-02","2020-01-22","government","https://www.doh.gov.ph/doh-press-release/doh-confirms-3rd-2019-nCoV-ARD-case-in-PH","AS",NA,"Chinese woman who travelled from Hong Kong to Cebu.  Arrived 1/20.  Travelled to Bohol and contacted a doctor on 1/22.  same case as first report in Bohol.",NA,NA,NA,2020-03-04
+"Philippines",NA,"Compostela Valley",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Davao del Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Davao del Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Davao Oriental",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Dinagat Islands",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Eastern Samar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Guimaras",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Ifugao",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Ilocos Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Ilocos Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Iloilo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Isabela",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Kalinga",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"La Union",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Laguna",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Lanao del Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Lanao del Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Leyte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Maguindanao",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Marinduque",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Masbate",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Metropolitan Manila",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Misamis Occidental",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Misamis Oriental",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Mountain Province",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Negros Occidental",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Negros Oriental",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"North Cotabato",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Northern Samar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Nueva Ecija",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Nueva Vizcaya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Occidental Mindoro",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Oriental Mindoro",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Palawan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Pampanga",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Pangasinan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Quezon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Quirino",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Rizal",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Romblon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Samar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Sarangani",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Siquijor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Sorsogon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"South Cotabato",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Southern Leyte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Sultan Kudarat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Sulu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Surigao del Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Surigao del Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Tarlac",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Tawi-Tawi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Zambales",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Zamboanga del Norte",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Zamboanga del Sur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Philippines",NA,"Zamboanga Sibugay",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Thailand",NA,"Amnat Charoen",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Ang Thong",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Bangkok Metropolis","Bangkok airport","2020-01-08",NA,"2020-01-13","2020-01-08",NA,"http://www.cidrap.umn.edu/news-perspective/2020/01/report-thailands-coronavirus-patient-didnt-visit-outbreak-market","DMO","03-04-2020","resident of Wuhan- recorded to not have visited Wuhan market, but had visited other markets; sympotms began 1/5; hospitalized upon arrival at airport",NA,NA,NA,NA
+"Thailand",NA,"Bueng Kan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Buri Ram",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Chachoengsao",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Chai Nat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Chaiyaphum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Chanthaburi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Chiang Mai",NA,NA,NA,"2020-01-21",NA,NA,NA,"AS",NA,"resident of Wuhan",NA,NA,NA,NA
+"Thailand",NA,"Chiang Rai",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Chon Buri",NA,NA,NA,"2020-02-08",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Thailand","AMS","2020-03-18","on evacuation flight from Wuha",NA,NA,NA,NA
+"Thailand",NA,"Chumphon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Kalasin",NA,NA,NA,"2020-03-18",NA,"news","https://www.bangkokbiznews.com/news/detail/871348","AMS","2020-03-18","attended a boxing match in Bangkok",NA,NA,NA,NA
+"Thailand",NA,"Kamphaeng Phet",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Kanchanaburi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Khon Kaen",NA,NA,NA,"2020-03-18",NA,"newa","https://www.khonkaenlink.info/home/news/10106.html?__cf_chl_jschl_tk__=3135ceeb9adf4a8c76b551586570f4faa62ab143-1584581075-0-AftwelkhsbXCT_1yR7n4WzozvIgKaesL516bT9JkqivfJdGjq8wuWJamgwJ3irozuBuhjwvDdl2P5bA9x1Kl0vtCv7h-X-z3FJR67HbldKGzjxVZpV2hYjLgV__b4TmWCT94xlMXGXIhRRiJIrGFwtIQeTnPWDqff39lZ9XqdCrvRkVGWOafzXea2gsksEwCuSU8HlrplMHPpmHf_DxxEe5gFDDu9sgE90lbAn2lnqwDVswupq0BY09_xiMZfdQDE8HISXInJd1YvxEXdKOtAHH1p0foa5CvflRJ6LEACrRExF19T3PBryWNhDCiX2td0c_GiRxfnJQrLvjfMIbANOIEnj3WseL7iFbLprJU-ZlT","AMS","2020-03-18","attended a boxing match in Bangkok",NA,NA,NA,NA
+"Thailand",NA,"Krabi",NA,NA,NA,"2020-02-04",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Thailand","AMS","2020-03-18","from Wuhan",NA,NA,NA,NA
+"Thailand",NA,"Lampang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Lamphun",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Loei",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Lop Buri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Mae Hong Son",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Maha Sarakham",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Mukdahan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Nakhon Nayok",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Nakhon Pathom",NA,"2020-01-13",NA,"2020-01-22",NA,"news","https://www.bangkokpost.com/thailand/general/1841199/first-thai-infected-with-coronavirus","AS",NA,"Thai citizin that visited Wuhan",NA,NA,NA,NA
+"Thailand",NA,"Nakhon Phanom",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Nakhon Ratchasima",NA,NA,NA,"2020-03-18",NA,"news","https://www.bangkokbiznews.com/news/detail/871376","AMS","2020-03-18",NA,NA,NA,NA,NA
+"Thailand",NA,"Nakhon Sawan",NA,NA,NA,"2020-03-15",NA,"news","https://www.khaosod.co.th/special-stories/news_3761857","AMS","2020-03-18",NA,NA,NA,NA,NA
+"Thailand",NA,"Nakhon Si Thammarat",NA,"2020-02-27",NA,"2020-03-05",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Thailand","AMS","2020-03-18","Iranian student",NA,NA,NA,NA
+"Thailand",NA,"Nan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Narathiwat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Nong Bua Lam Phu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Nong Khai",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Nonthaburi",NA,NA,NA,"2020-01-22",NA,"news","https://www.bangkokpost.com/thailand/general/1841589/govt-confirms-thai-coronavirus-case","DMO","2020-03-04","Chinese tourist",NA,NA,NA,NA
+"Thailand",NA,"Pathum Thani",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Pattani",NA,NA,"2020-03-04","2020-03-17",NA,"news","https://www.thairath.co.th/news/local/south/1796811","AMS","2020-03-18","returned from religious rally in Malaysia",NA,NA,NA,NA
+"Thailand",NA,"Phangnga",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Phatthalung",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Phayao",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Phetchabun",NA,NA,NA,"2020-03-16",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Thailand","AMS","2020-03-18","group of tourists with travel history",NA,NA,NA,NA
+"Thailand",NA,"Phetchaburi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Phichit",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Phitsanulok",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Phra Nakhon Si Ayutthaya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Phrae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Phuket",NA,NA,NA,"2020-02-08",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Thailand","AMS","2020-03-18",NA,NA,NA,NA,NA
+"Thailand",NA,"Prachin Buri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Prachuap Khiri Khan",NA,"2020-01-19",NA,"2020-01-23","2020-1-23","news","https://www.dailynews.co.th/regional/753907","AS",NA,"Chinese woman from Wuhan",NA,NA,NA,NA
+"Thailand",NA,"Ranong",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Ratchaburi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Rayong",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Roi Et",NA,"2020-03-15",NA,"2020-03-17",NA,"news","https://www.thairath.co.th/news/society/1797714","AMS","2020-03-18","was at boxing stadium in Bangkok",NA,NA,NA,NA
+"Thailand",NA,"Sa Kaeo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Sakon Nakhon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Samut Prakan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Samut Sakhon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Samut Songkhram",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Saraburi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Satun",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Si Sa Ket",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Sing Buri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Songkhla",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Sukhothai",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Suphan Buri",NA,NA,NA,"2020-03-11",NA,"news","https://www.thairath.co.th/news/local/central/1792523","AMS","2020-03-18",NA,NA,NA,NA,NA
+"Thailand",NA,"Surat Thani",NA,"2020-02-27","2020-03-02","2020-03-05",NA,NA,"https://pr.moph.go.th/?url=pr/detail/2/04/139480","AMS","2020-03-05","Thai student travelling back from Iran","https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_Thailand","AMS",2020-03-05,2020-03-05
+"Thailand",NA,"Surin",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Tak",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Trang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Trat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Ubon Ratchathani",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Udon Thani",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Uthai Thani",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Uttaradit",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Yala",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thailand",NA,"Yasothon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Vietnam",NA,"An Giang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Bạc Liêu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Bắc Giang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Bắc Kạn",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Bắc Ninh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Bến Tre",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Bà Rịa - Vũng Tàu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Bình Định",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Bình Dương",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Bình Phước",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Bình Thuận",NA,"2020-03-02",NA,"2020-03-10",NA,"wikipedia","https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Vietnam","AMS","2020-03-12","vietnamese national that had visited US and Qatar","https://ncov.moh.gov.vn/","AMS",2020-03-12,2020-03-12
+"Vietnam",NA,"Cần Thơ",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Cà Mau",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Cao Bằng",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Đắk Lắk",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Đắk Nông",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Đồng Nai",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Đồng Tháp",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Đà Nẵng","Da Nang hospital","2020-03-02",NA,"2020-03-08",NA,"news","https://vnexpress.net/suc-khoe/them-9-nguoi-duong-tinh-ncov-4066014.html","AMS","2020-03-12","flight VN54 cluster",NA,NA,NA,2020-03-12
+"Vietnam",NA,"Điện Biên",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Gia Lai",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Hải Dương",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Hải Phòng",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Hậu Giang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Hồ Chí Minh","Ho Chi Minh City","2020-01-13",NA,"2020-01-22","2020-01-17","news","https://thehill.com/policy/healthcare/public-global-health/479542-vietnam-reports-first-coronavirus-cases","DMO","2020-2-23","Father arrived in Hanoi then travelled to meet his son, then travelled south and then to Ho Chi Minh",NA,NA,NA,2020-03-12
+"Vietnam",NA,"Hồ Chí Minh","Ho Chi Minh City","2020-01-13","2020-01-17","2020-01-23",NA,"news","https://vnexpress.net/dich-viem-phoi-corona/hai-nguoi-viem-phoi-vu-han-cach-ly-tai-benh-vien-cho-ray-4046299.html","AS","2020-03-04","The father had recently arrived in Vietnam from Wuhan and had traveled to the Vietnamese capital Hanoi and the southern city of Nha Trang before being hospitalized. (son, in Thailand, also test postive)",NA,NA,NA,2020-03-12
+"Vietnam",NA,"Ho Chi Minh","Ho Chi Minh City","2020-01-16","2020-01-27","2020-01-31","2020-01-30","news","https://vnexpress.net/suc-khoe/ca-thu-7-o-viet-nam-nhiem-virus-corona-4049017.html","DMO","2020-02-26","Vietnamese American traveled US to Vietnam, 1/14, to Wuhan 1/15, back to Vietnam 1/16;",NA,NA,NA,2020-03-12
+"Vietnam",NA,"Hà Giang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Hà Nội","Hanoi",NA,NA,"2020-01-30",NA,NA,NA,"AS",NA,"Had travelled to Wuhan",NA,NA,NA,2020-03-12
+"Vietnam",NA,"Hà Nam",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Hà Tĩnh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Hoà Bình",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Hưng Yên",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Khánh Hòa",NA,NA,"2020-01-18","2020-02-01",NA,"news","https://vnexpress.net/dich-viem-phoi-corona/ca-thu-6-viet-nam-nhiem-virus-corona-4048747.html","AS","2020-03-04","Thai hotel receptionist that had contact with patient number one (father)",NA,NA,NA,2020-03-12
+"Vietnam",NA,"Kiên Giang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Kon Tum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Lạng Sơn",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Lai Châu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Lâm Đồng",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Lào Cai","Lao Cai General Hospital","2020-03-02",NA,"2020-03-08",NA,"news","https://vnexpress.net/suc-khoe/them-9-nguoi-duong-tinh-ncov-4066014.html","AMS","2020-03-12","flight VN54 cluster",NA,NA,NA,2020-03-12
+"Vietnam",NA,"Long An",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Nam Định",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Nghệ An",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Ninh Bình","Ninh Binh General Hospital","2020-03-04","2020-02-29","2020-03-07",NA,"news","https://vnexpress.net/suc-khoe/viet-nam-cong-bo-ca-nhiem-ncov-thu-18-4065734.html","AMS","2020-03-12",NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Ninh Thuận",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Phú Thọ",NA,NA,NA,NA,NA,NA,"https://vnexpress.net/suc-khoe/ca-thu-7-o-viet-nam-nhiem-virus-corona-4049017.html",NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Phú Yên",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Quảng Bình",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Quảng Nam","Dien Ban town",NA,NA,"2020-03-09","2020-03-07","news","https://vnexpress.net/suc-khoe/ba-benh-nhan-covid-19-o-hue-suc-khoe-on-dinh-4067526.html","AMS","2020-03-12",NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Quảng Ngãi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Quảng Ninh","Quang Ninh General Hospital","2020-03-02",NA,"2020-03-08",NA,"news","https://vnexpress.net/suc-khoe/them-9-nguoi-duong-tinh-ncov-4066014.html","AMS","2020-03-12","flight VN54 cluster",NA,NA,NA,2020-03-12
+"Vietnam",NA,"Quảng Trị",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Sóc Trăng",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Sơn La",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Tây Ninh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Thừa Thiên Huế","Hue","2020-03-02",NA,"2020-03-08",NA,"news","https://vnexpress.net/suc-khoe/them-9-nguoi-duong-tinh-ncov-4066014.html","AMS","2020-03-12","flight VN54 cluster",NA,NA,NA,2020-03-12
+"Vietnam",NA,"Thái Bình",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Thái Nguyên",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Thanh Hóa","H.Yen Dinh","2020-01-17","2020-01-23","2020-01-29","2020-01-24","news","https://vnexpress.net/suc-khoe/ca-thu-8-mac-virus-corona-o-viet-nam-4049393.html","DMO","2020-02-26","Traveled to Wuhan with 7 other colleagues for training","https://vnexpress.net/suc-khoe/ca-thu-8-mac-virus-corona-o-viet-nam-4049393.html",NA,NA,2020-03-12
+"Vietnam",NA,"Tiền Giang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Trà Vinh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Tuyên Quang",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Vĩnh Long",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Vĩnh Phúc","H. Yen Dinh","2020-01-17","2020-01-21","2020-01-29","2020-01-23","news","https://vnexpress.net/suc-khoe/ca-thu-8-mac-virus-corona-o-viet-nam-4049393.html","DMO","2020-03-04","8th training course colleague (Wuhan) diagnosed 02-07-2020 with NO symptons","https://vnexpress.net/suc-khoe/ca-duong-tinh-ncov-thu-13-tai-viet-nam-4051997.html",NA,NA,2020-03-12
+"Vietnam",NA,"Vĩnh Phúc","H.Tam Duong","2020-01-17","2020-01-25","2020-01-20","2020-01-25","news","https://vnexpress.net/suc-khoe/ca-thu-8-mac-virus-corona-o-viet-nam-4049393.html",NA,NA,NA,NA,NA,NA,2020-03-12
+"Vietnam",NA,"Yên Bái",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-12
+"New Zealand",NA,"Auckland","Auckland","2020-02-26","2020-02-26","2020-02-28","2020-02-26","government","https://www.health.govt.nz/news-media/media-releases/single-case-covid-19-confirmed-new-zealand","TCO","2020-03-04","The first case of COVID-19 is now confirmed in New Zealand in a person in their 60s recently returned from Iran. Two earlier tests were negative for COVID-19. A further test today using a more specific sample proved positive.",NA,NA,NA,2020-03-04
+"New Zealand",NA,"Auckland","Auckland","2020-02-25",NA,"2020-03-03",NA,"government","https://www.health.govt.nz/news-media/media-releases/second-case-covid-19-confirmed-nz","TCO","2020-03-04","New Zealand citizen, woman in 30s returning from northern Italy, travelled through Singapore. Mild symptoms, at home under self-isolation. Her partner exhibiting symptoms, being tested","https://www.channelnewsasia.com/news/world/air-new-zealand-covid-19-coronavirus-on-board-singapore-flight-12498452","TCO",2020-03-04,2020-03-04
+"New Zealand",NA,"Bay of Plenty","Rotorua",NA,NA,"2020-03-19",NA,"news","https://www.rnz.co.nz/news/national/412132/coronavirus-update-eight-further-cases-of-covid-19-in-new-zealand","AMS","2020-03-18",NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Canterbury","Christchurch","2020-03-10",NA,"2020-03-15",NA,"news","https://www.stuff.co.nz/national/health/coronavirus/120289851/live-coronavirus-update-from-ministry-of-health","AMS","2020-03-18","tourist from Denmark",NA,NA,NA,2020-03-04
+"New Zealand",NA,"Chatham Islands",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Gisborne",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Hawke's Bay",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Manawatu-Wanganui",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Marlborough",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Nelson",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Northern Islands",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Northland",NA,NA,NA,"2020-03-19",NA,"news","https://www.rnz.co.nz/news/national/412132/coronavirus-update-eight-further-cases-of-covid-19-in-new-zealand","AMS","2020-03-19",NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Otago","Dunedin",NA,NA,"2020-03-17",NA,"news","https://www.stuff.co.nz/national/health/coronavirus/120336762/live-ministry-of-health-coronavirus-press-conference","AMS","2020-03-18","traveled back from Germany",NA,NA,NA,2020-03-04
+"New Zealand",NA,"Southern Islands",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Southland","Invercargill",NA,NA,"2020-03-18",NA,"news","https://www.newshub.co.nz/home/new-zealand/2020/03/coronavirus-eight-new-cases-in-new-zealand.html","AMS","2020-03-18","associated with overseas travel",NA,NA,NA,2020-03-04
+"New Zealand",NA,"Taranaki",NA,NA,NA,"2020-03-19",NA,"news","https://www.rnz.co.nz/news/national/412132/coronavirus-update-eight-further-cases-of-covid-19-in-new-zealand","AMS","2020-03-18",NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Tasman",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"New Zealand",NA,"Waikato",NA,NA,NA,"2020-03-18",NA,"news","https://www.newshub.co.nz/home/new-zealand/2020/03/coronavirus-eight-new-cases-in-new-zealand.html","AMS","2020-03-18","associated with overseas travel",NA,NA,NA,NA
+"New Zealand",NA,"Wellington",NA,"2020-03-14",NA,"2020-03-15",NA,"news","https://www.stuff.co.nz/national/health/coronavirus/120289851/live-coronavirus-update-from-ministry-of-health","AMS","2020-03-18","traveled from Brisbane to Wellington",NA,NA,NA,2020-03-04
+"New Zealand",NA,"West Coast",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-04
+"Indonesia",NA,"Aceh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Bali",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Bangka Belitung",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Banten",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Bengkulu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Gorontalo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Jakarta Raya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Jambi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Jawa Barat","Depok",NA,NA,"2020-03-02",NA,"news","https://www.thejakartapost.com/news/2020/03/02/breaking-jokowi-announces-indonesias-first-two-confirmed-covid-19-cases.html","AMS","2020-3-05","had been in contact in early Feb with Japanses national that later tested positive.  id'd through contact tracing","https://en.wikipedia.org/wiki/2020_coronavirus_outbreak_in_Indonesia","AMS",2020-03-05,2020-03-05
+"Indonesia",NA,"Jawa Tengah",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Jawa Timur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Kalimantan Barat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Kalimantan Selatan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Kalimantan Tengah",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Kalimantan Timur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Kepulauan Riau",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Lampung",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Maluku",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Maluku Utara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Nusa Tenggara Barat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Nusa Tenggara Timur",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Papua",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Papua Barat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Riau",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Sulawesi Barat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Sulawesi Selatan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Sulawesi Tengah",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Sulawesi Tenggara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Sulawesi Utara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Sumatera Barat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Sumatera Selatan",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Sumatera Utara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Indonesia",NA,"Yogyakarta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2020-03-05
+"Bangladesh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Laos",NA,NA,"Vientiane","2020-03-09","2020-03-23","2020-03-24",NA,"news","https://laotiantimes.com/2020/03/24/laos-confirms-first-covid-19-cases/","AMS","2020-03-25","Had traveled to Thailand; returned to Laos 3/09.",NA,NA,NA,NA
+"Myanmar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"China",NA,"Zhejiang","Shilifeng Prison","2020-01-19",NA,"2020-01-27",NA,"news","http://www.bjnews.com.cn/feature/2020/01/30/681797.html","ARW","2020-02-24","had travelled to Wuhan",NA,NA,NA,NA
+"China",NA,"Hong Kong",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"China",NA,"Macau",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Brazil",NA,NA,"Sao Paulo","2020-02-26","2020-02-26","2020-02-26","2020-02-26","news","https://www.nytimes.com/2020/02/26/world/americas/brazil-italy-coronavirus.html","DMO","2020-02-26","Brazilian national man traveled to No Italy Feb 9-21",NA,NA,NA,NA

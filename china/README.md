@@ -1,6 +1,6 @@
 ## China_TA
 
-Travel advisories and restrictions implemented by the Chinese government. 
+Travel advisories and restrictions implemented by the Chinese government. This data is downloaded via the `google_sheets_update.R` script from https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1169808441
 
 *Metadata:* 
 - city:	see spatial taxonomy
@@ -13,6 +13,10 @@ Travel advisories and restrictions implemented by the Chinese government.
 - tr_source:	url link to reported travel restriction
 - Accessed_date:	Last date URL was accessed 
 - who_by:	initials of contributor
+
+**Associated Projects:**
+
+**Sources:** This comes from multiple online sources. They are cited in the dataset.
 
 
 
