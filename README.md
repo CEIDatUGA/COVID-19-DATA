@@ -163,25 +163,25 @@ stateInterventionTimeSeries.csv
 
 `NAME`: State name
 `DATE`: Date
- `social_distancing`:	recommendations to distance from other individuals outside your household (0/1)
-`close_public_spaces`:	such as parks, plazas, and public use area (0/1)
-`personal_hygiene`:	use of face masks, washing hands(0/1)
-`environmental_hygiene`:	maintence of indoor air circulation; disinfection of surfaces (0/1)
-`monitoring`:	encouragement to monitor health of those/family around you (0/1)
-`well_being`:	maintain healthy diet (0/1)
-`animal_distancing`:	avoid animals, ban consumption of animals (wild); avoiding animal markets (0/1)
-`non_contact_infrastructure`:	deployment on non-contact machines, infrastructure to curb contact (0/1)
-`state_of_emergency`:	declaration of state of emergency. Will only list if occurs before State policies (0/1)
-`no_contact_school`:	policies that close school, often include recommendations on online/residential schools (0/1)
-`prohibit_business`:	policies that limit gatherings inside restaurants and other public-use spaces (eg. movie theaters, gyms, bars).. This can still include roadside or take-out only service (0/1)
-`travel_screening`:	can include temperature checks at railways, airports, and other travel epicenters (0/1)
-`prohibit_travel`:	car, bus, or air travel limited in some capactiy (0/1)
-`international_travel_quarantine`:	international travelers must implement 14 day travel score (0/1)
-`gathering_size_limited`:	public gatherings are limited to a maximum number of individuals (0/1)
-`mandatory_traveler_quarantine`:	all travelers that arrive in adm are quarantined for 14 days (0/1)
-`protect_high_risk_populations`:	mandates in place to prohibit travel or contact with high risk populations (such as older or imunocompromised individuals) (0/1)
-`shelter_in_place`:	residents requested to stay home except for essential services/business (0/1)
-`gathering_size`: Maximum gathering size allowed (continuous) 
+ - `social_distancing`:	recommendations to distance from other individuals outside your household (0/1)
+- `close_public_spaces`:	such as parks, plazas, and public use area (0/1)
+- `personal_hygiene`:	use of face masks, washing hands(0/1)
+- `environmental_hygiene`:	maintence of indoor air circulation; disinfection of surfaces (0/1)
+- `monitoring`:	encouragement to monitor health of those/family around you (0/1)
+- `well_being`:	maintain healthy diet (0/1)
+- `animal_distancing`:	avoid animals, ban consumption of animals (wild); avoiding animal markets (0/1)
+- `non_contact_infrastructure`:	deployment on non-contact machines, infrastructure to curb contact (0/1)
+- `state_of_emergency`:	declaration of state of emergency. Will only list if occurs before State policies (0/1)
+- `no_contact_school`:	policies that close school, often include recommendations on online/residential schools (0/1)
+- `prohibit_business`:	policies that limit gatherings inside restaurants and other public-use spaces (eg. movie theaters, gyms, bars).. This can still include roadside or take-out only service (0/1)
+- `travel_screening`:	can include temperature checks at railways, airports, and other travel epicenters (0/1)
+- `prohibit_travel`:	car, bus, or air travel limited in some capactiy (0/1)
+- `international_travel_quarantine`:	international travelers must implement 14 day travel score (0/1)
+- `gathering_size_limited`:	public gatherings are limited to a maximum number of individuals (0/1)
+- `mandatory_traveler_quarantine`:	all travelers that arrive in adm are quarantined for 14 days (0/1)
+- `protect_high_risk_populations`:	mandates in place to prohibit travel or contact with high risk populations (such as older or imunocompromised individuals) (0/1)
+- `shelter_in_place`:	residents requested to stay home except for essential services/business (0/1)
+- `gathering_size`: Maximum gathering size allowed (continuous) 
 
 longFormStateInterventions.csv
 
@@ -205,27 +205,27 @@ These data are scraped manually from [wikipedia entries](https://en.wikipedia.or
 
 countyInterventionTimeSeries.csv
 
-`NAME`: County name
-`DATE`: Date
- `social_distancing`:	recommendations to distance from other individuals outside your household (0/1)
-`close_public_spaces`:	such as parks, plazas, and public use area (0/1)
-`personal_hygiene`:	use of face masks, washing hands(0/1)
-`environmental_hygiene`:	maintence of indoor air circulation; disinfection of surfaces (0/1)
-`monitoring`:	encouragement to monitor health of those/family around you (0/1)
-`well_being`:	maintain healthy diet (0/1)
-`animal_distancing`:	avoid animals, ban consumption of animals (wild); avoiding animal markets (0/1)
-`non_contact_infrastructure`:	deployment on non-contact machines, infrastructure to curb contact (0/1)
-`state_of_emergency`:	declaration of state of emergency. Will only list if occurs before State policies (0/1)
-`no_contact_school`:	policies that close school, often include recommendations on online/residential schools (0/1)
-`prohibit_business`:	policies that limit gatherings inside restaurants and other public-use spaces (eg. movie theaters, gyms, bars).. This can still include roadside or take-out only service (0/1)
-`travel_screening`:	can include temperature checks at railways, airports, and other travel epicenters (0/1)
-`prohibit_travel`:	car, bus, or air travel limited in some capactiy (0/1)
-`international_travel_quarantine`:	international travelers must implement 14 day travel score (0/1)
-`gathering_size_limited`:	public gatherings are limited to a maximum number of individuals (0/1)
-`mandatory_traveler_quarantine`:	all travelers that arrive in adm are quarantined for 14 days (0/1)
-`protect_high_risk_populations`:	mandates in place to prohibit travel or contact with high risk populations (such as older or imunocompromised individuals) (0/1)
-`shelter_in_place`:	residents requested to stay home except for essential services/business (0/1)
-`gathering_size`: Maximum gathering size allowed (continuous) 
+- `NAME`: County name
+- `DATE`: Date
+- `social_distancing`:	recommendations to distance from other individuals outside your household (0/1)
+- `close_public_spaces`:	such as parks, plazas, and public use area (0/1)
+- `personal_hygiene`:	use of face masks, washing hands(0/1)
+- `environmental_hygiene`:	maintence of indoor air circulation; disinfection of surfaces (0/1)
+- `monitoring`:	encouragement to monitor health of those/family around you (0/1)
+- `well_being`:	maintain healthy diet (0/1)
+- `animal_distancing`:	avoid animals, ban consumption of animals (wild); avoiding animal markets (0/1)
+- `non_contact_infrastructure`:	deployment on non-contact machines, infrastructure to curb contact (0/1)
+- `state_of_emergency`:	declaration of state of emergency. Will only list if occurs before State policies (0/1)
+- `no_contact_school`:	policies that close school, often include recommendations on online/residential schools (0/1)
+- `prohibit_business`:	policies that limit gatherings inside restaurants and other public-use spaces (eg. movie theaters, gyms, bars).. This can still include roadside or take-out only service (0/1)
+- `travel_screening`:	can include temperature checks at railways, airports, and other travel epicenters (0/1)
+- `prohibit_travel`:	car, bus, or air travel limited in some capactiy (0/1)
+- `international_travel_quarantine`:	international travelers must implement 14 day travel score (0/1)
+- `gathering_size_limited`:	public gatherings are limited to a maximum number of individuals (0/1)
+- `mandatory_traveler_quarantine`:	all travelers that arrive in adm are quarantined for 14 days (0/1)
+- `protect_high_risk_populations`:	mandates in place to prohibit travel or contact with high risk populations (such as older or imunocompromised individuals) (0/1)
+- `shelter_in_place`:	residents requested to stay home except for essential services/business (0/1)
+- `gathering_size`: Maximum gathering size allowed (continuous) 
 
 longFormCountyInterventions.csv
 
