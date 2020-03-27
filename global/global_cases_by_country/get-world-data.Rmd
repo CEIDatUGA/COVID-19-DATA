@@ -111,7 +111,7 @@ write.csv(dfNew, "worldCases.csv")
 
 
 
-df <- read.csv("../worldCases.csv")%>%
+df <- read.csv("worldCases.csv")%>%
   dplyr::select(Date, Country, Cases)
 
 url <- "https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory"
@@ -149,7 +149,7 @@ dfNew <- bind_rows(df, World.wikipedia) %>% dplyr::select(Date, Country, Cases)
 
 ### Check country names before writing!!!
 
-write.csv(dfNew, "../worldCases.csv")
+write.csv(dfNew, "worldCases.csv")
 
 
 ```

@@ -91,6 +91,6 @@ us_deaths_clean <- table_cleanup(us_deaths, "deaths")
 us_cases_clean <- time_last_update(us_cases_clean)
 us_deaths_clean <- time_last_update(us_deaths_clean)
 
-write.csv(us_cases_clean, "../UScases_by_state_wikipedia.csv", row.names = FALSE)
-write.csv(us_deaths_clean, "../USfatalities_by_state_wikipedia.csv", row.names = FALSE)
+write.csv(us_cases_clean, "UScases_by_state_wikipedia.csv", row.names = FALSE)
+write.csv(us_deaths_clean, "USfatalities_by_state_wikipedia.csv", row.names = FALSE)
 
