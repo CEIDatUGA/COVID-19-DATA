@@ -30,12 +30,15 @@ time_reported <- gsub("[\\(|\\)]", "",str_extract(as.character(webtext), "\\([0-
 
 df  <- data.frame(date = as.character(date_reported),
                 time_reported = as.character(time_reported),
-                 cases_cumulative = as.numeric(str_extract(table_cases[1,2], "[0-9]+")), 
-                 fatalities_cumulative = as.numeric(str_extract(table_cases[3,2], "[0-9]+")), 
-                 tests_cumulative = sum(table_tests$'Total Tests'),
-                 source_cases = as.character(url),
-                 source_fatalities = as.character(url),
-                 source_tests = as.character(url)
+                cases_cumulative = as.numeric(str_extract(table_cases[1,2], "[0-9]+")), 
+                fatalities_cumulative = as.numeric(str_extract(table_cases[3,2], "[0-9]+")), 
+                tests_cumulative = sum(table_tests$'Total Tests'),
+                new_cases = NA,
+                new_fatalities = NA,
+                new_tests = NA,
+                source_cases = as.character(url),
+                source_fatalities = as.character(url),
+                source_tests = as.character(url)
                  )
 
 # Read existent status report table
@@ -53,6 +56,14 @@ if(identical(day_last_row, as.character(date_reported))){
 } else{
    table <- rbind(table, df) # if not, it will add the report for that day
 }
+
+table[, c(3:5)] <- table[, c(3:5)] %>%
+  mutate_if(is.character, as.numeric, na.rm = TRUE) 
+  
+table <- table %>% 
+  mutate(new_cases = cases_cumulative - lag(cases_cumulative, default = first(cases_cumulative))) %>%
+  mutate(new_fatalities = fatalities_cumulative - lag(fatalities_cumulative, default = first(fatalities_cumulative))) %>%
+  mutate(new_tests = tests_cumulative - lag(tests_cumulative, default = first(tests_cumulative))) 
 
 write.csv(table, "../GA_daily_status_report_GDPH.csv")
 
