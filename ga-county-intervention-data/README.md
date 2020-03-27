@@ -6,7 +6,7 @@ These data are scraped manually from State Executive Orders, Departments of Educ
 
 Google sheet is downloaded here to longFormStateInterventions.csv daily and converted into a time series of intervention intensity interventionTimeSeries.csv.
 
-## countyInterventionTimeSeries.csv
+## GA_county_intervention_time_series.csv
 <b>Metadata:</b> 
 
 
@@ -34,7 +34,7 @@ Google sheet is downloaded here to longFormStateInterventions.csv daily and conv
 - `gathering_size`: Maximum gathering size allowed (continuous) 
 - `Intervention Score`: Sum of measures taken scaled by impact (see metadata on google sheet)
 
- ## longFormCountyInterventions.csv  
+ ## GA_raw_county_interventions.csv  
  <b>Metadata:</b>
 - `NAME`: Name of county
 - `source_type`: type of source (government, news, etc.)

@@ -169,11 +169,11 @@
 "168","ADM2","Chattooga",NA,"Chattooga County Schools","government",2020-03-01,2020-03-16,2020-03-31,"non-contact school",NA,"https://www.facebook.com/AllOnGeorgiaChattooga/photos/a.784883634944207/2704463939652824/?type=3&theater",NA,NA,2020-03-23,"ARW",2020-03-23
 "169","ADM2","Chattooga",NA,"Chattooga County Schools","government",2020-03-01,2020-03-16,2020-04-13,"non-contact school",NA,"https://www.facebook.com/AllOnGeorgiaChattooga/photos/a.784883634944207/2704463939652824/?type=3&theater",NA,NA,2020-03-23,"ARW",2020-03-23
 "170","ADM2","Chattooga",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"171","ADM2","Cherokee",NA,NA,"Government",NA,NA,NA,"state of emergency",NA,NA,NA,NA,NA,NA,NA
+"171","ADM2","Cherokee",NA,"Board of Commissioners","Government",2020-03-25,2020-03-26,2020-04-09,"state of emergency",NA,"https://www.cherokeega.com/_focus/corona-virus/Press-Releases/03-25-2020-CCBOC.pdf?fbclid=IwAR08pH2FGnskq2eHl0DGu9ZGwlJAW3Me1x9uI6BFYwEDca1HW4zoxVA0u5M",NA,NA,2020-03-26,"DMO",2020-03-26
 "172","ADM2","Cherokee",NA,NA,NA,NA,2020-03-16,2020-04-01,"non-contact school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,2020-03-23,"ARW",2020-03-23
-"173","ADM2","Cherokee",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"174","ADM2","Cherokee",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"175","ADM2","Cherokee",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"173","ADM2","Cherokee",NA,"Board of Commissioners","Government",2020-03-25,2020-03-26,2020-04-09,"prohibit_business",NA,"https://www.cherokeega.com/_focus/corona-virus/Press-Releases/03-25-2020-CCBOC.pdf?fbclid=IwAR08pH2FGnskq2eHl0DGu9ZGwlJAW3Me1x9uI6BFYwEDca1HW4zoxVA0u5M",NA,"Restaurants - take out only; Bars, Recreation, body care closed",2020-03-26,"DMO",2020-03-26
+"174","ADM2","Cherokee",NA,"Board of Commissioners","Government",2020-03-25,2020-03-26,2020-04-09,"gathering_size_limited",NA,"https://www.cherokeega.com/_focus/corona-virus/Press-Releases/03-25-2020-CCBOC.pdf?fbclid=IwAR08pH2FGnskq2eHl0DGu9ZGwlJAW3Me1x9uI6BFYwEDca1HW4zoxVA0u5M",10,NA,2020-03-26,"DMO",2020-03-26
+"175","ADM2","Cherokee",NA,"Board of Commissioners","Government",2020-03-25,2020-03-26,2020-04-09,"shelter_in_place",NA,"https://www.cherokeega.com/_focus/corona-virus/Press-Releases/03-25-2020-CCBOC.pdf?fbclid=IwAR08pH2FGnskq2eHl0DGu9ZGwlJAW3Me1x9uI6BFYwEDca1HW4zoxVA0u5M",NA,"Non incorporated portions of county only",2020-03-26,"DMO",2020-03-26
 "176","ADM2","Clarke",NA,"Georgia Department of Health","government",2020-03-20,NA,NA,NA,"testing_advances","https://www.accgov.com/CivicAlerts.aspx?AID=3647",NA,NA,2020-03-23,"ARW",2020-03-23
 "177","ADM2","Clarke",NA,"The Unified Governmnet of Athens-Clarke County Government","government",2020-03-19,2020-03-20,2020-04-07,"shelter_in_place",NA,"https://www.accgov.com/DocumentCenter/View/67248/03-Second-Declaration-of-a-Local-State-of-Emergency-Related-to-COVID-19-Final-Approved-Version?bidId=",NA,NA,2020-03-23,"ARW",2020-03-23
 "178","ADM2","Clarke",NA,NA,"Government",NA,NA,NA,"state of emergency",NA,NA,NA,NA,NA,NA,NA
