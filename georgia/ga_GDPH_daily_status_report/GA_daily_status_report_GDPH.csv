@@ -1,27 +1,27 @@
-"","date","time_reported","cases_cumulative","fatalities_cumulative","tests_cumulative","new_cases","new_fatalities","new_tests","source_cases","source_fatalities","source_tests"
-"1","03/02/20","NA",NA,NA,NA,NA,NA,NA,"NA","NA","NA"
-"2","03/03/20","NA",NA,NA,NA,NA,NA,NA,"NA","NA","NA"
-"3","03/04/20","NA",2,NA,2,NA,NA,NA,"https://covidtracking.com/data/state/georgia/","NA","https://covidtracking.com/data/state/georgia/"
-"4","03/05/20","NA",2,NA,2,0,NA,0,"https://covidtracking.com/data/state/georgia/","NA","https://covidtracking.com/data/state/georgia/"
-"5","03/06/20","NA",2,NA,2,0,NA,0,"https://covidtracking.com/data/state/georgia/","NA","https://covidtracking.com/data/state/georgia/"
-"6","03/07/20","NA",6,NA,6,4,NA,4,"https://covidtracking.com/data/state/georgia/","NA","https://covidtracking.com/data/state/georgia/"
-"7","03/08/20","NA",7,NA,7,1,NA,1,"https://covidtracking.com/data/state/georgia/","NA","https://covidtracking.com/data/state/georgia/"
-"8","03/09/20","NA",12,NA,12,5,NA,5,"https://covidtracking.com/data/state/georgia/","NA","https://covidtracking.com/data/state/georgia/"
-"9","03/10/20","NA",17,NA,17,5,NA,5,"https://covidtracking.com/data/state/georgia/","NA","https://covidtracking.com/data/state/georgia/"
-"10","03/11/20","NA",22,NA,22,5,NA,5,"https://covidtracking.com/data/state/georgia/","NA","https://covidtracking.com/data/state/georgia/"
-"11","03/12/20","NA",31,NA,31,9,NA,9,"https://covidtracking.com/data/state/georgia/","NA","https://covidtracking.com/data/state/georgia/"
-"12","03/13/20","NA",42,1,42,11,NA,11,"https://covidtracking.com/data/state/georgia/","https://covidtracking.com/data/state/georgia/","https://covidtracking.com/data/state/georgia/"
-"13","03/14/20","12:00 PM",66,1,66,24,0,24,"https://web.archive.org/web/20200314224758/https://dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200314224758/https://dph.georgia.gov/covid-19-daily-status-report","https://covidtracking.com/data/state/georgia/"
-"14","03/15/20","12:00 PM",99,1,99,33,0,33,"https://web.archive.org/web/20200316003553/https:/dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200316003553/https:/dph.georgia.gov/covid-19-daily-status-report","https://covidtracking.com/data/state/georgia/"
-"15","03/16/20","12:00 PM",121,1,121,22,0,22,"https://web.archive.org/web/20200316162454/https://dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200316162454/https://dph.georgia.gov/covid-19-daily-status-report","https://covidtracking.com/data/state/georgia/"
-"16","03/17/20","12:00 PM",146,1,146,25,0,25,"https://web.archive.org/web/20200317165049/https://dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200317165049/https://dph.georgia.gov/covid-19-daily-status-report","https://covidtracking.com/data/state/georgia/"
-"17","03/18/20","12:00 PM",197,1,1508,51,0,1362,"https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report"
-"18","03/19/20","12:00 PM",287,10,1831,90,9,323,"https://web.archive.org/web/20200319174155/https://dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200319174155/https://dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report"
-"19","03/20/20","7:00 PM",485,14,2386,198,4,555,"https://web.archive.org/web/20200321073215/https://dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200321073215/https://dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report"
-"20","03/21/20","7:00 PM",555,20,3616,70,6,1230,"https://web.archive.org/web/20200321165454/https:/dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200321165454/https:/dph.georgia.gov/covid-19-daily-status-report","https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report"
-"21","03/22/20","7:00 PM",620,25,4020,65,5,404,"https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report"
-"22","03/23/20","7:00 PM",800,26,5069,180,1,1049,"https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report"
-"23","03/24/20","7:00 PM",1097,38,5484,297,12,415,"https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report"
-"24","03/25/20","7:00 PM",1387,47,6179,290,9,695,"https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report"
-"25","03/26/20","7:00 pm",1643,56,8948,256,9,2769,"https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report"
-"26","03/27/20","12:00 pm",2001,64,9865,358,8,917,"https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report","https://dph.georgia.gov/covid-19-daily-status-report"
+,date,time_reported,cases_cumulative,fatalities_cumulative,tests_cumulative,new_cases,new_fatalities,new_tests,source_cases,source_fatalities,source_tests
+1,3/2/20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,3/3/20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,3/4/20,NA,2,NA,2,NA,NA,NA,https://covidtracking.com/data/state/georgia/,NA,https://covidtracking.com/data/state/georgia/
+4,3/5/20,NA,2,NA,2,0,NA,0,https://covidtracking.com/data/state/georgia/,NA,https://covidtracking.com/data/state/georgia/
+5,3/6/20,NA,2,NA,2,0,NA,0,https://covidtracking.com/data/state/georgia/,NA,https://covidtracking.com/data/state/georgia/
+6,3/7/20,NA,6,NA,6,4,NA,4,https://covidtracking.com/data/state/georgia/,NA,https://covidtracking.com/data/state/georgia/
+7,3/8/20,NA,7,NA,7,1,NA,1,https://covidtracking.com/data/state/georgia/,NA,https://covidtracking.com/data/state/georgia/
+8,3/9/20,NA,12,NA,12,5,NA,5,https://covidtracking.com/data/state/georgia/,NA,https://covidtracking.com/data/state/georgia/
+9,3/10/20,NA,17,NA,17,5,NA,5,https://covidtracking.com/data/state/georgia/,NA,https://covidtracking.com/data/state/georgia/
+10,3/11/20,NA,22,NA,22,5,NA,5,https://covidtracking.com/data/state/georgia/,NA,https://covidtracking.com/data/state/georgia/
+11,3/12/20,NA,31,NA,31,9,NA,9,https://covidtracking.com/data/state/georgia/,NA,https://covidtracking.com/data/state/georgia/
+12,3/13/20,NA,42,1,42,11,NA,11,https://covidtracking.com/data/state/georgia/,https://covidtracking.com/data/state/georgia/,https://covidtracking.com/data/state/georgia/
+13,3/14/20,12:00 PM,66,1,66,24,0,24,https://web.archive.org/web/20200314224758/https://dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200314224758/https://dph.georgia.gov/covid-19-daily-status-report,https://covidtracking.com/data/state/georgia/
+14,3/15/20,12:00 PM,99,1,99,33,0,33,https://web.archive.org/web/20200316003553/https:/dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200316003553/https:/dph.georgia.gov/covid-19-daily-status-report,https://covidtracking.com/data/state/georgia/
+15,3/16/20,12:00 PM,121,1,121,22,0,22,https://web.archive.org/web/20200316162454/https://dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200316162454/https://dph.georgia.gov/covid-19-daily-status-report,https://covidtracking.com/data/state/georgia/
+16,3/17/20,12:00 PM,146,1,146,25,0,25,https://web.archive.org/web/20200317165049/https://dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200317165049/https://dph.georgia.gov/covid-19-daily-status-report,https://covidtracking.com/data/state/georgia/
+17,3/18/20,12:00 PM,197,1,1508,51,0,1362,https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report
+18,3/19/20,12:00 PM,287,10,1831,90,9,323,https://web.archive.org/web/20200319174155/https://dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200319174155/https://dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report
+19,3/20/20,7:00 PM,485,14,2386,198,4,555,https://web.archive.org/web/20200321073215/https://dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200321073215/https://dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report
+20,3/21/20,7:00 PM,555,20,3616,70,6,1230,https://web.archive.org/web/20200321165454/https:/dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200321165454/https:/dph.georgia.gov/covid-19-daily-status-report,https://web.archive.org/web/20200318173647/https://dph.georgia.gov/covid-19-daily-status-report
+21,3/22/20,7:00 PM,620,25,4020,65,5,404,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report
+22,3/23/20,7:00 PM,800,26,5069,180,1,1049,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report
+23,3/24/20,7:00 PM,1097,38,5484,297,12,415,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report
+24,3/25/20,7:00 PM,1387,47,6179,290,9,695,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report
+25,3/26/20,7:00 PM,1643,56,8948,256,9,2769,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report
+26,3/27/20,2:16 PM,2130,65,NA,487,9,NA,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report,https://dph.georgia.gov/covid-19-daily-status-report
