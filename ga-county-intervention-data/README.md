@@ -1,17 +1,17 @@
-This folder contains data on non-pharmaceutical interventions implemented at the state-wide level in the United States during the COVID-19 pandemic.
+This folder contains data on non-pharmaceutical interventions implemented at the county-wide level in the US state of Georgia during the COVID-19 pandemic.
 
-These data are scraped manually from State Executive Orders, Departments of Education, and other news sources (housed on [this google sheet](https://docs.google.com/spreadsheets/d/1_mk1J3ElMH5EmPILcrx8s1KqHqdQYXCWroJeKTR3pV4/edit#gid=221668309)).
+These data are scraped manually from State Executive Orders, Departments of Education, and other news sources (housed on [this google sheet](https://docs.google.com/spreadsheets/d/1UZMWpbebhI3HS2BwzK0PCUxAbypYnM9oA9t9jP6zNXE/edit#gid=1772124213)).
 
 
 
 Google sheet is downloaded here to longFormStateInterventions.csv daily and converted into a time series of intervention intensity interventionTimeSeries.csv.
 
-## stateInterventionTimeSeries.csv
+## countyInterventionTimeSeries.csv
 <b>Metadata:</b> 
 
 
 
-`NAME`: State name
+`NAME`: County name
 `DATE`: Date
  - `social_distancing`:	recommendations to distance from other individuals outside your household (0/1)
 - `close_public_spaces`:	such as parks, plazas, and public use area (0/1)
@@ -34,9 +34,9 @@ Google sheet is downloaded here to longFormStateInterventions.csv daily and conv
 - `gathering_size`: Maximum gathering size allowed (continuous) 
 - `Intervention Score`: Sum of measures taken scaled by impact (see metadata on google sheet)
 
- ## longFormStateInterventions.csv  
+ ## longFormCountyInterventions.csv  
  <b>Metadata:</b>
-- `NAME`: Name of state
+- `NAME`: Name of county
 - `source_type`: type of source (government, news, etc.)
 - `ADM_scale`: Administrative level at which it the intervention is implemented (ADM1 = state)
 - `Source_URL`: link to webpage with information
