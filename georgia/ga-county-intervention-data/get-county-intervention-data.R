@@ -11,12 +11,11 @@ library(lubridate)
 
 # Set user info and read in google sheet
 options(gargle_oauth_email = "robbielrichards@gmail.com")
-df <- read_sheet("https://docs.google.com/spreadsheets/d/1UZMWpbebhI3HS2BwzK0PCUxAbypYnM9oA9t9jP6zNXE/edit#gid=1772124213", range = "ga-intervention-announcements")
-  
+df <- read_sheet("https://docs.google.com/spreadsheets/d/1UZMWpbebhI3HS2BwzK0PCUxAbypYnM9oA9t9jP6zNXE/edit#gid=1772124213", range = "ga-intervention-announcements", col_types= "c")
 
 # Set start_date column to a date object
 df <- df %>%  
-  mutate(start_date = ymd(as.character(start_date)))
+  mutate(start_date = ymd(as.character(start_date)), announcement_date = ymd(as.character(announcement_date)), end_date = ymd(end_date))
 
 
 
