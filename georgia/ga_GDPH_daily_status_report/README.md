@@ -28,8 +28,8 @@ Reads from the Georgia Department of Public Health website, demographic informat
 
 <b>Metadata: </b> </br>
  Column name description of data file:
-- `Age` - age at time of death
-- `Gender` - gender
+- `Age` - person's age 
+- `Gender` - person's gender
 - `County` - Georgia county  
 - `Underlying` - Existence of undelying condition (Yes, No, Unk)
 
