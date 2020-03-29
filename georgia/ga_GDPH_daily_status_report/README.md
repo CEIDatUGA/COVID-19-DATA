@@ -22,3 +22,19 @@ Reads from the Georgia Department of Public Health website, the number of COVID-
 
 <b>Projects</b>
 - TBD
+
+## GA_fatalities_demography_GDPH
+Reads from the Georgia Department of Public Health website, demographic information of fatality cases as well as existence of any underlying condition. Source: https://dph.georgia.gov/covid-19-daily-status-report.
+
+<b>Metadata: </b> </br>
+ Column name description of data file:
+- `Age` - age at time of death
+- `Gender` - gender
+- `County` - Georgia county  
+- `Underlying` - Existence of undelying condition (Yes, No, Unk)
+
+<b>Related subdirectory and/or files </b>
+- GA_fatalities_demography_GDPH.csv
+
+<b>Projects</b>
+- TBD
