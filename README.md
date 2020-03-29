@@ -3,30 +3,16 @@ Repository that stores datasets used in different COVID CEID projects.
 =======
 The datasets in the repository were compiled by members of the CEID COVID-19 working group. The data at the top level of the repository have been formated to be used 'as-is' and are updated often. Data sets were either created from html scraping or manually entered. In the case of the automated web scraping, the raw data and scripts are organized into sub-directories. The description of each data file along with the corresponding sub-directories are listed below. The metadata is in the readme of the same directory as the data.
 
-# Automated data sets
-  These data sets were created using web scraping, or other automated methods to retrieve, aggregate, and organize public data. These data sets tend to be updated nightly. 
+
 ## China data
 [China_casedata](#china_casedata) </br>
-
-## US data  
-[UScases_by_state_wikipedia.csv](#uscases_by_state_wikipedia): Number of new cases in a state by day. </br>
-[USfatalities_by_state_wikipedia.csv](#usfatalities_by_state_wikipedia): Number of new case fatalities in a state by day. </br>
-
-## Global
-[worldCases.csv](#worldcases): Number of new cases in a country by day. </br>
-
----
-
-# Manual data sets
-  These data sets were created by manually entering each line from various sources. 
-
-## China 
-
 [China_TA](#china_ta): Travel advisories or restrictions within China. </br>
 [Hubei_Evacuation_Repatriation](#hubei_evacuation_repatriation): Reports of evacuations from Hubei province. </br>
 
-## US data
-
+## US data  
+[UScases_by_state_wikipedia.csv](#uscases_by_state_wikipedia): Number of new cases in a state by day. </br>
+[USfatalities_by_state_wikipedia.csv](#usfatalities_by_state_wikipedia): Number of new 
+case fatalities in a state by day. </br>
 [us-state-intervention-data/stateInterventionTimeSeries.csv](https://github.com/CEIDatUGA/COVID-19-DATA/tree/master/us-state-intervention-data): Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
 
 [us-state-intervention-data/longFormStateInterventions.csv](https://github.com/CEIDatUGA/COVID-19-DATA/tree/master/us-state-intervention-data): Running summary of interventions at the state level taken from reports and wikipedia
@@ -35,16 +21,17 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 
 [ga-county-intervention-data/longFormCountyInterventions.csv](https://github.com/CEIDatUGA/COVID-19-DATA/tree/master/ga-county-intervention-data): Running summary of interventions at the state level taken from reports and wikipedia
 
-
-
 ## Global
-
+[worldCases.csv](#worldcases): Number of new cases in a country by day. </br>
 [Internation_TA](#international_ta): Travel advisories announced by county. </br>
-
-
+[Global Health Security Index](#GHSI_2019): Index of epidemic preparednessa and underlying data </br>
 [Epidemiological characteristics of COVID-19 and other zoonotics](#epi_characteristics)</br>
 
-[Global Health Security Index](#GHSI_2019): Index of epidemic preparednessa and underlying data </br>
+---
+
+
+
+
 
 # How to add new data?
 
