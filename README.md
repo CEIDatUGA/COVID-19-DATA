@@ -42,7 +42,8 @@ Here is some discription of how the data is collected, when it is normally updat
 
 <b>Metadata:</b> 
  
- 
+<b>Source:</b> Link to data source if pulled from single website (ie. Wikipedia, etc.)
+
 <b>Related subdirectory and/or files</b>
 
 <b>Projects</b>
