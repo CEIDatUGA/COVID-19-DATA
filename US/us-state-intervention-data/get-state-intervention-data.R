@@ -12,12 +12,12 @@ library(lubridate)
 
 # Set user info and read in google sheet
 options(gargle_oauth_email = "robbielrichards@gmail.com")
-df <- read_sheet("https://docs.google.com/spreadsheets/d/1_mk1J3ElMH5EmPILcrx8s1KqHqdQYXCWroJeKTR3pV4/edit#gid=221668309", range = "state-covid-announcements")
-  
+df <- read_sheet("https://docs.google.com/spreadsheets/d/1_mk1J3ElMH5EmPILcrx8s1KqHqdQYXCWroJeKTR3pV4/edit#gid=221668309", range = "state-covid-announcements", col_types = "c")
+
 
 # Set start_date column to a date object
 df <- df %>%  
-  mutate(start_date = ymd(as.character(start_date)))
+  mutate(start_date = ymd(as.character(start_date)), announcement_date = ymd(as.character(announcement_date)), end_date = ymd(end_date))
 
 
 
@@ -45,7 +45,8 @@ dfTS$NAME<- levels(factor(df$NAME))
 dfTS$DATE <- as.character(dates[-1])
 
 # Remove all rows of the raw dataframe that remain without a start_date
-df <- df %>% filter(!is.na(start_date))
+df <- df %>% filter(!is.na(start_date)) %>%
+  mutate(start_date = ymd(start_date), announcement_date = ymd(announcement_date), end_date = ymd(end_date))
 
 
 #Set gathering size maximum to NA for the time series (instead of zero)
