@@ -35,7 +35,7 @@ case fatalities in a state by day. </br>
 
 # How to add new data?
 
-Please follow the data protocols outlines [here](https://docs.google.com/document/d/1JwN1Q8ILKEU48sDo-f44V2wLErFm29rh0TI9hMXMwEk/edit). Use the template below to add metadata about your dataset to its subdirectory.
+Please follow the data protocols outlines [here](https://docs.google.com/document/d/1JwN1Q8ILKEU48sDo-f44V2wLErFm29rh0TI9hMXMwEk/edit). Use the template below to add metadata about your dataset to its subdirectory, and add the name of the dataset to this master README.
 
 ## Data_name
 Here is some discription of how the data is collected, when it is normally updated, etc. 
