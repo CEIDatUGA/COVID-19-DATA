@@ -1,4 +1,4 @@
-﻿,COVID-19 Confirmed Cases By County:,No. Cases,No. Deaths
+﻿,County,Cases,Fatalities
 1,Fulton,425,12
 2,Dekalb,273,3
 3,Dougherty,247,17
@@ -113,4 +113,3 @@
 112,White,1,0
 113,Wilkes,1,0
 114,Unknown,226,2
-,,,
