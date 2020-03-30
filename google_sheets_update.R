@@ -12,6 +12,8 @@
 #' 2. Global First Cases at ADM1 level
 #' 3. China Travel Advisories
 #' 4. International Travel Advisories
+#' 5. Epidemiological characteristic of 2019-nCoV and other zoonotic pathogens
+
 
 #wd should be set to source file location
 library(googlesheets4)
@@ -54,5 +56,11 @@ df <- read_sheet("https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7U
 write.csv(df, "global/International_TA.csv", row.names = F)
 
 
+#### Epidemiological characteristic of 2019-nCoV and other zoonotic pathogens ####
+
+df <- read_sheet("https://docs.google.com/spreadsheets/d/18rhrw1d9uDtm8ffLaFmFXjcY8zFCcYqesEoso2EICE0/edit#gid=0",
+                 sheet = 1)
+
+write.csv(df, "nongeographic/Epi_characteristics.csv", row.names = F)
 
 
