@@ -118,7 +118,7 @@ us_cases_data_weekly_states <- us_cases_data_weekly2 %>%
 # time series of national level data 
 us_cases_data_weekly_national <- us_cases_data_weekly2 %>% ungroup() %>%
   select(WeekStart, epiweek, national_weekly_cases, national_weekly_deaths, national_weekly_rec, date_time_accessed) %>%
-  distinct()
+  distinct() %>% filter(!is.na(national_weekly_cases))
 
 write.csv(us_cases_data_weekly_states, "US/COVID-19-ILI-forecasting/data/us_cases_data_weekly_states.csv")
 write.csv(us_cases_data_weekly_national, "US/COVID-19-ILI-forecasting/data/us_cases_data_weekly_national.csv")
