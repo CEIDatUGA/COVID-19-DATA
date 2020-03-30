@@ -40,8 +40,10 @@ format_cases <- function(us_cases = us_cases, us_state_code = us_state_code, cou
     select(location, everything()) 
   
   nyc_cases2 <- county_cases %>% 
-    filter(County.Name == "New York City") %>% 
-    gather(key = "Date", value = "NYC_cumulative", -c(countyFIPS:stateFIPS)) %>% 
+    # include data from each of the counties that make up the 5 boroughs of NYC
+    filter(County.Name %in% c("Queens County", "Kings County", "New York County", "Bronx County", "Richmond County") & State == "NY") %>% group_by(State) %>%
+    summarise_if(is.numeric, ~sum(., na.rm = T)) %>% mutate(County.Name = "New York City") %>% 
+    gather(key = "Date", value = "NYC_cumulative", -c(countyFIPS, stateFIPS, State, County.Name)) %>% 
     # convert Date to correct date format
     mutate_at("Date",  ~ as.Date(gsub(pattern = "X", replace = "", .), format = "%m.%d.%Y")) %>%
     mutate(date_time_accessed = Sys.time()) %>%
@@ -109,9 +111,11 @@ sep_nyc_cases <- function(us_cases_data_weekly = us_cases_data_weekly) {
 
 us_cases_data_weekly2 <- sep_nyc_cases(us_cases_data_weekly) 
 
+# weekly data set for states, territories, and NYC
 us_cases_data_weekly_states <- us_cases_data_weekly2 %>%
   select(location, State_Code, WeekStart, epiweek, state_weekly_cases, date_time_accessed)
 
+# time series of national level data 
 us_cases_data_weekly_national <- us_cases_data_weekly2 %>% ungroup() %>%
   select(WeekStart, epiweek, national_weekly_cases, national_weekly_deaths, national_weekly_rec, date_time_accessed) %>%
   distinct()
