@@ -11,7 +11,7 @@ library(lubridate)
 
 # Set user info and read in google sheet
 options(gargle_oauth_email = "robbielrichards@gmail.com")
-df <- read_sheet("https://docs.google.com/spreadsheets/d/1UZMWpbebhI3HS2BwzK0PCUxAbypYnM9oA9t9jP6zNXE/edit#gid=1772124213", range = "ga-intervention-announcements")
+df <- read_sheet("https://docs.google.com/spreadsheets/d/1UZMWpbebhI3HS2BwzK0PCUxAbypYnM9oA9t9jP6zNXE/edit#gid=1772124213", range = "ga-intervention-announcements", col_types = "c")
   
 
 # Set start_date column to a date object
@@ -43,7 +43,8 @@ dfTS$NAME<- levels(factor(df$NAME))
 dfTS$DATE <- as.character(dates[-1])
 
 # Remove all rows of the raw dataframe that remain without a start_date
-df <- df %>% filter(!is.na(start_date))
+df <- df %>% filter(!is.na(start_date)) %>%
+  mutate(start_date = ymd(start_date), announcement_date = ymd(announcement_date), end_date = ymd(end_date))
 
 
 #Set gathering size maximum to NA for the time series (instead of zero)
