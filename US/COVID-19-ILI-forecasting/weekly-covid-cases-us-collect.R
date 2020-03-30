@@ -2,9 +2,12 @@ library(dplyr)
 library(tidyr)
 library(MMWRweek)
 
+# set working directory to COVID-19-DATA repo
+setwd("~/work/COVID-19-DATA")
+
 # reading in csv for now, but the OAUTH code at the end will need to manually updated, roughly weekly
 # might be better to just access the data set by automatically pulling from the COVID-19-DATA github repo to local folder and then uploading from there
-us_cases <- read.csv("https://raw.githubusercontent.com/CEIDatUGA/COVID-19-DATA/master/UScases_by_state_wikipedia.csv?token=AMRZYPMEVQVPCB3C2CR5XKC6PEZFC")
+us_cases <- read.csv("US/US_wikipedia_cases_fatalities/UScases_by_state_wikipedia.csv")
 
 us_state_code <- read.csv("https://raw.githubusercontent.com/jasonong/List-of-US-States/master/states.csv", stringsAsFactors = F)
 us_state_code <- rbind(us_state_code, c("Puerto Rico", "PR"),  c("Virgin Islands", "VI"), c("Guam", "GU"))
@@ -100,10 +103,18 @@ sep_nyc_cases <- function(us_cases_data_weekly = us_cases_data_weekly) {
     select(-nyc_weekly_cases, -NYC)
   
   tmp2 <- us_cases_data_weekly %>% filter(location != "New York")
-  tmp3 <- rbind(tmp, tmp2)
-  return(tmp3) %>% arrange(location, WeekStart)
-}
+  tmp3 <- rbind(tmp, tmp2) %>% arrange(location, WeekStart)
+  return(tmp3) 
+  }
 
-us_cases_data_weekly2 <- sep_nyc_cases(us_cases_data_weekly)
+us_cases_data_weekly2 <- sep_nyc_cases(us_cases_data_weekly) 
 
-write.csv(us_cases_data_weekly2, "COVID-19-ILI-forecasting/data/us_cases_data_weekly.csv")
+us_cases_data_weekly_states <- us_cases_data_weekly2 %>%
+  select(location, State_Code, WeekStart, epiweek, state_weekly_cases, date_time_accessed)
+
+us_cases_data_weekly_national <- us_cases_data_weekly2 %>% ungroup() %>%
+  select(WeekStart, epiweek, national_weekly_cases, national_weekly_deaths, national_weekly_rec, date_time_accessed) %>%
+  distinct()
+
+write.csv(us_cases_data_weekly_states, "US/COVID-19-ILI-forecasting/data/us_cases_data_weekly_states.csv")
+write.csv(us_cases_data_weekly_national, "US/COVID-19-ILI-forecasting/data/us_cases_data_weekly_national.csv")
