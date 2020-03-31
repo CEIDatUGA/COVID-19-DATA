@@ -369,14 +369,20 @@ summary {
 </div>
 
 
+<p>RUN THIS SCRIPT AT 10 PM each day (or pull from archived site later)</p>
+<p>xpath for the table on the wiki page is highly likely to change from day to day. In order to fix it you just:</p>
+<ol style="list-style-type: decimal">
+<li><p>Make sure the url is correct</p></li>
+<li><p>Inspect the element in your browser and recopy the xpath</p></li>
+</ol>
 <pre class="r"><code>## Get Daily Country Data from Wikipedia
 library(tidyverse)</code></pre>
-<pre><code>## ── Attaching packages ───────────────────────────────────────────────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
+<pre><code>## ── Attaching packages ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
 <pre><code>## ✓ ggplot2 3.2.1     ✓ purrr   0.3.3
 ## ✓ tibble  2.1.3     ✓ dplyr   0.8.4
 ## ✓ tidyr   1.0.2     ✓ stringr 1.4.0
 ## ✓ readr   1.3.1     ✓ forcats 0.4.0</code></pre>
-<pre><code>## ── Conflicts ──────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+<pre><code>## ── Conflicts ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
 ## x dplyr::filter() masks stats::filter()
 ## x dplyr::lag()    masks stats::lag()</code></pre>
 <pre class="r"><code>library(googledrive)
@@ -451,29 +457,70 @@ library(dplyr)
 library(tidyr)
 library(stringr)</code></pre>
 <pre class="r"><code>options(gargle_oauth_email = &quot;robbielrichards@gmail.com&quot;)
-df &lt;- read_sheet(&quot;https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit?usp=sharing&quot;, range = &quot;Cumulative case reports by country - confirmed&quot;)</code></pre>
-<pre><code>## Auto-refreshing stale OAuth token.</code></pre>
-<pre><code>## Reading from 'CEID Wuhan Coronavirus - Timeline of Key Events'</code></pre>
-<pre><code>## Range &quot;'Cumulative case reports by country - confirmed'&quot;</code></pre>
-<pre class="r"><code># Then strip out the extraneous columns)
+df &lt;- read_sheet(&quot;https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit?usp=sharing&quot;, range = &quot;Cumulative case reports by country - confirmed&quot;)
+
+# Then strip out the extraneous columns)
 dfStripped &lt;- df[,-c(which(names(df) %in% c(&quot;Sources&quot;, &quot;Contributor&quot;, &quot;Notes&quot;)))]%&gt;%
   drop_na()
 
 
 
 dfLong &lt;- pivot_longer(dfStripped, -Date, names_to = &quot;Country&quot;, values_to = &quot;Cases&quot;) %&gt;%
-  mutate(Date = as.character(Date))
+  mutate(Date = as.character(Date)) %&gt;% mutate(Country = replace(Country, which(dfLong$Country==&quot;The Netherlands&quot;), &quot;Netherlands&quot;)) %&gt;% mutate(Country = replace(Country, which(dfLong$Country==&quot;USA&quot;), &quot;United States&quot;)) %&gt;% mutate(Country = replace(Country, which(dfLong$Country==&quot;St. Vincent and Grenadines&quot;|&quot;St. Vincent&quot;), &quot;St. Vincent and the Grenadines&quot;)) %&gt;%  mutate(Country = replace(Country, which(dfLong$Country==&quot;Democratic Republic of the Congo&quot;), &quot;DR Congo&quot;)) 
+  
+Netherlands
+
+# df &lt;- df %&gt;% mutate(Country = replace(Country, which(df$Country==&quot;St. Vincent and Grenadines&quot;| df$Country==&quot;St. Vincent&quot;), &quot;St. Vincent and the Grenadines&quot;)) %&gt;%  mutate(Country = replace(Country, which(df$Country==&quot;Democratic Republic of the Congo&quot;), &quot;DR Congo&quot;)) %&gt;% mutate(Country = replace(Country, which(df$Country==&quot;Netherlands (kingdom)[i]&quot;), &quot;Netherlands&quot;))
 
 
 write.csv(dfLong, &quot;worldCases.csv&quot;)</code></pre>
-<pre class="r"><code>url &lt;- &quot;https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory&quot;
+<pre class="r"><code>df &lt;- read.csv(&quot;worldCases.csv&quot;)
+
+
+# Need to get link and div without wayback machine header using ctrl click on ubuntu
+
+url &lt;- &quot;https://web.archive.org/web/20200315235036/https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic&quot;
+ World.wikipedia &lt;- url %&gt;%
+   html() %&gt;%
+   html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[6]/table') %&gt;%
+   html_table(fill = TRUE)
+ World.wikipedia &lt;- World.wikipedia[[1]]
+ names(World.wikipedia) &lt;- World.wikipedia[1,]
+ World.wikipedia &lt;- World.wikipedia[3:(nrow(World.wikipedia)-2),2:3]
+ names(World.wikipedia)&lt;- c(&quot;Country&quot;, &quot;Cases&quot;)
+ for(i in 1: nrow(World.wikipedia)){
+   if(str_sub(World.wikipedia$Country[i], start= -1, end = -1)==&quot;]&quot;){
+     World.wikipedia$Country[i] &lt;- str_sub(World.wikipedia$Country[i], start = 1, end = -4)
+   }
+ }
+
+ for(i in 1:nrow(World.wikipedia)){
+   if(str_sub(World.wikipedia$Country[i], start = -1)==&quot;]&quot;){
+     World.wikipedia$Country[i] &lt;- str_sub(World.wikipedia$Country[i], end = -4)
+   }
+ }
+ 
+ World.wikipedia$Date &lt;- &quot;2020-03-15&quot;
+
+ World.wikipedia$Cases &lt;- as.numeric(as.character(gsub(&quot;,&quot;,&quot;&quot; , World.wikipedia$Cases)))
+
+
+
+dfNew &lt;- bind_rows(df, World.wikipedia) %&gt;% select(Date, Country, Cases)
+
+
+write.csv(dfNew, &quot;worldCases.csv&quot;)</code></pre>
+<pre class="r"><code>df &lt;- read.csv(&quot;worldCases.csv&quot;)%&gt;%
+  dplyr::select(Date, Country, Cases)
+
+url &lt;- &quot;https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory&quot;
 World.wikipedia &lt;- url %&gt;%
   html() %&gt;%
-  html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[6]/div[2]/table') %&gt;%
+  html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[9]/table') %&gt;%
   html_table(fill = TRUE)
 World.wikipedia &lt;- World.wikipedia[[1]]
 names(World.wikipedia) &lt;- World.wikipedia[1,]
-World.wikipedia &lt;- World.wikipedia[3:(nrow(World.wikipedia)-2),2:3]
+World.wikipedia &lt;- World.wikipedia[2:(nrow(World.wikipedia)-2),2:3]
 names(World.wikipedia)&lt;- c(&quot;Country&quot;, &quot;Cases&quot;)
 for(i in 1: nrow(World.wikipedia)){
   if(str_sub(World.wikipedia$Country[i], start= -1, end = -1)==&quot;]&quot;){
@@ -484,7 +531,121 @@ for(i in 1: nrow(World.wikipedia)){
 World.wikipedia$Date &lt;- format(Sys.time(), '%Y-%m-%d')
 # Then strip out the extraneous columns)
 
-bind_rows(df, World.wikipedia)</code></pre>
+
+World.wikipedia$Cases &lt;- as.numeric(as.character(gsub(&quot;,&quot;,&quot;&quot; , World.wikipedia$Cases)))
+
+World.wikipedia$Country &lt;- replace(World.wikipedia$Country, which(World.wikipedia$Country==&quot;Netherlands[l]&quot;), &quot;Netherlands&quot;)
+
+World.wikipedia$Country &lt;- replace(World.wikipedia$Country, which(World.wikipedia$Country==&quot;United States[f]&quot;), &quot;United States&quot;)
+
+World.wikipedia$Country &lt;- replace(World.wikipedia$Country, which(World.wikipedia$Country==&quot;Denmark[p][q]&quot;), &quot;Denmark&quot;)
+
+
+
+
+dfNew &lt;- bind_rows(df, World.wikipedia) %&gt;% dplyr::select(Date, Country, Cases)
+
+
+### Check country names before writing!!!
+
+write.csv(dfNew, &quot;worldCases.csv&quot;)</code></pre>
+<div id="fatalities" class="section level3">
+<h3>Fatalities</h3>
+<pre class="r"><code>options(gargle_oauth_email = &quot;robbielrichards@gmail.com&quot;)
+df &lt;- read_sheet(&quot;https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit?usp=sharing&quot;, range = &quot;Cumulative fatalities reported by country&quot;)</code></pre>
+<pre><code>## Reading from 'CEID Wuhan Coronavirus - Timeline of Key Events'</code></pre>
+<pre><code>## Range &quot;'Cumulative fatalities reported by country'&quot;</code></pre>
+<pre class="r"><code># Then strip out the extraneous columns)
+dfStripped &lt;- df[,-c(which(names(df) %in% c(&quot;Sources&quot;, &quot;Contributor&quot;, &quot;Notes&quot;)))]%&gt;%
+  drop_na()
+
+
+
+dfLong &lt;- pivot_longer(dfStripped, -Date, names_to = &quot;Country&quot;, values_to = &quot;Fatalities&quot;) 
+dfLong &lt;- dfLong %&gt;%
+  mutate(Date = as.character(Date)) %&gt;% mutate(Country = replace(Country, which(dfLong$Country==&quot;The Netherlands&quot;), &quot;Netherlands&quot;)) %&gt;% mutate(Country = replace(Country, which(dfLong$Country==&quot;USA&quot;), &quot;United States&quot;)) %&gt;% mutate(Country = replace(Country, which(dfLong$Country==&quot;St. Vincent and Grenadines&quot; | dfLong$Country ==&quot;St. Vincent&quot;), &quot;St. Vincent and the Grenadines&quot;)) %&gt;%  mutate(Country = replace(Country, which(dfLong$Country==&quot;Democratic Republic of the Congo&quot;), &quot;DR Congo&quot;)) 
+  
+
+# df &lt;- df %&gt;% mutate(Country = replace(Country, which(df$Country==&quot;St. Vincent and Grenadines&quot;| df$Country==&quot;St. Vincent&quot;), &quot;St. Vincent and the Grenadines&quot;)) %&gt;%  mutate(Country = replace(Country, which(df$Country==&quot;Democratic Republic of the Congo&quot;), &quot;DR Congo&quot;)) %&gt;% mutate(Country = replace(Country, which(df$Country==&quot;Netherlands (kingdom)[i]&quot;), &quot;Netherlands&quot;))
+
+
+write.csv(dfLong, &quot;worldFatalities.csv&quot;)</code></pre>
+<pre class="r"><code>df &lt;- read.csv(&quot;worldCases.csv&quot;)
+
+
+# Need to get link and div without wayback machine header using ctrl click on ubuntu
+
+url &lt;- &quot;https://web.archive.org/web/20200315235036/https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic&quot;
+ World.wikipedia &lt;- url %&gt;%
+   html() %&gt;%
+   html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[6]/table') %&gt;%
+   html_table(fill = TRUE)
+ World.wikipedia &lt;- World.wikipedia[[1]]
+ names(World.wikipedia) &lt;- World.wikipedia[1,]
+ World.wikipedia &lt;- World.wikipedia[3:(nrow(World.wikipedia)-2),2:3]
+ names(World.wikipedia)&lt;- c(&quot;Country&quot;, &quot;Cases&quot;)
+ for(i in 1: nrow(World.wikipedia)){
+   if(str_sub(World.wikipedia$Country[i], start= -1, end = -1)==&quot;]&quot;){
+     World.wikipedia$Country[i] &lt;- str_sub(World.wikipedia$Country[i], start = 1, end = -4)
+   }
+ }
+
+ for(i in 1:nrow(World.wikipedia)){
+   if(str_sub(World.wikipedia$Country[i], start = -1)==&quot;]&quot;){
+     World.wikipedia$Country[i] &lt;- str_sub(World.wikipedia$Country[i], end = -4)
+   }
+ }
+ 
+ World.wikipedia$Date &lt;- &quot;2020-03-15&quot;
+
+ World.wikipedia$Cases &lt;- as.numeric(as.character(gsub(&quot;,&quot;,&quot;&quot; , World.wikipedia$Cases)))
+
+
+
+dfNew &lt;- bind_rows(df, World.wikipedia) %&gt;% select(Date, Country, Cases)
+
+
+write.csv(dfNew, &quot;worldCases.csv&quot;)</code></pre>
+<pre class="r"><code>df &lt;- read.csv(&quot;worldCases.csv&quot;)%&gt;%
+  dplyr::select(Date, Country, Cases)
+
+url &lt;- &quot;https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory&quot;
+World.wikipedia &lt;- url %&gt;%
+  html() %&gt;%
+  html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[9]/table') %&gt;%
+  html_table(fill = TRUE)
+World.wikipedia &lt;- World.wikipedia[[1]]
+names(World.wikipedia) &lt;- World.wikipedia[1,]
+World.wikipedia &lt;- World.wikipedia[2:(nrow(World.wikipedia)-2),2:3]
+names(World.wikipedia)&lt;- c(&quot;Country&quot;, &quot;Cases&quot;)
+for(i in 1: nrow(World.wikipedia)){
+  if(str_sub(World.wikipedia$Country[i], start= -1, end = -1)==&quot;]&quot;){
+    World.wikipedia$Country[i] &lt;- str_sub(World.wikipedia$Country[i], start = 1, end = -4)
+  }
+}
+
+World.wikipedia$Date &lt;- format(Sys.time(), '%Y-%m-%d')
+# Then strip out the extraneous columns)
+
+
+World.wikipedia$Cases &lt;- as.numeric(as.character(gsub(&quot;,&quot;,&quot;&quot; , World.wikipedia$Cases)))
+
+World.wikipedia$Country &lt;- replace(World.wikipedia$Country, which(World.wikipedia$Country==&quot;Netherlands[l]&quot;), &quot;Netherlands&quot;)
+
+World.wikipedia$Country &lt;- replace(World.wikipedia$Country, which(World.wikipedia$Country==&quot;United States[f]&quot;), &quot;United States&quot;)
+
+World.wikipedia$Country &lt;- replace(World.wikipedia$Country, which(World.wikipedia$Country==&quot;Denmark[p][q]&quot;), &quot;Denmark&quot;)
+
+
+
+
+dfNew &lt;- bind_rows(df, World.wikipedia) %&gt;% dplyr::select(Date, Country, Cases)
+
+
+### Check country names before writing!!!
+
+write.csv(dfNew, &quot;worldCases.csv&quot;)</code></pre>
+</div>
 
 
 
