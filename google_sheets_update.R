@@ -14,6 +14,7 @@
 #' 4. International Travel Advisories
 #' 5. Epidemiological characteristic of 2019-nCoV and other zoonotic pathogens
 
+options(stringsAsFactors = F)
 
 #wd should be set to source file location
 library(googlesheets4)
@@ -22,6 +23,8 @@ library(dplyr)
 ##### exposure locations ####
 df <- read_sheet("https://docs.google.com/spreadsheets/d/150Kc-hjh9uPTNigEL6L0E8i0KTF77utMmSu1AdSRAgY/edit#gid=0",
                  sheet = 1)
+str(df)
+head(df)
 
 metadata <- read_sheet("https://docs.google.com/spreadsheets/d/150Kc-hjh9uPTNigEL6L0E8i0KTF77utMmSu1AdSRAgY/edit#gid=0",
                        sheet = 2)
@@ -33,6 +36,8 @@ write.csv(df, "global/global_exposure_locations.csv", row.names = F)
 #### Global First Cases at ADM1 Level ####
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1eA5YOdaZvEhDcse4W6qq7Q_D8AciZx_1ZSgORxUppGo/edit#gid=0",
                  sheet = 1)
+str(df)
+head(df)
 
 metadata <- read_sheet("https://docs.google.com/spreadsheets/d/1eA5YOdaZvEhDcse4W6qq7Q_D8AciZx_1ZSgORxUppGo/edit#gid=0",
                        sheet = 3)
@@ -46,12 +51,18 @@ write.csv(df, "global/global_first_case.csv", row.names = F)
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1169808441",
                  sheet = 1)
 
+str(df)
+tail(df)
+
 write.csv(df, "china/China_TA.csv", row.names = F)
 
 #### Global Travel Advisories ####
 
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1169808441",
                  sheet = 3)
+
+str(df)
+tail(df)
 
 write.csv(df, "global/International_TA.csv", row.names = F)
 
@@ -60,6 +71,9 @@ write.csv(df, "global/International_TA.csv", row.names = F)
 
 df <- read_sheet("https://docs.google.com/spreadsheets/d/18rhrw1d9uDtm8ffLaFmFXjcY8zFCcYqesEoso2EICE0/edit#gid=0",
                  sheet = 1)
+
+str(df)
+tail(df)
 
 write.csv(df, "nongeographic/Epi_characteristics.csv", row.names = F)
 
