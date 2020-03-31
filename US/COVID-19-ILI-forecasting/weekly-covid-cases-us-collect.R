@@ -2,9 +2,12 @@ library(dplyr)
 library(tidyr)
 library(MMWRweek)
 
+# set working directory to COVID-19-DATA repo
+setwd("~/work/COVID-19-DATA")
+
 # reading in csv for now, but the OAUTH code at the end will need to manually updated, roughly weekly
 # might be better to just access the data set by automatically pulling from the COVID-19-DATA github repo to local folder and then uploading from there
-us_cases <- read.csv("https://raw.githubusercontent.com/CEIDatUGA/COVID-19-DATA/master/UScases_by_state_wikipedia.csv?token=AMRZYPMEVQVPCB3C2CR5XKC6PEZFC")
+us_cases <- read.csv("US/US_wikipedia_cases_fatalities/UScases_by_state_wikipedia.csv")
 
 us_state_code <- read.csv("https://raw.githubusercontent.com/jasonong/List-of-US-States/master/states.csv", stringsAsFactors = F)
 us_state_code <- rbind(us_state_code, c("Puerto Rico", "PR"),  c("Virgin Islands", "VI"), c("Guam", "GU"))
@@ -37,8 +40,10 @@ format_cases <- function(us_cases = us_cases, us_state_code = us_state_code, cou
     select(location, everything()) 
   
   nyc_cases2 <- county_cases %>% 
-    filter(County.Name == "New York City") %>% 
-    gather(key = "Date", value = "NYC_cumulative", -c(countyFIPS:stateFIPS)) %>% 
+    # include data from each of the counties that make up the 5 boroughs of NYC
+    filter(County.Name %in% c("Queens County", "Kings County", "New York County", "Bronx County", "Richmond County") & State == "NY") %>% group_by(State) %>%
+    summarise_if(is.numeric, ~sum(., na.rm = T)) %>% mutate(County.Name = "New York City") %>% 
+    gather(key = "Date", value = "NYC_cumulative", -c(countyFIPS, stateFIPS, State, County.Name)) %>% 
     # convert Date to correct date format
     mutate_at("Date",  ~ as.Date(gsub(pattern = "X", replace = "", .), format = "%m.%d.%Y")) %>%
     mutate(date_time_accessed = Sys.time()) %>%
@@ -100,10 +105,20 @@ sep_nyc_cases <- function(us_cases_data_weekly = us_cases_data_weekly) {
     select(-nyc_weekly_cases, -NYC)
   
   tmp2 <- us_cases_data_weekly %>% filter(location != "New York")
-  tmp3 <- rbind(tmp, tmp2)
-  return(tmp3) %>% arrange(location, WeekStart)
-}
+  tmp3 <- rbind(tmp, tmp2) %>% arrange(location, WeekStart)
+  return(tmp3) 
+  }
 
-us_cases_data_weekly2 <- sep_nyc_cases(us_cases_data_weekly)
+us_cases_data_weekly2 <- sep_nyc_cases(us_cases_data_weekly) 
 
-write.csv(us_cases_data_weekly2, "COVID-19-ILI-forecasting/data/us_cases_data_weekly.csv")
+# weekly data set for states, territories, and NYC
+us_cases_data_weekly_states <- us_cases_data_weekly2 %>%
+  select(location, State_Code, WeekStart, epiweek, state_weekly_cases, date_time_accessed)
+
+# time series of national level data 
+us_cases_data_weekly_national <- us_cases_data_weekly2 %>% ungroup() %>%
+  select(WeekStart, epiweek, national_weekly_cases, national_weekly_deaths, national_weekly_rec, date_time_accessed) %>%
+  distinct() %>% filter(!is.na(national_weekly_cases))
+
+write.csv(us_cases_data_weekly_states, "US/COVID-19-ILI-forecasting/data/us_cases_data_weekly_states.csv")
+write.csv(us_cases_data_weekly_national, "US/COVID-19-ILI-forecasting/data/us_cases_data_weekly_national.csv")
