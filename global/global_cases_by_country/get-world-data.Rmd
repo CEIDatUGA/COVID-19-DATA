@@ -141,6 +141,10 @@ World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedi
 
 World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="Denmark[p][q]"), "Denmark")
 
+World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="MS Zaandam["), "MS Zaandam")
+
+World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="Somalia ["), "Somalia")
+
 
 
 

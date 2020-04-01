@@ -360,10 +360,10 @@
 "359","ADM2","Gilmer",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
 "360","ADM2","Gilmer",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
 "361","ADM2","Gilmer",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"362","ADM2","Glascock",NA,"Department of Public Health","Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"363","ADM2","Glascock",NA,"Department of Public Health","Government",NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"364","ADM2","Glascock",NA,"Department of Public Health","Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"365","ADM2","Glascock",NA,"Department of Public Health","Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"362","ADM2","Glascock",NA,"Department of Public Health","Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"363","ADM2","Glascock",NA,"Department of Public Health","Government",NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"364","ADM2","Glascock",NA,"Department of Public Health","Government",NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"365","ADM2","Glascock",NA,"Department of Public Health","Government",NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
 "366","ADM2","Glascock",NA,NA,"Government",NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
 "367","ADM2","Glynn",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
 "368","ADM2","Glynn",NA,NA,NA,NA,2020-03-17,"2020-04-13","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
@@ -387,31 +387,31 @@
 "386","ADM2","Greene",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
 "387","ADM2","Greene",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
 "388","ADM2","Greene",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"389","ADM2","Gwinnett",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"389","ADM2","Gwinnett",NA,"Board of Commissioners","Government","2020-03-16",2020-03-16,"2020-04-13","state_of_emergency",NA,"https://www.gwinnettcounty.com/web/gwinnett/Alert",NA,NA,"2020-03-31","DMO","2020-03-21"
 "390","ADM2","Gwinnett",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"391","ADM2","Gwinnett",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"391","ADM2","Gwinnett",NA,"Board of Commissioners","Government","2020-03-27",2020-03-27,NA,"prohibit_business",NA,"https://www.gwinnettcounty.com/web/gwinnett/Alert",NA,"All non essential to close","2020-03-31","DMO","2020-03-21"
 "392","ADM2","Gwinnett",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"393","ADM2","Gwinnett",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"394","ADM2","Habersham",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"393","ADM2","Gwinnett",NA,"Board of Commissioners","Government","2020-03-27",2020-03-27,"2020-04-13","shelter_in_place",NA,"https://www.gwinnettcounty.com/web/gwinnett/Alert",NA,NA,"2020-03-31","DMO","2020-03-21"
+"394","ADM2","Habersham",NA,"County Board of Commisioners","Government","2020-03-28",2020-03-29,"2020-04-11","state_of_emergency",NA,"https://www.habershamga.com/news?id=6809",NA,NA,"2020-03-31","LJB","2020-03-31"
 "395","ADM2","Habersham",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"396","ADM2","Habersham",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"397","ADM2","Habersham",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"398","ADM2","Habersham",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"399","ADM2","Hall",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"396","ADM2","Habersham",NA,"County Board of Commisioners","Government","2020-03-28",2020-03-29,"2020-04-11","prohibit_business",NA,"https://www.habershamga.com/news?id=6809",NA,NA,"2020-03-31","LJB","2020-03-31"
+"397","ADM2","Habersham",NA,"County Board of Commisioners","Government","2020-03-28",2020-03-29,"2020-04-11","gathering_size_limited",NA,"https://www.habershamga.com/news?id=6809","10",NA,"2020-03-31","LJB","2020-03-31"
+"398","ADM2","Habersham",NA,"County Board of Commisioners","Government","2020-03-28",2020-03-29,"2020-04-11","shelter_in_place",NA,"https://www.habershamga.com/news?id=6809",NA,NA,"2020-03-31","LJB","2020-03-31"
+"399","ADM2","Hall",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
 "400","ADM2","Hall",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"401","ADM2","Hall",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"402","ADM2","Hall",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"403","ADM2","Hall",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"401","ADM2","Hall",NA,NA,NA,"2020-03-24",2020-03-25,NA,"prohibit_business",NA,"https://www.hallcounty.org/DocumentCenter/View/7310/COVID-19-Resolution---32420",NA,"Restaurants - dine out only","2020-03-31","DMO","2020-03-31"
+"402","ADM2","Hall",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"403","ADM2","Hall",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
 "404","ADM2","Hancock",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
 "405","ADM2","Hancock",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
 "406","ADM2","Hancock",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
 "407","ADM2","Hancock",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
 "408","ADM2","Hancock",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"409","ADM2","Haralson",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"409","ADM2","Haralson",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.haralsoncountyga.gov",NA,NA,"2020-03-31","DMO","2020-03-31"
 "410","ADM2","Haralson",NA,NA,NA,NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"411","ADM2","Haralson",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"412","ADM2","Haralson",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"413","ADM2","Haralson",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"411","ADM2","Haralson",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://www.haralsoncountyga.gov",NA,NA,"2020-03-31","DMO","2020-03-31"
+"412","ADM2","Haralson",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://www.haralsoncountyga.gov",NA,NA,"2020-03-31","DMO","2020-03-31"
+"413","ADM2","Haralson",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://www.haralsoncountyga.gov",NA,NA,"2020-03-31","DMO","2020-03-31"
 "414","ADM2","Harris",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
 "415","ADM2","Harris",NA,NA,NA,NA,2020-03-16,"2020-04-06","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
 "416","ADM2","Harris",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
@@ -422,439 +422,442 @@
 "421","ADM2","Hart",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
 "422","ADM2","Hart",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
 "423","ADM2","Hart",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"424","ADM2","Heard",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"424","ADM2","Heard",NA,"Board of Commissioners","Government","2020-03-24",2020-03-24,NA,"state_of_emergency",NA,"https://www.heardcountyga.com/Heard%20County%20Declaration%20of%20Emergency.pdf",NA,NA,"2020-03-31","DMO","2020-03-31"
 "425","ADM2","Heard",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"426","ADM2","Heard",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"427","ADM2","Heard",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"428","ADM2","Heard",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"429","ADM2","Henry",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"426","ADM2","Heard",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"427","ADM2","Heard",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"428","ADM2","Heard",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"429","ADM2","Henry",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
 "430","ADM2","Henry",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"431","ADM2","Henry",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"432","ADM2","Henry",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"433","ADM2","Henry",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"434","ADM2","Houston",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"435","ADM2","Houston",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"436","ADM2","Houston",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"437","ADM2","Houston",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"438","ADM2","Houston",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"439","ADM2","Irwin",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"440","ADM2","Irwin",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"441","ADM2","Irwin",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"442","ADM2","Irwin",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"443","ADM2","Irwin",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"444","ADM2","Jackson",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"445","ADM2","Jackson",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"446","ADM2","Jackson",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"447","ADM2","Jackson",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"448","ADM2","Jackson",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"449","ADM2","Jasper",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"450","ADM2","Jasper",NA,NA,NA,NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"451","ADM2","Jasper",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"452","ADM2","Jasper",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"453","ADM2","Jasper",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"454","ADM2","Jeff Davis",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"455","ADM2","Jeff Davis",NA,NA,NA,NA,2020-03-16,"2020-03-31","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"456","ADM2","Jeff Davis",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"457","ADM2","Jeff Davis",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"458","ADM2","Jeff Davis",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"459","ADM2","Jefferson",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"460","ADM2","Jefferson",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"461","ADM2","Jefferson",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"462","ADM2","Jefferson",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"463","ADM2","Jefferson","Jefferson City","Jefferson City School","Government",NA,2020-03-16,"2020-04-06","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"464","ADM2","Jefferson","Louisville City","Louisville City School","Government",NA,2020-03-18,"2020-04-13","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"465","ADM2","Jenkins",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"466","ADM2","Jenkins",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"467","ADM2","Jenkins",NA,NA,"Government",NA,NA,NA,"no_contact_school",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"468","ADM2","Jenkins",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"469","ADM2","Jenkins",NA,NA,"Government",NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"470","ADM2","Johnson",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"471","ADM2","Johnson",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"472","ADM2","Johnson",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"473","ADM2","Johnson",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"474","ADM2","Johnson",NA,NA,"Government",NA,2020-03-17,"2020-04-13","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"475","ADM2","Jones",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"476","ADM2","Jones",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"477","ADM2","Jones",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"478","ADM2","Jones",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"479","ADM2","Jones",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"480","ADM2","Lamar",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"481","ADM2","Lamar",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"482","ADM2","Lamar",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"483","ADM2","Lamar",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"484","ADM2","Lamar",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"485","ADM2","Lanier",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"486","ADM2","Lanier",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"487","ADM2","Lanier",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"488","ADM2","Lanier",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"489","ADM2","Lanier",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"490","ADM2","Laurens",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"491","ADM2","Laurens",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"492","ADM2","Laurens",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"493","ADM2","Laurens",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"494","ADM2","Laurens",NA,NA,NA,NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"495","ADM2","Lee",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"496","ADM2","Lee",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"497","ADM2","Lee",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"498","ADM2","Lee",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"499","ADM2","Lee",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"500","ADM2","Liberty",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"501","ADM2","Liberty",NA,NA,NA,NA,2020-03-17,"2020-03-31","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"502","ADM2","Liberty",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"503","ADM2","Liberty",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"504","ADM2","Liberty",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"505","ADM2","Lincoln",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"506","ADM2","Lincoln",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"507","ADM2","Lincoln",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"508","ADM2","Lincoln",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"509","ADM2","Lincoln",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"510","ADM2","Long",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"511","ADM2","Long",NA,NA,NA,NA,2020-03-16,"2020-03-31","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"512","ADM2","Long",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"513","ADM2","Long",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"514","ADM2","Long",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"515","ADM2","Lowndes",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"516","ADM2","Lowndes",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"517","ADM2","Lowndes",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"518","ADM2","Lowndes",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"519","ADM2","Lowndes",NA,"County Officials","Government","2020-03-24",2020-03-24,"2020-04-06","shelter_in_place",NA,"https://www.wtxl.com/news/coronavirus/lowndes-county-issues-voluntary-shelter-in-place-order-bans-large-gatherings",NA,NA,"2020-03-25","DMO","2020-03-25"
-"520","ADM2","Lumpkin",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"521","ADM2","Lumpkin",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"522","ADM2","Lumpkin",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"523","ADM2","Lumpkin",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"524","ADM2","Lumpkin",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"525","ADM2","Macon",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"526","ADM2","Macon",NA,NA,NA,NA,2020-03-10,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"527","ADM2","Macon",NA,"Mayor","Government",NA,2020-03-23,"2020-04-06","prohibit_business",NA,"https://www.macon.com/news/coronavirus/article241422686.html",NA,"Restaurants - takeout/delivery only' bars & salons to close","2020-03-25","DMO","2020-03-25"
-"528","ADM2","Macon",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"529","ADM2","Macon",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"530","ADM2","Madison",NA,"Mayor","Government","2020-03-23",2020-03-23,"2020-04-06","state_of_emergency",NA,"https://www.macon.com/news/coronavirus/article241422686.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"531","ADM2","Madison",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"532","ADM2","Madison",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"533","ADM2","Madison",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"534","ADM2","Madison",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"535","ADM2","Marion",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"536","ADM2","Marion",NA,NA,NA,NA,2020-03-16,"2020-04-06","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"537","ADM2","Marion",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"538","ADM2","Marion",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"539","ADM2","Marion",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"540","ADM2","McDuffie",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"541","ADM2","McDuffie",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"542","ADM2","McDuffie",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"543","ADM2","McDuffie",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
-"544","ADM2","McDuffie",NA,NA,NA,NA,2020-03-16,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"545","ADM2","McIntosh",NA,NA,NA,NA,2020-03-17,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"546","ADM2","McIntosh",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"547","ADM2","McIntosh",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"548","ADM2","McIntosh",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"549","ADM2","McIntosh",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"550","ADM2","Meriwether",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"551","ADM2","Meriwether",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"552","ADM2","Meriwether",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"553","ADM2","Meriwether",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"554","ADM2","Meriwether",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"555","ADM2","Miller",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"556","ADM2","Miller",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"557","ADM2","Miller",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"558","ADM2","Miller",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"559","ADM2","Miller",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"560","ADM2","Mitchell",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"561","ADM2","Mitchell",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"562","ADM2","Mitchell",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"563","ADM2","Mitchell",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"564","ADM2","Mitchell",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"565","ADM2","Monroe",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"566","ADM2","Monroe",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"567","ADM2","Monroe",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"568","ADM2","Monroe",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"569","ADM2","Monroe",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"570","ADM2","Montgomery",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"571","ADM2","Montgomery",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"572","ADM2","Montgomery",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"573","ADM2","Montgomery",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"574","ADM2","Montgomery",NA,NA,NA,NA,2020-03-17,"2020-03-31","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"575","ADM2","Morgan",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"576","ADM2","Morgan",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"577","ADM2","Morgan",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"578","ADM2","Morgan",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"579","ADM2","Morgan",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"580","ADM2","Murray",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"581","ADM2","Murray",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"582","ADM2","Murray",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"583","ADM2","Murray",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"584","ADM2","Murray",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"585","ADM2","Muscogee",NA,NA,NA,NA,2020-03-16,"2020-04-06","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"586","ADM2","Muscogee",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"587","ADM2","Muscogee",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"588","ADM2","Muscogee",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"589","ADM2","Muscogee",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"590","ADM2","Newton",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"591","ADM2","Newton",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"592","ADM2","Newton",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"593","ADM2","Newton",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"594","ADM2","Newton",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"595","ADM2","Oconee",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"596","ADM2","Oconee",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"597","ADM2","Oconee",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"598","ADM2","Oconee",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"599","ADM2","Oconee",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"600","ADM2","Oglethorpe",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"601","ADM2","Oglethorpe",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"602","ADM2","Oglethorpe",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"603","ADM2","Oglethorpe",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"604","ADM2","Oglethorpe",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"605","ADM2","Paulding",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"606","ADM2","Paulding",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"607","ADM2","Paulding",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"608","ADM2","Paulding",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"609","ADM2","Paulding",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"610","ADM2","Peach",NA,NA,NA,NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"611","ADM2","Peach",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"612","ADM2","Peach",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"613","ADM2","Peach",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"614","ADM2","Peach",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"615","ADM2","Pickens",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"616","ADM2","Pickens",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"617","ADM2","Pickens",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"618","ADM2","Pickens",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"619","ADM2","Pickens",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"620","ADM2","Pierce",NA,NA,NA,NA,2020-03-17,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"621","ADM2","Pierce",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"622","ADM2","Pierce",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"623","ADM2","Pierce",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"624","ADM2","Pierce",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"625","ADM2","Pike",NA,NA,NA,NA,2020-03-13,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"626","ADM2","Pike",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"627","ADM2","Pike",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"628","ADM2","Pike",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"629","ADM2","Pike",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"630","ADM2","Polk",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"631","ADM2","Polk",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"632","ADM2","Polk",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"633","ADM2","Polk",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"634","ADM2","Polk",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"635","ADM2","Pulaski",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
-"636","ADM2","Pulaski",NA,NA,NA,NA,2020-03-12,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"637","ADM2","Pulaski",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"638","ADM2","Pulaski",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
-"639","ADM2","Pulaski",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"640","ADM2","Putnam",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"641","ADM2","Putnam",NA,"County Commissioners","Government","2020-03-17",2020-03-17,NA,"state_of_emergency",NA,"https://www.putnamcountyga.us/sites/default/files/fileattachments/emergency_medical_services/page/7973/2020-03-17_resolution_declaring_state_of_local_emergency.pdf",NA,NA,"2020-03-27","DMO","2020-03-27"
-"642","ADM2","Putnam",NA,"County Commissioners","Government","2020-03-25",2020-03-25,"2020-04-06","prohibit_business",NA,"https://www.putnamcountyga.us/sites/default/files/fileattachments/emergency_medical_services/page/7973/2020-03-24_resolution_during_local_state_of_emergency.pdf",NA,"Restaurant dine out only; indoor recreation closed; body care and bars closed","2020-03-27","DMO","2020-03-27"
-"643","ADM2","Putnam",NA,"County Commissioners","Government","2020-03-25",2020-03-25,"2020-04-06","gathering_size_limited",NA,"https://www.putnamcountyga.us/sites/default/files/fileattachments/emergency_medical_services/page/7973/2020-03-24_resolution_during_local_state_of_emergency.pdf","10",NA,"2020-03-27","DMO","2020-03-27"
-"644","ADM2","Putnam",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"645","ADM2","Quitman",NA,NA,NA,NA,2020-03-17,"2020-04-06","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"646","ADM2","Quitman",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"647","ADM2","Quitman",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"648","ADM2","Quitman",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"649","ADM2","Quitman",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"650","ADM2","Rabun",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"651","ADM2","Rabun",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"652","ADM2","Rabun",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"653","ADM2","Rabun",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"654","ADM2","Rabun",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"655","ADM2","Randolph",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"656","ADM2","Randolph",NA,NA,"Government","2020-03-23",2020-03-23,"2020-03-30","state_of_emergency",NA,"https://www.scribd.com/document/452553073/Declaration-of-Emergency#from_embed",NA,NA,NA,NA,NA
-"657","ADM2","Randolph",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"658","ADM2","Randolph",NA,NA,"Government","2020-03-23",2020-03-23,NA,"prohibit_business",NA,"https://www.scribd.com/document/452553073/Declaration-of-Emergency#from_embed","10","Restaurants dine out only; Indoor rec closed","2020-03-27","DMO","2020-03-27"
-"659","ADM2","Randolph",NA,NA,"Government","2020-03-23",2020-03-23,NA,"gathering_size_limited",NA,"https://www.scribd.com/document/452553073/Declaration-of-Emergency#from_embed",NA,NA,"2020-03-27","DMO","2020-03-27"
-"660","ADM2","Richmond",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"661","ADM2","Richmond",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"662","ADM2","Richmond",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"663","ADM2","Richmond","Augusta","City Government","Government","2020-03-21",2020-03-22,"2020-04-04","prohibit_business",NA,"https://www.augustaga.gov/DocumentCenter/View/13321/2020-3-21-Executive-Order-2020-005-re-Business-Closures?bidId=",NA,"Restaurants no dine in; no public or private gatherings, no gyms or body care;no recreation","2020-03-27","DMO","2020-03-27"
-"664","ADM2","Richmond","Augusta","City Government","Government","2020-03-21",2020-03-22,"2020-04-04","gathering_size_limited",NA,"https://www.augustaga.gov/DocumentCenter/View/13321/2020-3-21-Executive-Order-2020-005-re-Business-Closures?bidId=","10",NA,"2020-03-27","DMO","2020-03-27"
-"665","ADM2","Richmond",NA,NA,"Government",NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"666","ADM2","Richmond",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
-"667","ADM2","Rockdale",NA,NA,NA,NA,2020-03-16,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"668","ADM2","Rockdale",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"669","ADM2","Rockdale",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"670","ADM2","Rockdale",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"671","ADM2","Rockdale",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"672","ADM3","Rockdale","Conyers","Mayor","Government","2020-3-25",2020-03-25,NA,"prohibit_business",NA,"https://www.rockdalenewtoncitizen.com/news/conyers-orders-shelter-in-place-closure-of-non-essential-businesses/article_bc820486-6ed1-11ea-8869-671f68b0cf73.html",NA,"Restaurants - no inside dining; entertainment estab closed","2020-03-25","DMO","2020-03-25"
-"673","ADM4","Rockdale","Conyers","Mayor","Government","2020-3-26",2020-03-26,NA,"gathering_size_limited",NA,"https://www.rockdalenewtoncitizen.com/news/conyers-orders-shelter-in-place-closure-of-non-essential-businesses/article_bc820486-6ed1-11ea-8869-671f68b0cf73.html","10",NA,"2020-03-25","DMO","2020-03-25"
-"674","ADM5","Rockdale","Conyers","Mayor","Government","2020-03-26",2020-03-26,"2020-04-08","shelter_in_place",NA,"https://ocgnews.com/conyers-city-council-orders-shelter-place-closure-non-essential-businesses/",NA,NA,"2020-03-27","DMO","2020-03-27"
-"675","ADM2","Schley",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"676","ADM2","Schley",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"677","ADM2","Schley",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"678","ADM2","Schley",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"679","ADM2","Schley",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"680","ADM2","Screven",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"681","ADM2","Screven",NA,NA,NA,NA,2020-03-16,"2020-03-17","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
-"682","ADM2","Screven",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"683","ADM2","Screven",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"684","ADM2","Screven",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"685","ADM2","Seminole",NA,NA,NA,NA,2020-03-13,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"686","ADM2","Seminole",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"687","ADM2","Seminole",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"688","ADM2","Seminole",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"689","ADM2","Seminole",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"690","ADM2","Spalding",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"691","ADM2","Spalding",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"692","ADM2","Spalding",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"693","ADM2","Spalding",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"694","ADM2","Spalding",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"695","ADM2","Stephens",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"696","ADM2","Stephens",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"697","ADM2","Stephens",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"698","ADM2","Stephens",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"699","ADM2","Stephens",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"700","ADM2","Stewart",NA,NA,NA,NA,2020-03-18,"2020-04-06","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"701","ADM2","Stewart",NA,"County Commissioner","Government",NA,2020-03-24,"2020-04-13","state_of_emergency",NA,"https://www.wtvm.com/2020/03/24/local-health-state-emergency-declared-stewart-county-ga/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"702","ADM2","Stewart",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"703","ADM2","Stewart",NA,"County Commissioner","Government",NA,2020-03-24,NA,"prohibit_business",NA,"https://www.wtvm.com/2020/03/24/local-health-state-emergency-declared-stewart-county-ga/",NA,"Curfew 9P-6A","2020-03-25","DMO","2020-03-25"
-"704","ADM2","Stewart",NA,"County Commissioner","Government",NA,2020-03-24,NA,"gathering_size_limited",NA,"https://www.wtvm.com/2020/03/24/local-health-state-emergency-declared-stewart-county-ga/","10",NA,"2020-03-25","DMO","2020-03-25"
-"705","ADM2","Sumter",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
-"706","ADM2","Sumter",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"707","ADM2","Sumter",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"708","ADM2","Sumter",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"709","ADM2","Sumter",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"710","ADM2","Talbot",NA,NA,NA,NA,2020-03-18,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"711","ADM2","Talbot",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"712","ADM2","Talbot",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"713","ADM2","Talbot",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"714","ADM2","Talbot",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"715","ADM2","Taliaferro",NA,NA,"Government",NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"716","ADM2","Taliaferro",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"717","ADM2","Taliaferro",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"718","ADM2","Taliaferro",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"719","ADM2","Taliaferro",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"720","ADM2","Tattnall",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"721","ADM2","Tattnall",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"722","ADM2","Tattnall",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"723","ADM2","Tattnall",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"724","ADM2","Tattnall",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"725","ADM2","Taylor",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"726","ADM2","Taylor",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"727","ADM2","Taylor",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"728","ADM2","Taylor",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"729","ADM2","Taylor",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"730","ADM2","Telfair",NA,NA,"Government",NA,2020-03-12,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"731","ADM2","Telfair",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"732","ADM2","Telfair",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"733","ADM2","Telfair",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"734","ADM2","Telfair",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"735","ADM2","Terrell",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"736","ADM2","Terrell",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"737","ADM2","Terrell",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"738","ADM2","Terrell",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"739","ADM2","Terrell",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"740","ADM2","Thomas",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"741","ADM2","Thomas",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.timesenterprise.com/coronavirus/thomas-county-covid--cases-up-to/article_01380ecc-6d38-11ea-a734-bb47bba8d662.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"742","ADM2","Thomas",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://www.timesenterprise.com/coronavirus/thomas-county-covid--cases-up-to/article_01380ecc-6d38-11ea-a734-bb47bba8d662.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"743","ADM2","Thomas",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://www.timesenterprise.com/coronavirus/thomas-county-covid--cases-up-to/article_01380ecc-6d38-11ea-a734-bb47bba8d662.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"744","ADM2","Thomas",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://www.timesenterprise.com/coronavirus/thomas-county-covid--cases-up-to/article_01380ecc-6d38-11ea-a734-bb47bba8d662.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"745","ADM2","Tift",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"746","ADM2","Tift",NA,"County Government","Government","2020-03-20",2020-03-21,"2020-04-04","state_of_emergency",NA,"https://www.walb.com/2020/03/23/tifton-issues-shelter-in-place-order-curfew/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"747","ADM2","Tift",NA,"County Government","Government","2020-03-21",2020-03-22,"2020-04-05","prohibit_business",NA,"https://www.walb.com/2020/03/23/tifton-issues-shelter-in-place-order-curfew/",NA,"Bars, nightclubs, hair & personal care salons","2020-03-25","DMO","2020-03-25"
-"748","ADM2","Tift",NA,"County Government","Government","2020-03-22",2020-03-23,"2020-04-06","gathering_size_limited",NA,"https://www.walb.com/2020/03/23/tifton-issues-shelter-in-place-order-curfew/","10",NA,"2020-03-25","DMO","2020-03-25"
-"749","ADM2","Tift",NA,"County Government","Government","2020-03-23",2020-03-24,"2020-04-07","shelter_in_place",NA,"https://www.walb.com/2020/03/23/tifton-issues-shelter-in-place-order-curfew/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"750","ADM2","Toombs",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"751","ADM2","Toombs",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"752","ADM2","Toombs",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"753","ADM2","Toombs",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"754","ADM2","Toombs",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"755","ADM2","Towns",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"756","ADM2","Towns",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"757","ADM2","Towns",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"758","ADM2","Towns",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"759","ADM2","Towns",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"760","ADM2","Treutlen",NA,NA,"Government",NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"761","ADM2","Treutlen",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"762","ADM2","Treutlen",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"763","ADM2","Treutlen",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"764","ADM2","Treutlen",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"765","ADM2","Troup",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"766","ADM2","Troup",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"767","ADM2","Troup",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"768","ADM2","Troup",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"769","ADM2","Troup",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"770","ADM2","Turner",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"771","ADM2","Turner",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://valdostatoday.com/news-2/local/2020/03/tift-turner-counties-see-first-coronavirus-cases/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"772","ADM2","Turner",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://valdostatoday.com/news-2/local/2020/03/tift-turner-counties-see-first-coronavirus-cases/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"773","ADM2","Turner",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://valdostatoday.com/news-2/local/2020/03/tift-turner-counties-see-first-coronavirus-cases/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"774","ADM2","Turner",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://valdostatoday.com/news-2/local/2020/03/tift-turner-counties-see-first-coronavirus-cases/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"775","ADM2","Twiggs",NA,NA,NA,NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"776","ADM2","Twiggs",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.macon.com/news/coronavirus/article241409741.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"777","ADM2","Twiggs",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://www.macon.com/news/coronavirus/article241409741.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"778","ADM2","Twiggs",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://www.macon.com/news/coronavirus/article241409741.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"779","ADM2","Twiggs",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://www.macon.com/news/coronavirus/article241409741.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"780","ADM2","Union",NA,NA,NA,NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"781","ADM2","Union",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"782","ADM2","Union",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"783","ADM2","Union",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"784","ADM2","Union",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"785","ADM2","Upson",NA,NA,NA,NA,2020-03-13,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"786","ADM2","Upson",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.upsoncountyga.org/CivicAlerts.aspx?AID=81",NA,NA,"2020-03-25","DMO","2020-03-25"
-"787","ADM2","Upson",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://www.upsoncountyga.org/CivicAlerts.aspx?AID=81",NA,NA,"2020-03-25","DMO","2020-03-25"
-"788","ADM2","Upson",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://www.upsoncountyga.org/CivicAlerts.aspx?AID=81",NA,NA,"2020-03-25","DMO","2020-03-25"
-"789","ADM2","Upson",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://www.upsoncountyga.org/CivicAlerts.aspx?AID=81",NA,NA,"2020-03-25","DMO","2020-03-25"
-"790","ADM2","Walker",NA,NA,NA,NA,2020-03-17,"2020-04-03","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"791","ADM2","Walker",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"792","ADM2","Walker",NA,"County Commissioner","Government","2020-03-23",2020-03-23,NA,"prohibit_business",NA,"https://walkercountyga.gov/2020/03/23/walker-county-commissioner-issues-emergency-order-closing-dine-in-food-service-to-slow-the-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"793","ADM2","Walker",NA,"County Commissioner","Government","2020-03-23",2020-03-23,NA,"gathering_size_limited",NA,"https://walkercountyga.gov/2020/03/23/walker-county-commissioner-issues-emergency-order-closing-dine-in-food-service-to-slow-the-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"794","ADM2","Walker",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"795","ADM2","Walton",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"796","ADM2","Walton",NA,"Board of Commissioners","Government","2020-03-26",2020-03-26,NA,"state_of_emergency",NA,"https://www.waltoncountyga.gov/DocumentCenter/View/3206/2020-03-26-Ordinance-Declaring-Emergency",NA,NA,"2020-03-30","DMO","2020-03-30"
-"797","ADM2","Walton",NA,"Board of Commissioners","Government","2020-03-26",2020-03-26,NA,"prohibit_business",NA,"https://www.waltoncountyga.gov/DocumentCenter/View/3206/2020-03-26-Ordinance-Declaring-Emergency",NA,"Restaurants dine out only","2020-03-30","DMO","2020-03-30"
-"798","ADM2","Walton",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-30","DMO","2020-03-30"
-"799","ADM2","Walton",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-30","DMO","2020-03-30"
-"800","ADM2","Ware",NA,NA,NA,NA,2020-03-17,"2020-04-10","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"801","ADM2","Ware",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://www.waycrossga.com/dph-preparations-for-potential-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"802","ADM2","Ware",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"http://www.waycrossga.com/dph-preparations-for-potential-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"803","ADM2","Ware",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"http://www.waycrossga.com/dph-preparations-for-potential-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"804","ADM2","Ware",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"http://www.waycrossga.com/dph-preparations-for-potential-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"805","ADM2","Warren",NA,NA,"Government",NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"806","ADM2","Warren",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.whio.com/news/local/coronavirus-warren-county-health-officials-confirm-positive-covid-case/O6ewTjOiTJNfAAeYsEkRLO/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"807","ADM2","Warren",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://www.whio.com/news/local/coronavirus-warren-county-health-officials-confirm-positive-covid-case/O6ewTjOiTJNfAAeYsEkRLO/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"808","ADM2","Warren",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://www.whio.com/news/local/coronavirus-warren-county-health-officials-confirm-positive-covid-case/O6ewTjOiTJNfAAeYsEkRLO/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"809","ADM2","Warren",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://www.whio.com/news/local/coronavirus-warren-county-health-officials-confirm-positive-covid-case/O6ewTjOiTJNfAAeYsEkRLO/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"810","ADM2","Washington",NA,NA,NA,NA,2020-03-16,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"811","ADM2","Washington",NA,"Board of Commissioners","Government","2020-03-23",2020-03-23,NA,"state_of_emergency",NA,"https://www.13wmaz.com/article/news/health/coronavirus/washington-county-declares-state-of-emergency-issues-curfew-due-to-covid-19/93-ca4ea3a9-9250-4416-b7cb-67d7ca0330b6",NA,NA,"2020-03-25","DMO","2020-03-25"
-"812","ADM2","Washington",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
-"813","ADM2","Washington",NA,"Board of Commissioners","Government","2020-03-23",2020-03-24,NA,"gathering_size_limited",NA,"https://www.13wmaz.com/article/news/health/coronavirus/washington-county-declares-state-of-emergency-issues-curfew-due-to-covid-19/93-ca4ea3a9-9250-4416-b7cb-67d7ca0330b6","10",NA,"2020-03-25","DMO","2020-03-25"
-"814","ADM2","Washington",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"815","ADM2","Wayne",NA,NA,NA,NA,2020-03-17,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"816","ADM2","Wayne",NA,"County Administer","Government","2020-03-24",2020-03-25,"2020-04-06","state_of_emergency",NA,"https://www.waynecountyga.us/egov/documents/1585082616_66794.pdf",NA,NA,"2020-03-25","DMO","2020-03-25"
-"817","ADM2","Wayne",NA,"County Administer","Government","2020-03-25",2020-03-26,"2020-04-07","prohibit_business",NA,"https://www.waynecountyga.us/egov/documents/1585082616_66794.pdf",NA,NA,"2020-03-25","DMO","2020-03-25"
-"818","ADM2","Wayne",NA,"County Administer","Government","2020-03-26",2020-03-27,"2020-04-08","gathering_size_limited",NA,"https://www.waynecountyga.us/egov/documents/1585082616_66794.pdf",NA,NA,"2020-03-25","DMO","2020-03-25"
-"819","ADM2","Wayne",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"820","ADM2","Webster",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"821","ADM2","Webster",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"822","ADM2","Webster",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"823","ADM2","Webster",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"824","ADM2","Webster",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
-"825","ADM2","Wheeler",NA,NA,"Government",NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","DMO","2020-03-23"
-"826","ADM2","Wheeler",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.wctv.tv/content/news/DPH-Two-new-coronavirus-cases-in-South-Georgia-568969291.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"827","ADM2","Wheeler",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://www.wctv.tv/content/news/DPH-Two-new-coronavirus-cases-in-South-Georgia-568969291.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"828","ADM2","Wheeler",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://www.wctv.tv/content/news/DPH-Two-new-coronavirus-cases-in-South-Georgia-568969291.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"829","ADM2","Wheeler",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://www.wctv.tv/content/news/DPH-Two-new-coronavirus-cases-in-South-Georgia-568969291.html",NA,NA,"2020-03-25","DMO","2020-03-25"
-"830","ADM2","White",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"831","ADM2","White",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.whitecountynews.net/local/coronavirus-updates-white-county-march-18-25",NA,NA,"2020-03-25","DMO","2020-03-25"
-"832","ADM2","White",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://www.whitecountynews.net/local/coronavirus-updates-white-county-march-18-26",NA,NA,"2020-03-25","DMO","2020-03-25"
-"833","ADM2","White",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://www.whitecountynews.net/local/coronavirus-updates-white-county-march-18-27",NA,NA,"2020-03-25","DMO","2020-03-25"
-"834","ADM2","White",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://www.whitecountynews.net/local/coronavirus-updates-white-county-march-18-28",NA,NA,"2020-03-25","DMO","2020-03-25"
-"835","ADM2","Whitfield",NA,NA,NA,NA,2020-03-16,"2020-04-06","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"836","ADM2","Whitfield",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.timesfreepress.com/news/local/story/2020/mar/21/second-case-coronavirus-confirmed-whitfield-county-georgia/518793/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"837","ADM2","Whitfield",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://www.timesfreepress.com/news/local/story/2020/mar/21/second-case-coronavirus-confirmed-whitfield-county-georgia/518793/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"838","ADM2","Whitfield",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://www.timesfreepress.com/news/local/story/2020/mar/21/second-case-coronavirus-confirmed-whitfield-county-georgia/518793/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"839","ADM2","Whitfield",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://www.timesfreepress.com/news/local/story/2020/mar/21/second-case-coronavirus-confirmed-whitfield-county-georgia/518793/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"840","ADM2","Wilcox",NA,NA,"Government",NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"841","ADM2","Wilcox",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"842","ADM2","Wilcox",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"843","ADM2","Wilcox",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"844","ADM2","Wilcox",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
-"845","ADM2","Wilkes",NA,NA,"Government",NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"846","ADM2","Wilkes",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"847","ADM2","Wilkes",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"848","ADM2","Wilkes",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"849","ADM2","Wilkes",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"850","ADM2","Wilkinson",NA,NA,"Government",NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
-"851","ADM2","Wilkinson",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"852","ADM2","Wilkinson",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"853","ADM2","Wilkinson",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"854","ADM2","Wilkinson",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
-"855","ADM2","Worth",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-25"
-"856","ADM2","Worth",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"857","ADM2","Worth",NA,"County Commissioners","Government","2020-03-23",2020-03-23,NA,"prohibit_business",NA,"https://www.walb.com/2020/03/23/worth-co-commission-enacts-curfew/",NA,NA,NA,"DMO","2020-03-23"
-"858","ADM2","Worth",NA,"County Commissioners","Government","2020-03-23",2020-03-23,NA,"gathering_size_limited",NA,"https://www.walb.com/2020/03/23/worth-co-commission-enacts-curfew/","10","Curfew 10P to 6A; Take out/Delivery only from restaurants; parks & rec closed; funerals limited to graveside","2020-03-25","DMO","2020-03-25"
-"859","ADM2","Worth",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,"DMO","2020-03-23"
+"431","ADM2","Henry",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"432","ADM2","Henry",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"433","ADM2","Henry",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"434","ADM3","Henry",NA,"County Government","Government","2020-03-18",2020-03-18,NA,"close_public_spaces",NA,"https://www.co.henry.ga.us/Residents/Closings",NA,NA,"2020-03-31","DMO","2020-03-31"
+"435","ADM2","Houston",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"436","ADM2","Houston",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"437","ADM2","Houston",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"438","ADM2","Houston",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"439","ADM2","Houston",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"440","ADM2","Irwin",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"441","ADM2","Irwin",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"442","ADM2","Irwin",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"443","ADM2","Irwin",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"444","ADM2","Irwin",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"445","ADM2","Jackson",NA,"Board of Commissioners","Government","2020-03-18",2020-03-18,NA,"state_of_emergency",NA,"https://www.jacksoncountygov.com/DocumentCenter/View/3023/Declaration-of-Local-Emergency?bidId=",NA,NA,"2020-03-31","DMO","2020-03-31"
+"446","ADM2","Jackson",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"447","ADM2","Jackson",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"448","ADM2","Jackson",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"449","ADM2","Jackson",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"450","ADM3","Jackson",NA,"Board of Commissioners",NA,"2020-03-31",NA,NA,"close_public_spaces",NA,"https://www.jacksoncountygov.com/676/Covid-19-Response",NA,NA,"2020-03-31","DMO","2020-03-31"
+"451","ADM2","Jasper",NA,"Board of Commissioners","Government","2020-03-26",2020-03-26,"2020-04-06","state_of_emergency",NA,"https://jaspercountyga.org/emergency-protective-order/",NA,NA,"2020-03-31","DMO","2020-03-31"
+"452","ADM2","Jasper",NA,NA,NA,NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"453","ADM2","Jasper",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"454","ADM2","Jasper",NA,"Board of Commissioners",NA,"2020-03-26",2020-03-26,NA,"prohibit_business",NA,"https://jaspercountyga.org/emergency-protective-order/",NA,NA,"2020-03-31","DMO","2020-03-31"
+"455","ADM2","Jasper",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"456",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"https://www.jacksoncountygov.com/676/Covid-19-Response",NA,NA,NA,NA,NA
+"457","ADM2","Jeff Davis",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"458","ADM2","Jeff Davis",NA,NA,NA,NA,2020-03-16,"2020-03-31","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"459","ADM2","Jeff Davis",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"460","ADM2","Jeff Davis",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"461","ADM2","Jeff Davis",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"462","ADM2","Jefferson",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"463","ADM2","Jefferson",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"464","ADM2","Jefferson",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"465","ADM2","Jefferson",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"466","ADM2","Jefferson","Jefferson City","Jefferson City School","Government",NA,2020-03-16,"2020-04-06","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"467","ADM2","Jefferson","Louisville City","Louisville City School","Government",NA,2020-03-18,"2020-04-13","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"468","ADM2","Jenkins",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"469","ADM2","Jenkins",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"470","ADM2","Jenkins",NA,NA,"Government",NA,NA,NA,"no_contact_school",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"471","ADM2","Jenkins",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"472","ADM2","Jenkins",NA,NA,"Government",NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"473","ADM2","Johnson",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"474","ADM2","Johnson",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"475","ADM2","Johnson",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"476","ADM2","Johnson",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"477","ADM2","Johnson",NA,NA,"Government",NA,2020-03-17,"2020-04-13","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"478","ADM2","Jones",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"479","ADM2","Jones",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"480","ADM2","Jones",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"481","ADM2","Jones",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"482","ADM2","Jones",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"483","ADM2","Lamar",NA,"Board of Commissioners","Government","2020-03-26",2020-03-26,"2020-04-06","state_of_emergency",NA,"https://www.lamarcountyga.com/wp-content/uploads/2017/03/Emergency-Declaration-and-Ordinance.pdf",NA,NA,"2020-03-31","DMO","2020-03-31"
+"484","ADM2","Lamar",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"485","ADM2","Lamar",NA,"Board of Commissioners","Government","2020-03-26",2020-03-26,NA,"prohibit_business",NA,"https://www.lamarcountyga.com/wp-content/uploads/2017/03/Emergency-Declaration-and-Ordinance.pdf",NA,"Restaurants dine in only, body care, gyms and rec closed","2020-03-31","DMO","2020-03-31"
+"486","ADM2","Lamar",NA,"Board of Commissioners","Government","2020-03-26",2020-03-26,NA,"gathering_size_limited",NA,"https://www.lamarcountyga.com/wp-content/uploads/2017/03/Emergency-Declaration-and-Ordinance.pdf","10",NA,"2020-03-31","DMO","2020-03-31"
+"487","ADM2","Lamar",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-31","DMO","2020-03-31"
+"488","ADM2","Lanier",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"489","ADM2","Lanier",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"490","ADM2","Lanier",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"491","ADM2","Lanier",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"492","ADM2","Lanier",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"493","ADM2","Laurens",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"494","ADM2","Laurens",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"495","ADM2","Laurens",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"496","ADM2","Laurens",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"497","ADM2","Laurens",NA,NA,NA,NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"498","ADM2","Lee",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"499","ADM2","Lee",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"500","ADM2","Lee",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"501","ADM2","Lee",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"502","ADM2","Lee",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"503","ADM2","Liberty",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"504","ADM2","Liberty",NA,NA,NA,NA,2020-03-17,"2020-03-31","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"505","ADM2","Liberty",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"506","ADM2","Liberty",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"507","ADM2","Liberty",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"508","ADM2","Lincoln",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"509","ADM2","Lincoln",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"510","ADM2","Lincoln",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"511","ADM2","Lincoln",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"512","ADM2","Lincoln",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"513","ADM2","Long",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"514","ADM2","Long",NA,NA,NA,NA,2020-03-16,"2020-03-31","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"515","ADM2","Long",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"516","ADM2","Long",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"517","ADM2","Long",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"518","ADM2","Lowndes",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"519","ADM2","Lowndes",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"520","ADM2","Lowndes",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"521","ADM2","Lowndes",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"522","ADM2","Lowndes",NA,"County Officials","Government","2020-03-24",2020-03-24,"2020-04-06","shelter_in_place",NA,"https://www.wtxl.com/news/coronavirus/lowndes-county-issues-voluntary-shelter-in-place-order-bans-large-gatherings",NA,NA,"2020-03-25","DMO","2020-03-25"
+"523","ADM2","Lumpkin",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"524","ADM2","Lumpkin",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"525","ADM2","Lumpkin",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"526","ADM2","Lumpkin",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"527","ADM2","Lumpkin",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"528","ADM2","Macon",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"529","ADM2","Macon",NA,NA,NA,NA,2020-03-10,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"530","ADM2","Macon",NA,"Mayor","Government",NA,2020-03-23,"2020-04-06","prohibit_business",NA,"https://www.macon.com/news/coronavirus/article241422686.html",NA,"Restaurants - takeout/delivery only' bars & salons to close","2020-03-25","DMO","2020-03-25"
+"531","ADM2","Macon",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"532","ADM2","Macon",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"533","ADM2","Madison",NA,"Mayor","Government","2020-03-23",2020-03-23,"2020-04-06","state_of_emergency",NA,"https://www.macon.com/news/coronavirus/article241422686.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"534","ADM2","Madison",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"535","ADM2","Madison",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"536","ADM2","Madison",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"537","ADM2","Madison",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"538","ADM2","Marion",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"539","ADM2","Marion",NA,NA,NA,NA,2020-03-16,"2020-04-06","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"540","ADM2","Marion",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"541","ADM2","Marion",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"542","ADM2","Marion",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"543","ADM2","McDuffie",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"544","ADM2","McDuffie",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"545","ADM2","McDuffie",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"546","ADM2","McDuffie",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,NA,NA,NA
+"547","ADM2","McDuffie",NA,NA,NA,NA,2020-03-16,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"548","ADM2","McIntosh",NA,NA,NA,NA,2020-03-17,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"549","ADM2","McIntosh",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"550","ADM2","McIntosh",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"551","ADM2","McIntosh",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"552","ADM2","McIntosh",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"553","ADM2","Meriwether",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"554","ADM2","Meriwether",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"555","ADM2","Meriwether",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"556","ADM2","Meriwether",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"557","ADM2","Meriwether",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"558","ADM2","Miller",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"559","ADM2","Miller",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"560","ADM2","Miller",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"561","ADM2","Miller",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"562","ADM2","Miller",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"563","ADM2","Mitchell",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"564","ADM2","Mitchell",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"565","ADM2","Mitchell",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"566","ADM2","Mitchell",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"567","ADM2","Mitchell",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"568","ADM2","Monroe",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"569","ADM2","Monroe",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"570","ADM2","Monroe",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"571","ADM2","Monroe",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"572","ADM2","Monroe",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"573","ADM2","Montgomery",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"574","ADM2","Montgomery",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"575","ADM2","Montgomery",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"576","ADM2","Montgomery",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"577","ADM2","Montgomery",NA,NA,NA,NA,2020-03-17,"2020-03-31","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"578","ADM2","Morgan",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"579","ADM2","Morgan",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"580","ADM2","Morgan",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"581","ADM2","Morgan",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"582","ADM2","Morgan",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"583","ADM2","Murray",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"584","ADM2","Murray",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"585","ADM2","Murray",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"586","ADM2","Murray",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"587","ADM2","Murray",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"588","ADM2","Muscogee",NA,NA,NA,NA,2020-03-16,"2020-04-06","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"589","ADM2","Muscogee",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"590","ADM2","Muscogee",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"591","ADM2","Muscogee",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"592","ADM2","Muscogee",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"593","ADM2","Newton",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"594","ADM2","Newton",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"595","ADM2","Newton",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"596","ADM2","Newton",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"597","ADM2","Newton",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"598","ADM2","Oconee",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"599","ADM2","Oconee",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"600","ADM2","Oconee",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"601","ADM2","Oconee",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"602","ADM2","Oconee",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"603","ADM2","Oglethorpe",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"604","ADM2","Oglethorpe",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"605","ADM2","Oglethorpe",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"606","ADM2","Oglethorpe",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"607","ADM2","Oglethorpe",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"608","ADM2","Paulding",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"609","ADM2","Paulding",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"610","ADM2","Paulding",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"611","ADM2","Paulding",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"612","ADM2","Paulding",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"613","ADM2","Peach",NA,NA,NA,NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"614","ADM2","Peach",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"615","ADM2","Peach",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"616","ADM2","Peach",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"617","ADM2","Peach",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"618","ADM2","Pickens",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"619","ADM2","Pickens",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"620","ADM2","Pickens",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"621","ADM2","Pickens",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"622","ADM2","Pickens",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"623","ADM2","Pierce",NA,NA,NA,NA,2020-03-17,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"624","ADM2","Pierce",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"625","ADM2","Pierce",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"626","ADM2","Pierce",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"627","ADM2","Pierce",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"628","ADM2","Pike",NA,NA,NA,NA,2020-03-13,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"629","ADM2","Pike",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"630","ADM2","Pike",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"631","ADM2","Pike",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"632","ADM2","Pike",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"633","ADM2","Polk",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"634","ADM2","Polk",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"635","ADM2","Polk",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"636","ADM2","Polk",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"637","ADM2","Polk",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"638","ADM2","Pulaski",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,NA,NA,NA
+"639","ADM2","Pulaski",NA,NA,NA,NA,2020-03-12,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"640","ADM2","Pulaski",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"641","ADM2","Pulaski",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"642","ADM2","Pulaski",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"643","ADM2","Putnam",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"644","ADM2","Putnam",NA,"County Commissioners","Government","2020-03-17",2020-03-17,NA,"state_of_emergency",NA,"https://www.putnamcountyga.us/sites/default/files/fileattachments/emergency_medical_services/page/7973/2020-03-17_resolution_declaring_state_of_local_emergency.pdf",NA,NA,"2020-03-27","DMO","2020-03-27"
+"645","ADM2","Putnam",NA,"County Commissioners","Government","2020-03-25",2020-03-25,"2020-04-06","prohibit_business",NA,"https://www.putnamcountyga.us/sites/default/files/fileattachments/emergency_medical_services/page/7973/2020-03-24_resolution_during_local_state_of_emergency.pdf",NA,"Restaurant dine out only; indoor recreation closed; body care and bars closed","2020-03-27","DMO","2020-03-27"
+"646","ADM2","Putnam",NA,"County Commissioners","Government","2020-03-25",2020-03-25,"2020-04-06","gathering_size_limited",NA,"https://www.putnamcountyga.us/sites/default/files/fileattachments/emergency_medical_services/page/7973/2020-03-24_resolution_during_local_state_of_emergency.pdf","10",NA,"2020-03-27","DMO","2020-03-27"
+"647","ADM2","Putnam",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"648","ADM2","Quitman",NA,NA,NA,NA,2020-03-17,"2020-04-06","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"649","ADM2","Quitman",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"650","ADM2","Quitman",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"651","ADM2","Quitman",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"652","ADM2","Quitman",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"653","ADM2","Rabun",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"654","ADM2","Rabun",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"655","ADM2","Rabun",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"656","ADM2","Rabun",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"657","ADM2","Rabun",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"658","ADM2","Randolph",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"659","ADM2","Randolph",NA,NA,"Government","2020-03-23",2020-03-23,"2020-03-30","state_of_emergency",NA,"https://www.scribd.com/document/452553073/Declaration-of-Emergency#from_embed",NA,NA,NA,NA,NA
+"660","ADM2","Randolph",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"661","ADM2","Randolph",NA,NA,"Government","2020-03-23",2020-03-23,NA,"prohibit_business",NA,"https://www.scribd.com/document/452553073/Declaration-of-Emergency#from_embed","10","Restaurants dine out only; Indoor rec closed","2020-03-27","DMO","2020-03-27"
+"662","ADM2","Randolph",NA,NA,"Government","2020-03-23",2020-03-23,NA,"gathering_size_limited",NA,"https://www.scribd.com/document/452553073/Declaration-of-Emergency#from_embed",NA,NA,"2020-03-27","DMO","2020-03-27"
+"663","ADM2","Richmond",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"664","ADM2","Richmond",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"665","ADM2","Richmond",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"666","ADM2","Richmond","Augusta","City Government","Government","2020-03-21",2020-03-22,"2020-04-04","prohibit_business",NA,"https://www.augustaga.gov/DocumentCenter/View/13321/2020-3-21-Executive-Order-2020-005-re-Business-Closures?bidId=",NA,"Restaurants no dine in; no public or private gatherings, no gyms or body care;no recreation","2020-03-27","DMO","2020-03-27"
+"667","ADM2","Richmond","Augusta","City Government","Government","2020-03-21",2020-03-22,"2020-04-04","gathering_size_limited",NA,"https://www.augustaga.gov/DocumentCenter/View/13321/2020-3-21-Executive-Order-2020-005-re-Business-Closures?bidId=","10",NA,"2020-03-27","DMO","2020-03-27"
+"668","ADM2","Richmond",NA,NA,"Government",NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"669","ADM2","Richmond",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-27","DMO","2020-03-27"
+"670","ADM2","Rockdale",NA,NA,NA,NA,2020-03-16,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"671","ADM2","Rockdale",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"672","ADM2","Rockdale",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"673","ADM2","Rockdale",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"674","ADM2","Rockdale",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"675","ADM3","Rockdale","Conyers","Mayor","Government","2020-3-25",2020-03-25,NA,"prohibit_business",NA,"https://www.rockdalenewtoncitizen.com/news/conyers-orders-shelter-in-place-closure-of-non-essential-businesses/article_bc820486-6ed1-11ea-8869-671f68b0cf73.html",NA,"Restaurants - no inside dining; entertainment estab closed","2020-03-25","DMO","2020-03-25"
+"676","ADM4","Rockdale","Conyers","Mayor","Government","2020-3-26",2020-03-26,NA,"gathering_size_limited",NA,"https://www.rockdalenewtoncitizen.com/news/conyers-orders-shelter-in-place-closure-of-non-essential-businesses/article_bc820486-6ed1-11ea-8869-671f68b0cf73.html","10",NA,"2020-03-25","DMO","2020-03-25"
+"677","ADM5","Rockdale","Conyers","Mayor","Government","2020-03-26",2020-03-26,"2020-04-08","shelter_in_place",NA,"https://ocgnews.com/conyers-city-council-orders-shelter-place-closure-non-essential-businesses/",NA,NA,"2020-03-27","DMO","2020-03-27"
+"678","ADM2","Schley",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"679","ADM2","Schley",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"680","ADM2","Schley",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"681","ADM2","Schley",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"682","ADM2","Schley",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"683","ADM2","Screven",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"684","ADM2","Screven",NA,NA,NA,NA,2020-03-16,"2020-03-17","no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
+"685","ADM2","Screven",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"686","ADM2","Screven",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"687","ADM2","Screven",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"688","ADM2","Seminole",NA,NA,NA,NA,2020-03-13,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"689","ADM2","Seminole",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"690","ADM2","Seminole",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"691","ADM2","Seminole",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"692","ADM2","Seminole",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"693","ADM2","Spalding",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"694","ADM2","Spalding",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"695","ADM2","Spalding",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"696","ADM2","Spalding",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"697","ADM2","Spalding",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"698","ADM2","Stephens",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"699","ADM2","Stephens",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"700","ADM2","Stephens",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"701","ADM2","Stephens",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"702","ADM2","Stephens",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"703","ADM2","Stewart",NA,NA,NA,NA,2020-03-18,"2020-04-06","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"704","ADM2","Stewart",NA,"County Commissioner","Government",NA,2020-03-24,"2020-04-13","state_of_emergency",NA,"https://www.wtvm.com/2020/03/24/local-health-state-emergency-declared-stewart-county-ga/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"705","ADM2","Stewart",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"706","ADM2","Stewart",NA,"County Commissioner","Government",NA,2020-03-24,NA,"prohibit_business",NA,"https://www.wtvm.com/2020/03/24/local-health-state-emergency-declared-stewart-county-ga/",NA,"Curfew 9P-6A","2020-03-25","DMO","2020-03-25"
+"707","ADM2","Stewart",NA,"County Commissioner","Government",NA,2020-03-24,NA,"gathering_size_limited",NA,"https://www.wtvm.com/2020/03/24/local-health-state-emergency-declared-stewart-county-ga/","10",NA,"2020-03-25","DMO","2020-03-25"
+"708","ADM2","Sumter",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
+"709","ADM2","Sumter",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"710","ADM2","Sumter",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"711","ADM2","Sumter",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"712","ADM2","Sumter",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"713","ADM2","Talbot",NA,NA,NA,NA,2020-03-18,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"714","ADM2","Talbot",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"715","ADM2","Talbot",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"716","ADM2","Talbot",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"717","ADM2","Talbot",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"718","ADM2","Taliaferro",NA,NA,"Government",NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"719","ADM2","Taliaferro",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"720","ADM2","Taliaferro",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"721","ADM2","Taliaferro",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"722","ADM2","Taliaferro",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"723","ADM2","Tattnall",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"724","ADM2","Tattnall",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"725","ADM2","Tattnall",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"726","ADM2","Tattnall",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"727","ADM2","Tattnall",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"728","ADM2","Taylor",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"729","ADM2","Taylor",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"730","ADM2","Taylor",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"731","ADM2","Taylor",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"732","ADM2","Taylor",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"733","ADM2","Telfair",NA,NA,"Government",NA,2020-03-12,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"734","ADM2","Telfair",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"735","ADM2","Telfair",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"736","ADM2","Telfair",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"737","ADM2","Telfair",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"738","ADM2","Terrell",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"739","ADM2","Terrell",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"740","ADM2","Terrell",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"741","ADM2","Terrell",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"742","ADM2","Terrell",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"743","ADM2","Thomas",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"744","ADM2","Thomas",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.timesenterprise.com/coronavirus/thomas-county-covid--cases-up-to/article_01380ecc-6d38-11ea-a734-bb47bba8d662.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"745","ADM2","Thomas",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://www.timesenterprise.com/coronavirus/thomas-county-covid--cases-up-to/article_01380ecc-6d38-11ea-a734-bb47bba8d662.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"746","ADM2","Thomas",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://www.timesenterprise.com/coronavirus/thomas-county-covid--cases-up-to/article_01380ecc-6d38-11ea-a734-bb47bba8d662.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"747","ADM2","Thomas",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://www.timesenterprise.com/coronavirus/thomas-county-covid--cases-up-to/article_01380ecc-6d38-11ea-a734-bb47bba8d662.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"748","ADM2","Tift",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"749","ADM2","Tift",NA,"County Government","Government","2020-03-20",2020-03-21,"2020-04-04","state_of_emergency",NA,"https://www.walb.com/2020/03/23/tifton-issues-shelter-in-place-order-curfew/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"750","ADM2","Tift",NA,"County Government","Government","2020-03-21",2020-03-22,"2020-04-05","prohibit_business",NA,"https://www.walb.com/2020/03/23/tifton-issues-shelter-in-place-order-curfew/",NA,"Bars, nightclubs, hair & personal care salons","2020-03-25","DMO","2020-03-25"
+"751","ADM2","Tift",NA,"County Government","Government","2020-03-22",2020-03-23,"2020-04-06","gathering_size_limited",NA,"https://www.walb.com/2020/03/23/tifton-issues-shelter-in-place-order-curfew/","10",NA,"2020-03-25","DMO","2020-03-25"
+"752","ADM2","Tift",NA,"County Government","Government","2020-03-23",2020-03-24,"2020-04-07","shelter_in_place",NA,"https://www.walb.com/2020/03/23/tifton-issues-shelter-in-place-order-curfew/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"753","ADM2","Toombs",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"754","ADM2","Toombs",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"755","ADM2","Toombs",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"756","ADM2","Toombs",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"757","ADM2","Toombs",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"758","ADM2","Towns",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"759","ADM2","Towns",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"760","ADM2","Towns",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"761","ADM2","Towns",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"762","ADM2","Towns",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"763","ADM2","Treutlen",NA,NA,"Government",NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"764","ADM2","Treutlen",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"765","ADM2","Treutlen",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"766","ADM2","Treutlen",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"767","ADM2","Treutlen",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"768","ADM2","Troup",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"769","ADM2","Troup",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"770","ADM2","Troup",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"771","ADM2","Troup",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"772","ADM2","Troup",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"773","ADM2","Turner",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"774","ADM2","Turner",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://valdostatoday.com/news-2/local/2020/03/tift-turner-counties-see-first-coronavirus-cases/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"775","ADM2","Turner",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://valdostatoday.com/news-2/local/2020/03/tift-turner-counties-see-first-coronavirus-cases/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"776","ADM2","Turner",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://valdostatoday.com/news-2/local/2020/03/tift-turner-counties-see-first-coronavirus-cases/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"777","ADM2","Turner",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://valdostatoday.com/news-2/local/2020/03/tift-turner-counties-see-first-coronavirus-cases/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"778","ADM2","Twiggs",NA,NA,NA,NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"779","ADM2","Twiggs",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.macon.com/news/coronavirus/article241409741.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"780","ADM2","Twiggs",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://www.macon.com/news/coronavirus/article241409741.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"781","ADM2","Twiggs",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://www.macon.com/news/coronavirus/article241409741.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"782","ADM2","Twiggs",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://www.macon.com/news/coronavirus/article241409741.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"783","ADM2","Union",NA,NA,NA,NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"784","ADM2","Union",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"785","ADM2","Union",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"786","ADM2","Union",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"787","ADM2","Union",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"788","ADM2","Upson",NA,NA,NA,NA,2020-03-13,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"789","ADM2","Upson",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.upsoncountyga.org/CivicAlerts.aspx?AID=81",NA,NA,"2020-03-25","DMO","2020-03-25"
+"790","ADM2","Upson",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://www.upsoncountyga.org/CivicAlerts.aspx?AID=81",NA,NA,"2020-03-25","DMO","2020-03-25"
+"791","ADM2","Upson",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://www.upsoncountyga.org/CivicAlerts.aspx?AID=81",NA,NA,"2020-03-25","DMO","2020-03-25"
+"792","ADM2","Upson",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://www.upsoncountyga.org/CivicAlerts.aspx?AID=81",NA,NA,"2020-03-25","DMO","2020-03-25"
+"793","ADM2","Walker",NA,NA,NA,NA,2020-03-17,"2020-04-03","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"794","ADM2","Walker",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"795","ADM2","Walker",NA,"County Commissioner","Government","2020-03-23",2020-03-23,NA,"prohibit_business",NA,"https://walkercountyga.gov/2020/03/23/walker-county-commissioner-issues-emergency-order-closing-dine-in-food-service-to-slow-the-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"796","ADM2","Walker",NA,"County Commissioner","Government","2020-03-23",2020-03-23,NA,"gathering_size_limited",NA,"https://walkercountyga.gov/2020/03/23/walker-county-commissioner-issues-emergency-order-closing-dine-in-food-service-to-slow-the-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"797","ADM2","Walker",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"798","ADM2","Walton",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"799","ADM2","Walton",NA,"Board of Commissioners","Government","2020-03-26",2020-03-26,NA,"state_of_emergency",NA,"https://www.waltoncountyga.gov/DocumentCenter/View/3206/2020-03-26-Ordinance-Declaring-Emergency",NA,NA,"2020-03-30","DMO","2020-03-30"
+"800","ADM2","Walton",NA,"Board of Commissioners","Government","2020-03-26",2020-03-26,NA,"prohibit_business",NA,"https://www.waltoncountyga.gov/DocumentCenter/View/3206/2020-03-26-Ordinance-Declaring-Emergency",NA,"Restaurants dine out only","2020-03-30","DMO","2020-03-30"
+"801","ADM2","Walton",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-30","DMO","2020-03-30"
+"802","ADM2","Walton",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-30","DMO","2020-03-30"
+"803","ADM2","Ware",NA,NA,NA,NA,2020-03-17,"2020-04-10","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"804","ADM2","Ware",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://www.waycrossga.com/dph-preparations-for-potential-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"805","ADM2","Ware",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"http://www.waycrossga.com/dph-preparations-for-potential-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"806","ADM2","Ware",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"http://www.waycrossga.com/dph-preparations-for-potential-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"807","ADM2","Ware",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"http://www.waycrossga.com/dph-preparations-for-potential-spread-of-covid-19/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"808","ADM2","Warren",NA,NA,"Government",NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"809","ADM2","Warren",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.whio.com/news/local/coronavirus-warren-county-health-officials-confirm-positive-covid-case/O6ewTjOiTJNfAAeYsEkRLO/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"810","ADM2","Warren",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://www.whio.com/news/local/coronavirus-warren-county-health-officials-confirm-positive-covid-case/O6ewTjOiTJNfAAeYsEkRLO/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"811","ADM2","Warren",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://www.whio.com/news/local/coronavirus-warren-county-health-officials-confirm-positive-covid-case/O6ewTjOiTJNfAAeYsEkRLO/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"812","ADM2","Warren",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://www.whio.com/news/local/coronavirus-warren-county-health-officials-confirm-positive-covid-case/O6ewTjOiTJNfAAeYsEkRLO/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"813","ADM2","Washington",NA,NA,NA,NA,2020-03-16,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"814","ADM2","Washington",NA,"Board of Commissioners","Government","2020-03-23",2020-03-23,NA,"state_of_emergency",NA,"https://www.13wmaz.com/article/news/health/coronavirus/washington-county-declares-state-of-emergency-issues-curfew-due-to-covid-19/93-ca4ea3a9-9250-4416-b7cb-67d7ca0330b6",NA,NA,"2020-03-25","DMO","2020-03-25"
+"815","ADM2","Washington",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"816","ADM2","Washington",NA,"Board of Commissioners","Government","2020-03-23",2020-03-24,NA,"gathering_size_limited",NA,"https://www.13wmaz.com/article/news/health/coronavirus/washington-county-declares-state-of-emergency-issues-curfew-due-to-covid-19/93-ca4ea3a9-9250-4416-b7cb-67d7ca0330b6","10",NA,"2020-03-25","DMO","2020-03-25"
+"817","ADM2","Washington",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
+"818","ADM2","Wayne",NA,NA,NA,NA,2020-03-17,"2020-04-13","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"819","ADM2","Wayne",NA,"County Administer","Government","2020-03-24",2020-03-25,"2020-04-06","state_of_emergency",NA,"https://www.waynecountyga.us/egov/documents/1585082616_66794.pdf",NA,NA,"2020-03-25","DMO","2020-03-25"
+"820","ADM2","Wayne",NA,"County Administer","Government","2020-03-25",2020-03-26,"2020-04-07","prohibit_business",NA,"https://www.waynecountyga.us/egov/documents/1585082616_66794.pdf",NA,NA,"2020-03-25","DMO","2020-03-25"
+"821","ADM2","Wayne",NA,"County Administer","Government","2020-03-26",2020-03-27,"2020-04-08","gathering_size_limited",NA,"https://www.waynecountyga.us/egov/documents/1585082616_66794.pdf",NA,NA,"2020-03-25","DMO","2020-03-25"
+"822","ADM2","Wayne",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"823","ADM2","Webster",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"824","ADM2","Webster",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"825","ADM2","Webster",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"826","ADM2","Webster",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"827","ADM2","Webster",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,"2020-03-25","DMO","2020-03-25"
+"828","ADM2","Wheeler",NA,NA,"Government",NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","DMO","2020-03-23"
+"829","ADM2","Wheeler",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.wctv.tv/content/news/DPH-Two-new-coronavirus-cases-in-South-Georgia-568969291.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"830","ADM2","Wheeler",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://www.wctv.tv/content/news/DPH-Two-new-coronavirus-cases-in-South-Georgia-568969291.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"831","ADM2","Wheeler",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://www.wctv.tv/content/news/DPH-Two-new-coronavirus-cases-in-South-Georgia-568969291.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"832","ADM2","Wheeler",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://www.wctv.tv/content/news/DPH-Two-new-coronavirus-cases-in-South-Georgia-568969291.html",NA,NA,"2020-03-25","DMO","2020-03-25"
+"833","ADM2","White",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"834","ADM2","White",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.whitecountynews.net/local/coronavirus-updates-white-county-march-18-25",NA,NA,"2020-03-25","DMO","2020-03-25"
+"835","ADM2","White",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://www.whitecountynews.net/local/coronavirus-updates-white-county-march-18-26",NA,NA,"2020-03-25","DMO","2020-03-25"
+"836","ADM2","White",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://www.whitecountynews.net/local/coronavirus-updates-white-county-march-18-27",NA,NA,"2020-03-25","DMO","2020-03-25"
+"837","ADM2","White",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://www.whitecountynews.net/local/coronavirus-updates-white-county-march-18-28",NA,NA,"2020-03-25","DMO","2020-03-25"
+"838","ADM2","Whitfield",NA,NA,NA,NA,2020-03-16,"2020-04-06","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"839","ADM2","Whitfield",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://www.timesfreepress.com/news/local/story/2020/mar/21/second-case-coronavirus-confirmed-whitfield-county-georgia/518793/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"840","ADM2","Whitfield",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,"https://www.timesfreepress.com/news/local/story/2020/mar/21/second-case-coronavirus-confirmed-whitfield-county-georgia/518793/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"841","ADM2","Whitfield",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,"https://www.timesfreepress.com/news/local/story/2020/mar/21/second-case-coronavirus-confirmed-whitfield-county-georgia/518793/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"842","ADM2","Whitfield",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,"https://www.timesfreepress.com/news/local/story/2020/mar/21/second-case-coronavirus-confirmed-whitfield-county-georgia/518793/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"843","ADM2","Wilcox",NA,NA,"Government",NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"844","ADM2","Wilcox",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"845","ADM2","Wilcox",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"846","ADM2","Wilcox",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"847","ADM2","Wilcox",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"http://southcentralhealth.info",NA,NA,"2020-03-25","DMO","2020-03-25"
+"848","ADM2","Wilkes",NA,NA,"Government",NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"849","ADM2","Wilkes",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"850","ADM2","Wilkes",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"851","ADM2","Wilkes",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"852","ADM2","Wilkes",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"853","ADM2","Wilkinson",NA,NA,"Government",NA,2020-03-17,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-23"
+"854","ADM2","Wilkinson",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"855","ADM2","Wilkinson",NA,NA,"Government",NA,NA,NA,"prohibit_business",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"856","ADM2","Wilkinson",NA,NA,"Government",NA,NA,NA,"gathering_size_limited",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"857","ADM2","Wilkinson",NA,NA,"Government",NA,NA,NA,"shelter_in_place",NA,"https://ecphd.com/newsevents/",NA,NA,"2020-03-25","DMO","2020-03-25"
+"858","ADM2","Worth",NA,NA,NA,NA,2020-03-16,"2020-04-01","no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","LJB","2020-03-25"
+"859","ADM2","Worth",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
+"860","ADM2","Worth",NA,"County Commissioners","Government","2020-03-23",2020-03-23,NA,"prohibit_business",NA,"https://www.walb.com/2020/03/23/worth-co-commission-enacts-curfew/",NA,NA,NA,"DMO","2020-03-23"
+"861","ADM2","Worth",NA,"County Commissioners","Government","2020-03-23",2020-03-23,NA,"gathering_size_limited",NA,"https://www.walb.com/2020/03/23/worth-co-commission-enacts-curfew/","10","Curfew 10P to 6A; Take out/Delivery only from restaurants; parks & rec closed; funerals limited to graveside","2020-03-25","DMO","2020-03-25"
+"862","ADM2","Worth",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,"DMO","2020-03-23"
