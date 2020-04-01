@@ -26,6 +26,7 @@ case fatalities in a state by day. </br>
 [Internation_TA](#international_ta): Travel advisories announced by county. </br>
 [Global Health Security Index](#GHSI_2019): Index of epidemic preparednessa and underlying data </br>
 [Epidemiological characteristics of COVID-19 and other zoonotics](#epi_characteristics)</br>
+**Canada COVID-19 Case Data**: Includes cases, fatalities, recovered, and tested for Canada
 
 ---
 
