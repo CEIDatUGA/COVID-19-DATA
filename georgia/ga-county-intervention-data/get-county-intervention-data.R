@@ -16,7 +16,7 @@ df <- read_sheet("https://docs.google.com/spreadsheets/d/1UZMWpbebhI3HS2BwzK0PCU
 
 # Set start_date column to a date object
 df <- df %>%  
-  mutate(start_date = ymd(as.character(start_date)))
+  mutate(start_date = ymd(as.character(start_date)), announcement_date = ymd(announcement_date), end_date = ymd(end_date))
 
 
 

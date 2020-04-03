@@ -107,7 +107,7 @@ dfNew <- bind_rows(df, World.wikipedia) %>% select(Date, Country, Cases)
 write.csv(dfNew, "worldCases.csv")
 ```
 
-```{r, eval =F}
+```{r, eval =T}
 
 
 
@@ -144,11 +144,25 @@ World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedi
 World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="MS Zaandam["), "MS Zaandam")
 
 World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="Somalia ["), "Somalia")
+World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="Somalia["), "Somalia")
 
+World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="MS Zaandam & Rotterdam["), "MS Zaandam & Rotterdam")
 
+World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="Kosovo["), "Kosovo")
 
+World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="Georgia["), "Georgia")
 
-dfNew <- bind_rows(df, World.wikipedia) %>% dplyr::select(Date, Country, Cases)
+World.wikipedia$Country <- replace(World.wikipedia$Country, which(World.wikipedia$Country=="French Guiana["), "French Guiana")
+
+dfNew <- bind_rows(df, World.wikipedia) %>% dplyr::select(Date, Country, Cases) 
+
+for(i in 1:nrow(dfNew)){
+  
+  if(str_sub(dfNew$Country[i], start=-1)=="["){
+    dfNew$Country[i] <- str_sub(dfNew$Country[i], end =-2)
+  }
+}
+
 
 
 ### Check country names before writing!!!
