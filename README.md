@@ -12,13 +12,13 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 ## US data  
 **UScases_by_state_wikipedia.csv**: Number of new cases in a state by day. </br>
 **USfatalities_by_state_wikipedia.csv**: Number of new case fatalities in a state by day.  </br>
-[**us-state-intervention-data/stateInterventionTimeSeries.csv**](https://github.com/CEIDatUGA/COVID-19-DATA/tree/master/us-state-intervention-data): Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
+**us-state-intervention-data/stateInterventionTimeSeries.csv**: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
 
-[**us-state-intervention-data/longFormStateInterventions.csv**](https://github.com/CEIDatUGA/COVID-19-DATA/tree/master/us-state-intervention-data): Running summary of interventions at the state level taken from reports and wikipedia
+**us-state-intervention-data/longFormStateInterventions.csv**: Running summary of interventions at the state level taken from reports and wikipedia
 
-[**ga-county-intervention-data/countyInterventionTimeSeries.csv**](https://github.com/CEIDatUGA/COVID-19-DATA/tree/master/ga-county-intervention-data): Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
+**ga-county-intervention-data/countyInterventionTimeSeries.csv**: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
 
-[**ga-county-intervention-data/longFormCountyInterventions.csv**](https://github.com/CEIDatUGA/COVID-19-DATA/tree/master/ga-county-intervention-data): Running summary of interventions at the state level taken from reports and wikipedia
+**ga-county-intervention-data/longFormCountyInterventions.csv**: Running summary of interventions at the state level taken from reports and wikipedia
 
 ## Global
 **worldCases.csv**: Number of new cases in a country by day. </br>
