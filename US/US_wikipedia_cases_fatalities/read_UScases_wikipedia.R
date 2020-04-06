@@ -38,16 +38,31 @@ read_table_from_web <- function(wiki_pop, table_xpath) {
 table_cleanup <- function(cases, var) {
   # table of interest is the first element of the list
   cases <- cases[[1]]
+  # keep the first column 'Date'
+  date <- as.factor(cases[,1])
+  # delete two columns with name 'Date'
+  cases <- subset(cases, select = -c(Date))
+  cases <- subset(cases, select = -c(Date))
+  # add column 'Date' back to data frame
+  cases <- cbind(date, cases)
+  
   # updating column names
   ncols <- dim(cases)[2]
-  col_names <- cases[1,]
+  col_names <- as.character(cases[1,])
+  col_names <- col_names[!as.character(col_names) %in% "West"]
 
   if (var == "cases") {
-    col_names[c((ncols-5):ncols)] <- c("Conf_New", "Conf_Cml", "deaths_New", "deaths_Cml", "Rec_New", "Rec_Cml")
-    names(cases) <- col_names 
+    col_names[1] <- "Date"
+    col_names[c((ncols-6):ncols)] <- c("VI", "Conf_New", "Conf_Cml", "deaths_New", "deaths_Cml", "Rec_New", "Rec_Cml")
+     names(cases) <- col_names 
+     
+     # add first recovered case to the new recovery cases column
+     index <- which(as.character(cases$Date) == "Feb 15")
+     cases[index, "Rec_New"] <- as.numeric(cases[index, "Rec_Cml"])
   }
   else if (var == "deaths") {
-    col_names[c((ncols-1):ncols)] <- c("deaths_New", "deaths_Cml")
+    col_names[1] <- "Date"
+    col_names[c((ncols-2):ncols)] <- c("VI", "deaths_New", "deaths_Cml")
     names(cases) <- col_names 
   }
   else {
@@ -58,9 +73,9 @@ table_cleanup <- function(cases, var) {
   cases <- cases[-1,] 
   nrows <- dim(cases)[1]
   cases <- cases[-c((nrows-3):nrows),]
+  
   return(cases)
 }
-
 
 time_last_update <- function(cases) {
   cases$time_last_update[dim(cases)[1]] <- as.character(Sys.time())
@@ -90,6 +105,12 @@ us_deaths_clean <- table_cleanup(us_deaths, "deaths")
 
 us_cases_clean <- time_last_update(us_cases_clean)
 us_deaths_clean <- time_last_update(us_deaths_clean)
+
+# delete totals row
+n <- dim(us_cases_clean)[1]
+us_cases_clean <- us_cases_clean[-n,]
+n <- dim(us_deaths_clean)[1]
+us_deaths_clean <- us_deaths_clean[-n,]
 
 write.csv(us_cases_clean, "UScases_by_state_wikipedia.csv", row.names = FALSE)
 write.csv(us_deaths_clean, "USfatalities_by_state_wikipedia.csv", row.names = FALSE)
