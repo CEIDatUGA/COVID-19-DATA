@@ -39,6 +39,17 @@ df <- read_sheet("https://docs.google.com/spreadsheets/d/1eA5YOdaZvEhDcse4W6qq7Q
 str(df)
 head(df)
 
+#fix list-columns [problem is NULL]
+listcol_to_date <- function(listcol){
+  listcol[sapply(listcol, is.null)] <- NA
+  date <- as.character(unlist(listcol))
+  return(date)
+}
+
+df$confirmation_date <- listcol_to_date(df$confirmation_date)
+df$accessed_date1 <- listcol_to_date(df$accessed_date1)
+
+
 metadata <- read_sheet("https://docs.google.com/spreadsheets/d/1eA5YOdaZvEhDcse4W6qq7Q_D8AciZx_1ZSgORxUppGo/edit#gid=0",
                        sheet = 3)
 
