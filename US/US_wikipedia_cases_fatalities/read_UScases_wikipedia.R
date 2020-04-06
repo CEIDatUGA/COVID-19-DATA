@@ -69,7 +69,7 @@ table_cleanup <- function(cases, var) {
     abort("table format not given")
   }
   
-  # eliminating no interest rows 
+  # eliminating rows with no interest
   cases <- cases[-1,] 
   nrows <- dim(cases)[1]
   cases <- cases[-c((nrows-3):nrows),]
@@ -105,6 +105,12 @@ us_deaths_clean <- table_cleanup(us_deaths, "deaths")
 
 us_cases_clean <- time_last_update(us_cases_clean)
 us_deaths_clean <- time_last_update(us_deaths_clean)
+
+# delete totals row
+n <- dim(us_cases_clean)[1]
+us_cases_clean <- us_cases_clean[-n,]
+n <- dim(us_deaths_clean)[1]
+us_deaths_clean <- us_deaths_clean[-n,]
 
 write.csv(us_cases_clean, "UScases_by_state_wikipedia.csv", row.names = FALSE)
 write.csv(us_deaths_clean, "USfatalities_by_state_wikipedia.csv", row.names = FALSE)
