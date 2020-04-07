@@ -23,12 +23,18 @@ jobs:
     - uses: actions/checkout@master
     #install R
     - uses: r-lib/actions/setup-r@master
-    # Install dependencies
-    - name: Install dependencies
-      run: Rscript -e "install.packages(c("remotes", "googlesheets4"))" -e "remotes::install_deps(dependencies = T)"
+    #scrape data from github
     - name: Scrape data from Github
       run: Rscript  github_data_update.R
     #Push back to repo
-    - uses: mikeal/publish-to-github-action@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit files
+      run: |
+        timestamp=$(date -u)
+        git config --local user.email "mvevans89@gmail.com"
+        git config --local user.name "mvevans89"
+        git commit -m "Github autoupdate : ${timestamp} ${GITHUB_SHA}" -a
+    - name: Push changes
+    - uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
