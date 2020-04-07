@@ -1,0 +1,40 @@
+# This is a basic workflow to help you get started with Actions
+
+name: github-update
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the autoupdate branch
+on:
+  schedule:
+    - cron : '0 12 * * *' # will run this script at 8 AM EDT daily
+    #- cron: '*/10 * * * *' #runs every ten minutes to test
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "autoupdate"
+  build:
+    name: autoupdate
+    # The type of runner that the job will run on
+    runs-on: macOS-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@master
+    #install R
+    - uses: r-lib/actions/setup-r@master
+    #scrape data from github
+    - name: Scrape data from Github
+      run: Rscript  github_data_update.R
+    #Push back to repo
+    - name: Commit files
+      run: |
+        timestamp=$(date -u)
+        git config --local user.email "mvevans89@gmail.com"
+        git config --local user.name "mvevans89"
+        git commit -m "Github autoupdate : ${timestamp} ${GITHUB_SHA}" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
