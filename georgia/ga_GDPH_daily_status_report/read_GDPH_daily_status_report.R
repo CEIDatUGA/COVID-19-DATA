@@ -17,22 +17,39 @@ read_table_from_web <- function(wiki_pop, table_xpath) {
 }
 
 # Read webpage
-url <- "https://dph.georgia.gov/covid-19-daily-status-report"
-xpath_cases <- '//*[@id="main-content"]/div/div[3]/div[1]/div/main/div[2]/table[1]'
-xpath_tests <- '//*[@id="main-content"]/div/div[3]/div[1]/div/main/div[2]/table[2]'
+#url <- "https://dph.georgia.gov/covid-19-daily-status-report"
+#xpath_cases <- '//*[@id="main-content"]/div/div[3]/div[1]/div/main/div[2]/table[1]'
+#xpath_tests <- '//*[@id="main-content"]/div/div[3]/div[1]/div/main/div[2]/table[2]'
 
+url <-  "https://d20s4vd27d0hk0.cloudfront.net/?initialWidth=578&childId=covid19dashdph&parentTitle=COVID-19%20Daily%20Status%20Report%20%7C%20Georgia%20Department%20of%20Public%20Health&parentUrl=https%3A%2F%2Fdph.georgia.gov%2Fcovid-19-daily-status-report%23main-content"
+xpath_cases <- '//*[@id="summary"]/table[1]'
+xpath_counties <- '//*[@id="summary"]/table[2]'
+xpath_tests <- '//*[@id="testing"]/table'
+xpath_deaths <- '//*[@id="deaths"]/table' 
+  
 webtext <- read_html(url)
+
 table_cases <- read_table_from_web(webtext, xpath_cases)
 table_tests <- read_table_from_web(webtext, xpath_tests)
-date_reported <- str_extract(as.character(webtext), "[0-9]+\\/[0-9]+\\/[0-9]+")
-date_reported <- format(parse_date_time(date_reported,"mdy"), format="%m/%d/%y")
-time_reported <- gsub("[\\(|\\)]", "",str_extract(as.character(webtext), "\\([0-9]+\\:[0-9]+ [a|p]m\\)"))
+table_counties <- read_table_from_web(webtext, xpath_counties)
+table_demography <- read_table_from_web(webtext, xpath_deaths)
 
+date_reported <- str_extract(as.character(webtext), "[0-9]+\\/[0-9]+\\/[0-9]+ [0-9]+\\:[0-9]+\\:[0-9]+")
+aux <- strsplit(date_reported, " ")
+day <- aux[[1]][1]
+date_reported <- format(parse_date_time(day,"mdy"), format="%m/%d/%y")
+time_reported <- aux[[1]][2]
+#time_reported <- gsub("[\\(|\\)]", "",str_extract(as.character(webtext), "\\([0-9]+\\:[0-9]+ [a|p]m\\)"))
+
+table_cases <- table_cases[[1]]
+table_tests <- table_tests[[1]]
+table_tests <- table_tests[-1,]
 df  <- data.frame(date = as.character(date_reported),
                 time_reported = as.character(time_reported),
-                cases_cumulative = as.numeric(str_extract(table_cases[1,2], "[0-9]+")), 
+                cases_cumulative = as.numeric(str_extract(table_cases[2,2], "[0-9]+")), 
                 fatalities_cumulative = as.numeric(str_extract(table_cases[3,2], "[0-9]+")), 
-                tests_cumulative = sum(table_tests$'Total Tests'),
+                hospitalized_cumulative = as.numeric(str_extract(table_cases[4,2], "[0-9]+")),
+                tests_cumulative = sum(as.numeric(table_tests$X3)),
                 new_cases = NA,
                 new_fatalities = NA,
                 new_tests = NA,
