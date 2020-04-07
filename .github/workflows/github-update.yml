@@ -28,6 +28,6 @@ jobs:
     - name: Scrape data from Github
       run: Rscript  github_data_update.R
     #Push back to repo
-      -uses: mikeal/publish-to-github-action@master
+    - uses: mikeal/publish-to-github-action@master
        env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
