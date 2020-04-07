@@ -1,0 +1,33 @@
+# This is a basic workflow to help you get started with Actions
+
+name: github-update
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the autoupdate branch
+on:
+  schedule:
+    - cron : '5 16 * * *' # will run this script at 16h05 daily
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "autoupdate"
+  build:
+    name: autoupdate
+    # The type of runner that the job will run on
+    runs-on: macOS-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@master
+    #install R
+    - uses: r-lib/actions/setup-r@master
+    # Install dependencies
+    - name: Install dependencies
+      run: Rscript -e "install.packages(c("remotes", "googlesheets4"))" -e "remotes::install_deps(dependencies = T)"
+    - name: Scrape data from Github
+      run: Rscript  github_data_update.R
+    #Push back to repo
+      -uses: mikeal/publish-to-github-action@master
+       env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
