@@ -34,7 +34,7 @@ jobs:
         git config --local user.name "mvevans89"
         git commit -m "Github autoupdate : ${timestamp} ${GITHUB_SHA}" -a
     - name: Push changes
-    - uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
