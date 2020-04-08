@@ -1,0 +1,43 @@
+# This workflow updates any datasets that come from the dxy China scraping workflow
+
+name: github-update
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the autoupdate branch
+on:
+  schedule:
+    - cron : '59 23 * * *' # will run this script at 7:59 PM EST daily (setting 8 PM crossed dateline and was confusing)
+    #- cron: '*/10 * * * *' #runs every ten minutes to test
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "autoupdate"
+  build:
+    name: autoupdate
+    # The type of runner that the job will run on
+    runs-on: macOS-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@master
+    #install R
+    - uses: r-lib/actions/setup-r@master
+    - name: Install dependencies
+      run: Rscript -e  "install.packages(c("remotes", "dplyr", "tidyr", "stringr", "here"))" -e "remotes::install_deps(dependencies = T)"
+    #scrape data from github
+    - name: Scrape data from Github
+      run: Rscript  china/China_casedata/extract-dxy-case-counts.R
+
+    #Push back to repo
+    - name: Commit files
+      run: |
+        timestamp=$(date -u)
+        git config --local user.email "actions@users.noreply.github.com"
+        git config --local user.name "Automated Publisher"
+        git commit -m "china-dxy autoupdate : ${timestamp} ${GITHUB_SHA}" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
