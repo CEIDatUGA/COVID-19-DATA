@@ -5,9 +5,22 @@ library(tidyverse)
 library(magrittr)
 library(here)
 
-# load saved daily html file 6-12 pm EST 
+# set sub directory
+setwd(here("china","China_casedata")) 
+
+# save html 
+url = "https://ncov.dxy.cn/ncovh5/view/pneumonia"
+get_object = GET(url)
+cat(content(get_object, "text"), file="temp.html")
+html_object = read_html(url)
+write_xml(html_object, file=paste("dxy-html-archive/",
+                                  str_sub(get_object$headers$date, 6, 7),
+                                  toupper(str_sub(get_object$headers$date, 9, 11)),
+                                  str_sub(get_object$headers$date, 18, 19),
+                                  str_sub(get_object$headers$date, 21, 22),
+                                  ".html",sep = "")) 
+
 # list out all file names and dates
-setwd(here("china","China_casedata")) # set sub directory
 fileNames <- list.files(path = "dxy-html-archive", pattern = "*.html", full.names = F) # read all files in 
 fileNames <- str_sub(fileNames, end = 9) # remove excess part of file
 
