@@ -24,7 +24,7 @@ jobs:
     #install R
     - uses: r-lib/actions/setup-r@master
     - name: Install dependencies
-      run: Rscript -e  "install.packages(c("remotes", "dplyr", "tidyr", "stringr", "here"))" -e "remotes::install_deps(dependencies = T)"
+      run: Rscript -e  "install.packages(c("remotes", "dplyr", "tidyr", "stringr", "here", "httr", "xml2", "rvest"))" -e "remotes::install_deps(dependencies = T)"
     #scrape data from github
     - name: Scrape data from Github
       run: Rscript  china/China_casedata/extract-dxy-case-counts.R
