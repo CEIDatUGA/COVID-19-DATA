@@ -1,7 +1,10 @@
+# set up libraries
 library(httr)
 library(xml2)
 library(rvest)
-library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(stringr)
 library(magrittr)
 library(here)
 
