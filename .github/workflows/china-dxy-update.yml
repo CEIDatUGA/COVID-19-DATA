@@ -1,12 +1,12 @@
 # This workflow updates any datasets that come from the dxy China scraping workflow
 
-name: github-update
+name: china-dxy-update
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the autoupdate branch
 on:
   schedule:
-    - cron : '59 23 * * *' # will run this script at 7:59 PM EST daily (setting 8 PM crossed dateline and was confusing)
+    - cron : '50 23 * * *' # will run this script at 7:50 PM EST daily (setting 8 PM crossed dateline and was confusing)
     #- cron: '*/10 * * * *' #runs every ten minutes to test
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
