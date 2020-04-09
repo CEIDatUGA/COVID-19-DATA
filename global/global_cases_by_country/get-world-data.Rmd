@@ -117,7 +117,7 @@ df <- read.csv("worldCases.csv")%>%
 url <- "https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory"
 World.wikipedia <- url %>%
   html() %>%
-  html_nodes(xpath='/html/body/div[3]/div[3]/div[4]/div/div[9]/table') %>%
+  html_nodes(xpath='//*[@id="thetable"]') %>%
   html_table(fill = TRUE)
 World.wikipedia <- World.wikipedia[[1]]
 names(World.wikipedia) <- World.wikipedia[1,]
