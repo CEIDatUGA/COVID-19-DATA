@@ -9,7 +9,7 @@ library(magrittr)
 library(here)
 
 # set sub directory
-setwd(here("china","China_casedata")) 
+#setwd(here("china","China_casedata")) 
 
 # save html 
 url = "https://ncov.dxy.cn/ncovh5/view/pneumonia"
