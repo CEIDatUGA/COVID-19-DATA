@@ -23,6 +23,10 @@ jobs:
     - uses: actions/checkout@master
     #install R
     - uses: r-lib/actions/setup-r@master
+    #Install curl 
+    - name: install curl
+      run: sudo apt-get install libcurl4-openssl-dev
+    #Install R package dependencies
     - name: Install dependencies
       run: Rscript -e  "install.packages(c('curl', 'dplyr', 'tidyr', 'stringr', 'here', 'httr', 'xml2', 'rvest'), repos = 'https://cloud.r-project.org', dependencies = NA)" 
       
