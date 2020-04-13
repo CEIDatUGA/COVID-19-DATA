@@ -605,10 +605,10 @@
 "604","ADM2","Muscogee",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
 "605","ADM2","Muscogee",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
 "606","ADM2","Muscogee",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
-"607","ADM2","Newton",NA,"County Government","Government",2020-03-25,2020-03-25,NA,"state_of_emergency",NA,"https://ncboc.com/DocumentCenter/View/2827/2020-3-31-County-Emergency-Resolution-",NA,NA,NA,NA,NA
+"607","ADM2","Newton",NA,"County Government","Government",2020-03-25,2020-03-25,NA,"state_of_emergency",NA,"https://ncboc.com/DocumentCenter/View/2827/2020-3-31-County-Emergency-Resolution-",NA,NA,"2020-04-01","DMO","2020-04-01"
 "608","ADM2","Newton",NA,"County Government","Government",NA,2020-03-16,2020-04-01,"no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
 "609","ADM2","Newton",NA,"County Government","Government",NA,NA,NA,"prohibit_business",NA,"https://www.co.newton.ga.us/CivicAlerts.aspx?AID=187",NA,"Public offices closed","2020-04-01","DMO","2020-04-01"
-"610","ADM2","Newton",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,"2020-04-01","DMO","2020-04-01"
+"610","ADM2","Newton","Covington","City Government","Government",NA,NA,NA,"gathering_size_limited",NA,NA,"10",NA,"2020-04-01","DMO","2020-04-01"
 "611","ADM2","Newton",NA,"County Government","Government",NA,NA,NA,"shelter_in_place",NA,"https://ncboc.com/DocumentCenter/View/2827/2020-3-31-County-Emergency-Resolution-",NA,NA,"2020-04-01","DMO","2020-04-01"
 "612","ADM2","Oconee",NA,NA,"Government",2020-03-21,2020-03-21,2020-04-26,"state_of_emergency",NA,"https://www.oconeecounty.com/1142/Novel-Coronavirus",NA,NA,"2020-04-01","DMO","2020-04-01"
 "613","ADM2","Oconee",NA,NA,NA,NA,2020-03-16,2020-04-01,"no_contact_school",NA,"https://www.wtoc.com/2020/03/13/tattnall-county-schools-close-weeks-beginning-monday-march/",NA,NA,"2020-03-23","ARW","2020-03-23"
