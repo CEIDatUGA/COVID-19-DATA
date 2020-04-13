@@ -7,7 +7,6 @@ name: china-dxy-update
 on:
   schedule:
     - cron : '45 23 * * *' # will run this script at 7:45 PM EST daily (setting 8 PM crossed dateline and was confusing)
-    #- cron: '*/10 * * * *' #runs every ten minutes to test
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -15,7 +14,7 @@ jobs:
   build:
     name: china-update
     # The type of runner that the job will run on
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -23,8 +22,12 @@ jobs:
     - uses: actions/checkout@master
     #install R
     - uses: r-lib/actions/setup-r@master
+    #Install curl 
+    - name: install curl
+      run: sudo apt-get install libcurl4-openssl-dev
+    #Install R package dependencies
     - name: Install dependencies
-      run: Rscript -e  "install.packages(c('remotes', 'dplyr', 'tidyr', 'stringr', 'here', 'httr', 'xml2', 'rvest'), repos = 'https://cloud.r-project.org', dependencies = TRUE)" 
+      run: Rscript -e  "install.packages(c('curl', 'dplyr', 'tidyr', 'stringr', 'here', 'httr', 'xml2', 'rvest'), repos = 'https://cloud.r-project.org', dependencies = NA)" 
       
     #scrape data from github
     - name: Scrape data from Github
