@@ -34,6 +34,7 @@ Reads from the Georgia Department of Public Health website, demographic informat
 - `Gender` - person's gender
 - `County` - Georgia county  
 - `Underlying` - Existence of undelying condition (Yes, No, Unk)
+- `Latest_Status_Report` - Date and time of the last update on the website
 
 <b>Related subdirectory and/or files </b>
 - GA_fatalities_demography_GDPH.csv
@@ -50,6 +51,24 @@ Reads from the Georgia Department of Public Health website, information about nu
 - `County` - County's name if known, otherwise it will appear as 'Unknown'
 - `Cases` - Number of cases per county
 - `Fatalities` - Number of fatalities per county
+- `Latest_Status_Report` - Date and time of the last update on the website
+
+<b>Related subdirectory and/or files </b>
+- TBD
+
+<b>Projects</b>
+- TBD
+
+
+## GA_cases_race_ethnicity_GDPH.csv
+Reads from the Georgia Department of Public Health website, information about number of cases and fatalities per race and ethnicity. Source: https://dph.georgia.gov/covid-19-daily-status-report.
+
+<b>Metadata: </b> </br>
+ Column name description of data file:
+- `Race` - Race
+- `Ethnicity` - Ethnicity  
+- `Cases` - Number of cases per ethnicity 
+- `Fatalities` - Number of fatalities per ethnicity 
 
 <b>Related subdirectory and/or files </b>
 - TBD
