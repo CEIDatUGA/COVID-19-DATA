@@ -3,8 +3,8 @@ Reads from the Georgia Department of Public Health website, the number of COVID-
 
 <b>Metadata: </b> </br>
  Column name description of data file:
-- `date` - Date of report
-- `time` - Time of report
+- `date` - Date of the last status update on the website
+- `time` - Time of the last status update on the website
 - `cases_cumulative` - Number of cumulative cases
 - `fatalities_cumulative` - Number of cumulative fatalities
 - `tests_cumulative` - Number of cumulative tests
@@ -51,7 +51,7 @@ Reads from the Georgia Department of Public Health website, information about nu
 - `County` - County's name if known, otherwise it will appear as 'Unknown'
 - `Cases` - Number of cases per county
 - `Fatalities` - Number of fatalities per county
-- `Latest_Status_Report` - Date and time of the last update on the website
+- `Latest_Status_Report` - Date and time of the last status update on the website
 
 <b>Related subdirectory and/or files </b>
 - TBD
