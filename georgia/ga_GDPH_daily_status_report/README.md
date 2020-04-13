@@ -8,9 +8,11 @@ Reads from the Georgia Department of Public Health website, the number of COVID-
 - `cases_cumulative` - Number of cumulative cases
 - `fatalities_cumulative` - Number of cumulative fatalities
 - `tests_cumulative` - Number of cumulative tests
+- `hospitalizations_cumulative` - Number of cumulative hospitalizations
 - `new_cases` - Number of new daily cases 
 - `new_fatalities` - Number of new daily fatalities
 - `new_tests` - Number of new daily tests
+- `new_hospitalizations` - Number of new daily hospitalizations
 - `source_cases` - source url of number of cases
 - `source_fatalities` - source url of number of fatalities
 - `source_tests` - source url of number of tests
