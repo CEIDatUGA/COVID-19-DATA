@@ -112,6 +112,6 @@ us_cases_clean <- us_cases_clean[-n,]
 n <- dim(us_deaths_clean)[1]
 us_deaths_clean <- us_deaths_clean[-n,]
 
-write.csv(us_cases_clean, "UScases_by_state_wikipedia.csv", row.names = FALSE)
-write.csv(us_deaths_clean, "USfatalities_by_state_wikipedia.csv", row.names = FALSE)
+write.csv(us_cases_clean, "US/US_wikipedia_cases_fatalities/UScases_by_state_wikipedia.csv", row.names = FALSE)
+write.csv(us_deaths_clean, "US/US_wikipedia_cases_fatalities/USfatalities_by_state_wikipedia.csv", row.names = FALSE)
 
