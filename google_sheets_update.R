@@ -48,6 +48,7 @@ listcol_to_date <- function(listcol){
 
 df$confirmation_date <- listcol_to_date(df$confirmation_date)
 df$accessed_date1 <- listcol_to_date(df$accessed_date1)
+str(df)
 
 
 metadata <- read_sheet("https://docs.google.com/spreadsheets/d/1eA5YOdaZvEhDcse4W6qq7Q_D8AciZx_1ZSgORxUppGo/edit#gid=0",
