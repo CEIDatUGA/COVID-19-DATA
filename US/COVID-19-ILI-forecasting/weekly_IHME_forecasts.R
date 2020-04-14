@@ -1,21 +1,27 @@
 library(dplyr)
 
 # collect weekly covid deaths from UW IHME forecasts
-# https://www.medrxiv.org/content/10.1101/2020.03.27.20043752v1.full.pdf
+# https://ihmecovid19storage.blob.core.windows.net/latest/ihme-covid19.zip
 
 # set working directory to COVID-19-DATA repo
 setwd("~/work/COVID-19-DATA")
 
-IHME <- read.csv("US/COVID-19-ILI-forecasting/2020_04_01.2/Hospitalization_all_locs.csv", stringsAsFactors = F)
+IHME <- read.csv("US/COVID-19-ILI-forecasting/2020_04_12.02/Hospitalization_all_locs.csv", stringsAsFactors = F)
 
-IHME_deaths <- IHME %>% select(location, date, totdea_mean) %>%
+us_states <- read.csv("US/COVID-19-ILI-forecasting/data/us_cases_data_weekly_states.csv", stringsAsFactors = F) %>% 
+  select(location) %>% distinct()
+
+IHME_deaths <- IHME %>% select(location = location_name, date, totdea_mean) %>%
   # combine WA state predictions into one
   mutate(location = case_when(location %in% c("Other Counties, WA", "Life Care Center, Kirkland, WA", "King and Snohomish Counties (excluding Life Care Center), WA") ~ "Washington", 
                                      TRUE ~ location)) %>%
-  # designate if locations are states/territory vs. naitonal level
-  mutate(location_level = case_when(location == "US" ~ "national",
+  # designate if locations are states/territory vs. national level
+  mutate(location_level = case_when(location == "United States of America" ~ "national",
                                    TRUE ~ "state"),
-         date = as.Date(date))
+         date = as.Date(date)) %>% 
+  # designate which are from united states
+  mutate(country = case_when(location %in% c(us_states$location, "United States of America") ~ "United States",
+                             TRUE ~ "international"))
 
 
 
