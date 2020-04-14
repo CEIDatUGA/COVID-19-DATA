@@ -41,11 +41,12 @@ format_cases <- function(us_cases = us_cases, us_state_code = us_state_code, cou
   
   nyc_cases2 <- county_cases %>% 
     # include data from each of the counties that make up the 5 boroughs of NYC
-    filter(County.Name %in% c("Queens County", "Kings County", "New York County", "Bronx County", "Richmond County") & State == "NY") %>% group_by(State) %>%
+    filter(County.Name %in% c("Queens County", "Kings County", "New York County", "Bronx County", "Richmond County") & State == "NY") %>% 
+    group_by(State) %>%
     summarise_if(is.numeric, ~sum(., na.rm = T)) %>% mutate(County.Name = "New York City") %>% 
     gather(key = "Date", value = "NYC_cumulative", -c(countyFIPS, stateFIPS, State, County.Name)) %>% 
     # convert Date to correct date format
-    mutate_at("Date",  ~ as.Date(gsub(pattern = "X", replace = "", .), format = "%m.%d.%Y")) %>%
+    mutate_at("Date",  ~ as.Date(gsub(pattern = "X", replace = "", .), format = "%m.%d.%y")) %>%
     mutate(date_time_accessed = Sys.time()) %>%
     mutate(state_daily_cases = NYC_cumulative - lag(NYC_cumulative, default = 0)) %>%
     select(location = County.Name, State_Code = State, Date, state_daily_cases, date_time_accessed) 
