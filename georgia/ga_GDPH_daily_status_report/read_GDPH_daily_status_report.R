@@ -56,7 +56,7 @@ df  <- data.frame(date = day_reported,
                  )
 
 # Read existent status report table
-table <- read.csv("GA_daily_status_report_GDPH.csv", header = TRUE, stringsAsFactors = FALSE, na.strings = "")
+table <- read.csv("georgia/ga_GDPH_daily_status_report/GA_daily_status_report_GDPH.csv", header = TRUE, stringsAsFactors = FALSE, na.strings = "")
 # remove first column
 table <- table[,-1]
 
@@ -105,7 +105,7 @@ table$new_hospitalizations[start_hospitalizations] <- table$hospitalizations_cum
 
 
 
-write.csv(table, "GA_daily_status_report_GDPH.csv")
+write.csv(table, "georgia/ga_GDPH_daily_status_report/GA_daily_status_report_GDPH.csv")
 
 #----------#
 # Counties
@@ -115,7 +115,7 @@ table_counties$Latest_Status_Report <- NA
 names(table_counties) <- c("County", "Cases", "Fatalities", "Latest_Status_Report")
 table_counties <- table_counties[-(dim(table_counties)[1]),]
 table_counties$Latest_Status_Report <- date_reported
-write.csv(table_counties, "GA_county_cases_fatalities_GDPH.csv")
+write.csv(table_counties, "georgia/ga_GDPH_daily_status_report/GA_county_cases_fatalities_GDPH.csv")
 
 #-----------------------#
 # Fatalities Demography
@@ -123,7 +123,7 @@ write.csv(table_counties, "GA_county_cases_fatalities_GDPH.csv")
 table_demography <- table_demography[-1, ]
 names(table_demography) <- c("Age",	"Gender",	"County",	"Underlying")
 table_demography$Latest_Status_Report <- date_reported
-write.csv(table_demography, "GA_fatalities_demography_GDPH.csv")
+write.csv(table_demography, "georgia/ga_GDPH_daily_status_report/GA_fatalities_demography_GDPH.csv")
 
 #------#
 # Race
@@ -132,5 +132,5 @@ names <- table_race[1,]
 table_race <- table_race[-1, ]
 names(table_race) <- names
 table_race$Latest_Status_Report <- date_reported
-write.csv(table_race, "GA_cases_race_ethnicity_GDPH.csv")
+write.csv(table_race, "georgia/ga_GDPH_daily_status_report/GA_cases_race_ethnicity_GDPH.csv")
 
