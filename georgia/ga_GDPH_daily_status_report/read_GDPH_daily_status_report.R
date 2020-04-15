@@ -78,6 +78,8 @@ num_cols <- c("cases_cumulative", "fatalities_cumulative", "tests_cumulative", "
 table[, num_cols] <- table[, num_cols] %>%
  mutate_if(is.character, as.numeric, na.rm = TRUE) 
 
+min(which(!is.na(table$cases_cumulative)))
+
 table <- table %>%
   mutate(source_cases = as.character(source_cases), 
          source_fatalities = as.character(source_fatalities), 
@@ -87,7 +89,22 @@ table <- table %>%
          new_fatalities = fatalities_cumulative - lag(fatalities_cumulative, default = first(fatalities_cumulative)),
          new_tests = tests_cumulative - lag(tests_cumulative, default = first(tests_cumulative)),
          new_hospitalizations = hospitalizations_cumulative - lag(hospitalizations_cumulative, default = first(hospitalizations_cumulative))) 
-        
+
+#find positions of first cases
+start_cases <- which.min(is.na(table$cases_cumulative))
+table$new_cases[start_cases] <- table$cases_cumulative[start_cases]
+
+start_fatalities <- which.min(is.na(table$fatalities_cumulative))
+table$new_fatalities[start_fatalities] <- table$fatalities_cumulative[start_fatalities]
+
+start_tests <- which.min(is.na(table$tests_cumulative))
+table$new_tests[start_tests] <- table$tests_cumulative[start_tests]
+
+start_hospitalizations <- which.min(is.na(table$hospitalizations_cumulative))
+table$new_hospitalizations[start_hospitalizations] <- table$hospitalizations_cumulative[start_hospitalizations]
+
+
+
 write.csv(table, "GA_daily_status_report_GDPH.csv")
 
 #----------#
