@@ -4,10 +4,10 @@ This was downloaded on April 3 2020 from the google sheet: https://docs.google.c
 
 ### Metadata
 
-**State**: US State [only GA]
-**County**: county name
-**ICU Beds**: number of ICU beds in that county
-**Acute Care Beds: number of acute care beds in that county.  'unknown' indicates a county where a hospital is listed, but no number is given for number of beds
+**State**: US State [only GA]</br>
+**County**: county name</br>
+**ICU Beds**: number of ICU beds in that county</br>
+**Acute Care Beds**: number of acute care beds in that county.  'unknown' indicates a county where a hospital is listed, but no number is given for number of beds</br>
 
 **Sources**: ICU beds: https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/
 
