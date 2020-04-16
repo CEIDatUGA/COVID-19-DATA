@@ -14,18 +14,18 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 ## US data  
 **US_wikipedia_cases_fatalities/UScases_by_state_wikipedia.csv**: Number of new cases in a state by day. </br>
 **US_wikipedia_cases_fatalities/USfatalities_by_state_wikipedia.csv**: Number of new case fatalities in a state by day.  </br>
-**us-state-intervention-data/stateInterventionTimeSeries.csv**: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
 
+**us-state-intervention-data/stateInterventionTimeSeries.csv**: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
 **us-state-intervention-data/longFormStateInterventions.csv**: Running summary of interventions at the state level taken from reports and wikipedia
+
 **COVID-19-ILI-forecasting/us_cases_data_weekly.csv**: weekly counts of newly reported cases in each MMWR week by state and territory (and NYC) in the United States
 
 ## Georgia Data
 
 **ga-county-intervention-data/countyInterventionTimeSeries.csv**: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
-
 **ga-county-intervention-data/longFormCountyInterventions.csv**: Running summary of interventions at the state level taken from reports and wikipedia
 
-**ga_DGPH_daily_status_report**: daily cases, fatatliies, and tests in the state of Gerogia. Also includes demography about cases.  `GA-DPH-CanvasJS-data-cases-deaths.csv` is an alternate scrape of this data.
+**ga_DGPH_daily_status_report**: daily cases, fatatliies, and tests in the state of Gerogia. Also includes demography about cases.  `GA-DPH-CanvasJS-data-cases-deaths.csv` is an alternate scrape of this data.</br>
 
 **georgia_icu_beds.csv**: number of icu beds by county for Georgia
 
@@ -36,9 +36,9 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 **International_TA**: Travel advisories announced by county. </br>
 **Global Health Security Index (GHSI)**: Index of epidemic preparednessa and underlying data </br>
 **Epidemiological characteristics of COVID-19 and other zoonotics**)</br>
-**Canada COVID-19 Case Data**: Includes cases, fatalities, recovered, and tested for Canada
-**global_exposure_locations.csv**: information on where cases were exposed to the virus
-**global_first_case.csv**: First case for every ADM1 globally
+**Canada COVID-19 Case Data**: Includes cases, fatalities, recovered, and tested for Canada</br>
+**global_exposure_locations.csv**: information on where cases were exposed to the virus</br>
+**global_first_case.csv**: First case for every ADM1 globally</br>
 
 ---
 
