@@ -66,6 +66,10 @@ df <- read_sheet("https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7U
 str(df)
 tail(df)
 
+#fix list column issues
+df$accessed_date2 <- listcol_to_date(df$accessed_date2)
+df$who_by2 <- listcol_to_date(df$who_by2)
+
 write.csv(df, "china/China_TA.csv", row.names = F)
 
 #### Global Travel Advisories ####
