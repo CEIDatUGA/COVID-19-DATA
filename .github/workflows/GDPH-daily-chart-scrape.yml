@@ -1,0 +1,23 @@
+name: gdph-daily-charts
+
+on:
+  schedule:
+    - cron: '03  1 * * *' # hours are UTC (UTC hour = EST hour +4) 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v2
+     - uses: e3bo/ga-dph-covid-chart-scraper@v0.3
+     - name: Commit and push output files
+       shell: bash
+       run: |
+         git pull
+         mv dash.html GA-DPH-CanvasJS-data-cases-deaths.csv georgia/ga_GDPH_daily_status_report
+         git add georgia/ga_GDPH_daily_status_report
+         git config --local user.email "actions@users.noreply.github.com"
+         git config --local user.name "Automated Publisher"
+         git commit -m "gdph-daily-charts Autoupdate"
+         git push
+       env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

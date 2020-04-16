@@ -75,3 +75,20 @@ Reads from the Georgia Department of Public Health website, information about nu
 
 <b>Projects</b>
 - TBD
+
+
+## dash.html
+
+Latest daily download of the GA DPH dashboard HTML
+
+## GA-DPH-CanvasJS-data-cases-deaths.csv
+
+Reads from CanvasJS chart data in dash.html
+
+Metadata:
+ Column name descript of data file:
+- `date` - date of count
+- `cumulative_cases` - cumulative number of covid cases' symptom onset or lab diagnosis
+- `cumulative_deaths` - cumulative number of deaths
+- `dph_report_generation_time` - timestamp on webpage of report generation
+- `dashboard_md5sum` - md5 checksum of the dash.html file used to obtain the data

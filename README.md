@@ -1,4 +1,6 @@
 
+![gdph-daily-charts](https://github.com/e3bo/COVID-19-DATA/workflows/gdph-daily-charts/badge.svg)
+
 Repository that stores datasets used in different COVID CEID projects.
 =======
 The datasets in the repository were compiled by members of the CEID COVID-19 working group. The data at the top level of the repository have been formated to be used 'as-is' and are updated often. Data sets were either created from html scraping or manually entered. In the case of the automated web scraping, the raw data and scripts are organized into sub-directories. The description of each data file along with the corresponding sub-directories are listed below. The metadata is in the readme of the same directory as the data.
