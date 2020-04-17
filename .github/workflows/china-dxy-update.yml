@@ -37,9 +37,12 @@ jobs:
     - name: Commit files
       run: |
         timestamp=$(date -u)
+        git status
         git config --local user.email "actions@users.noreply.github.com"
         git config --local user.name "Automated Publisher"
-        git commit -m "china-dxy autoupdate : ${timestamp} ${GITHUB_SHA}" -a
+        git add  china/China_casedata/*
+        git commit -m "china-dxy autoupdate : ${timestamp} ${GITHUB_SHA}"
+        git status
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
