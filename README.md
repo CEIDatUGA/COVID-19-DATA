@@ -1,5 +1,5 @@
 
-![gdph-daily-charts](https://github.com/e3bo/COVID-19-DATA/workflows/gdph-daily-charts/badge.svg)
+![gdph-daily-charts](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/gdph-daily-charts/badge.svg)
 
 Repository that stores datasets used in different COVID CEID projects.
 =======
