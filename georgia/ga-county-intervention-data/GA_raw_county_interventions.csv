@@ -26,22 +26,22 @@
 "25","ADM2","Bacon","Alma","City of Alma","Government",2020-03-16,NA,NA,"social_distancing",NA,"https://www.cityofalmaga.gov/",NA,"announcement from city of alma","2020-03-24","DS","2020-03-24"
 "26","ADM2","Bacon",NA,NA,NA,NA,2020-03-16,2020-04-27,"no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-30","LJB","2020-03-30"
 "27","ADM2","Bacon",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"28","ADM2","Bacon",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,"DS",NA
-"29","ADM2","Bacon",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,"DS",NA
-"30","ADM2","Bacon",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,"DS",NA
+"28","ADM2","Bacon",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"29","ADM2","Bacon",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"30","ADM2","Bacon",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
 "31","ADM2","Baker",NA,NA,NA,NA,2020-03-16,2020-04-01,"no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
 "32","ADM2","Baker",NA,"WALB News 10","News",2020-03-18,2020-03-18,2020-03-31,"close_public_spaces",NA,"https://www.walb.com/2020/03/19/baker-co-taking-steps-protect-against-covid-/",NA,"closed public facilities","2020-03-24","DS","2020-03-24"
 "33","ADM2","Baker",NA,"WALB News 10","News",2020-03-19,NA,NA,"social_distancing",NA,"https://www.walb.com/2020/03/19/baker-county-officials-encourage-social-distancing-during-covid-/",NA,NA,"2020-03-24","DS","2020-03-24"
 "34","ADM2","Baker",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"35","ADM2","Baker",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,"DS",NA
-"36","ADM2","Baker",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,"DS",NA
-"37","ADM2","Baker",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,"DS",NA
+"35","ADM2","Baker",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"36","ADM2","Baker",NA,NA,NA,NA,NA,NA,"gathering_size_limited",NA,NA,NA,NA,NA,NA,NA
+"37","ADM2","Baker",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
 "38","ADM2","Baldwin",NA,NA,"News",2020-03-22,2020-03-22,NA,"state_of_emergency",NA,"https://twitter.com/rahulbali/status/1241827127747645445?s=20",NA,NA,"2020-03-24","DS","2020-03-24"
 "39","ADM2","Baldwin",NA,NA,"News",2020-03-22,2020-03-22,NA,"gathering_size_limited",NA,"https://twitter.com/rahulbali/status/1241827127747645445?s=20","10",NA,"2020-03-24","DS","2020-03-24"
 "40","ADM2","Baldwin",NA,NA,"Government",NA,2020-03-17,2020-04-06,"no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
 "41","ADM2","Baldwin",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
-"42","ADM2","Baldwin",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,"DS",NA
-"43","ADM2","Baldwin",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,"DS",NA
+"42","ADM2","Baldwin",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
+"43","ADM2","Baldwin",NA,NA,NA,NA,NA,NA,"shelter_in_place",NA,NA,NA,NA,NA,NA,NA
 "44","ADM2","Banks",NA,NA,NA,NA,2020-03-16,2020-04-01,"no_contact_school",NA,"https://www.georgiainsights.com/georgia-school-closures.html",NA,NA,"2020-03-23","ARW","2020-03-23"
 "45","ADM2","Banks",NA,NA,"Government",NA,NA,NA,"state_of_emergency",NA,NA,NA,NA,NA,NA,NA
 "46","ADM2","Banks",NA,NA,NA,NA,NA,NA,"prohibit_business",NA,NA,NA,NA,NA,NA,NA
