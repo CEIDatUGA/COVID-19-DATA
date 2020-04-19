@@ -64,3 +64,4 @@ for(i in 1:nrow(dfNew)){
 }
 
 write.csv(dfNew, "worldCases.csv")
+
