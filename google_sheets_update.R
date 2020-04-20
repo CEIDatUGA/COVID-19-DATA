@@ -3,7 +3,7 @@
 
 #' This script downloads google sheets that the Data Coordinator is maintaining. This is
 #' primarily sheets that are uploaded at least weekly. Currently, this script is run (and 
-#' the associated datasets are updated) on Monday and Thursday. If you need it run more
+#' the associated datasets are updated) on Monday. If you need it run more
 #' frequently contact the Data Coordinator or run the script in your own fork.
 #' 
 
@@ -20,41 +20,39 @@ options(stringsAsFactors = F)
 library(googlesheets4)
 library(dplyr)
 
+#fix list-columns [problem is NULL]
+listcol_to_char <- function(listcol){
+  listcol[sapply(listcol, is.null)] <- NA
+  char <- as.character(unlist(listcol))
+  return(char)
+}
+
 ##### exposure locations ####
 df <- read_sheet("https://docs.google.com/spreadsheets/d/150Kc-hjh9uPTNigEL6L0E8i0KTF77utMmSu1AdSRAgY/edit#gid=0",
                  sheet = 1)
-str(df)
-head(df)
 
-metadata <- read_sheet("https://docs.google.com/spreadsheets/d/150Kc-hjh9uPTNigEL6L0E8i0KTF77utMmSu1AdSRAgY/edit#gid=0",
-                       sheet = 2)
-
-knitr::kable(metadata)
+# metadata <- read_sheet("https://docs.google.com/spreadsheets/d/150Kc-hjh9uPTNigEL6L0E8i0KTF77utMmSu1AdSRAgY/edit#gid=0",
+#                        sheet = 2)
+# 
+# knitr::kable(metadata)
 
 write.csv(df, "global/global_exposure_locations.csv", row.names = F)
 
 #### Global First Cases at ADM1 Level ####
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1eA5YOdaZvEhDcse4W6qq7Q_D8AciZx_1ZSgORxUppGo/edit#gid=0",
                  sheet = 1)
-str(df)
-head(df)
 
-#fix list-columns [problem is NULL]
-listcol_to_date <- function(listcol){
-  listcol[sapply(listcol, is.null)] <- NA
-  date <- as.character(unlist(listcol))
-  return(date)
-}
 
-df$confirmation_date <- listcol_to_date(df$confirmation_date)
-df$accessed_date1 <- listcol_to_date(df$accessed_date1)
+
+df$confirmation_date <- listcol_to_char(df$confirmation_date)
+df$accessed_date1 <- listcol_to_char(df$accessed_date1)
 str(df)
 
 
-metadata <- read_sheet("https://docs.google.com/spreadsheets/d/1eA5YOdaZvEhDcse4W6qq7Q_D8AciZx_1ZSgORxUppGo/edit#gid=0",
-                       sheet = 3)
-
-knitr::kable(metadata)
+# metadata <- read_sheet("https://docs.google.com/spreadsheets/d/1eA5YOdaZvEhDcse4W6qq7Q_D8AciZx_1ZSgORxUppGo/edit#gid=0",
+#                        sheet = 3)
+# 
+# knitr::kable(metadata)
 
 write.csv(df, "global/global_first_case.csv", row.names = F)
 
@@ -63,12 +61,10 @@ write.csv(df, "global/global_first_case.csv", row.names = F)
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1169808441",
                  sheet = 1)
 
-str(df)
-tail(df)
 
 #fix list column issues
-df$accessed_date2 <- listcol_to_date(df$accessed_date2)
-df$who_by2 <- listcol_to_date(df$who_by2)
+df$accessed_date2 <- listcol_to_char(df$accessed_date2)
+df$who_by2 <- listcol_to_char(df$who_by2)
 
 write.csv(df, "china/China_TA.csv", row.names = F)
 
@@ -76,9 +72,6 @@ write.csv(df, "china/China_TA.csv", row.names = F)
 
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1169808441",
                  sheet = 3)
-
-str(df)
-tail(df)
 
 write.csv(df, "global/International_TA.csv", row.names = F)
 
@@ -88,8 +81,6 @@ write.csv(df, "global/International_TA.csv", row.names = F)
 df <- read_sheet("https://docs.google.com/spreadsheets/d/18rhrw1d9uDtm8ffLaFmFXjcY8zFCcYqesEoso2EICE0/edit#gid=0",
                  sheet = 1)
 
-str(df)
-tail(df)
 
 write.csv(df, "nongeographic/Epi_characteristics.csv", row.names = F)
 
