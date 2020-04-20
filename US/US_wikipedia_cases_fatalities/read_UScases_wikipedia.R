@@ -38,22 +38,18 @@ read_table_from_web <- function(wiki_pop, table_xpath) {
 table_cleanup <- function(cases, var) {
   # table of interest is the first element of the list
   cases <- cases[[1]]
-  # keep the first column 'Date'
-  date <- as.factor(cases[,1])
-  # delete two columns with name 'Date'
-  cases <- subset(cases, select = -c(Date))
-  cases <- subset(cases, select = -c(Date))
-  # add column 'Date' back to data frame
-  cases <- cbind(date, cases)
+
+  col_names <- as.character(cases[1,])
+  indexes <- which(cases$Date == "Date")
+  cases <- cases[-indexes,]
   
   # updating column names
   ncols <- dim(cases)[2]
-  col_names <- as.character(cases[1,])
   col_names <- col_names[!as.character(col_names) %in% "West"]
 
   if (var == "cases") {
     col_names[1] <- "Date"
-    col_names[c((ncols-6):ncols)] <- c("VI", "Conf_New", "Conf_Cml", "deaths_New", "deaths_Cml", "Rec_New", "Rec_Cml")
+    col_names[c((ncols-5):ncols)] <- c("Conf_New", "Conf_Cml", "deaths_New", "deaths_Cml", "Rec_New", "Rec_Cml")
      names(cases) <- col_names 
      
      # add first recovered case to the new recovery cases column
@@ -62,7 +58,7 @@ table_cleanup <- function(cases, var) {
   }
   else if (var == "deaths") {
     col_names[1] <- "Date"
-    col_names[c((ncols-2):ncols)] <- c("VI", "deaths_New", "deaths_Cml")
+    col_names[c((ncols-1):ncols)] <- c( "deaths_New", "deaths_Cml")
     names(cases) <- col_names 
   }
   else {
@@ -70,10 +66,12 @@ table_cleanup <- function(cases, var) {
   }
   
   # eliminating rows with no interest
-  cases <- cases[-1,] 
   nrows <- dim(cases)[1]
   cases <- cases[-c((nrows-3):nrows),]
+  cases$New <- NULL
   
+  # updating date
+  cases$Date <- as.Date(paste(cases$Date, "2020"), "%b %d %Y")
   return(cases)
 }
 
