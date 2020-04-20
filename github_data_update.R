@@ -21,6 +21,12 @@ mortality <- read.csv(url("https://raw.githubusercontent.com/ishaberry/Covid19Ca
 recovered_cumulative <- read.csv(url("https://raw.githubusercontent.com/ishaberry/Covid19Canada/master/recovered_cumulative.csv"))
 testing_cumulative <- read.csv(url("https://raw.githubusercontent.com/ishaberry/Covid19Canada/master/testing_cumulative.csv"))
 
+#change date to YYYY-MM-DD
+cases$date_report <- as.Date(cases$date_report, format = "%d-%m-%Y")
+mortality$date_death_report <- as.Date(mortality$date_death_report, format = "%d-%m-%Y")
+recovered_cumulative$date_recovered <- as.Date(recovered_cumulative$date_recovered, format = "%d-%m-%Y")
+testing_cumulative$date_testing <- as.Date(testing_cumulative$date_testing, format = "%d-%m-%Y")
+
 #save in our repo
 write.csv(cases, "global/canada_case_data_ishaberry/canada_cases.csv", row.names = F)
 write.csv(codebook, "global/canada_case_data_ishaberry/canada_codebook.csv", row.names = F)
