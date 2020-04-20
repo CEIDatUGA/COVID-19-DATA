@@ -69,6 +69,9 @@ table_cleanup <- function(cases, var) {
   nrows <- dim(cases)[1]
   cases <- cases[-c((nrows-3):nrows),]
   cases$New <- NULL
+  
+  # updating date
+  cases$Date <- as.Date(paste(cases$Date, "2020"), "%b %d %Y")
   return(cases)
 }
 
