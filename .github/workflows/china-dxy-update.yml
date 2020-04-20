@@ -18,9 +18,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@master
-    #install R
+      #install R
     - uses: r-lib/actions/setup-r@master
     #Install curl 
     - name: install curl
@@ -29,6 +27,9 @@ jobs:
     - name: Install dependencies
       run: Rscript -e  "install.packages(c('curl', 'dplyr', 'tidyr', 'stringr', 'here', 'httr', 'xml2', 'rvest'), repos = 'https://cloud.r-project.org', dependencies = NA)" 
       
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@master
+   
     #scrape data from github
     - name: Scrape data from Github
       run: Rscript  china/China_casedata/extract-dxy-case-counts.R

@@ -1,4 +1,4 @@
-# This workflow updates any datasets that come from the dxy China scraping workflow
+# This workflow scrapes US cases from wikipedia
 
 name: us-cases-wiki-scrape
 
@@ -18,8 +18,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@master
     #install R
     - uses: r-lib/actions/setup-r@master
     #Install curl 
@@ -28,7 +26,10 @@ jobs:
     #Install R package dependencies
     - name: Install dependencies
       run: Rscript -e  "install.packages(c('xml2', 'rvest'), repos = 'https://cloud.r-project.org', dependencies = NA)" 
-      
+
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@master
+
     #scrape data from github
     - name: Scrape data from Wikipedia
       run: Rscript  US/US_wikipedia_cases_fatalities/read_UScases_wikipedia.R
@@ -39,7 +40,10 @@ jobs:
         timestamp=$(date -u)
         git config --local user.email "actions@users.noreply.github.com"
         git config --local user.name "Automated Publisher"
-        git commit -m "us-wiki autoupdate : ${timestamp} ${GITHUB_SHA}" -a
+        git add US/US_wikipedia_cases_fatalities/UScases_by_state_wikipedia.csv
+        git add US/US_wikipedia_cases_fatalities/USfatalities_by_state_wikipedia.csv
+        git status
+        git commit -m "us-wiki autoupdate : ${timestamp} ${GITHUB_SHA}"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
