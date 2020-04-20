@@ -1,4 +1,4 @@
-# This workflow updates any datasets that come from the dxy China scraping workflow
+# This workflow updates the GDPH daily status datsets downloaded from the GA DPH website
 
 name: gdph-daily-status
 
