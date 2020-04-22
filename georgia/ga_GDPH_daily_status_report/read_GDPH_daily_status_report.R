@@ -61,10 +61,7 @@ table <- read.csv("georgia/ga_GDPH_daily_status_report/GA_daily_status_report_GD
 # remove first column
 table <- table[,-1]
 
-# changing date to ISO format
-table$date <- unlist(lapply(table$date, function(x) format(as.Date(parse_date_time(x,"mdy")), format = "%Y-%m-%d")))
 nrows <- dim(table)[1]              
-
 # if there is already an entry for that day, it will replace that row by the latest page update
 day_last_row <- table$date[nrows]
 if(identical(day_last_row, day_reported)){
