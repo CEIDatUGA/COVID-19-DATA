@@ -43,6 +43,7 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 **Canada COVID-19 Case Data**: Includes cases, fatalities, recovered, and tested for Canada</br>
 **global_exposure_locations.csv**: information on where cases were exposed to the virus</br>
 **global_first_case.csv**: First case for every ADM1 globally</br>
+**Global Google Mobility Report**: Daily mobility data by country for the globe beginning in Feb 2020. Disaggregated by types of places visitied.
 
 ---
 
