@@ -25,7 +25,7 @@ format_cases <- function(us_cases = us_cases, us_state_code = us_state_code, cou
     # converting to long format
     tidyr::gather(key = "State", value = "state_daily_cases", -c(Date, Conf_New:time_last_update)) %>% 
     # convert to date format, automatically fills in year as 2020
-    mutate(Date = as.Date(Date, format = "%b %d")) %>% 
+    mutate(Date = as.Date(Date, format = "%Y-%m-%d")) %>% 
     # add column of date and time wikipedia page was scraped, useful for backfill
     mutate(date_time_accessed = max(as.POSIXct(time_last_update), na.rm = T)) %>% 
     rename(State_Code = State) %>%
@@ -121,5 +121,7 @@ us_cases_data_weekly_national <- us_cases_data_weekly2 %>% ungroup() %>%
   select(WeekStart, epiweek, national_weekly_cases, national_weekly_deaths, national_weekly_rec, date_time_accessed) %>%
   distinct() %>% filter(!is.na(national_weekly_cases))
 
-write.csv(us_cases_data_weekly_states, "US/COVID-19-ILI-forecasting/data/us_cases_data_weekly_states.csv")
-write.csv(us_cases_data_weekly_national, "US/COVID-19-ILI-forecasting/data/us_cases_data_weekly_national.csv")
+write.csv(us_cases_data_weekly_states, "US/COVID-19-ILI-forecasting/data/us_cases_data_weekly_states.csv", 
+          row.names = FALSE)
+write.csv(us_cases_data_weekly_national, "US/COVID-19-ILI-forecasting/data/us_cases_data_weekly_national.csv",
+          row.names = FALSE)
