@@ -19,7 +19,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       #install R
-    - uses: r-lib/actions/setup-r@master
+    - uses: r-lib/actions/setup-r@v1
+      with:
+        r-version: '3.6.3'
     #Install curl 
     - name: install curl
       run: sudo apt-get install libcurl4-openssl-dev
