@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - uses: actions/checkout@v2
-     - uses: e3bo/ga-dph-covid-chart-scraper@v0.3
+     - uses: e3bo/ga-dph-covid-chart-scraper@v0.4
      - name: Commit and push output files
        shell: bash
        run: |
