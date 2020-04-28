@@ -32,11 +32,11 @@ jobs:
     
     # Scrape US state data
     - name: Scrape us state inerventions
-      run: Rscript get-state-intervention-data.R
+      run: Rscript US/us-state-intervention-data/get-state-intervention-data.R
       
     # Scrape Us county data
     - name: Scrape us county interventions
-      run: Rscript get-county-intervention-data.R
+      run: Rscript georgia/ga-county-intervention-data/get-county-intervention-data.R
 
       # Push back to repo
     - name: Commit files
@@ -44,10 +44,10 @@ jobs:
         timestamp=$(date -u)
         git config --local user.email "actions@users.noreply.github.com"
         git config --local user.name "Automated Publisher"  
-        git add US_raw_state_interventions.csv
-        git add US_state_intervention_time_series.csv
-        git add GA_raw_county_interventions.csv
-        git add GA_county_intervention_time_series.csv
+        git add US/us-state-intervention-data/US_raw_state_interventions.csv
+        git add US/us-state-intervention-data/US_state_intervention_time_series.csv
+        git add georgia/ga-county-intervention-data/GA_raw_county_interventions.csv
+        git add georgia/ga-county-intervention-data/GA_county_intervention_time_series.csv
         git status
         git commit -m "interactive map autoupdate : ${timestamp} ${GITHUB_SHA}"
     - name: Push changes
