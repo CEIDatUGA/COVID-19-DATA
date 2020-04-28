@@ -2,7 +2,7 @@
 ### Originated by: Robbie Richards
 ### Originated on: 3/18/2020
 
-
+  
 # Load necessary packages
 library(tidyr)
 library(dplyr)
@@ -11,7 +11,8 @@ library(googlesheets4)
 library(lubridate)
 
 # Set user info and read in google sheet
-options(gargle_oauth_email = "robbielrichards@gmail.com")
+drive_deauth()
+sheets_deauth()
 df <- read_sheet("https://docs.google.com/spreadsheets/d/1_mk1J3ElMH5EmPILcrx8s1KqHqdQYXCWroJeKTR3pV4/edit#gid=221668309", range = "state-covid-announcements", col_types = "c")
 
 
