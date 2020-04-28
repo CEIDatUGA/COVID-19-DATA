@@ -1,0 +1,59 @@
+# This workflow compiles the maps for the 2019-Coronavirus-Tracker
+
+name: scrape-intervention
+
+
+# Controls when the action will run. 
+on: [push]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+  
+jobs: 
+
+  build: 
+    name: intervention
+    
+    runs-on: ubuntu-latest
+    
+    #Steps represent a sequence of tasks that will be execusted as part o the job
+    steps:
+    #install R
+    - uses: r-lib/actions/setup-r@master
+      with:
+        r-version: '3.6.3'
+    #install curl
+    - name: install curl
+      run: sudo apt-get install libcurl4-openssl-dev
+      
+    #Install R package dependencies
+    - name: Install dependencies
+      run: Rscript -e  "install.packages(c('dplyr', 'tidyr', 'googledrive', 'googlesheets4', 'lubridate'), repos = 'https://cloud.r-project.org', dependencies = NA)" 
+
+    
+    # Scrape US state data
+    - name: Scrape us state inerventions
+      run: Rscript get-state-intervention-data.R
+      
+    # Scrape Us county data
+    - name: Scrape us county interventions
+      run: Rscript get-county-intervention-data.R
+
+      # Push back to repo
+    - name: Commit files
+      run: |
+        timestamp=$(date -u)
+        git config --local user.email "actions@users.noreply.github.com"
+        git config --local user.name "Automated Publisher"  
+        git add US_raw_state_interventions.csv
+        git add US_state_intervention_time_series.csv
+        git add GA_raw_county_interventions.csv
+        git add GA_county_intervention_time_series.csv
+        git status
+        git commit -m "interactive map autoupdate : ${timestamp} ${GITHUB_SHA}"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
+
+
