@@ -1,19 +1,19 @@
 # This workflow compiles the maps for the 2019-Coronavirus-Tracker
 
-name: intervention-data-update
+name: world-data-wiki-scrape
 
 
 # Controls when the action will run. 
 on: 
   schedule:
-  - cron: '0 22 * * *'
+  - cron: '30 1 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
   
 jobs: 
 
   build: 
-    name: intervention
+    name: scrape-world
     
     runs-on: ubuntu-latest
     
@@ -30,29 +30,21 @@ jobs:
       
     #Install R package dependencies
     - name: Install dependencies
-      run: Rscript -e  "install.packages(c('dplyr', 'tidyr', 'googledrive', 'googlesheets4', 'lubridate'), repos = 'https://cloud.r-project.org', dependencies = NA)" 
+      run: Rscript -e  "install.packages(c('dplyr', 'tidyr', 'padr', 'rvest', 'tibbletime', 'stringr'), repos = 'https://cloud.r-project.org', dependencies = NA)" 
 
     - uses: actions/checkout@master
     
-    # Scrape US state data
-    - name: Scrape us state inerventions
-      run: Rscript 'US/us-state-intervention-data/get-state-intervention-data.R'
+    # Scrape world data
+    - name: Scrape world case data
+      run: Rscript 'global/global_cases_by_country/get-world-data.R'
       
-      
-    # Scrape Us county data
-    - name: Scrape us county interventions
-      run: Rscript 'georgia/ga-county-intervention-data/get-county-intervention-data.R'
-
       # Push back to repo
     - name: Commit files
       run: |
         timestamp=$(date -u)
         git config --local user.email "actions@users.noreply.github.com"
         git config --local user.name "Automated Publisher"  
-        git add 'US/us-state-intervention-data/US_raw_state_interventions.csv'
-        git add 'US/us-state-intervention-data/US_state_intervention_time_series.csv'
-        git add 'georgia/ga-county-intervention-data/GA_raw_county_interventions.csv'
-        git add 'georgia/ga-county-intervention-data/GA_county_intervention_time_series.csv'
+        git add global/global_cases_by_country/worldCases.csv
         git status
         git commit -m "interactive map autoupdate : ${timestamp} ${GITHUB_SHA}"
     - name: Push changes

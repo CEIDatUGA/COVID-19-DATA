@@ -22,7 +22,7 @@ df <- df %>%
 
 
 # Immediately write the flat csv from the google sheet
-write.csv(df, "GA_raw_county_interventions.csv")
+write.csv(df, "georgia/ga-county-intervention-data/GA_raw_county_interventions.csv")
 
 # Next we build the time series dataframe
 # We first build an empty data frame as long as the number of dates since the first of February multiplied by the number of counties
@@ -477,4 +477,4 @@ dfTS <- dfTS %>%
   mutate(Intervention_Score = social_distancing*.25+ close_public_spaces+ personal_hygiene*.25+ environmental_hygiene*.25+ monitoring *.25+ well_being*.25+ non_contact_infrastructure*.25+ state_of_emergency+ `non-contact_school`+ prohibit_business+ prohibit_restaurants+ travel_screening+ prohibit_travel+ international_travel_quarantine+ gathering_size_limited+ mandatory_traveler_quarantine+ protect_high_risk_populations+ shelter_in_place)
 
 # And write the csv of the time
-write.csv(dfTS, "GA_county_intervention_time_series.csv")
+write.csv(dfTS, "georgia/ga-county-intervention-data/GA_county_intervention_time_series.csv")

@@ -1,6 +1,4 @@
 
-
-
 library(padr)
 library(rvest)
 library(tibbletime)
@@ -11,7 +9,7 @@ library(stringr)
 
 
 
-df <- read.csv("worldCases.csv")%>%
+df <- read.csv("global/global_cases_by_country/worldCases.csv")%>%
   dplyr::select(Date, Country, Cases)
 
 url <- "https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory"
@@ -63,5 +61,5 @@ for(i in 1:nrow(dfNew)){
   }
 }
 
-write.csv(dfNew, "worldCases.csv")
+write.csv(dfNew, "global/global_cases_by_country/worldCases.csv")
 
