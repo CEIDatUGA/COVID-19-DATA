@@ -5,7 +5,7 @@ name: google-mobility
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the autoupdate branch
 on:
-  #schedule:
+  schedule:
     - cron : '0 6 * * FRI' # will run this script at 2 AM EST every Friday
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
