@@ -4,6 +4,8 @@
 ![us-cases-wiki-scrape](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/us-cases-wiki-scrape/badge.svg)
 ![china-dxy-update](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/china-dxy-update/badge.svg)
 ![github-update](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/github-update/badge.svg)
+![world-cases-wiki-scrape](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/world-data-wiki-scrape/badge.svg)
+![intervention-data-update](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/intervention-data-update/badge.svg)
 
 Repository that stores datasets used in different COVID CEID projects.
 =======
