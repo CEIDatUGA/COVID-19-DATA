@@ -7,7 +7,7 @@ name: google-mobility
 on:
   #schedule:
     #- cron : '0 6 * * FRI' # will run this script at 2 AM EST every Friday
-  push:
+  #push:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
