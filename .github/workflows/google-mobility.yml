@@ -1,0 +1,44 @@
+# This workflow updates any datasets that originally come from a github repo
+
+name: google-mobility
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the autoupdate branch
+on:
+  #schedule:
+    #- cron : '0 6 * * FRI' # will run this script at 2 AM EST every Friday
+  push:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "autoupdate"
+  build:
+    name: google-mobility
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+     #install R
+    - name: install wget
+      run: sudo apt-get install wget
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@master
+    #scrape data 
+    - name: Scrape data 
+      run: |
+        cd global/global_google_covid_mobility_reports
+        wget -O global_google_mobility_report.csv https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv?cachebust=911a386b6c9c230f
+    #Push back to repo
+    - name: Commit files
+      run: |
+        timestamp=$(date -u)
+        git config --local user.email "actions@users.noreply.github.com"
+        git config --local user.name "Automated Publisher"
+        git add global_google_mobility_report.csv
+        git commit -m "Google mobility autoupdate : ${timestamp} ${GITHUB_SHA}"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
