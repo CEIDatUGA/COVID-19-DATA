@@ -10,5 +10,8 @@
 
 **us-cases-wiki-scrape.yml**: Runs at 6:00 (10:00 UTC) and 22:00 (2:00 UTC) daily. Runs `US/US_wikipedia_cases_fatalities/read_UScases_wikipedia.R`
 
+**intervention-data-update.yml**: Runs at 17:00 EST (21:00 UTC) runs `US/us-state-intervention-data/get-state-intervention-data.R` and `georgia/ga-county-intervention-data/get-county-intervention-data.R`. Takes ~10 minutes.
+
+**world-data-wiki-scrape.yml**: Runs at 21:30 EST (01:30 UTC) runs `global/global_cases_by_country/get-world-data.R`and takes ~10 minutes.
 
 *Note*: Each action pulls, runs the script, and then pushes. Therefore actions cannot overlap as there will be merge conflicts that cause the action to fail.
