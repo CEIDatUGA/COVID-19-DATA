@@ -14,4 +14,6 @@
 
 **world-data-wiki-scrape.yml**: Runs at 21:30 EST (01:30 UTC) runs `global/global_cases_by_country/get-world-data.R`and takes ~10 minutes.
 
+**google-mobility.yml**: Runs at 2 AM EST every Friday. Downloads global mobility data created weekly by google.
+
 *Note*: Each action pulls, runs the script, and then pushes. Therefore actions cannot overlap as there will be merge conflicts that cause the action to fail.
