@@ -67,7 +67,8 @@ table_cleanup <- function(cases, var) {
   
   # eliminating rows with no interest
   nrows <- dim(cases)[1]
-  cases <- cases[-c((nrows-3):nrows),]
+  rows2drop <- ifelse(var == "cases", 4,3)
+  cases <- cases[-c((nrows-rows2drop):nrows),]
   cases$New <- NULL
   
   # updating date
