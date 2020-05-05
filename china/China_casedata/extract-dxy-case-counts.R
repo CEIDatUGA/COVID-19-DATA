@@ -188,7 +188,9 @@ master_province$DATE <- ifelse(str_sub(master_province$DATE,8,10)  =="JAN",
                                    paste(str_sub(master_province$DATE, 1, 7), "-02",sep=""),
                                    ifelse(str_sub(master_province$DATE,8,10)  =="MAR",
                                    paste(str_sub(master_province$DATE, 1, 7), "-03",sep=""),
-                                   paste(str_sub(master_province$DATE, 1, 7), "-04",sep=""))))
+                                   ifelse(str_sub(master_province$DATE,8,10)  =="APR",
+                                   paste(str_sub(master_province$DATE, 1, 7), "-04",sep=""),
+                                   paste(str_sub(master_province$DATE, 1, 7), "-05",sep="")))))
 master_province$DATE <- paste(str_sub(master_province$DATE, 1, 5), str_sub(master_province$DATE, 9,10), str_sub(master_province$DATE, 5,7), sep = "") 
 master_province <- master_province %>% unique()
 # Remove 23rd of January for Hubei Province prefectures, DXY not collecting data properly for this day, instead it is included in the pre23 dataset for these prefectures only
@@ -215,8 +217,10 @@ master_prefecture$DATE <- ifelse(str_sub(master_prefecture$DATE,8,10)  =="JAN",
                                  ifelse(str_sub(master_prefecture$DATE,8,10)  =="FEB",
                                         paste(str_sub(master_prefecture$DATE, 1, 7), "-02",sep=""),
                                         ifelse(str_sub(master_prefecture$DATE,8,10)  =="MAR",
-                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-03",sep=""), 
-                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-04",sep=""))))
+                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-03",sep=""),
+                                          ifelse(str_sub(master_prefecture$DATE,8,10)  =="APR",
+                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-04",sep=""),
+                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-04",sep="")))))
 master_prefecture$DATE <- paste(str_sub(master_prefecture$DATE, 1, 5), str_sub(master_prefecture$DATE, 9,10), str_sub(master_prefecture$DATE, 5,7), sep = "")
 # overwrite the prefectures which are actually provinces 
 # omit provinces from the prefectures, these counts are wrong
