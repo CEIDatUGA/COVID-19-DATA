@@ -220,7 +220,7 @@ master_prefecture$DATE <- ifelse(str_sub(master_prefecture$DATE,8,10)  =="JAN",
                                           paste(str_sub(master_prefecture$DATE, 1, 7), "-03",sep=""),
                                           ifelse(str_sub(master_prefecture$DATE,8,10)  =="APR",
                                           paste(str_sub(master_prefecture$DATE, 1, 7), "-04",sep=""),
-                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-04",sep="")))))
+                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-05",sep="")))))
 master_prefecture$DATE <- paste(str_sub(master_prefecture$DATE, 1, 5), str_sub(master_prefecture$DATE, 9,10), str_sub(master_prefecture$DATE, 5,7), sep = "")
 # overwrite the prefectures which are actually provinces 
 # omit provinces from the prefectures, these counts are wrong
