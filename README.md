@@ -26,6 +26,10 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 
 **COVID-19-ILI-forecasting/us_cases_data_weekly.csv**: weekly counts of newly reported cases in each MMWR week by state and territory (and NYC) in the United States
 
+**us_nursing_homes_HIFLD.csv**: locations and some metadata (number of residents, beds, etc.) for nursing homes in all 50 states
+
+**us-airports.csv**: list and location of airports in the US
+
 ## Georgia Data
 
 **ga-county-intervention-data/countyInterventionTimeSeries.csv**: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
