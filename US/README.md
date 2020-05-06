@@ -28,3 +28,14 @@ Data on US airports
 **Source:** https://koordinates.com/layer/748-us-airports/
 
 **Projects**:
+
+## us_nursing_homes_HIFLD
+
+Locations and some additional metadata on nursing homes in US (includes Alaska and Hawaii). Location is lat/long in EPSG:4326.
+
+**Metadata**:
+Full metadata not provided by original source. Location is lat/long in EPSG:4326.
+
+**Source**:
+Homeland Infrastructure Foundation-Level Data (HIFLD)
+Downloaded from https://hifld-geoplatform.opendata.arcgis.com/datasets/78c58035fb3942ba82af991bb4476f13_0/data?orderBy=STATE&where=STATE%20%3D%20%27HI%27 on May 6 2020.
