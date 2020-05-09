@@ -1,4 +1,5 @@
 "date_recovered","province","cumulative_recovered"
+2020-05-08,"Alberta",4020
 2020-05-07,"Alberta",3809
 2020-05-06,"Alberta",3552
 2020-05-05,"Alberta",3219
@@ -85,6 +86,7 @@
 2020-02-14,"Alberta",NA
 2020-02-13,"Alberta",NA
 2020-02-12,"Alberta",NA
+2020-05-08,"BC",1579
 2020-05-07,"BC",1512
 2020-05-06,"BC",1494
 2020-05-05,"BC",1472
@@ -171,6 +173,7 @@
 2020-02-14,"BC",0
 2020-02-13,"BC",0
 2020-02-12,"BC",0
+2020-05-08,"Manitoba",247
 2020-05-07,"Manitoba",243
 2020-05-06,"Manitoba",242
 2020-05-05,"Manitoba",238
@@ -257,6 +260,7 @@
 2020-02-14,"Manitoba",NA
 2020-02-13,"Manitoba",NA
 2020-02-12,"Manitoba",NA
+2020-05-08,"New Brunswick",118
 2020-05-07,"New Brunswick",118
 2020-05-06,"New Brunswick",118
 2020-05-05,"New Brunswick",118
@@ -343,6 +347,7 @@
 2020-02-14,"New Brunswick",NA
 2020-02-13,"New Brunswick",NA
 2020-02-12,"New Brunswick",NA
+2020-05-08,"NL",244
 2020-05-07,"NL",244
 2020-05-06,"NL",244
 2020-05-05,"NL",241
@@ -429,6 +434,7 @@
 2020-02-14,"NL",NA
 2020-02-13,"NL",NA
 2020-02-12,"NL",NA
+2020-05-08,"Nova Scotia",722
 2020-05-07,"Nova Scotia",708
 2020-05-06,"Nova Scotia",661
 2020-05-05,"Nova Scotia",652
@@ -515,6 +521,7 @@
 2020-02-14,"Nova Scotia",NA
 2020-02-13,"Nova Scotia",NA
 2020-02-12,"Nova Scotia",NA
+2020-05-08,"Ontario",13990
 2020-05-07,"Ontario",13569
 2020-05-06,"Ontario",13222
 2020-05-05,"Ontario",12779
@@ -601,6 +608,7 @@
 2020-02-14,"Ontario",1
 2020-02-13,"Ontario",1
 2020-02-12,"Ontario",1
+2020-05-08,"PEI",27
 2020-05-07,"PEI",26
 2020-05-06,"PEI",26
 2020-05-05,"PEI",25
@@ -687,6 +695,7 @@
 2020-02-14,"PEI",NA
 2020-02-13,"PEI",NA
 2020-02-12,"PEI",NA
+2020-05-08,"Quebec",8928
 2020-05-07,"Quebec",8673
 2020-05-06,"Quebec",8284
 2020-05-05,"Quebec",7923
@@ -773,6 +782,7 @@
 2020-02-14,"Quebec",NA
 2020-02-13,"Quebec",NA
 2020-02-12,"Quebec",NA
+2020-05-08,"Saskatchewan",335
 2020-05-07,"Saskatchewan",329
 2020-05-06,"Saskatchewan",312
 2020-05-05,"Saskatchewan",310
@@ -859,6 +869,7 @@
 2020-02-14,"Saskatchewan",NA
 2020-02-13,"Saskatchewan",NA
 2020-02-12,"Saskatchewan",NA
+2020-05-08,"NWT",5
 2020-05-07,"NWT",5
 2020-05-06,"NWT",5
 2020-05-05,"NWT",5
@@ -945,6 +956,7 @@
 2020-02-14,"NWT",NA
 2020-02-13,"NWT",NA
 2020-02-12,"NWT",NA
+2020-05-08,"Nunavut",NA
 2020-05-07,"Nunavut",NA
 2020-05-06,"Nunavut",NA
 2020-05-05,"Nunavut",NA
@@ -1031,6 +1043,7 @@
 2020-02-14,"Nunavut",NA
 2020-02-13,"Nunavut",NA
 2020-02-12,"Nunavut",NA
+2020-05-08,"Yukon",11
 2020-05-07,"Yukon",11
 2020-05-06,"Yukon",11
 2020-05-05,"Yukon",11
@@ -1117,6 +1130,7 @@
 2020-02-14,"Yukon",NA
 2020-02-13,"Yukon",NA
 2020-02-12,"Yukon",NA
+2020-05-08,"Repatriated",13
 2020-05-07,"Repatriated",13
 2020-05-06,"Repatriated",13
 2020-05-05,"Repatriated",13
