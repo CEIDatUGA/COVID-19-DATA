@@ -46,6 +46,7 @@ df <- read_sheet("https://docs.google.com/spreadsheets/d/1eA5YOdaZvEhDcse4W6qq7Q
 
 df$confirmation_date <- listcol_to_char(df$confirmation_date)
 df$accessed_date1 <- listcol_to_char(df$accessed_date1)
+df$last_date_checked <- listcol_to_char(df$last_date_checked)
 str(df)
 
 
@@ -65,6 +66,7 @@ df <- read_sheet("https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7U
 #fix list column issues
 df$accessed_date2 <- listcol_to_char(df$accessed_date2)
 df$who_by2 <- listcol_to_char(df$who_by2)
+str(df)
 
 write.csv(df, "china/China_TA.csv", row.names = F)
 
@@ -81,6 +83,10 @@ write.csv(df, "global/International_TA.csv", row.names = F)
 df <- read_sheet("https://docs.google.com/spreadsheets/d/18rhrw1d9uDtm8ffLaFmFXjcY8zFCcYqesEoso2EICE0/edit#gid=0",
                  sheet = 1)
 
+df$lowerBound <- listcol_to_char(df$lowerBound)
+df$upperBound <- listcol_to_char(df$upperBound)
+
+str(df)
 
 write.csv(df, "nongeographic/Epi_characteristics.csv", row.names = F)
 
