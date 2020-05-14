@@ -16,4 +16,6 @@
 
 **google-mobility.yml**: Runs at 2 AM EST (6:00 UTC) every Friday. Downloads global mobility data created weekly by google.
 
+**apple-mobility.yml** Runs at 3 PM EST (19:00 UTC) every day. Downloads global mobility data from Apple.
+
 *Note*: Each action pulls, runs the script, and then pushes. Therefore actions cannot overlap as there will be merge conflicts that cause the action to fail.

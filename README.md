@@ -50,6 +50,7 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 **global_exposure_locations.csv**: information on where cases were exposed to the virus</br>
 **global_first_case.csv**: First case for every ADM1 globally</br>
 **Global Google Mobility Report**: Daily mobility data by country for the globe beginning in Feb 2020. Disaggregated by types of places visitied.
+**Global Apple Mobility Report**: Daily mobility data by country and some US states for the globe beginning in Jan 2020. Based on Apple Map search requests.
 
 ---
 
