@@ -85,6 +85,9 @@ df <- read_sheet("https://docs.google.com/spreadsheets/d/18rhrw1d9uDtm8ffLaFmFXj
 
 df$lowerBound <- listcol_to_char(df$lowerBound)
 df$upperBound <- listcol_to_char(df$upperBound)
+df$proportionMale <- listcol_to_char(df$proportionMale)
+df$ageMax <- listcol_to_char(df$ageMax)
+df$estimate <- listcol_to_char(df$estimate)
 
 str(df)
 
