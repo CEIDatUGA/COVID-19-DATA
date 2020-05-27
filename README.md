@@ -30,6 +30,8 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 
 **us-airports.csv**: list and location of airports in the US
 
+**us-early-linelist/US_early_linelist.xlsx**: Individual infection histories of US COVID19 cases from early in the outbreak that were manually collected from media reports. 
+
 ## Georgia Data
 
 **ga-county-intervention-data/countyInterventionTimeSeries.csv**: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily. </br>
@@ -50,7 +52,6 @@ The datasets in the repository were compiled by members of the CEID COVID-19 wor
 **global_exposure_locations.csv**: information on where cases were exposed to the virus</br>
 **global_first_case.csv**: First case for every ADM1 globally</br>
 **Global Google Mobility Report**: Daily mobility data by country for the globe beginning in Feb 2020. Disaggregated by types of places visitied. </br>
-**Global Apple Mobility Report**: Daily mobility data by country and some US states for the globe beginning in Jan 2020. Based on Apple Map search requests.
 
 ---
 
