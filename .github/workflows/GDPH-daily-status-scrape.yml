@@ -4,7 +4,7 @@ name: gdph-daily-status
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the autoupdate branch
-on:
+#on:
   #schedule:
     #- cron : '0 16,23 * * *' # will run this script at 12 PM & 7 PM EST daily 
 
