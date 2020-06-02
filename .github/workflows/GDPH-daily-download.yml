@@ -1,12 +1,12 @@
 # This workflow updates the GDPH daily status datsets downloaded from the GA DPH website
 
-name: gdph-daily-status
+name: gdph-daily-download
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the autoupdate branch
-#on:
-  #schedule:
-    #- cron : '0 16,23 * * *' # will run this script at 12 PM & 7 PM EST daily 
+on:
+  schedule:
+    - cron : '0 23 * * *' # will run this script at 7 PM daily
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -24,18 +24,15 @@ jobs:
       with:
         r-version: '3.6.3'
     #Install curl 
-    - name: install curl
-      run: sudo apt-get install libcurl4-openssl-dev
+    - name: install wget
+      run: sudo apt-get install wget
     #Install R package dependencies
-    - name: Install dependencies
-      run: Rscript -e  "install.packages(c('xml2', 'rvest', 'stringr', 'lubridate', 'dplyr'), repos = 'https://cloud.r-project.org', dependencies = NA)" 
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@master
     #scrape data from github
-    - name: Scrape data from GDPH website
-      run: Rscript georgia/ga_GDPH_daily_status_report/read_GDPH_daily_status_report.R
-
+    - name: Download data from GDPH website
+      run: Rscript georgia/ga_GDPH_daily_status_report/GDPH_daily_status_download.R
 
     #Push back to repo
     - name: Commit files
