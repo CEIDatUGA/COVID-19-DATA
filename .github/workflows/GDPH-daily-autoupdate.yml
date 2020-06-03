@@ -1,18 +1,18 @@
 # This workflow updates the GDPH daily status datsets downloaded from the GA DPH website
 
-name: gdph-daily-download
+name: gdph-daily-status
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the autoupdate branch
 on:
   schedule:
-    - cron : '0 20 * * *' # will run this script at 7 PM daily
+    - cron : '0 16,23 * * *' # will run this script at 12 PM & 7 PM EST daily 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "autoupdate"
   build:
-    name: ga-gdph-download
+    name: ga-gdph-scrape
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -24,15 +24,18 @@ jobs:
       with:
         r-version: '3.6.3'
     #Install curl 
-    - name: install wget
-      run: sudo apt-get install wget
+    - name: install curl
+      run: sudo apt-get install libcurl4-openssl-dev
     #Install R package dependencies
+    - name: Install dependencies
+      run: Rscript -e  "install.packages(c('xml2', 'rvest', 'stringr', 'lubridate', 'dplyr'), repos = 'https://cloud.r-project.org', dependencies = NA)" 
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@master
     #scrape data from github
-    - name: Download data from GDPH website
-      run: Rscript georgia/ga_GDPH_daily_status_report/from-dashboard/GDPH_daily_status_download.R
+    - name: Scrape data from GDPH website
+      run: Rscript georgia/ga_GDPH_daily_status_report/read_GDPH_daily_status_report.R
+
 
     #Push back to repo
     - name: Commit files
@@ -40,7 +43,7 @@ jobs:
         timestamp=$(date -u)
         git config --local user.email "actions@users.noreply.github.com"
         git config --local user.name "Automated Publisher"
-        git add georgia/ga_GDPH_daily_status_report/from-dashboard/*
+        git add georgia/ga_GDPH_daily_status_report/*
         git commit -m "gdph-daily Autoupdate : ${timestamp} ${GITHUB_SHA}"
     - name: Push changes
       uses: ad-m/github-push-action@master
