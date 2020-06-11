@@ -1,4 +1,5 @@
 "date_recovered","province","cumulative_recovered"
+2020-06-10,"Alberta",6754
 2020-06-09,"Alberta",6722
 2020-06-08,"Alberta",6698
 2020-06-07,"Alberta",6656
@@ -118,6 +119,7 @@
 2020-02-14,"Alberta",NA
 2020-02-13,"Alberta",NA
 2020-02-12,"Alberta",NA
+2020-06-10,"BC",2328
 2020-06-09,"BC",2319
 2020-06-08,"BC",2309
 2020-06-07,"BC",2272
@@ -237,6 +239,7 @@
 2020-02-14,"BC",0
 2020-02-13,"BC",0
 2020-02-12,"BC",0
+2020-06-10,"Manitoba",285
 2020-06-09,"Manitoba",285
 2020-06-08,"Manitoba",284
 2020-06-07,"Manitoba",284
@@ -356,6 +359,7 @@
 2020-02-14,"Manitoba",NA
 2020-02-13,"Manitoba",NA
 2020-02-12,"Manitoba",NA
+2020-06-10,"New Brunswick",121
 2020-06-09,"New Brunswick",121
 2020-06-08,"New Brunswick",121
 2020-06-07,"New Brunswick",121
@@ -475,6 +479,7 @@
 2020-02-14,"New Brunswick",NA
 2020-02-13,"New Brunswick",NA
 2020-02-12,"New Brunswick",NA
+2020-06-10,"NL",256
 2020-06-09,"NL",256
 2020-06-08,"NL",256
 2020-06-07,"NL",256
@@ -594,12 +599,13 @@
 2020-02-14,"NL",NA
 2020-02-13,"NL",NA
 2020-02-12,"NL",NA
-2020-06-09,"Nova Scotia",999
-2020-06-08,"Nova Scotia",999
-2020-06-07,"Nova Scotia",999
-2020-06-06,"Nova Scotia",999
-2020-06-05,"Nova Scotia",997
-2020-06-04,"Nova Scotia",995
+2020-06-10,"Nova Scotia",994
+2020-06-09,"Nova Scotia",994
+2020-06-08,"Nova Scotia",994
+2020-06-07,"Nova Scotia",994
+2020-06-06,"Nova Scotia",994
+2020-06-05,"Nova Scotia",994
+2020-06-04,"Nova Scotia",994
 2020-06-03,"Nova Scotia",993
 2020-06-02,"Nova Scotia",992
 2020-06-01,"Nova Scotia",984
@@ -713,6 +719,7 @@
 2020-02-14,"Nova Scotia",NA
 2020-02-13,"Nova Scotia",NA
 2020-02-12,"Nova Scotia",NA
+2020-06-10,"Ontario",25380
 2020-06-09,"Ontario",24829
 2020-06-08,"Ontario",24492
 2020-06-07,"Ontario",24252
@@ -832,6 +839,7 @@
 2020-02-14,"Ontario",1
 2020-02-13,"Ontario",1
 2020-02-12,"Ontario",1
+2020-06-10,"PEI",27
 2020-06-09,"PEI",27
 2020-06-08,"PEI",27
 2020-06-07,"PEI",27
@@ -951,6 +959,7 @@
 2020-02-14,"PEI",NA
 2020-02-13,"PEI",NA
 2020-02-12,"PEI",NA
+2020-06-10,"Quebec",19841
 2020-06-09,"Quebec",19361
 2020-06-08,"Quebec",18994
 2020-06-07,"Quebec",18714
@@ -1070,6 +1079,7 @@
 2020-02-14,"Quebec",NA
 2020-02-13,"Quebec",NA
 2020-02-12,"Quebec",NA
+2020-06-10,"Saskatchewan",624
 2020-06-09,"Saskatchewan",624
 2020-06-08,"Saskatchewan",624
 2020-06-07,"Saskatchewan",623
@@ -1189,6 +1199,7 @@
 2020-02-14,"Saskatchewan",NA
 2020-02-13,"Saskatchewan",NA
 2020-02-12,"Saskatchewan",NA
+2020-06-10,"NWT",5
 2020-06-09,"NWT",5
 2020-06-08,"NWT",5
 2020-06-07,"NWT",5
@@ -1308,6 +1319,7 @@
 2020-02-14,"NWT",NA
 2020-02-13,"NWT",NA
 2020-02-12,"NWT",NA
+2020-06-10,"Nunavut",NA
 2020-06-09,"Nunavut",NA
 2020-06-08,"Nunavut",NA
 2020-06-07,"Nunavut",NA
@@ -1427,6 +1439,7 @@
 2020-02-14,"Nunavut",NA
 2020-02-13,"Nunavut",NA
 2020-02-12,"Nunavut",NA
+2020-06-10,"Yukon",11
 2020-06-09,"Yukon",11
 2020-06-08,"Yukon",11
 2020-06-07,"Yukon",11
@@ -1546,6 +1559,7 @@
 2020-02-14,"Yukon",NA
 2020-02-13,"Yukon",NA
 2020-02-12,"Yukon",NA
+2020-06-10,"Repatriated",13
 2020-06-09,"Repatriated",13
 2020-06-08,"Repatriated",13
 2020-06-07,"Repatriated",13
