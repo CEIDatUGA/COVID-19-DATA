@@ -1,0 +1,53 @@
+# This workflow updates any datasets that come from the dxy China scraping workflow
+
+name: china-dxy-download
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the autoupdate branch
+on:
+  schedule:
+    - cron : '30 23 * * *' # will run this script at 7:30 PM EST daily (setting 8 PM crossed dateline and was confusing)
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "autoupdate"
+  build:
+    name: china-download
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      #install R
+    - uses: r-lib/actions/setup-r@v1
+      with:
+        r-version: '3.6.3'
+    #Install curl 
+    - name: install curl
+      run: sudo apt-get install libcurl4-openssl-dev
+    #Install R package dependencies
+    - name: Install dependencies
+      run: Rscript -e  "install.packages(c('curl', 'stringr', 'here', 'httr', 'xml2', 'rvest'), repos = 'https://cloud.r-project.org', dependencies = NA)" 
+      
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@master
+   
+    #scrape data from github
+    - name: Download html from site
+      run: Rscript  china/China_casedata/download-dxy-html.R
+
+    #Push back to repo
+    - name: Commit files
+      run: |
+        timestamp=$(date -u)
+        git status
+        git config --local user.email "actions@users.noreply.github.com"
+        git config --local user.name "Automated Publisher"
+        git add  china/China_casedata/*
+        git commit -m "china-dxy download : ${timestamp} ${GITHUB_SHA}"
+        git status
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master

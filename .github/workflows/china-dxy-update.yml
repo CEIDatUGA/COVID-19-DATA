@@ -33,7 +33,7 @@ jobs:
     - uses: actions/checkout@master
    
     #scrape data from github
-    - name: Scrape data from Github
+    - name: Process data from html
       run: Rscript  china/China_casedata/extract-dxy-case-counts.R
 
     #Push back to repo

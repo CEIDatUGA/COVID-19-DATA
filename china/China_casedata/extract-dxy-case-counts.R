@@ -10,23 +10,12 @@ library(here)
 
 # set sub directory
 setwd(here("china","China_casedata")) 
-  
-# save html 
-url = "https://ncov.dxy.cn/ncovh5/view/pneumonia"
-get_object = GET(url)
-cat(content(get_object, "text"), file="temp.html")
-html_object = read_html(url)
-write_xml(html_object, file=paste("dxy-html-archive/",
-                                  str_sub(get_object$headers$date, 6, 7),
-                                  toupper(str_sub(get_object$headers$date, 9, 11)),
-                                  str_sub(get_object$headers$date, 18, 19),
-                                  str_sub(get_object$headers$date, 21, 22),
-                                  ".html",sep = "")) 
 
 # list out all file names and dates
 fileNames <- list.files(path = "dxy-html-archive", pattern = "*.html", full.names = F) # read all files in 
 fileNames <- str_sub(fileNames, end = 9) # remove excess part of file
 
+#### Extract data from html files and save as csv in clean-daily-tables
 # loop through for all files 
 for(fileName in fileNames){ 
 # pull from archived html site
@@ -90,10 +79,12 @@ test$area_type <- str_sub(test$area_type, end = -5)
 # keep only digits in deadCount column 
 test$deadCount <- str_extract(test$deadCount , "\\-*\\d+\\.*\\d*")
 
-# save raw file with date in name 
+# save raw file with date in name [maybe change to YYY-MM-DD ISO in future?]
 write.csv(test, file = paste("dxy_data/clean-daily-tables/dxy_", str_sub(fileName, 1, 5), "2020.csv", sep ="")) 
 } 
 
+#### Create Master Files #### 
+# [this probably doesn't need to be run everytime]
 # load adm file
 cn_adm2 <- read.csv(file = "dxy_data/spatial/shapefile_adm2_modified.csv")
 # transform adm spatial look up table
@@ -109,6 +100,7 @@ province_adm <- prefecture_adm %>%
   dplyr::select(ADM0_EN, ADM1_EN) %>% unique()
 write.csv(province_adm, file = "dxy_data/spatial/province_adm.csv")
 
+#### Read in Clean Tables & Pair with ADM Names ####
 cleanTables <- str_sub(fileNames, end = 5) # modify file names slightly to just day-month
 for(cleanTable in cleanTables){
 test <- read.csv(file = paste("dxy_data/clean-daily-tables/dxy_", cleanTable, "2020.csv", sep= "")) 
@@ -176,68 +168,68 @@ master_case$curedCount <- ifelse(is.na(master_case$curedCount) == T, 0, master_c
 write.csv(master_case, file = paste("dxy_data/clean-daily-tables/adm-verified/prefecture/",cleanTable, "2020.csv", sep = ""))
 }
 
+#### Province Level Data ####
 province_cleanNames <- list.files(path = "dxy_data/clean-daily-tables/adm-verified/province", pattern = "*.csv", full.names = T)
 master_province <- data.frame() # empty data frame 
-# merge all province data 
+# merge all province data togehter (essential a row_bind)
 for (province_cleanName in province_cleanNames){
   daily_data <- read.csv(province_cleanName) #each file will be read in, specify which columns you need read in to avoid any errors
   daily_data$X <- NULL
   daily_data$X.1 <- NULL
   master_province <- rbind(master_province, daily_data) #for each iteration, bind the new data to the building dataset
 }
-master_province <- unique(master_province)
-master_province$DATE <- ifelse(str_sub(master_province$DATE,8,10)  =="JAN", 
-                                 paste(str_sub(master_province$DATE, 1, 7), "-01",sep=""), 
-                                 ifelse(str_sub(master_province$DATE,8,10)  =="FEB",
-                                   paste(str_sub(master_province$DATE, 1, 7), "-02",sep=""),
-                                   ifelse(str_sub(master_province$DATE,8,10)  =="MAR",
-                                   paste(str_sub(master_province$DATE, 1, 7), "-03",sep=""),
-                                   ifelse(str_sub(master_province$DATE,8,10)  =="APR",
-                                   paste(str_sub(master_province$DATE, 1, 7), "-04",sep=""),
-                                   ifelse(str_sub(master_province$DATE,8,10)  =="MAY",
-                                   paste(str_sub(master_province$DATE, 1, 7), "-05",sep="",
-                                   paste(str_sub(master_province$DATE, 1, 7), "-06",sep="")))))))
-master_province$DATE <- paste(str_sub(master_province$DATE, 1, 5), str_sub(master_province$DATE, 9,10), str_sub(master_province$DATE, 5,7), sep = "") 
-master_province <- master_province %>% unique()
+
+master_province <- unique(master_province) %>%
+  mutate(DATE = as.character(DATE)) %>%
+  #change date to ISO
+  rowwise() %>%
+  mutate(year = substr(DATE,0,4),
+         month = str_pad(which(toupper(month.abb)==substr(DATE, 8,10)), 2, pad = "0"),
+         day = substr(DATE,6,7)) %>%
+  mutate(DATE = paste(year, month, day, sep = "-")) %>%
+  dplyr::select(-year, -month, -day) %>%
+  unique()
+
 # Remove 23rd of January for Hubei Province prefectures, DXY not collecting data properly for this day, instead it is included in the pre23 dataset for these prefectures only
-master_province <- master_province %>% filter(!(ADM1_EN == "Hubei Province" & DATE == "2020-01-23"))
+master_province <-master_province[-(master_province$ADM1_EN == "Hubei Province" & master_province$DATE == "2020-01-23"),]
 # merge in pre-23rd dates 
 pre23_province_cases <- read.csv(file = "dxy_data/province_casecounts_preJan23.csv")
 pre23_province_cases <- pre23_province_cases %>% select(-X)
 pre23_province_cases <- pre23_province_cases[,c(1,2,4,5,6,7,8,3)] 
 master_province <- rbind(master_province, pre23_province_cases)
+#drop duplicates just in case
+master_province <- master_province[!duplicated(master_province),]
 write.csv(master_province, file = "dxy_data/province_master.csv")
 
 # merge all prefecture data
 prefecture_cleanNames <- list.files(path = "dxy_data/clean-daily-tables/adm-verified/prefecture", pattern = "*.csv", full.names = T)
 master_prefecture <- data.frame() # empty data frame 
-# merge all province data 
+# merge all province data
 for (prefecture_cleanName in prefecture_cleanNames){
   daily_data <- read.csv(prefecture_cleanName) #each file will be read in, specify which columns you need read in to avoid any errors
   daily_data$X <- NULL
   daily_data$X.1 <- NULL
   master_prefecture <- rbind(master_prefecture, daily_data) #for each iteration, bind the new data to the building dataset
 }
-master_prefecture$DATE <- ifelse(str_sub(master_prefecture$DATE,8,10)  =="JAN", 
-                                 paste(str_sub(master_prefecture$DATE, 1, 7), "-01",sep=""), 
-                                 ifelse(str_sub(master_prefecture$DATE,8,10)  =="FEB",
-                                        paste(str_sub(master_prefecture$DATE, 1, 7), "-02",sep=""),
-                                        ifelse(str_sub(master_prefecture$DATE,8,10)  =="MAR",
-                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-03",sep=""),
-                                          ifelse(str_sub(master_prefecture$DATE,8,10)  =="APR",
-                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-04",sep=""),
-                                          ifelse(str_sub(master_prefecture$DATE,8,10)  =="MAY",
-                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-05",sep=""),
-                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-06",sep=""))))))
-master_prefecture$DATE <- paste(str_sub(master_prefecture$DATE, 1, 5), str_sub(master_prefecture$DATE, 9,10), str_sub(master_prefecture$DATE, 5,7), sep = "")
+
+#change date to ISO
+master_prefecture <- master_prefecture %>%
+  mutate(DATE = as.character(DATE),
+         year = substr(DATE,0,4),
+         day = substr(DATE,6,7),
+         month_abb = substr(DATE,8,10)) %>%
+  mutate(month = str_pad(match(month_abb, toupper(month.abb)), 2, pad = "0")) %>%
+  mutate(DATE = paste(year, month, day, sep = "-")) %>%
+  dplyr::select(-year, -month_abb, -month, -day) %>%
+  unique()
+
 # overwrite the prefectures which are actually provinces 
 # omit provinces from the prefectures, these counts are wrong
-master_prefecture <- dplyr::filter(master_prefecture, ADM2_EN %in% master_province$ADM1_EN == FALSE)
+master_prefecture <- dplyr::filter(master_prefecture, ADM2_EN %in% master_province$ADM1_EN == FALSE) #I dont' think this does what you think it does
 master_prefecture <- dplyr::filter(master_prefecture, ADM2_EN != "Taiwan province") %>% droplevels()
 
 # filter provinces to those that are prefecture level
-province_prefecture <- dplyr::filter(master_province, 
-                                     ADM1_EN %in% c("Beijing Municipality", "Chongqing Municipality", "Shanghai Municipality","Tianjin Municipality", "Hong Kong Special Administrative Region", "Macao Special Administrative Region", "Taiwan Province"))
+province_prefecture <- master_province[master_province$ADM1_EN %in% c("Beijing Municipality", "Chongqing Municipality", "Shanghai Municipality","Tianjin Municipality", "Hong Kong Special Administrative Region", "Macao Special Administrative Region", "Taiwan Province"),]
 province_prefecture$ADM2_EN <- ifelse(province_prefecture$ADM1_EN == "Taiwan Province" , "Taiwan province",
                                       as.character(province_prefecture$ADM1_EN)) # copy prefecture name 
 province_prefecture <- province_prefecture[c(1,2,9,3,4,5,6,7,8)] # reorder columns
