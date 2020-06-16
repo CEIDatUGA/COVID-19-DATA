@@ -79,6 +79,10 @@ test <- dplyr::filter(test, area_type != "countryType") # remove other html tabl
 # later dates have certain columns, make sure to add to early html versions 
 new_cols <- data.frame("currentConfirmedCount" = rep(NA, nrow(test)))
 test <- bind_cols(test, new_cols) # adds new column. if this already exists, as as "currentConfirmedCount1"
+names(test)[names(test) == "currentConfirmedCount...7"] <- "currentConfirmedCount"
+names(test)[names(test) == "currentConfirmedCount...13"] <- "currentConfirmedCount1"
+names(test)[names(test) == "currentConfirmedCount...12"] <- "currentConfirmedCount1"
+
 # remove empty columns 
 test <- dplyr::select(test, province, area_type, area_name, confirmedCount, currentConfirmedCount, suspectedCount, deadCount, curedCount, comment)
 test$area_type <- str_sub(test$area_type, end = -5)
@@ -190,7 +194,9 @@ master_province$DATE <- ifelse(str_sub(master_province$DATE,8,10)  =="JAN",
                                    paste(str_sub(master_province$DATE, 1, 7), "-03",sep=""),
                                    ifelse(str_sub(master_province$DATE,8,10)  =="APR",
                                    paste(str_sub(master_province$DATE, 1, 7), "-04",sep=""),
-                                   paste(str_sub(master_province$DATE, 1, 7), "-05",sep="")))))
+                                   ifelse(str_sub(master_province$DATE,8,10)  =="MAY",
+                                   paste(str_sub(master_province$DATE, 1, 7), "-05",sep="",
+                                   paste(str_sub(master_province$DATE, 1, 7), "-06",sep="")))))))
 master_province$DATE <- paste(str_sub(master_province$DATE, 1, 5), str_sub(master_province$DATE, 9,10), str_sub(master_province$DATE, 5,7), sep = "") 
 master_province <- master_province %>% unique()
 # Remove 23rd of January for Hubei Province prefectures, DXY not collecting data properly for this day, instead it is included in the pre23 dataset for these prefectures only
@@ -220,12 +226,14 @@ master_prefecture$DATE <- ifelse(str_sub(master_prefecture$DATE,8,10)  =="JAN",
                                           paste(str_sub(master_prefecture$DATE, 1, 7), "-03",sep=""),
                                           ifelse(str_sub(master_prefecture$DATE,8,10)  =="APR",
                                           paste(str_sub(master_prefecture$DATE, 1, 7), "-04",sep=""),
-                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-05",sep="")))))
+                                          ifelse(str_sub(master_prefecture$DATE,8,10)  =="MAY",
+                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-05",sep=""),
+                                          paste(str_sub(master_prefecture$DATE, 1, 7), "-06",sep=""))))))
 master_prefecture$DATE <- paste(str_sub(master_prefecture$DATE, 1, 5), str_sub(master_prefecture$DATE, 9,10), str_sub(master_prefecture$DATE, 5,7), sep = "")
 # overwrite the prefectures which are actually provinces 
 # omit provinces from the prefectures, these counts are wrong
 master_prefecture <- dplyr::filter(master_prefecture, ADM2_EN %in% master_province$ADM1_EN == FALSE)
-master_prefecture <- dplyr::filter(master_prefecture, ADM2_EN != "Taiwan province")
+master_prefecture <- dplyr::filter(master_prefecture, ADM2_EN != "Taiwan province") %>% droplevels()
 
 # filter provinces to those that are prefecture level
 province_prefecture <- dplyr::filter(master_province, 
@@ -233,6 +241,8 @@ province_prefecture <- dplyr::filter(master_province,
 province_prefecture$ADM2_EN <- ifelse(province_prefecture$ADM1_EN == "Taiwan Province" , "Taiwan province",
                                       as.character(province_prefecture$ADM1_EN)) # copy prefecture name 
 province_prefecture <- province_prefecture[c(1,2,9,3,4,5,6,7,8)] # reorder columns
+
+
 # merge provinces that are prefectures
 master_prefecture <- rbind(master_prefecture, province_prefecture)
 # remove cases in "Area to be identified", arguably would only would matter for Beijing but pull province-level data anyways 
