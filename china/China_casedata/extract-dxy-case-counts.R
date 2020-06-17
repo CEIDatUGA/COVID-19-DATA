@@ -8,187 +8,198 @@ library(stringr)
 library(magrittr)
 library(here)
 
+options(stringsAsFactors = F)
+
+#### Helper Functions ####
+
+html_to_table <- function(this.file){
+  # pull from archived html site
+  rawHTML <- paste(readLines(paste0("dxy-html-archive/", this.file,  sep = "")), collapse="\n")
+  webpage <- read_html(rawHTML) #pull text from webpage
+  text <- webpage %>% html_nodes("body") %>% html_text() # extract all text from body
+  # remove beginning text "
+  clean_text <- substring(text, 29) 
+  # remove ending text 
+  clean_text<-str_sub(clean_text, end=-162) 
+  clean_text<- gsub('"', '', clean_text) # remove quotes
+  
+  # split character string by province 
+  split1 <- strsplit(clean_text, split = "\\{") # split by open bracket
+  
+  # trying to reshape data
+  test <- as.data.frame(split1) # convert to data table 
+  names(test)[1]<-"text" # rename column
+  # only include for cities or provinces 
+  test <- dplyr::filter(test, grepl('province|city',text))
+  test <- separate(test, text, sep = ",", 
+                   into = c("v1", "v2", "v3","v4", "v5", "v6", "v7", "v8", "v9", "v10", "v11", "v12", "v13", "v14", "v15", "v16", "v17"), 
+                   extra = "merge")
+  # gather to unique province name 
+  test <- test %>% gather("n_variable", "variable", -v1)
+  # separate out variable 
+  test <- separate(test, variable, sep = ":", 
+                   into = c("variable", "value"),
+                   extra = "merge")
+  test$n_variable <- NULL # remove arbitrary numbered columns numbers from earlier
+  # remove unneccessary variables (cities, NA)
+  test <- dplyr::filter(test, variable != "cities")
+  test <- dplyr::filter(test, variable != "")
+  test <- dplyr::filter(test, v1 != "")
+  test <- dplyr::filter(test, grepl('province|city',v1))
+  
+  # if error due to duplicate variables...
+  test$province <- ifelse(str_extract(test$v1, "^.{1}") == "p", test$v1, NA)
+  test %<>% fill(province)
+  test$province <- str_sub(test$province, start = 14) # remove provinceName:
+  
+  # spread variable to columns 
+  test <- test %>% spread(variable, value)
+  test <- separate(test, v1, sep = ":", 
+                   into = c("area_type", "area_name"),
+                   extra = "merge")
+  test <- dplyr::filter(test, area_type != "id") # remove other html tables
+  test <- dplyr::filter(test, area_type != "countryType") # remove other html tables
+  
+  # later dates have certain columns, make sure to add to early html versions 
+  new_cols <- data.frame("currentConfirmedCount" = rep(NA, nrow(test)))
+  test <- bind_cols(test, new_cols) # adds new column. if this already exists, as as "currentConfirmedCount1"
+  names(test)[names(test) == "currentConfirmedCount...7"] <- "currentConfirmedCount"
+  names(test)[names(test) == "currentConfirmedCount...13"] <- "currentConfirmedCount1"
+  names(test)[names(test) == "currentConfirmedCount...12"] <- "currentConfirmedCount1"
+  
+  # remove empty columns 
+  test <- dplyr::select(test, province, area_type, area_name, confirmedCount, currentConfirmedCount, suspectedCount, deadCount, curedCount, comment)
+  test$area_type <- str_sub(test$area_type, end = -5)
+  
+  # keep only digits in deadCount column 
+  test$deadCount <- str_extract(test$deadCount , "\\-*\\d+\\.*\\d*")
+  
+  return(test)
+}
+
+verify_adm_table <- function(this.table){
+  #' Reads in table and outputs data at province and prefecture levels for each date. Saves this data in appropriate folders
+  test <- read.csv(file = paste0("dxy_data/clean-daily-tables/", this.table)) 
+  # merge in adm info 
+  test$ADM_level <- ifelse(test$area_name %in% cn_adm2$ADM1_ZH |
+                             test$area_name %in% cn_adm2$ADM1_ZH_short, "ADM1",
+                           ifelse(test$area_name %in% cn_adm2$ADM2_ZH | 
+                                    test$area_name %in% cn_adm2$ADM2_ZH_short, "ADM2", 
+                                  ifelse(test$area_name %in% cn_adm2$ADM3_ZH | 
+                                           test$area_name %in% cn_adm2$ADM3_ZH_short, "ADM3", "unknown")))
+  test$name_variable <- ifelse(test$area_name %in% cn_adm2$ADM2_ZH, "ADM2_ZH",
+                               ifelse(test$area_name %in% cn_adm2$ADM2_ZH_short, "ADM2_ZH_short", 
+                                      ifelse(test$area_name %in% cn_adm2$ADM1_ZH, "ADM1_ZH", 
+                                             ifelse(test$area_name %in% cn_adm2$ADM1_ZH_short, "ADM1_ZH_short",       
+                                                    ifelse(test$area_name %in% cn_adm2$ADM3_ZH, "ADM3_ZH", 
+                                                           ifelse(test$area_name %in% cn_adm2$ADM3_ZH_short, "ADM3_ZH_short","unknown"))))))
+  test$province_variable <- ifelse(test$province %in% cn_adm2$ADM1_ZH, "ADM1_ZH",
+                                   ifelse(test$area_name %in% cn_adm2$ADM1_ZH_short, "ADM1_ZH_short", "unknown"))
+  # create match table 
+  adm_match_along <- gather(adm_match_area, name_variable, area_name, ADM1_ZH:ADM3_ZH_short, factor_key = TRUE)
+  adm_match_along <- dplyr::filter(adm_match_along, area_name != "") %>% unique()
+  
+  # merge in province names and province variable 
+  adm_match_province <- cn_adm2 %>% 
+    select(ADM0_EN, ADM1_EN, ADM1_ZH, ADM1_ZH_short) %>% unique()
+  adm_match_plong <- gather(adm_match_province, province_variable, province, ADM1_ZH:ADM1_ZH_short, factor_key = TRUE)
+  adm_match <- left_join(adm_match_along, adm_match_plong, by = c("ADM0_EN", "ADM1_EN")) %>% unique()
+  
+  test_adm1 <- dplyr::filter(test, area_type == "province")
+  test_adm1 <- left_join(test_adm1, adm_match, by = c("area_name", "name_variable", "province", "province_variable")) %>% unique()
+  province <- test_adm1 %>% select(ADM0_EN, ADM1_EN, confirmedCount, currentConfirmedCount, suspectedCount, deadCount, curedCount)
+  province$DATE <- substr(this.table, 5,14)
+  province_master <- read.csv("dxy_data/spatial/province_adm.csv")
+  province_cases <- full_join(province_master, province, by =c("ADM0_EN","ADM1_EN"))
+  #province_master <- rbind(province_master, province) %>% unique()
+  province_cases <- province_cases %>% fill(DATE) # fill date 
+  province_cases$confirmedCount <- ifelse(is.na(province_cases$confirmedCount) == T, 0, province_cases$confirmedCount) # add 0s
+  province_cases$currentConfirmedCount <- ifelse(is.na(province_cases$currentConfirmedCount) == T, 0, province_cases$currentConfirmedCount) # add 0s
+  province_cases$deadCount <- ifelse(is.na(province_cases$deadCount) == T, 0, province_cases$deadCount)
+  province_cases$suspectedCount <- ifelse(is.na(province_cases$suspectedCount) == T, 0, province_cases$suspectedCount)
+  province_cases$curedCount <- ifelse(is.na(province_cases$curedCount) == T, 0, province_cases$curedCount)
+  province_cases <- unique(province_cases)
+  #save province data
+  write.csv(province_cases, 
+            file = paste0("dxy_data/clean-daily-tables/adm-verified/province/", gsub("dxy_", "", this.table)), row.names = F)
+  
+  test_adm2 <- dplyr::filter(test, area_type != "province")
+  test_adm2 <- left_join(test_adm2, adm_match, by = c("area_name", "name_variable", "province", "province_variable")) %>% unique()
+  prefecture <- test_adm2 %>% 
+    group_by(ADM0_EN, ADM1_EN, ADM2_EN) %>% #this groups by province-prefecture pairs 
+    summarise(confirmedCount = sum(as.numeric(confirmedCount)),
+              currentConfirmedCount = sum(as.numeric(currentConfirmedCount)), 
+              suspectedCount = sum(as.numeric(suspectedCount)),
+              deadCount = sum(as.numeric(deadCount)),
+              curedCount = sum(as.numeric(curedCount)))
+  # add date 
+  prefecture$DATE <- substr(this.table, 5,14)
+  prefect_master <- read.csv(file = "dxy_data/spatial/prefecture_adm.csv") # load master spatial taxonomy 
+  master_case<- full_join(prefect_master, prefecture, by = c("ADM0_EN", "ADM1_EN", "ADM2_EN")) # merge column 
+  master_case <- master_case %>% fill(DATE) %>% fill(DATE, .direction = "up")
+  master_case$confirmedCount <- ifelse(is.na(master_case$confirmedCount) == T, 0, master_case$confirmedCount) # add 0s
+  master_case$currentConfirmedCount <- ifelse(is.na(master_case$currentConfirmedCount) == T, 0, master_case$currentConfirmedCount) # add 0s
+  master_case$deadCount <- ifelse(is.na(master_case$deadCount) == T, 0, master_case$deadCount)
+  master_case$suspectedCount <- ifelse(is.na(master_case$suspectedCount) == T, 0, master_case$suspectedCount)
+  master_case$curedCount <- ifelse(is.na(master_case$curedCount) == T, 0, master_case$curedCount) # add 0s
+  
+  write.csv(master_case, 
+            file = paste0("dxy_data/clean-daily-tables/adm-verified/prefecture/", gsub("dxy_", "", this.table)), row.names = F)
+  
+}
+
 # set sub directory
 setwd(here("china","China_casedata")) 
 
-# list out all file names and dates
-fileNames <- list.files(path = "dxy-html-archive", pattern = "*.html", full.names = F) # read all files in 
-fileNames <- str_sub(fileNames, end = 9) # remove excess part of file
-
-#### Extract data from html files and save as csv in clean-daily-tables
-# loop through for all files 
-for(fileName in fileNames){ 
-# pull from archived html site
-rawHTML <- paste(readLines(paste("dxy-html-archive/", fileName,".html",  sep = "")), collapse="\n")
-webpage <- read_html(rawHTML) #pull text from webpage
-text <- webpage %>% html_nodes("body") %>% html_text() # extract all text from body
-# remove beginning text "
-clean_text <- substring(text, 29) 
-# remove ending text 
-clean_text<-str_sub(clean_text, end=-162) 
-clean_text<- gsub('"', '', clean_text) # remove quotes
-
-# split character string by province 
-split1 <- strsplit(clean_text, split = "\\{") # split by open bracket
-
-# trying to reshape data
-test <- as.data.frame(split1) # convert to data table 
-names(test)[1]<-"text" # rename column
-# only include for cities or provinces 
-test <- dplyr::filter(test, grepl('province|city',text))
-test <- separate(test, text, sep = ",", 
-                 into = c("v1", "v2", "v3","v4", "v5", "v6", "v7", "v8", "v9", "v10", "v11", "v12", "v13", "v14", "v15", "v16", "v17"), 
-                 extra = "merge")
-# gather to unique province name 
-test <- test %>% gather("n_variable", "variable", -v1)
-# separate out variable 
-test <- separate(test, variable, sep = ":", 
-              into = c("variable", "value"),
-              extra = "merge")
-test$n_variable <- NULL # remove arbitrary numbered columns numbers from earlier
-# remove unneccessary variables (cities, NA)
-test <- dplyr::filter(test, variable != "cities")
-test <- dplyr::filter(test, variable != "")
-test <- dplyr::filter(test, v1 != "")
-test <- dplyr::filter(test, grepl('province|city',v1))
-
-# if error due to duplicate variables...
-test$province <- ifelse(str_extract(test$v1, "^.{1}") == "p", test$v1, NA)
-test %<>% fill(province)
-test$province <- str_sub(test$province, start = 14) # remove provinceName:
-
-# spread variable to columns 
-test <- test %>% spread(variable, value)
-test <- separate(test, v1, sep = ":", 
-                 into = c("area_type", "area_name"),
-                 extra = "merge")
-test <- dplyr::filter(test, area_type != "id") # remove other html tables
-test <- dplyr::filter(test, area_type != "countryType") # remove other html tables
-
-# later dates have certain columns, make sure to add to early html versions 
-new_cols <- data.frame("currentConfirmedCount" = rep(NA, nrow(test)))
-test <- bind_cols(test, new_cols) # adds new column. if this already exists, as as "currentConfirmedCount1"
-names(test)[names(test) == "currentConfirmedCount...7"] <- "currentConfirmedCount"
-names(test)[names(test) == "currentConfirmedCount...13"] <- "currentConfirmedCount1"
-names(test)[names(test) == "currentConfirmedCount...12"] <- "currentConfirmedCount1"
-
-# remove empty columns 
-test <- dplyr::select(test, province, area_type, area_name, confirmedCount, currentConfirmedCount, suspectedCount, deadCount, curedCount, comment)
-test$area_type <- str_sub(test$area_type, end = -5)
-
-# keep only digits in deadCount column 
-test$deadCount <- str_extract(test$deadCount , "\\-*\\d+\\.*\\d*")
-
-# save raw file with date in name [maybe change to YYY-MM-DD ISO in future?]
-write.csv(test, file = paste("dxy_data/clean-daily-tables/dxy_", str_sub(fileName, 1, 5), "2020.csv", sep ="")) 
-} 
-
-#### Create Master Files #### 
-# [this probably doesn't need to be run everytime]
+#Create master files for ADM names  ####
 # load adm file
 cn_adm2 <- read.csv(file = "dxy_data/spatial/shapefile_adm2_modified.csv")
 # transform adm spatial look up table
-adm_match_area <- cn_adm2 %>% 
-  dplyr::select(ADM0_EN, ADM1_EN, ADM2_EN, ADM3_EN, # english names 
+adm_match_area <- cn_adm2 %>%
+  dplyr::select(ADM0_EN, ADM1_EN, ADM2_EN, ADM3_EN, # english names
                 ADM1_ZH,ADM2_ZH, ADM2_ZH_short, ADM3_ZH, ADM3_ZH_short) %>% # chinese names
-  unique() 
+  unique()
 # save unique prefecture-province pairs for master file later
-prefecture_adm <- adm_match_area %>% 
+prefecture_adm <- adm_match_area %>%
   dplyr::select(ADM0_EN, ADM1_EN, ADM2_EN) %>% unique()
-write.csv(prefecture_adm, file = "dxy_data/spatial/prefecture_adm.csv") 
-province_adm <- prefecture_adm %>% 
+write.csv(prefecture_adm, file = "dxy_data/spatial/prefecture_adm.csv", row.names = F)
+province_adm <- prefecture_adm %>%
   dplyr::select(ADM0_EN, ADM1_EN) %>% unique()
-write.csv(province_adm, file = "dxy_data/spatial/province_adm.csv")
+write.csv(province_adm, file = "dxy_data/spatial/province_adm.csv", row.names = F)
+
+#### Extract data from html files and save as csv in clean-daily-tables ####
+
+# list out all file names and dates
+fileNames <- list.files(path = "dxy-html-archive", pattern = "*.html", full.names = F) # read all files in 
+html.dates <- substr(fileNames,1,10)
+table.dates <- substr(list.files("dxy_data/clean-daily-tables", full.names = F, pattern = "csv$"), 5, 14)
+
+#single out new files
+new.files <- fileNames[!(html.dates %in% table.dates)]
+
+if(length(new.files)>0){ #only do this if there is a new file
+for(this.new.file in new.files){
+  new.table <- html_to_table(this.new.file)
+  write.csv(new.table, file = paste0("dxy_data/clean-daily-tables/dxy_", substr(this.new.file, 1,10), ".csv"), row.names = F)
+}
+}
+
 
 #### Read in Clean Tables & Pair with ADM Names ####
-cleanTables <- str_sub(fileNames, end = 5) # modify file names slightly to just day-month
-for(cleanTable in cleanTables){
-test <- read.csv(file = paste("dxy_data/clean-daily-tables/dxy_", cleanTable, "2020.csv", sep= "")) 
-# merge in adm info 
-test$ADM_level <- ifelse(test$area_name %in% cn_adm2$ADM1_ZH |
-                         test$area_name %in% cn_adm2$ADM1_ZH_short, "ADM1",
-                  ifelse(test$area_name %in% cn_adm2$ADM2_ZH | 
-                         test$area_name %in% cn_adm2$ADM2_ZH_short, "ADM2", 
-                  ifelse(test$area_name %in% cn_adm2$ADM3_ZH | 
-                         test$area_name %in% cn_adm2$ADM3_ZH_short, "ADM3", "unknown")))
-test$name_variable <- ifelse(test$area_name %in% cn_adm2$ADM2_ZH, "ADM2_ZH",
-                      ifelse(test$area_name %in% cn_adm2$ADM2_ZH_short, "ADM2_ZH_short", 
-                      ifelse(test$area_name %in% cn_adm2$ADM1_ZH, "ADM1_ZH", 
-                      ifelse(test$area_name %in% cn_adm2$ADM1_ZH_short, "ADM1_ZH_short",       
-                      ifelse(test$area_name %in% cn_adm2$ADM3_ZH, "ADM3_ZH", 
-                      ifelse(test$area_name %in% cn_adm2$ADM3_ZH_short, "ADM3_ZH_short","unknown"))))))
-test$province_variable <- ifelse(test$province %in% cn_adm2$ADM1_ZH, "ADM1_ZH",
-                          ifelse(test$area_name %in% cn_adm2$ADM1_ZH_short, "ADM1_ZH_short", "unknown"))
-# create match table 
-adm_match_along <- gather(adm_match_area, name_variable, area_name, ADM1_ZH:ADM3_ZH_short, factor_key = TRUE)
-adm_match_along <- dplyr::filter(adm_match_along, area_name != "") %>% unique()
+all.tables <- list.files("dxy_data/clean-daily-tables", full.names = F, pattern = "csv$")
 
-# merge in province names and province variable 
-adm_match_province <- cn_adm2 %>% 
-  select(ADM0_EN, ADM1_EN, ADM1_ZH, ADM1_ZH_short) %>% unique()
-adm_match_plong <- gather(adm_match_province, province_variable, province, ADM1_ZH:ADM1_ZH_short, factor_key = TRUE)
-adm_match <- left_join(adm_match_along, adm_match_plong, by = c("ADM0_EN", "ADM1_EN")) %>% unique()
+##ADD BIT TO NOT REDO THIS EVERYTIME
 
-test_adm1 <- dplyr::filter(test, area_type == "province")
-test_adm1 <- left_join(test_adm1, adm_match, by = c("area_name", "name_variable", "province", "province_variable")) %>% unique()
-province <- test_adm1 %>% select(ADM0_EN, ADM1_EN, confirmedCount, currentConfirmedCount, suspectedCount, deadCount, curedCount)
-province$DATE <- paste("2020-", cleanTable,  sep = "")
-province_master <- read.csv("dxy_data/spatial/province_adm.csv")
-province_master$X <- NULL
-province_cases <- full_join(province_master, province, by =c("ADM0_EN","ADM1_EN"))
-#province_master <- rbind(province_master, province) %>% unique()
-province_cases <- province_cases %>% fill(DATE) # fill date 
-province_cases$confirmedCount <- ifelse(is.na(province_cases$confirmedCount) == T, 0, province_cases$confirmedCount) # add 0s
-province_cases$currentConfirmedCount <- ifelse(is.na(province_cases$currentConfirmedCount) == T, 0, province_cases$currentConfirmedCount) # add 0s
-province_cases$deadCount <- ifelse(is.na(province_cases$deadCount) == T, 0, province_cases$deadCount)
-province_cases$suspectedCount <- ifelse(is.na(province_cases$suspectedCount) == T, 0, province_cases$suspectedCount)
-province_cases$curedCount <- ifelse(is.na(province_cases$curedCount) == T, 0, province_cases$curedCount)
-province_cases <- unique(province_cases)
-write.csv(province_cases, file = paste("dxy_data/clean-daily-tables/adm-verified/province/", cleanTable, "2020.csv", sep = ""))
 
-test_adm2 <- dplyr::filter(test, area_type != "province")
-test_adm2 <- left_join(test_adm2, adm_match, by = c("area_name", "name_variable", "province", "province_variable")) %>% unique()
-prefecture <- test_adm2 %>% 
-  group_by(ADM0_EN, ADM1_EN, ADM2_EN) %>% #this groups by province-prefecture pairs 
-  summarise(confirmedCount = sum(as.numeric(confirmedCount)),
-            currentConfirmedCount = sum(as.numeric(currentConfirmedCount)), 
-            suspectedCount = sum(as.numeric(suspectedCount)),
-            deadCount = sum(as.numeric(deadCount)),
-            curedCount = sum(as.numeric(curedCount)))
-# add date 
-prefecture$DATE <-paste("2020-", cleanTable, sep = "")
-prefect_master <- read.csv(file = "dxy_data/spatial/prefecture_adm.csv") # load master spatial taxonomy 
-master_case<- full_join(prefect_master, prefecture, by = c("ADM0_EN", "ADM1_EN", "ADM2_EN")) # merge column 
-master_case <- master_case %>% fill(DATE) %>% fill(DATE, .direction = "up")
-master_case$confirmedCount <- ifelse(is.na(master_case$confirmedCount) == T, 0, master_case$confirmedCount) # add 0s
-master_case$currentConfirmedCount <- ifelse(is.na(master_case$currentConfirmedCount) == T, 0, master_case$currentConfirmedCount) # add 0s
-master_case$deadCount <- ifelse(is.na(master_case$deadCount) == T, 0, master_case$deadCount)
-master_case$suspectedCount <- ifelse(is.na(master_case$suspectedCount) == T, 0, master_case$suspectedCount)
-master_case$curedCount <- ifelse(is.na(master_case$curedCount) == T, 0, master_case$curedCount) # add 0s
-write.csv(master_case, file = paste("dxy_data/clean-daily-tables/adm-verified/prefecture/",cleanTable, "2020.csv", sep = ""))
+for(this.new.table in all.tables){
+  verify_adm_table(this.new.table)
 }
 
-#### Province Level Data ####
-province_cleanNames <- list.files(path = "dxy_data/clean-daily-tables/adm-verified/province", pattern = "*.csv", full.names = T)
-master_province <- data.frame() # empty data frame 
-# merge all province data togehter (essential a row_bind)
-for (province_cleanName in province_cleanNames){
-  daily_data <- read.csv(province_cleanName) #each file will be read in, specify which columns you need read in to avoid any errors
-  daily_data$X <- NULL
-  daily_data$X.1 <- NULL
-  master_province <- rbind(master_province, daily_data) #for each iteration, bind the new data to the building dataset
-}
-
-master_province <- unique(master_province) %>%
-  mutate(DATE = as.character(DATE)) %>%
-  #change date to ISO
-  rowwise() %>%
-  mutate(year = substr(DATE,0,4),
-         month = str_pad(which(toupper(month.abb)==substr(DATE, 8,10)), 2, pad = "0"),
-         day = substr(DATE,6,7)) %>%
-  mutate(DATE = paste(year, month, day, sep = "-")) %>%
-  dplyr::select(-year, -month, -day) %>%
-  unique()
+#### Master Province Level Data ####
+province.file.paths <- list.files(path = "dxy_data/clean-daily-tables/adm-verified/province", pattern = "*.csv", full.names = T)
+master_province <- do.call(rbind, lapply(province.file.paths, read.csv))
+#duplicate check
+master_province <- unique(master_province)
 
 # Remove 23rd of January for Hubei Province prefectures, DXY not collecting data properly for this day, instead it is included in the pre23 dataset for these prefectures only
 master_province <-master_province[-(master_province$ADM1_EN == "Hubei Province" & master_province$DATE == "2020-01-23"),]
@@ -199,36 +210,21 @@ pre23_province_cases <- pre23_province_cases[,c(1,2,4,5,6,7,8,3)]
 master_province <- rbind(master_province, pre23_province_cases)
 #drop duplicates just in case
 master_province <- master_province[!duplicated(master_province),]
-write.csv(master_province, file = "dxy_data/province_master.csv")
+write.csv(master_province, file = "dxy_data/province_master.csv", row.names = F)
 
-# merge all prefecture data
-prefecture_cleanNames <- list.files(path = "dxy_data/clean-daily-tables/adm-verified/prefecture", pattern = "*.csv", full.names = T)
-master_prefecture <- data.frame() # empty data frame 
-# merge all province data
-for (prefecture_cleanName in prefecture_cleanNames){
-  daily_data <- read.csv(prefecture_cleanName) #each file will be read in, specify which columns you need read in to avoid any errors
-  daily_data$X <- NULL
-  daily_data$X.1 <- NULL
-  master_prefecture <- rbind(master_prefecture, daily_data) #for each iteration, bind the new data to the building dataset
-}
-
-#change date to ISO
-master_prefecture <- master_prefecture %>%
-  mutate(DATE = as.character(DATE),
-         year = substr(DATE,0,4),
-         day = substr(DATE,6,7),
-         month_abb = substr(DATE,8,10)) %>%
-  mutate(month = str_pad(match(month_abb, toupper(month.abb)), 2, pad = "0")) %>%
-  mutate(DATE = paste(year, month, day, sep = "-")) %>%
-  dplyr::select(-year, -month_abb, -month, -day) %>%
-  unique()
+#### Master Prefecture Level Data ####
+prefecture.file.paths <- list.files(path = "dxy_data/clean-daily-tables/adm-verified/prefecture", pattern = "*.csv", full.names = T)
+master_prefecture <- do.call(rbind, lapply(prefecture.file.paths, read.csv))
+#duplicate check
+master_prefecture <- distinct(master_prefecture)
 
 # overwrite the prefectures which are actually provinces 
-# omit provinces from the prefectures, these counts are wrong
-master_prefecture <- dplyr::filter(master_prefecture, ADM2_EN %in% master_province$ADM1_EN == FALSE) #I dont' think this does what you think it does
-master_prefecture <- dplyr::filter(master_prefecture, ADM2_EN != "Taiwan province") %>% droplevels()
+# omit provinces from the prefectures, these counts are wrong\
+master_prefecture <- dplyr::filter(master_prefecture, !(ADM2_EN %in% master_province$ADM1_EN)) %>%
+  dplyr::filter(ADM2_EN != "Taiwan province")
 
-# filter provinces to those that are prefecture level
+
+# filter provinces to those that are actually prefecture level
 province_prefecture <- master_province[master_province$ADM1_EN %in% c("Beijing Municipality", "Chongqing Municipality", "Shanghai Municipality","Tianjin Municipality", "Hong Kong Special Administrative Region", "Macao Special Administrative Region", "Taiwan Province"),]
 province_prefecture$ADM2_EN <- ifelse(province_prefecture$ADM1_EN == "Taiwan Province" , "Taiwan province",
                                       as.character(province_prefecture$ADM1_EN)) # copy prefecture name 
@@ -255,7 +251,7 @@ pre23_prefecture_cases <- read.csv(file = "dxy_data/prefecture_casecounts_preJan
 pre23_prefecture_cases <- pre23_prefecture_cases %>% select(-infection_date, -X)
 master_prefecture <- rbind(master_prefecture, pre23_prefecture_cases)
 # write master prefecture
-write.csv(master_prefecture, file = "dxy_data/prefecture_master.csv")
+write.csv(master_prefecture, file = "dxy_data/prefecture_master.csv", row.names = F)
 
 # create first date of infection file 
 master_prefecture <- read.csv(file = "dxy_data/prefecture_master.csv")
@@ -266,4 +262,4 @@ prefecture_firstdate <- prefecture_firstdate %>% group_by(ADM0_EN, ADM1_EN,ADM2_
 # bring in prefectures that have not been infected yet 
 prefecture_firstdate <- full_join(prefecture_firstdate, prefecture_adm)
 prefecture_firstdate <- dplyr::filter(prefecture_firstdate, ADM2_EN != "Area to be Identified") # remove areas to be identified
-write.csv(prefecture_firstdate, file = "dxy_data/prefecture_master_binary.csv")
+write.csv(prefecture_firstdate, file = "dxy_data/prefecture_master_binary.csv", row.names = F)
