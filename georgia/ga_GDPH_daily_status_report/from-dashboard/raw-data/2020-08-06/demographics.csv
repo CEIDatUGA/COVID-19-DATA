@@ -1,0 +1,22 @@
+Ethnicity,race,Confirmed_Cases,Deaths
+Hispanic/Latino,African-American/Black,532,13
+Hispanic/Latino,American Indian/Alaska Native,40,0
+Hispanic/Latino,Asian,46,0
+Hispanic/Latino,Native Hawaiian/Pacific Islander,55,0
+Hispanic/Latino,Other,9280,101
+Hispanic/Latino,Unknown,3989,2
+Hispanic/Latino,White,12437,126
+Non-Hispanic/Latino,African-American/Black,43825,1769
+Non-Hispanic/Latino,American Indian/Alaska Native,86,4
+Non-Hispanic/Latino,Asian,1873,64
+Non-Hispanic/Latino,Native Hawaiian/Pacific Islander,105,7
+Non-Hispanic/Latino,Other,1928,15
+Non-Hispanic/Latino,Unknown,1487,10
+Non-Hispanic/Latino,White,40084,1839
+Unknown,African-American/Black,7890,16
+Unknown,American Indian/Alaska Native,37,0
+Unknown,Asian,643,2
+Unknown,Native Hawaiian/Pacific Islander,88,0
+Unknown,Other,3418,8
+Unknown,Unknown,69313,37
+Unknown,White,7739,13
