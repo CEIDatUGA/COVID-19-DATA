@@ -19,13 +19,23 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
      #install R
-    - name: install wget
-      run: sudo apt-get install wget
+     # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      #install R
+    - uses: r-lib/actions/setup-r@v1
+      with:
+        r-version: '3.6.3'
+    #Install curl 
+    - name: install curl
+      run: sudo apt-get install libcurl4-openssl-dev
+    #Install R package dependencies
+    - name: Install dependencies
+      run: Rscript -e  "install.packages(c('data.table'), repos = 'https://cloud.r-project.org', dependencies = NA)" 
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@master
     #scrape data 
-    - name: Scrape data 
-      run: wget -O global/global_google_covid_mobility_reports/global_google_mobility_report.csv https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv?cachebust=911a386b6c9c230f
+    - name: Run script to download and split
+      run: Rscript global/global_google_covid_mobility_reports/download-google-mobility.R
     #Push back to repo
     - name: Commit files
       run: |
@@ -33,7 +43,7 @@ jobs:
         git config --local user.email "actions@users.noreply.github.com"
         git config --local user.name "Automated Publisher"
         git status
-        git add global/global_google_covid_mobility_reports/global_google_mobility_report.csv
+        git add global/global_google_covid_mobility_reports/*
         git commit -m "Google mobility autoupdate : ${timestamp} ${GITHUB_SHA}"
     - name: Push changes
       uses: ad-m/github-push-action@master

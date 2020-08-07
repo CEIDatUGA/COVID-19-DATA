@@ -6,6 +6,8 @@ Data contain a daily time series of % change in busyness of different location t
 
 The scale of the data for the US is at the county scale when possible. Outside the US the geographic scale varies by country.
 
+Note that due to file sizes, the data is by country across multiple CSVs. The first and last country in the CSV are noted in the filename.
+
 
 <b>Source:</b> 
 
