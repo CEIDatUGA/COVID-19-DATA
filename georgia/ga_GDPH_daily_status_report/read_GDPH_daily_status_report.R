@@ -1,5 +1,8 @@
 # extract data from Georgia Department of Public Health
 
+#' NOTE: The website that this was scraping from was taken down by the GA DPH on July 13 2020. 
+#' This code no longer runs daily, but I am leaving it here for documentation.
+
 library(rvest)
 library(xml2)
 library(stringr)
