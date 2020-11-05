@@ -41,7 +41,7 @@ jobs:
         git config --local user.email "actions@users.noreply.github.com"
         git config --local user.name "Automated Publisher"
         git add georgia/ga_GDPH_daily_status_report/from-dashboard/*
-        git commit -m "gdph-daily Autoupdate : ${timestamp} ${GITHUB_SHA}"
+        git commit -m "gdph-daily Autoupdate : ${timestamp}"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:

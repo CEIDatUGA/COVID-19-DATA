@@ -54,7 +54,7 @@ jobs:
         git add 'georgia/ga-county-intervention-data/GA_raw_county_interventions.csv'
         git add 'georgia/ga-county-intervention-data/GA_county_intervention_time_series.csv'
         git status
-        git commit -m "interactive map autoupdate : ${timestamp} ${GITHUB_SHA}"
+        git commit -m "interactive map autoupdate : ${timestamp}"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:

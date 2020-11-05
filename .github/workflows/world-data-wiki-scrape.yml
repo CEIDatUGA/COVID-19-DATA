@@ -47,7 +47,7 @@ jobs:
         git config --local user.name "Automated Publisher"  
         git add global/global_cases_by_country/worldCases.csv
         git status
-        git commit -m "interactive map autoupdate : ${timestamp} ${GITHUB_SHA}"
+        git commit -m "interactive map autoupdate : ${timestamp}"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:

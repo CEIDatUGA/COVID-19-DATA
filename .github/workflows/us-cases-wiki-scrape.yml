@@ -45,7 +45,7 @@ jobs:
         git add US/US_wikipedia_cases_fatalities/UScases_by_state_wikipedia.csv
         git add US/US_wikipedia_cases_fatalities/USfatalities_by_state_wikipedia.csv
         git status
-        git commit -m "us-wiki autoupdate : ${timestamp} ${GITHUB_SHA}"
+        git commit -m "us-wiki autoupdate : ${timestamp}"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:

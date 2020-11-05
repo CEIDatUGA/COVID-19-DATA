@@ -40,7 +40,7 @@ jobs:
         git config --local user.name "Automated Publisher"
         git status
         git add global/global_google_covid_mobility_reports/*
-        git commit -m "Google mobility autoupdate : ${timestamp} ${GITHUB_SHA}"
+        git commit -m "Google mobility autoupdate : ${timestamp}"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:

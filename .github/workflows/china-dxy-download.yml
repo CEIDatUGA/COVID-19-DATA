@@ -44,7 +44,7 @@ jobs:
         git config --local user.email "actions@users.noreply.github.com"
         git config --local user.name "Automated Publisher"
         git add  china/China_casedata/*
-        git commit -m "china-dxy download : ${timestamp} ${GITHUB_SHA}"
+        git commit -m "china-dxy download : ${timestamp}"
         git status
     - name: Push changes
       uses: ad-m/github-push-action@master

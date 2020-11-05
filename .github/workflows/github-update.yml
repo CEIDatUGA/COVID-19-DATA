@@ -35,7 +35,7 @@ jobs:
         git config --local user.email "actions@users.noreply.github.com"
         git config --local user.name "Automated Publisher"
         git add global/canada_case_data_ishaberry/*
-        git commit -m "Github autoupdate : ${timestamp} ${GITHUB_SHA}"
+        git commit -m "Github autoupdate : ${timestamp}"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
