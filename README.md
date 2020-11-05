@@ -1,11 +1,14 @@
 
-![gdph-daily-charts](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/gdph-daily-charts/badge.svg)
-![gdph-daily-status](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/gdph-daily-status/badge.svg)
+<!-- ![gdph-daily-charts](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/gdph-daily-charts/badge.svg)
+     ![gdph-daily-status](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/gdph-daily-status/badge.svg) -->
+![china-dxy-download](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/china-dxy-download/badge.svg)
+![gdph-daily](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/gdph-daily-download/badge.svg)
+![world-cases-wiki-scrape](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/world-data-wiki-scrape/badge.svg)
+![google-mobility](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/google-mobility/badge.svg)
+![intervention-data-update](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/intervention-data-update/badge.svg)
 ![us-cases-wiki-scrape](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/us-cases-wiki-scrape/badge.svg)
 ![china-dxy-update](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/china-dxy-update/badge.svg)
 ![github-update](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/github-update/badge.svg)
-![world-cases-wiki-scrape](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/world-data-wiki-scrape/badge.svg)
-![intervention-data-update](https://github.com/CEIDatUGA/COVID-19-DATA/workflows/intervention-data-update/badge.svg)
 
 Repository that stores datasets used in different COVID CEID projects.
 =======
