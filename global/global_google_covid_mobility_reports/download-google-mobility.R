@@ -19,13 +19,14 @@ google.all <- fread(paste0(dir.path, "global_google_mobility_report.csv"))
 #create little subsets and save
 countries <- unique(google.all$country_region)
 
-#let's do 50 countries per file
-n.subsets <- ceiling(length(countries)/50)
+
+countries.per.file <- 10 #let's do 10 countries per file
+n.subsets <- ceiling(length(countries)/countries.per.file)
 
 #use a for-loop because I am a monster
 for (i in 1:n.subsets){
-  first.ind = (i-1)*50+1
-  last.ind = i*50+1
+  first.ind = (i-1)*countries.per.file+1
+  last.ind = i*countries.per.file+1
   #get that last odd chunk
   if(last.ind>length(countries)) last.ind = length(countries)
   this.countries <- countries[first.ind:last.ind]
