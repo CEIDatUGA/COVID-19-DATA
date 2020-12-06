@@ -34,9 +34,9 @@ jobs:
    
     #scrape data from github
     - name: Process data from html
-      run: Rscript  china/China_casedata/extract-dxy-case-counts.R
+      run: Rscript china/China_casedata/extract-dxy-case-counts.R
 
-    #Push back to repo
+    #Commit changes to repo to repo
     - name: Commit files
       run: |
         timestamp=$(date -u)
@@ -46,8 +46,30 @@ jobs:
         git add  china/China_casedata/*
         git commit -m "china-dxy autoupdate : ${timestamp}"
         git status
+    # Push changes
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
+
+    # Send email with status
+    - name: Send mail
+      if: always()
+      uses: dawidd6/action-send-mail@v2
+      with:
+        # mail server settings
+        server_address: smtp.gmail.com
+        server_port: 465
+        # user credentials
+        username: ${{ secrets.CEID_GMAIL_USERNAME }}
+        password: ${{ secrets.CEID_GMAIL_PASSWORD }}
+        # email subject
+        subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
+        # email body as text
+        body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+        # comma-separated string, send email to
+        to: mvevans89@gmail.com
+        # from email name
+        from: COVID-19-DATA repo autoupate
+
