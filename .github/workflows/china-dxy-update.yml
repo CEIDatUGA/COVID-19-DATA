@@ -55,7 +55,8 @@ jobs:
 
     # Send email with status
     - name: Send mail
-      if: always()
+      # if: always() #runs always
+      if: ${{ failure() }} #runs only if job fails
       uses: dawidd6/action-send-mail@v2
       with:
         # mail server settings
@@ -67,9 +68,9 @@ jobs:
         # email subject
         subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
         # email body as text
-        body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+        body: ${{ github.job }} job in workflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
         # comma-separated string, send email to
-        to: mvevans89@gmail.com
+        to: emarty@uga.edu, john.king1@uga.edu
         # from email name
         from: COVID-19-DATA repo autoupate
 
