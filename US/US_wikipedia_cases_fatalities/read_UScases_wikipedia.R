@@ -87,8 +87,8 @@ time_last_update <- function(cases) {
 #-----------#
 
 # Update xpath here
-xpath_cases <- '//*[@id="mw-content-text"]/div/div[2]/table'
-xpath_deaths <- '//*[@id="mw-content-text"]/div/div[3]/table'
+xpath_cases <- '//*[@id="mw-content-text"]/div[1]/div[2]/table'
+xpath_deaths <- '//*[@id="mw-content-text"]/div[1]/div[3]/table'
 
 # Read webpage
 url <- "https://en.wikipedia.org/wiki/Template:2019–20_coronavirus_pandemic_data/United_States_medical_cases"
