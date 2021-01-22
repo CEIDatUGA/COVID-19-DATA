@@ -72,7 +72,7 @@ table_cleanup <- function(cases, var) {
   cases$New <- NULL
   
   # updating date
-  cases$Date <- as.Date(paste(cases$Date, "2020"), "%b %d %Y")
+  cases$Date <- as.Date(cases$Date, "%d-%b-%y")
   return(cases)
 }
 
