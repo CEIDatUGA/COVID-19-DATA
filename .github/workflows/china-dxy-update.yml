@@ -6,7 +6,7 @@ name: china-dxy-update
 # events but only for the autoupdate branch
 on:
   schedule:
-    # - cron : '45 23 * * *' # will run this script at 7:45 PM EST daily (setting 8 PM crossed dateline and was confusing)
+    - cron : '45 23 * * *' # will run this script at 7:45 PM EST daily (setting 8 PM crossed dateline and was confusing)
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
