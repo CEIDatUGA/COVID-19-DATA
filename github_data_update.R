@@ -15,11 +15,20 @@ options(stringsAsFactors = F)
 
 #### COVID-19 Case data from Canada
 
-cases <- read.csv(url("https://raw.githubusercontent.com/ishaberry/Covid19Canada/master/cases.csv"))
-codebook <- read.csv(url("https://raw.githubusercontent.com/ishaberry/Covid19Canada/master/codebook.csv"))
-mortality <- read.csv(url("https://raw.githubusercontent.com/ishaberry/Covid19Canada/master/mortality.csv"))
-recovered_cumulative <- read.csv(url("https://raw.githubusercontent.com/ishaberry/Covid19Canada/master/recovered_cumulative.csv"))
-testing_cumulative <- read.csv(url("https://raw.githubusercontent.com/ishaberry/Covid19Canada/master/testing_cumulative.csv"))
+# Cases
+cases2020 <- read.csv(url("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/individual_level/cases_2020.csv"))
+cases2021 <- read.csv(url("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/individual_level/cases_2021.csv"))
+cases <- rbind(cases2020, cases2021)
+
+# Mortality
+mortality2020 <- read.csv(url("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/individual_level/mortality_2020.csv"))
+mortality2021 <- read.csv(url("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/individual_level/mortality_2021.csv"))
+mortality <- rbind(mortality2020, mortality2021)
+
+codebook <- read.csv(url("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/other/codebook.csv"))
+
+recovered_cumulative <- read.csv(url("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/recovered_timeseries_prov.csv"))
+testing_cumulative <- read.csv(url("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/testing_timeseries_prov.csv"))
 
 #change date to YYYY-MM-DD
 cases$date_report <- as.Date(cases$date_report, format = "%d-%m-%Y")
