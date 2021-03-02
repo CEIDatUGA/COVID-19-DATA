@@ -1,7 +1,8 @@
 # Canada COVID-19 Case Data
 
-This data is downloaded daily from its original repository ( <https://github.com/ccodwg/Covid19Canada> ), recently moved from https://github.com/ishaberry/Covid19Canada. That repository itself downloads and cleans the data from this [google sheet](https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/edit?usp=sharing).
+This data was downloaded daily through January 2021 from its original repository ( <https://github.com/ccodwg/Covid19Canada> ) recently moved from https://github.com/ishaberry/Covid19Canada. That repository itself downloads and cleans the data from this [google sheet](https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/edit?usp=sharing).
 
+We have ceased updating this dataset. Users of this data should now obtain the datadset directly from <https://github.com/ccodwg/Covid19Canada>.
 
 **Metadata:**
 
