@@ -1,5 +1,6 @@
 
 library(padr)
+library(xml2)
 library(rvest)
 library(tibbletime)
 library(dplyr)
@@ -14,7 +15,7 @@ df <- read.csv("global/global_cases_by_country/worldCases.csv")%>%
 
 url <- "https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory"
 World.wikipedia <- url %>%
-  html() %>%
+  read_html() %>%
   html_nodes(xpath='//*[@id="thetable"]') %>%
   html_table(fill = TRUE)
 World.wikipedia <- World.wikipedia[[1]]
