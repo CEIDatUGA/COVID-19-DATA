@@ -24,6 +24,7 @@
 #install.packages("xml2")
 library(rvest)
 library(xml2)
+library(USAboundaries)
 
 #----------#
 # Functions
@@ -39,40 +40,48 @@ table_cleanup <- function(cases, var) {
   # table of interest is the first element of the list
   cases <- cases[[1]]
 
-  col_names <- as.character(cases[1,])
-  indexes <- which(cases$Date == "Date")
-  cases <- cases[-indexes,]
-  
-  # updating column names
-  ncols <- dim(cases)[2]
-  col_names <- col_names[!as.character(col_names) %in% "West"]
+  # state column names
+  tmp_col_names <- as.character(cases[1,])
+  state_columns <- tmp_col_names[as.character(tmp_col_names) %in% USAboundaries::state_codes$state_abbr]
 
+  # Remove extra header rows and summary rows
+  rows_to_remove <- which(cases$Date %in% c("Date","Total","Notes","Refs"))
+  cases <- cases[-rows_to_remove,]
+
+  # table columns
   if (var == "cases") {
-    col_names[1] <- "Date"
-    col_names[c((ncols-5):ncols)] <- c("Conf_New", "Conf_Cml", "deaths_New", "deaths_Cml", "Rec_New", "Rec_Cml")
-     names(cases) <- col_names 
-     
+    # columns
+    summary_columns <- c("Conf_New", "Conf_Cml", "deaths_New", "deaths_Cml", "Rec_New", "Rec_Cml", "Active")
+    col_names <- c("Date", state_columns, "Date2", summary_columns)
+    if(ncol(cases) != length(col_names)) {
+      stop("Error in column headings for table of cases.")
+      }
      # add first recovered case to the new recovery cases column
-     index <- which(as.character(cases$Date) == "Feb 15")
-     cases[index, "Rec_New"] <- as.numeric(cases[index, "Rec_Cml"])
+     # index <- which(as.character(cases$Date) == "Feb 15")
+     # cases[index, "Rec_New"] <- as.numeric(cases[index, "Rec_Cml"])
   }
   else if (var == "deaths") {
-    col_names[1] <- "Date"
-    col_names[c((ncols-1):ncols)] <- c( "deaths_New", "deaths_Cml")
-    names(cases) <- col_names 
+    summary_columns <- c( "deaths_New", "deaths_Cml")
+    col_names <- c("Date", state_columns, "Date2", summary_columns)
+    if(ncol(cases) != length(col_names)) {
+      stop("Error in column headings for table of deaths.")
+    }
   }
   else {
-    abort("table format not given")
+    abort("Table format not given.")
   }
   
-  # eliminating rows with no interest
-  nrows <- dim(cases)[1]
-  rows2drop <- ifelse(var == "cases", 4,3)
-  cases <- cases[-c((nrows-rows2drop):nrows),]
-  cases$New <- NULL
+  # Assign column names
+  names(cases) <- col_names 
   
-  # updating date
+  # Remove exctra date column
+  cases$Date2 <- NULL
+  
+  # Column data types
   cases$Date <- as.Date(cases$Date, "%d-%b-%y")
+  numeric_columns <- which(names(cases) != "Date")
+  cases[,numeric_columns] <- lapply(cases[,numeric_columns], as.numeric)
+  
   return(cases)
 }
 
