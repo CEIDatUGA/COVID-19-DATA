@@ -21,7 +21,7 @@ jobs:
       #install R
     - uses: r-lib/actions/setup-r@v1
       with:
-        r-version: '3.6.3'
+        r-version: '3.6.2'
     #Install curl 
     - name: install curl
       run: sudo apt-get install libcurl4-openssl-dev
