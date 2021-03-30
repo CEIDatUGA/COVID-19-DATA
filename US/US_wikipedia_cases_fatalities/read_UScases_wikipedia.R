@@ -29,6 +29,29 @@ library(USAboundaries)
 #----------#
 # Functions
 #----------#
+char_to_num <- function(x,decimalmarker = ".") {
+  x <- as.character(x) # ensure factors treated as strings
+  
+  # check decimal marker (will not catch problems if all numbers are ambiguous)
+  lengths <- lengths(regmatches(x, gregexpr(paste0("\\",decimalmarker), x)))
+  if(any(lengths>1)) {
+    stop("Incorrect decimal marker specified. 
+         Use argument 'decimalmarker' to set correctly.")
+  }
+  
+  # remove all characters except the decimal marker and digits
+  pattern <- paste0("[^",decimalmarker,"0-9]")
+  x <- gsub(pattern, "", x)
+  
+  # coerce decimalmarker to "." for conversion to numeric
+  x <- gsub(paste0("\\",decimalmarker),".",x)
+  # conversion to numeric
+  x <- as.numeric(x)
+  if(anyNA(x)) { warning("NAs introduced by coercion") }
+    
+  return(x) 
+}
+
 read_table_from_web <- function(wiki_pop, table_xpath) {
   cases <- wiki_pop %>%
     html_nodes(xpath=table_xpath) %>%
@@ -80,7 +103,8 @@ table_cleanup <- function(cases, var) {
   # Column data types
   cases$Date <- as.Date(cases$Date, "%d-%b-%y")
   numeric_columns <- which(names(cases) != "Date")
-  cases[,numeric_columns] <- lapply(cases[,numeric_columns], as.numeric)
+  #cases[,numeric_columns] <- lapply(cases[,numeric_columns], as.numeric) # incorrect
+  cases[,numeric_columns] <- lapply(cases[,numeric_columns], char_to_num)
   
   return(cases)
 }
